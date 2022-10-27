@@ -1,0 +1,3 @@
+ruleset=Ⓜ️ 加密货币,https://raw.githubusercontent.com/virgilshwork/clashrule/main/cryptoAll.list
+ruleset=Ⓜ️ 挖矿专区,https://raw.githubusercontent.com/virgilshowrk/clashrule/main/cryptoMinerPool.list
+ruleset=Ⓜ️ 特殊指定,https://raw.githubusercontent.com/virgilshwork/clashrule/main/special.list
