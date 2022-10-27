@@ -1,5 +1,5 @@
 # 内容：cryptoAll
-# 数量：2条
+# 数量：60条
 
 # coins
 DOMAIN-SUFFIX,btc.com
@@ -43,7 +43,7 @@ DOMAIN-SUFFIX,sushi.com
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,zb.com
 
-# > Binance
+# Binance
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.com
