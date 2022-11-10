@@ -1,9 +1,7 @@
 # 内容：kids
 # 数量：77
 
-USER-AGENT,Bilibili*
-USER-AGENT,bili*
-USER-AGENT,bili-inter*
+
 DOMAIN-KEYWORD,bilivideo
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,biligame
