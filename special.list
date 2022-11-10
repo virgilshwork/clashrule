@@ -1,9 +1,6 @@
 # 内容：special
 # 数量：3
 
-# microsoft network test
 DOMAIN-SUFFIX,msftconnecttest.com
-# VPS sites
 DOMAIN-SUFFIX,vultr.com
-# book download
 DOMAIN-SUFFIX,b-ok.as
