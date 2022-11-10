@@ -1,7 +1,5 @@
 # 内容：cryptoAll
-# 数量：60条
-
-# coins
+# 数量：52
 DOMAIN-SUFFIX,btc.com
 DOMAIN-SUFFIX,ethereum.org
 DOMAIN-SUFFIX,metamask.io
@@ -9,11 +7,7 @@ DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,tonwhales.com
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,opensea.io
-
-# Forum
 DOMAIN-SUFFIX,bitcointalk.org
-
-# Exchange
 DOMAIN-SUFFIX,cryptocompare.com
 DOMAIN-SUFFIX,anyswap.exchange
 DOMAIN-SUFFIX,polygonscan.com
@@ -42,8 +36,6 @@ DOMAIN-SUFFIX,poloniex.com
 DOMAIN-SUFFIX,sushi.com
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,zb.com
-
-# Binance
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.com
@@ -55,8 +47,6 @@ DOMAIN-SUFFIX,bnappzh.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,bscscan.com
-
-# Analysis
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,coingecko.com
