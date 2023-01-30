@@ -1,0 +1,16 @@
+# 内容：抗 DNS 污染 
+# 数量：14
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,youtu.be
