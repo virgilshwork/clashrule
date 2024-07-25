@@ -1,7 +1,9 @@
-# 内容：special
+# 内容：proxy
 # 代理
-# 数量：3
+# 数量：5
 
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,b-ok.as
+DOMAIN-SUFFIX,rumble.com
+DOMAIN-SUFFIX,thetvdb.com
