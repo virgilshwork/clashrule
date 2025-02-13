@@ -1,13 +1,24 @@
 # 内容：direct
 # 直连 
-# 数量：9条
+# 数量：20条
 
+DOMAIN-SUFFIX,checkip.dyndns.org
+DOMAIN-SUFFIX,checkipv6.dyndns.org
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,api.myip.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,ip6.seeip.org
+DOMAIN-SUFFIX,members.3322.org
 DOMAIN-SUFFIX,softether-network.net
 DOMAIN-SUFFIX,softether.co.jp
 DOMAIN-SUFFIX,flets-east.jp
 DOMAIN-SUFFIX,flets-west.jp
 DOMAIN-SUFFIX,ddns.uxcom.jp
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,sentry.io
 DOMAIN,tracker.m-team.cc
 DOMAIN,tracker.m-team.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN,v4.plex.tv
+DOMAIN-SUFFIX,plex.tv
