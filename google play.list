@@ -1,0 +1,15 @@
+# 内容：google play列表
+# 更新：
+# 数量：
+
+
+   DOMAIN,play.google.com
+   DOMAIN,play.googleapis.com
+   DOMAIN,play-fe.googleapis.com
+   DOMAIN,android.clients.google.com
+   DOMAIN,play-lh.googleusercontent.com
+   DOMAIN,play-apps-features.googleusercontent.com
+   DOMAIN,androide.clients.google.com
+   DOMAIN-SUFFIX,clients.google.com
+   DOMAIN,pki.google.com
+   DOMAIN-SUFFIX,pki.googleapis.com
