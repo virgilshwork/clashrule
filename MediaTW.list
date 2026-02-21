@@ -1,0 +1,20 @@
+# 内容：TW列表
+# 更新：
+# 数量：
+
+# LiTV
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,litv.tv
+
+# LineTV
+DOMAIN,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN-SUFFIX,profile.line-scdn.net
+
+# Bahamut
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw

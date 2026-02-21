@@ -1,0 +1,39 @@
+# 内容：US列表
+# 更新：
+# 数量：
+
+# DiscoveryPlus
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,discovery.com
+DOMAIN-SUFFIX,uplynk.com
+
+# EncoreTVB
+DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,content.jwplatform.com
+DOMAIN,edge.api.brightcove.com
+DOMAIN,videos-f.jwpsrv.com
+DOMAIN-SUFFIX,encoretvb.com
+
+# FoxNow
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,uplynk.com
+
+# HBO
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbonow.com
+
+# PBS
+DOMAIN-SUFFIX,pbs.org
+
+
+# Pandora
+DOMAIN-SUFFIX,pandora.com
+
+# AppleNews
+DOMAIN,gspe1-ssl.ls.apple.com
+
+
