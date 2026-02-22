@@ -8,7 +8,6 @@ DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 
-
 # DAZN
 DOMAIN-KEYWORD,voddazn
 DOMAIN,d151l6v8er5bdm.cloudfront.net
@@ -48,6 +47,67 @@ DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,js-agent.newrelic.com
 
+# Discord
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
+# Facebook
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbcdn.net
+IP-CIDR,31.13.24.0/21,no-resolve
+IP-CIDR,31.13.64.0/18,no-resolve
+IP-CIDR,45.64.40.0/22,no-resolve
+IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve
+IP-CIDR,74.119.76.0/22,no-resolve
+IP-CIDR,103.4.96.0/22,no-resolve
+IP-CIDR,129.134.0.0/17,no-resolve
+IP-CIDR,157.240.0.0/17,no-resolve
+IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,179.60.192.0/22,no-resolve
+IP-CIDR,185.60.216.0/22,no-resolve
+IP-CIDR,204.15.20.0/22,no-resolve
+
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# Google
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.cn
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+
+
 
 # HBO_GO_HKG
 DOMAIN-KEYWORD,hbogoasia
@@ -70,7 +130,6 @@ DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
 
-
 # Hulu
 DOMAIN-SUFFIX,cws-hulu.conviva.com
 DOMAIN-SUFFIX,hulu.com
@@ -79,6 +138,11 @@ DOMAIN-SUFFIX,hulu.sc.omtrdc.net
 DOMAIN-SUFFIX,huluad.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
+
+# Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
 
 # Iwara
 DOMAIN-SUFFIX,iwara.tv
@@ -104,13 +168,28 @@ DOMAIN-SUFFIX,kfs.io
 DOMAIN-SUFFIX,kkbox.com
 DOMAIN-SUFFIX,kkbox.com.tw
 
-
 # KKTV
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,theater-kktv.cdn.hinet.net
 DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
 
+# Line
+DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line.naver.jp
+DOMAIN-SUFFIX,nhncorp.jp
+IP-CIDR,103.2.28.0/24,no-resolve
+IP-CIDR,103.2.30.0/23,no-resolve
+IP-CIDR,119.235.224.0/24,no-resolve
+IP-CIDR,119.235.232.0/24,no-resolve
+IP-CIDR,119.235.235.0/24,no-resolve
+IP-CIDR,119.235.236.0/23,no-resolve
+IP-CIDR,147.92.128.0/17,no-resolve
+IP-CIDR,203.104.128.0/19,no-resolve
 
 # MyTVSuper
 DOMAIN-KEYWORD,nowtv100
@@ -138,7 +217,6 @@ DOMAIN-SUFFIX,nivodi.tv
 DOMAIN-SUFFIX,nivodz.com
 DOMAIN-SUFFIX,vod360.net
 
-
 # Olevod
 DOMAIN-KEYWORD,olevod
 DOMAIN-SUFFIX,haiwaikan.com
@@ -149,6 +227,11 @@ DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olevod.io
 DOMAIN-SUFFIX,olevod.tv
 DOMAIN-SUFFIX,olevodtv.com
+
+# Pixiv
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,fanbox.cc
 
 # Qobuz
 DOMAIN-SUFFIX,qobuz.com
@@ -167,6 +250,18 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
+
+# Spark
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,smartmailcloud.com
+
+
+# TapTap
+DOMAIN-SUFFIX,tap.io
+DOMAIN-SUFFIX,taptap.tw
 
 # TIDAL
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
@@ -198,5 +293,43 @@ DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
+
+# Whatsapp
+IP-CIDR,18.194.0.0/15,no-resolve
+IP-CIDR,34.224.0.0/12,no-resolve
+IP-CIDR,54.242.0.0/15,no-resolve
+IP-CIDR,50.22.198.204/30,no-resolve
+IP-CIDR,208.43.122.128/27,no-resolve
+IP-CIDR,108.168.174.0/16,no-resolve
+IP-CIDR,173.192.231.32/27,no-resolve
+IP-CIDR,158.85.5.192/27,no-resolve
+IP-CIDR,174.37.243.0/16,no-resolve
+IP-CIDR,158.85.46.128/27,no-resolve
+IP-CIDR,173.192.222.160/27,no-resolve
+IP-CIDR,184.173.128.0/17,no-resolve
+IP-CIDR,158.85.224.160/27,no-resolve
+IP-CIDR,75.126.150.0/16,no-resolve
+IP-CIDR,69.171.235.0/16,no-resolve
+
+# MyList && Other
+DOMAIN-SUFFIX,adguard.org
+#BT
+DOMAIN-SUFFIX,btlibrary.me
+DOMAIN-SUFFIX,cccat.io
+#百度网盘的国际版（DuBox）
+DOMAIN-SUFFIX,dubox.com
+# TeraBox
+DOMAIN-SUFFIX,terabox.com
+DOMAIN-SUFFIX,teraboxcdn.com
+# Other
+DOMAIN-SUFFIX,inoreader.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,myteamspeak.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,tumbex.com
+DOMAIN-SUFFIX,buzzsprout.com
+
+
+
 
 
