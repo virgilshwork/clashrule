@@ -1,6 +1,6 @@
 # 内容：direct
 # 直连 
-# 数量：20条
+# 数量：15条
 
 DOMAIN-SUFFIX,checkip.dyndns.org
 DOMAIN-SUFFIX,checkipv6.dyndns.org
@@ -11,11 +11,6 @@ DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ipapi.co
 DOMAIN-SUFFIX,ip6.seeip.org
 DOMAIN-SUFFIX,members.3322.org
-DOMAIN-SUFFIX,softether-network.net
-DOMAIN-SUFFIX,softether.co.jp
-DOMAIN-SUFFIX,flets-east.jp
-DOMAIN-SUFFIX,flets-west.jp
-DOMAIN-SUFFIX,ddns.uxcom.jp
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sentry.io
