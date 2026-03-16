@@ -1,0 +1,17 @@
+# 内容：softether.net
+# 直连 
+# 数量：
+
+DOMAIN-KEYWORD,softether
+
+DOMAIN-SUFFIX,softether-network.net
+DOMAIN-SUFFIX,softether.co.jp
+DOMAIN-SUFFIX,flets-east.jp
+DOMAIN-SUFFIX,flets-west.jp
+DOMAIN-SUFFIX,ddns.uxcom.jp
+DOMAIN-SUFFIX,vpngate.org
+DOMAIN-SUFFIX,softether.net
+DOMAIN-SUFFIX,vpnazure.jp
+
+- IP-CIDR,130.158.6.0/24
+- IP-CIDR,130.158.7.0/24
