@@ -1,0 +1,82 @@
+# 内容：海外软件源、镜像、模型、发布包与高体量下载
+# 策略：送入「📦 海外下载」策略组，默认 GGC_HK_B。
+# 注意：不放国内镜像、百度网盘、迅雷、传统本地下载器。
+# 这些本地/国内下载仍由 ACL4SSR Download.list 和 ChinaIP/ChinaDomain 直连规则处理。
+
+# Docker / OCI / 容器镜像
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,dockerhub.com
+DOMAIN-SUFFIX,registry-1.docker.io
+DOMAIN-SUFFIX,production.cloudflare.docker.com
+DOMAIN-SUFFIX,auth.docker.io
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,quayusercontent.com
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,pkg.dev
+DOMAIN-SUFFIX,k8s.gcr.io
+DOMAIN-SUFFIX,registry.k8s.io
+
+# GitHub 发布包、LFS、对象存储
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+DOMAIN-SUFFIX,release-assets.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,github-production-release-asset-2e65be.s3.amazonaws.com
+DOMAIN-SUFFIX,github-production-user-asset-6210df.s3.amazonaws.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,media.githubusercontent.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,codeload.github.com
+DOMAIN-SUFFIX,github.com
+
+# Node.js / npm
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,registry.npmjs.org
+DOMAIN-SUFFIX,yarnpkg.com
+DOMAIN-SUFFIX,registry.yarnpkg.com
+DOMAIN-SUFFIX,pnpm.io
+
+# Python / Conda / R 与语言包
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,files.pythonhosted.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,repo.anaconda.com
+DOMAIN-SUFFIX,conda-forge.org
+DOMAIN-SUFFIX,repo.continuum.io
+DOMAIN-SUFFIX,cran.r-project.org
+DOMAIN-SUFFIX,packagemanager.posit.co
+
+# Linux、IDE、构建工具与软件发布
+DOMAIN-SUFFIX,packages.microsoft.com
+DOMAIN-SUFFIX,download.visualstudio.microsoft.com
+DOMAIN-SUFFIX,download.jetbrains.com
+DOMAIN-SUFFIX,download.docker.com
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab-static.net
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,sourceforge.net
+DOMAIN-SUFFIX,sourceforge.io
+DOMAIN-SUFFIX,archive.org
+
+# AI 模型、数据集、二进制权重
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,cdn-lfs.huggingface.co
+DOMAIN-SUFFIX,caspian-dl.hf.co
+DOMAIN-SUFFIX,modelscope.cn
+DOMAIN-SUFFIX,modelscope.com
+DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,kaggleusercontent.com
+DOMAIN-SUFFIX,storage.googleapis.com
+DOMAIN-SUFFIX,download.pytorch.org
+DOMAIN-SUFFIX,download.tensorflow.org
+
+# 通用大文件与对象存储（按需保留）
+DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,mega.co.nz
+DOMAIN-SUFFIX,mediafire.com
+DOMAIN-SUFFIX,archive.org
