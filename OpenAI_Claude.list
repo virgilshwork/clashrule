@@ -1,0 +1,41 @@
+# OpenAI / ChatGPT / Anthropic / Claude
+# Excludes shared third-party authentication, CAPTCHA, analytics, payment, and CDN domains.
+
+# ===== DOMAIN-KEYWORD =====
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,openai
+
+# ===== DOMAIN =====
+DOMAIN,chat.openai.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,sora-cdn.oaistatic.com
+
+# ===== DOMAIN-SUFFIX =====
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,assets.openai.com
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
+DOMAIN-SUFFIX,cdn.openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.nooc.ink
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaipublic.blob.core.windows.net
+DOMAIN-SUFFIX,realtime.openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,static.openai.com
+DOMAIN-SUFFIX,voice.openai.com
