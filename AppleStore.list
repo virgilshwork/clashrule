@@ -1,0 +1,30 @@
+# 苹果商店 / 付款 / 订阅 / 账号认证
+#
+# 用途：这些端点解析到 Apple 自有网段（17.0.0.0/8）或需境外直连，国内直连常慢/超时，
+#       表现为 App Store「验证付款方式」「登录 Apple ID」卡住、内购（如 YouTube Premium）失败。
+# 位置：必须排在 ACL4SSR Apple.list 之前 —— 后者含 DOMAIN-SUFFIX,apple.com 与
+#       IP-CIDR,17.0.0.0/8,no-resolve，会把本表所有条目吞掉。
+# 不含：商店页面与素材 CDN（itunes.apple.com / apps.apple.com / mzstatic.com / amp-api.*），
+#       这些走国内 Apple CDN（实测解析到 39.91.x / 58.242.x），保持直连更快；
+#       iCloud、系统更新同理不入本表。
+# 依据：Apple 官方《Use Apple products on enterprise networks》(support.apple.com/en-us/101555)，
+#       其中 *.itunes.apple.com / account.apple.com / idmsa.apple.com / gsa.apple.com 均标注
+#       「Supports proxies: Yes」，走代理为官方支持用法。
+#
+# --- 购买 / 订阅 / 内购（StoreKit） ---
+DOMAIN,buy.itunes.apple.com
+DOMAIN-KEYWORD,-buy.itunes.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
+#
+# --- 账号认证 / 付款验证 ---
+DOMAIN,account.apple.com
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,gsa.apple.com
+#
+# --- 地区 / 定位（商店内容可用性判定） ---
+# 注：gspe1-ssl.ls.apple.com 已在 MediaUS.list（🌍 美国专用）中，位于本表之前，
+#     故不在此重复；如需把它改到别的出口，改 MediaUS.list 或把本表规则提前。
+DOMAIN,gs-loc.apple.com
+DOMAIN,gsp-ssl.ls.apple.com
