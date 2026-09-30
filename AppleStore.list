@@ -16,6 +16,18 @@ DOMAIN,buy.itunes.apple.com
 DOMAIN-KEYWORD,-buy.itunes.apple.com
 DOMAIN,sf-api-token-service.itunes.apple.com
 #
+# --- 购买基础设施（Apple 自有网段，无域名可匹配；实测 p35-buy 落在 17.8.131.x） ---
+# 必须早于 ACL4SSR Apple.list 的 IP-CIDR,17.0.0.0/8（那条会送进默认 DIRECT 的 🍎 苹果服务）。
+# 只收 17.8.0.0/16：APNs(17.57.x)、iCloud(17.248.x)、appleid(17.32.x) 不在此段，推送与同步不受影响。
+IP-CIDR,17.8.0.0/16,no-resolve
+#
+# --- App Store 商店页面 / 内容 API / 素材 CDN ---
+# 起因：设备打开 App Store 转圈、内容不显示。这些域当前解析到 Apple 中国 CDN（116.153.x / 119.188.x /
+# 39.91.x），对非中国区 storefront（如印度区）可能返回空内容。走代理后由境外边缘返回。
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,amp-api.apps.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+#
 # --- 账号认证 / 付款验证 ---
 DOMAIN,account.apple.com
 DOMAIN,appleid.apple.com
