@@ -1,6 +1,6 @@
 # 内容：direct
 # 直连 
-# 数量：27条
+# 数量：31条
 
 DOMAIN-SUFFIX,checkip.dyndns.org
 DOMAIN-SUFFIX,checkipv6.dyndns.org
@@ -22,6 +22,14 @@ DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,home.arpa
+# 2026-09-30：群晖 NAS 连通域。synology.me / synology.com 已被 ChinaDomain 覆盖，
+# 这三条此前未命中任何表 → 走普通海外，等于绕代理访问自家 NAS。
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,myds.me
+DOMAIN-SUFFIX,diskstation.me
+# 2026-09-30：百度基础设施域。www.baidu.com 实测 CNAME 到 www.a.shifen.com，
+# 百度 API/地图/网盘组件直连该域；此前未命中 → 走普通海外。
+DOMAIN-SUFFIX,shifen.com
 
 
 DOMAIN-KEYWORD,softether
