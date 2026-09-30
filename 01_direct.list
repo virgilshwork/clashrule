@@ -1,6 +1,6 @@
 # 内容：direct
 # 直连 
-# 数量：15条
+# 数量：27条
 
 DOMAIN-SUFFIX,checkip.dyndns.org
 DOMAIN-SUFFIX,checkipv6.dyndns.org
@@ -17,6 +17,11 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN,tracker.m-team.cc
 DOMAIN,tracker.m-team.io
 DOMAIN-SUFFIX,plex.tv
+# 2026-09-30 补录：内网与隧道域。此前未被任何远端列表覆盖，
+# 会被 FINAL 抓进普通海外（经代理绕一圈访问自家设备）。
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,ts.net
+DOMAIN-SUFFIX,home.arpa
 
 
 DOMAIN-KEYWORD,softether

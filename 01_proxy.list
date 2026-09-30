@@ -1,13 +1,12 @@
 # 内容：proxy
 # 代理
-# 数量：10
+# 数量：5
 
+# 2026-09-30：删除 4 条 plex.tv 子域条目（metadata.provider / analytics /
+# metadata-static / meta）。它们被 01_direct.list 的 DOMAIN-SUFFIX,plex.tv
+# （顺序在 Ⓜ️ Direct，位置 1）全额遮蔽，永不命中。Plex 直连意图仍由该条承载。
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,b-ok.as
 DOMAIN-SUFFIX,rumble.com
 DOMAIN-SUFFIX,thetvdb.com
-DOMAIN-SUFFIX,metadata.provider.plex.tv
-DOMAIN-SUFFIX,analytics.plex.tv
-DOMAIN-SUFFIX,metadata-static.plex.tv
-DOMAIN-SUFFIX,meta.plex.tv
