@@ -1,0 +1,11 @@
+# GitHub 大体积下载端点 → 📦 海外下载（保持原下载池归属）
+# 作用：在 03_github.list 的宽泛 DOMAIN-SUFFIX 之前先命中这些更具体的子域，
+#       使 clone / raw / 附件等流量不占用低延迟节点的双向额度。
+# 本列表必须先于 03_github.list 生效。
+# 2026-10-04 新增。
+DOMAIN-SUFFIX,codeload.github.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,media.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+DOMAIN-SUFFIX,release-assets.githubusercontent.com

@@ -1,0 +1,12 @@
+# GitHub 专用（交互类）→ 常规海外池（🟡 普通海外，当前默认韩国）
+# 目的：把 github.com 主站/网页/API 从「📦 海外下载(GGC_B/东京)」中剥离，
+#       避免主站交互长期走非低延迟节点；大体积下载端点见 03_github_bulk.list。
+# 顺序要求：本列表必须先于 02_bulk_overseas.list 生效（见 virgil-v2.ini 插入点）。
+# 2026-10-04 新增。
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.blog
