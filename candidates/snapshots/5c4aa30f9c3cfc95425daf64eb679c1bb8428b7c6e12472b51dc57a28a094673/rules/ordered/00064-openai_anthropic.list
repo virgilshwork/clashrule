@@ -1,0 +1,10 @@
+# Ordered fragment; review only; business=openai_anthropic
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com

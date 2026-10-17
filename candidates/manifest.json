@@ -1,6 +1,6 @@
 {
   "managed_by": "clashrule-reference-publisher-v1",
-  "publication_id": "bf21744ca60820ef1f67b789973dada7749b070e9a956cfc9aaeac0b94a3f4e8",
+  "publication_id": "5c4aa30f9c3cfc95425daf64eb679c1bb8428b7c6e12472b51dc57a28a094673",
   "ready_for_production": false,
   "ordered_fragments": [
     {
@@ -246,8 +246,8 @@
     {
       "path": "rules/ordered/00041-ai_other.list",
       "business": "ai_other",
-      "rules": 16,
-      "sha256": "a049eb56d83e41ef21c97ed79ec61b6ccc196a3e68d5234a0f638011ff517dde"
+      "rules": 17,
+      "sha256": "0cfc3a674c1bb0b34ee95f58189a97fd7ceb3cc7e3163dcc26ed6276fc6bf4d9"
     },
     {
       "path": "rules/ordered/00042-apple_store.list",
@@ -282,8 +282,8 @@
     {
       "path": "rules/ordered/00047-openai_anthropic.list",
       "business": "openai_anthropic",
-      "rules": 15,
-      "sha256": "e758280073f0ede7584aedbf5aa45634d78a88f9996bf528b004cc847da455b3"
+      "rules": 12,
+      "sha256": "21fe240b65c911b28658ae8c139886b81252787a71187e40b9308aa1e3ddf151"
     },
     {
       "path": "rules/ordered/00048-google_play.list",
@@ -330,8 +330,8 @@
     {
       "path": "rules/ordered/00055-ai_other.list",
       "business": "ai_other",
-      "rules": 11,
-      "sha256": "66e49eff0d99b2445d014aa0565e0ffa94573c531730cefd661e613df218af8b"
+      "rules": 12,
+      "sha256": "b3d739dd0f8eab7fb49ffb72a78bdc831d29b1b6903f33babd7f0ee5bc63c962"
     },
     {
       "path": "rules/ordered/00056-cloud_sync.list",
@@ -360,8 +360,8 @@
     {
       "path": "rules/ordered/00060-shared_services.list",
       "business": "shared_services",
-      "rules": 2,
-      "sha256": "1164d015d0d8f9c1ceadcf09264030865303fdaa2aef98e5b541422646fea7f2"
+      "rules": 5,
+      "sha256": "e15f4620ac4047ba8889231e9dffbd0586ce9af7add3ab65f2f0de3b5c0f4ee1"
     },
     {
       "path": "rules/ordered/00061-general_overseas.list",
@@ -378,14 +378,14 @@
     {
       "path": "rules/ordered/00063-direct.list",
       "business": "direct",
-      "rules": 649,
-      "sha256": "15c6cf69c284586fda37c12667fccef3f8780aedb23fbe8c9b208d1cb87ab0a8"
+      "rules": 648,
+      "sha256": "b45eaf88d0efa5381c5a8d39d3464fd2f3990e8e5c082263e9b3328246a3c5b3"
     },
     {
       "path": "rules/ordered/00064-openai_anthropic.list",
       "business": "openai_anthropic",
-      "rules": 15,
-      "sha256": "ceb969cd7335b05e88028fb708697dc0dc5f87142dce2eb152c1b84320493fda"
+      "rules": 9,
+      "sha256": "c87442cc6da74d54c8704307184042a1f3ca3159ec8ffd548cf5ce9e520f3c41"
     },
     {
       "path": "rules/ordered/00065-mytvsuper.list",
@@ -456,8 +456,8 @@
     {
       "path": "rules/ordered/00076-youtube.list",
       "business": "youtube",
-      "rules": 11,
-      "sha256": "2a2f557547652faa8e91cdb8bf95508599f3092435b9ee735ad6dbf4943f7e62"
+      "rules": 10,
+      "sha256": "74ed25cb61b26ba4736ade63b0333704f92d986c2c6a9b3320ba38c57956f4f8"
     },
     {
       "path": "rules/ordered/00077-streaming_other.list",
@@ -522,14 +522,14 @@
     {
       "path": "rules/ordered/00087-shared_services.list",
       "business": "shared_services",
-      "rules": 4,
-      "sha256": "68dbaf3a721d45a104e4a5cb14ba4a528c37289d23fa57c5303f6ecaee7e6785"
+      "rules": 11,
+      "sha256": "d141b927c40973f5db062a36ca667e0a51dd75ac23fded865308d6217a49714d"
     },
     {
       "path": "rules/ordered/00088-general_overseas.list",
       "business": "general_overseas",
-      "rules": 5951,
-      "sha256": "0b8f3c86b7c4b74a9fd44124b56d3e493805d3b55c17eb5d3ea62f36ca77f079"
+      "rules": 5952,
+      "sha256": "85ee874e952c6e7e62e82e4999cc9e566646e83e029124dce97f9a85c2f577f8"
     },
     {
       "path": "rules/ordered/00089-block.list",
@@ -775,13 +775,13 @@
   "files": [
     {
       "path": "business-plan.json",
-      "bytes": 6432,
-      "sha256": "bf4e3550162bac170c0e06db17887c24f74895cafcda2feb169a7e495bf14101"
+      "bytes": 6433,
+      "sha256": "2a97333d6dcb06eda920b50ea324bd6caa01005fc47c68cfd153c6671064f851"
     },
     {
       "path": "ini-validation.json",
       "bytes": 1658,
-      "sha256": "3693f42cfcf8a1298a8caff5c73e0cdf28d00bd265f014341fb8edb77c13e2c1"
+      "sha256": "97d9032a7be2fc4b344877ec7a30396f163e5d20cb9898425e15a8f894dad132"
     },
     {
       "path": "rules/abematv.list",
@@ -795,8 +795,8 @@
     },
     {
       "path": "rules/ai_other.list",
-      "bytes": 1856,
-      "sha256": "f2efd408d210d134bbd8538f2b31d59d111017f1cb06714d6f026984251b3754"
+      "bytes": 1921,
+      "sha256": "295d3bfd01f867ebc6b41500a7fc6caad87364d28d5d8cd1c8f8b3549e5d81a0"
     },
     {
       "path": "rules/apple_store.list",
@@ -820,8 +820,8 @@
     },
     {
       "path": "rules/direct.list",
-      "bytes": 343188,
-      "sha256": "5f0855246ef93eacaed881fe70efd02c5d69587aefd2117f06f250c9e27134ab"
+      "bytes": 343164,
+      "sha256": "a4d8fa61d50b2bac207a307036af8f2ef43dd67c42a20f15efdaa6c8f79c284d"
     },
     {
       "path": "rules/dmm.list",
@@ -840,8 +840,8 @@
     },
     {
       "path": "rules/general_overseas.list",
-      "bytes": 180249,
-      "sha256": "b7735d825d6e9c885a42d1785d910e7b5d8675ac33b9c528beb9b5fc266a1ab8"
+      "bytes": 180279,
+      "sha256": "d4dc47207a9442b1512c8af352fb983fc172140c3472cb06a009ee5ebc7a5847"
     },
     {
       "path": "rules/github_bulk.list",
@@ -895,8 +895,8 @@
     },
     {
       "path": "rules/openai_anthropic.list",
-      "bytes": 1323,
-      "sha256": "8e10d6d7d83838ece1509d29f8b0ee7cf1f4bc5e2a10360bf367d0a7ccd3de06"
+      "bytes": 1043,
+      "sha256": "9ec517d24ee5714bd7640a9c5ca3fe42eae16727f2ef3e474961f8ef6c688f6f"
     },
     {
       "path": "rules/ordered/00001-openai_anthropic.list",
@@ -1100,8 +1100,8 @@
     },
     {
       "path": "rules/ordered/00041-ai_other.list",
-      "bytes": 507,
-      "sha256": "a049eb56d83e41ef21c97ed79ec61b6ccc196a3e68d5234a0f638011ff517dde"
+      "bytes": 532,
+      "sha256": "0cfc3a674c1bb0b34ee95f58189a97fd7ceb3cc7e3163dcc26ed6276fc6bf4d9"
     },
     {
       "path": "rules/ordered/00042-apple_store.list",
@@ -1130,8 +1130,8 @@
     },
     {
       "path": "rules/ordered/00047-openai_anthropic.list",
-      "bytes": 558,
-      "sha256": "e758280073f0ede7584aedbf5aa45634d78a88f9996bf528b004cc847da455b3"
+      "bytes": 442,
+      "sha256": "21fe240b65c911b28658ae8c139886b81252787a71187e40b9308aa1e3ddf151"
     },
     {
       "path": "rules/ordered/00048-google_play.list",
@@ -1170,8 +1170,8 @@
     },
     {
       "path": "rules/ordered/00055-ai_other.list",
-      "bytes": 456,
-      "sha256": "66e49eff0d99b2445d014aa0565e0ffa94573c531730cefd661e613df218af8b"
+      "bytes": 496,
+      "sha256": "b3d739dd0f8eab7fb49ffb72a78bdc831d29b1b6903f33babd7f0ee5bc63c962"
     },
     {
       "path": "rules/ordered/00056-cloud_sync.list",
@@ -1195,8 +1195,8 @@
     },
     {
       "path": "rules/ordered/00060-shared_services.list",
-      "bytes": 116,
-      "sha256": "1164d015d0d8f9c1ceadcf09264030865303fdaa2aef98e5b541422646fea7f2"
+      "bytes": 232,
+      "sha256": "e15f4620ac4047ba8889231e9dffbd0586ce9af7add3ab65f2f0de3b5c0f4ee1"
     },
     {
       "path": "rules/ordered/00061-general_overseas.list",
@@ -1210,13 +1210,13 @@
     },
     {
       "path": "rules/ordered/00063-direct.list",
-      "bytes": 16870,
-      "sha256": "15c6cf69c284586fda37c12667fccef3f8780aedb23fbe8c9b208d1cb87ab0a8"
+      "bytes": 16846,
+      "sha256": "b45eaf88d0efa5381c5a8d39d3464fd2f3990e8e5c082263e9b3328246a3c5b3"
     },
     {
       "path": "rules/ordered/00064-openai_anthropic.list",
-      "bytes": 471,
-      "sha256": "ceb969cd7335b05e88028fb708697dc0dc5f87142dce2eb152c1b84320493fda"
+      "bytes": 307,
+      "sha256": "c87442cc6da74d54c8704307184042a1f3ca3159ec8ffd548cf5ce9e520f3c41"
     },
     {
       "path": "rules/ordered/00065-mytvsuper.list",
@@ -1275,8 +1275,8 @@
     },
     {
       "path": "rules/ordered/00076-youtube.list",
-      "bytes": 358,
-      "sha256": "2a2f557547652faa8e91cdb8bf95508599f3092435b9ee735ad6dbf4943f7e62"
+      "bytes": 328,
+      "sha256": "74ed25cb61b26ba4736ade63b0333704f92d986c2c6a9b3320ba38c57956f4f8"
     },
     {
       "path": "rules/ordered/00077-streaming_other.list",
@@ -1330,13 +1330,13 @@
     },
     {
       "path": "rules/ordered/00087-shared_services.list",
-      "bytes": 177,
-      "sha256": "68dbaf3a721d45a104e4a5cb14ba4a528c37289d23fa57c5303f6ecaee7e6785"
+      "bytes": 365,
+      "sha256": "d141b927c40973f5db062a36ca667e0a51dd75ac23fded865308d6217a49714d"
     },
     {
       "path": "rules/ordered/00088-general_overseas.list",
-      "bytes": 161364,
-      "sha256": "0b8f3c86b7c4b74a9fd44124b56d3e493805d3b55c17eb5d3ea62f36ca77f079"
+      "bytes": 161394,
+      "sha256": "85ee874e952c6e7e62e82e4999cc9e566646e83e029124dce97f9a85c2f577f8"
     },
     {
       "path": "rules/ordered/00089-block.list",
@@ -1550,8 +1550,8 @@
     },
     {
       "path": "rules/shared_services.list",
-      "bytes": 217,
-      "sha256": "d4f5f01045e212e91d944125db841575606fa2d2aaa3532a9823a13c1de01f5e"
+      "bytes": 521,
+      "sha256": "447ca9c41611800060ed28f7ba9ea25fb497b2f0c8814b49d3688bd9d06d613e"
     },
     {
       "path": "rules/spotify.list",
@@ -1575,13 +1575,13 @@
     },
     {
       "path": "rules/youtube.list",
-      "bytes": 417,
-      "sha256": "81ee6442386d4ce713e8812e0306a511ed6712bdfd24409f088c537630d8d2ef"
+      "bytes": 387,
+      "sha256": "7603f97ced1a22d7fb2fadbc9f6dc3e1cdb5b89cc60db6f06f485576bf21cf5d"
     },
     {
       "path": "virgil-candidate.ini",
       "bytes": 31433,
-      "sha256": "804b4818b1385d46bd1bc0741faa6a09e40b80b09d3bc72d2369e90e04200ac0"
+      "sha256": "768df9a21deafe8fcaf639aaa428342ee4ab62e46bed901424063c6f13bbf9b1"
     }
   ]
 }

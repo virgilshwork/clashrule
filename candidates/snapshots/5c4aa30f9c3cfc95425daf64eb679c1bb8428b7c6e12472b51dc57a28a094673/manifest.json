@@ -1,0 +1,1587 @@
+{
+  "managed_by": "clashrule-reference-publisher-v1",
+  "publication_id": "5c4aa30f9c3cfc95425daf64eb679c1bb8428b7c6e12472b51dc57a28a094673",
+  "ready_for_production": false,
+  "ordered_fragments": [
+    {
+      "path": "rules/ordered/00001-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 1,
+      "sha256": "6c8f5914fb39ecfa486bb239cf7be35de26b6094acf41cf497ba950793a5b00f"
+    },
+    {
+      "path": "rules/ordered/00002-block.list",
+      "business": "block",
+      "rules": 3,
+      "sha256": "06c183ccd9278b7151788066d2c001801485580d1dc4b0047c4df5c6d0f14fe9"
+    },
+    {
+      "path": "rules/ordered/00003-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 1,
+      "sha256": "b6bf9a3e0f3639116a2bd63ca996327c1d0c493ec72ebcc03cfd3187bdea486a"
+    },
+    {
+      "path": "rules/ordered/00004-hbo_go_hk.list",
+      "business": "hbo_go_hk",
+      "rules": 2,
+      "sha256": "af604c5ccf2543ec78d773d71d5288a80094893580155864becec0958da5948f"
+    },
+    {
+      "path": "rules/ordered/00005-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 8,
+      "sha256": "92f76cd50edeb8bbf25b68fbd46552d4e72e6baca913f7ae6bcfe647eda80056"
+    },
+    {
+      "path": "rules/ordered/00006-block.list",
+      "business": "block",
+      "rules": 1,
+      "sha256": "b34ca2da91321499e260f724a2f799ee045a333999979e4dacd4f3d30339be2a"
+    },
+    {
+      "path": "rules/ordered/00007-direct.list",
+      "business": "direct",
+      "rules": 1,
+      "sha256": "9b7f187b78f5ee80c4b05d5b1bfddf83793b1de2a38c242b76e3868d08588f0a"
+    },
+    {
+      "path": "rules/ordered/00008-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 1,
+      "sha256": "181e197682e3d6c1f7cf3d3417b8786e35c8acd4c9d467d9d4e5d5290f155c95"
+    },
+    {
+      "path": "rules/ordered/00009-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 1,
+      "sha256": "7d7d35f06a63096bfe611c075146027b64d6f5b7c9022a6b1f2e518e25e14b72"
+    },
+    {
+      "path": "rules/ordered/00010-block.list",
+      "business": "block",
+      "rules": 15,
+      "sha256": "6983bd4c81f91bbfcbb1fecf0697d0559cb298cd24ebe76699e7fff79f5ad133"
+    },
+    {
+      "path": "rules/ordered/00011-direct.list",
+      "business": "direct",
+      "rules": 16,
+      "sha256": "c4602919672ef04110d1b0c21ae88a64b1453f7327a49736e4fca8260560d5e6"
+    },
+    {
+      "path": "rules/ordered/00012-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 1,
+      "sha256": "92d2e9ac082973efb8ffc7fa717050c168a40624aab52b91da82c2daf689257b"
+    },
+    {
+      "path": "rules/ordered/00013-google_play.list",
+      "business": "google_play",
+      "rules": 2,
+      "sha256": "4f872162bf03ee1a8d227e456b2f6425d0791a8b6bd1369eb780fad81f2a17db"
+    },
+    {
+      "path": "rules/ordered/00014-mytvsuper.list",
+      "business": "mytvsuper",
+      "rules": 2,
+      "sha256": "d617b87f74b0e1a3442a6d4cbd9bbecc181c0a51e1699d7a7e951cf87bd5bb8e"
+    },
+    {
+      "path": "rules/ordered/00015-viutv.list",
+      "business": "viutv",
+      "rules": 1,
+      "sha256": "582cc80c94bdef2181891a0668db3b0f9565f116a84072b5714a39f30e96eae7"
+    },
+    {
+      "path": "rules/ordered/00016-adult_content.list",
+      "business": "adult_content",
+      "rules": 2,
+      "sha256": "f862e63bc1461eb83fe372d4a8f37b4ad2a5f3ff3f3b28159403ee5679e73607"
+    },
+    {
+      "path": "rules/ordered/00017-netflix.list",
+      "business": "netflix",
+      "rules": 1,
+      "sha256": "6e0ba749e29e01ee16e9e957f21ac0f07fbb6d8becd199b63c85301093ff6f3b"
+    },
+    {
+      "path": "rules/ordered/00018-ai_other.list",
+      "business": "ai_other",
+      "rules": 4,
+      "sha256": "43ce44fbf6db024a32c9857733d2770ef51cf081c0337d3c4ac0cecacc2a1d24"
+    },
+    {
+      "path": "rules/ordered/00019-apple_store.list",
+      "business": "apple_store",
+      "rules": 3,
+      "sha256": "1dc138e2184767fd7d6db5bcc57eeae3218f324cab1975ec49cf69a4739691d0"
+    },
+    {
+      "path": "rules/ordered/00020-gaming_services.list",
+      "business": "gaming_services",
+      "rules": 1,
+      "sha256": "10cdd5ddbf335eb317a49e29253e6527a79ce2eb858c4eb94087594f08d23a5f"
+    },
+    {
+      "path": "rules/ordered/00021-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 1,
+      "sha256": "ca404be47c9395818bdaf56e59f6e0832d88d627ae96a96cd414ffafffbe0a66"
+    },
+    {
+      "path": "rules/ordered/00022-block.list",
+      "business": "block",
+      "rules": 3,
+      "sha256": "d8cbcda8479cc73e276b9af343ef232c59508b2408fbc2416cb4a49bda491d71"
+    },
+    {
+      "path": "rules/ordered/00023-direct.list",
+      "business": "direct",
+      "rules": 9,
+      "sha256": "4ed8b0e387d92d0f24228595b4048f7da0a475571cee6f2d79f90ab20be44a7e"
+    },
+    {
+      "path": "rules/ordered/00024-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 1,
+      "sha256": "b0e7219897403de877935096f3e6401430201db6a44014df65f9004ff4b8abfe"
+    },
+    {
+      "path": "rules/ordered/00025-viutv.list",
+      "business": "viutv",
+      "rules": 2,
+      "sha256": "f28a69974d86941f047d232675439cc54cf007682e68a43f280c3b4b2e468233"
+    },
+    {
+      "path": "rules/ordered/00026-overseas_download.list",
+      "business": "overseas_download",
+      "rules": 5,
+      "sha256": "c91f1298fc424010ba6a7338c92ef5c4c28487e9aed134a0c56e5e812db57b02"
+    },
+    {
+      "path": "rules/ordered/00027-ai_other.list",
+      "business": "ai_other",
+      "rules": 1,
+      "sha256": "240cfdbf72fc8a9e1e409916e395af448e3144f206e4a14ec704ad05ca9d1767"
+    },
+    {
+      "path": "rules/ordered/00028-cloud_sync.list",
+      "business": "cloud_sync",
+      "rules": 1,
+      "sha256": "90dc487ebc7d4c58f8c59c38f30cdfdcaafc3367e6f1c42c1048482078e2bf8d"
+    },
+    {
+      "path": "rules/ordered/00029-apple_store.list",
+      "business": "apple_store",
+      "rules": 1,
+      "sha256": "680369b4efc3f948958e31b77b65ffd4800cb82d8bd061ef3bb996bf17053374"
+    },
+    {
+      "path": "rules/ordered/00030-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 12,
+      "sha256": "f267b42b71e8e5e8e96ac82d77397ad8be03f4bbca0f6f5aae249c52b520fde3"
+    },
+    {
+      "path": "rules/ordered/00031-block.list",
+      "business": "block",
+      "rules": 265,
+      "sha256": "b29969043b9247ed99094e2bc14b7d2799a98e1ce8babbdff7e003a858a07da2"
+    },
+    {
+      "path": "rules/ordered/00032-direct.list",
+      "business": "direct",
+      "rules": 31,
+      "sha256": "d7f8ab06c19c114270742577bc273a0df9814f7b6ab414c83cada93eeef10b06"
+    },
+    {
+      "path": "rules/ordered/00033-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 4,
+      "sha256": "b824c5fd73a44d1a8ae812e345b6c4ee88a947aaff4b4fc449aea3d4b1dcefa0"
+    },
+    {
+      "path": "rules/ordered/00034-google_play.list",
+      "business": "google_play",
+      "rules": 6,
+      "sha256": "dda583860893c5a08fbb9fe82961de0285002970260aabf44da9494cbbb37fd7"
+    },
+    {
+      "path": "rules/ordered/00035-viutv.list",
+      "business": "viutv",
+      "rules": 3,
+      "sha256": "8298d4fccee8d2b2d9544fb722f172f20a356419fdd5e69f9df482eaf0675aff"
+    },
+    {
+      "path": "rules/ordered/00036-hbo_go_hk.list",
+      "business": "hbo_go_hk",
+      "rules": 13,
+      "sha256": "08670b0cb5fa59724ff41773f49688a8b953474a50f6ca3669ce974bc1d21e17"
+    },
+    {
+      "path": "rules/ordered/00037-adult_content.list",
+      "business": "adult_content",
+      "rules": 5,
+      "sha256": "c36e1fa2c6c7b905525ce879b613f8e9816d875a471768c910d01086ad4bfb4f"
+    },
+    {
+      "path": "rules/ordered/00038-github_web_api.list",
+      "business": "github_web_api",
+      "rules": 1,
+      "sha256": "b16832fe8f8d4f149e89181a14b10129a9c1155df95180dfe9345674d9d6fe5a"
+    },
+    {
+      "path": "rules/ordered/00039-overseas_download.list",
+      "business": "overseas_download",
+      "rules": 3,
+      "sha256": "daa24fc77c22bccc09d1a27b408e8586cd7222d2f9fd1019575834a6df351bd8"
+    },
+    {
+      "path": "rules/ordered/00040-youtube.list",
+      "business": "youtube",
+      "rules": 3,
+      "sha256": "777de0da12c48e9f71bcc095b0c91d38597ccb20362705856c0a47bd1db9fcb3"
+    },
+    {
+      "path": "rules/ordered/00041-ai_other.list",
+      "business": "ai_other",
+      "rules": 17,
+      "sha256": "0cfc3a674c1bb0b34ee95f58189a97fd7ceb3cc7e3163dcc26ed6276fc6bf4d9"
+    },
+    {
+      "path": "rules/ordered/00042-apple_store.list",
+      "business": "apple_store",
+      "rules": 6,
+      "sha256": "9fc90c047128a05be62e72f2ef3fcbf278d26df04318dfcb4a107753f984547f"
+    },
+    {
+      "path": "rules/ordered/00043-gaming_services.list",
+      "business": "gaming_services",
+      "rules": 9,
+      "sha256": "58b4087b16f9dc587b067e9ec080d1e7b8917d47bdd42edd398b5200b4a26861"
+    },
+    {
+      "path": "rules/ordered/00044-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 10,
+      "sha256": "a437f3b905017cab47c2291fa206044f023e517ce67925e5bf32abae89bbe40e"
+    },
+    {
+      "path": "rules/ordered/00045-block.list",
+      "business": "block",
+      "rules": 6,
+      "sha256": "ce609c98a9c12d9fd7ee703b671fcd08f814b9fa8f5299c2fad2aa4b52ca262d"
+    },
+    {
+      "path": "rules/ordered/00046-direct.list",
+      "business": "direct",
+      "rules": 38,
+      "sha256": "2a20b8286bbc1303cbeae4b91c7f28ecfbd38710b8b4af8386d26d8017cba2fc"
+    },
+    {
+      "path": "rules/ordered/00047-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 12,
+      "sha256": "21fe240b65c911b28658ae8c139886b81252787a71187e40b9308aa1e3ddf151"
+    },
+    {
+      "path": "rules/ordered/00048-google_play.list",
+      "business": "google_play",
+      "rules": 2,
+      "sha256": "f38bc177dce4df5c9244937474e0a8a9cec163f5927acd922a9985e93f09f310"
+    },
+    {
+      "path": "rules/ordered/00049-viutv.list",
+      "business": "viutv",
+      "rules": 4,
+      "sha256": "880b58548027a03555661aec9fb449cdefaad5b73a54c1889a5e0054eb03a585"
+    },
+    {
+      "path": "rules/ordered/00050-dmm.list",
+      "business": "dmm",
+      "rules": 1,
+      "sha256": "9a66c6e53cb36083d8c706c2989609b11b678e347d26196196099d7bda750e8c"
+    },
+    {
+      "path": "rules/ordered/00051-hulu_japan.list",
+      "business": "hulu_japan",
+      "rules": 2,
+      "sha256": "305f2f1a95b1eb62e81bf17443b3d04110b1b4cd690f5dc437e79573eeecf7e7"
+    },
+    {
+      "path": "rules/ordered/00052-github_bulk.list",
+      "business": "github_bulk",
+      "rules": 6,
+      "sha256": "cf6069a6c53a6dbe451dbc07c1273a263ca3fd0200be910a6b6b824504449bf2"
+    },
+    {
+      "path": "rules/ordered/00053-overseas_download.list",
+      "business": "overseas_download",
+      "rules": 20,
+      "sha256": "23c253b2b40a83395333970c08a875a1542da2d9c01f6db545972768311f057d"
+    },
+    {
+      "path": "rules/ordered/00054-streaming_other.list",
+      "business": "streaming_other",
+      "rules": 1,
+      "sha256": "78e7706bf296193d798af39897726231b48de9d0618003f50871c86081324dc3"
+    },
+    {
+      "path": "rules/ordered/00055-ai_other.list",
+      "business": "ai_other",
+      "rules": 12,
+      "sha256": "b3d739dd0f8eab7fb49ffb72a78bdc831d29b1b6903f33babd7f0ee5bc63c962"
+    },
+    {
+      "path": "rules/ordered/00056-cloud_sync.list",
+      "business": "cloud_sync",
+      "rules": 6,
+      "sha256": "18a2c2f2e55570084e9e0cde96933193b69d6b016e38306bb7377ae8f541a099"
+    },
+    {
+      "path": "rules/ordered/00057-crypto.list",
+      "business": "crypto",
+      "rules": 2,
+      "sha256": "f9bd004ad31be77c8163b427d607ee9cc94cf2499e9f7e7a48814b553bb108ce"
+    },
+    {
+      "path": "rules/ordered/00058-apple_store.list",
+      "business": "apple_store",
+      "rules": 1,
+      "sha256": "4f5bb30b014d3efc84b1e2896c577eb8b4b817e675e4bf9d88381413260af5c5"
+    },
+    {
+      "path": "rules/ordered/00059-gaming_services.list",
+      "business": "gaming_services",
+      "rules": 3,
+      "sha256": "439f7079480791567a5a232f7cd8c0a77ea7e81f56d8282d0d43ba93097a73ee"
+    },
+    {
+      "path": "rules/ordered/00060-shared_services.list",
+      "business": "shared_services",
+      "rules": 5,
+      "sha256": "e15f4620ac4047ba8889231e9dffbd0586ce9af7add3ab65f2f0de3b5c0f4ee1"
+    },
+    {
+      "path": "rules/ordered/00061-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 536,
+      "sha256": "a436167128c69d00fd816cbce88779f7cc3b97fbe8be38b61db3a10b5645c94f"
+    },
+    {
+      "path": "rules/ordered/00062-block.list",
+      "business": "block",
+      "rules": 665,
+      "sha256": "082c52c10e0c8d6ec05ae3ad6d20a662d81930effeefed17d4d783e8ec6eb2f9"
+    },
+    {
+      "path": "rules/ordered/00063-direct.list",
+      "business": "direct",
+      "rules": 648,
+      "sha256": "b45eaf88d0efa5381c5a8d39d3464fd2f3990e8e5c082263e9b3328246a3c5b3"
+    },
+    {
+      "path": "rules/ordered/00064-openai_anthropic.list",
+      "business": "openai_anthropic",
+      "rules": 9,
+      "sha256": "c87442cc6da74d54c8704307184042a1f3ca3159ec8ffd548cf5ce9e520f3c41"
+    },
+    {
+      "path": "rules/ordered/00065-mytvsuper.list",
+      "business": "mytvsuper",
+      "rules": 2,
+      "sha256": "60d98ec93c08ce8ecea215c93bcfd7f55ffe6922a49834e7e71f91e1538028a2"
+    },
+    {
+      "path": "rules/ordered/00066-viutv.list",
+      "business": "viutv",
+      "rules": 2,
+      "sha256": "123b378582023741e338449600c1dd1a8ab492035315f214e672a1115767f367"
+    },
+    {
+      "path": "rules/ordered/00067-hbo_go_hk.list",
+      "business": "hbo_go_hk",
+      "rules": 3,
+      "sha256": "77ae3f12fedc768cd6d933e648b065687986559dfde664bf1d8651d6a5fb1bcc"
+    },
+    {
+      "path": "rules/ordered/00068-dmm.list",
+      "business": "dmm",
+      "rules": 13,
+      "sha256": "c27d952bdad9a9122d59c8f311005ac135ec2deaaf3d158e4eab0965099449d2"
+    },
+    {
+      "path": "rules/ordered/00069-abematv.list",
+      "business": "abematv",
+      "rules": 4,
+      "sha256": "940e78eb61d07be1be9a1721f4ee26ca1a95c4a1cdfa4118cc71ab2828c50cba"
+    },
+    {
+      "path": "rules/ordered/00070-hulu_japan.list",
+      "business": "hulu_japan",
+      "rules": 4,
+      "sha256": "266f6431eac1e9d3f76b9210c1c8e7f3a6a7cfe37172804fbf52dbfdba7953ed"
+    },
+    {
+      "path": "rules/ordered/00071-niconico.list",
+      "business": "niconico",
+      "rules": 3,
+      "sha256": "c0591e133a072a1fc5a8aee09b284f525000906b76287fe9adf685b02cf9bcfd"
+    },
+    {
+      "path": "rules/ordered/00072-pixiv.list",
+      "business": "pixiv",
+      "rules": 3,
+      "sha256": "0f50e75b7cbbca4df43a86e1037ff4bbdac16e541ab7f9afd9e12e154aed9c68"
+    },
+    {
+      "path": "rules/ordered/00073-adult_content.list",
+      "business": "adult_content",
+      "rules": 84,
+      "sha256": "820017ca44cb58fd76d3476831aef5b6bc03b41f3996059219ce201112ab5d73"
+    },
+    {
+      "path": "rules/ordered/00074-github_web_api.list",
+      "business": "github_web_api",
+      "rules": 7,
+      "sha256": "d6974a9814da468731dfb3b4ceb751f66d3fab90736ff04a6e25ee738d2273e5"
+    },
+    {
+      "path": "rules/ordered/00075-overseas_download.list",
+      "business": "overseas_download",
+      "rules": 29,
+      "sha256": "3815c309aad991a08909495c292637c3457a09e1cc8caa335d4d19167f030794"
+    },
+    {
+      "path": "rules/ordered/00076-youtube.list",
+      "business": "youtube",
+      "rules": 10,
+      "sha256": "74ed25cb61b26ba4736ade63b0333704f92d986c2c6a9b3320ba38c57956f4f8"
+    },
+    {
+      "path": "rules/ordered/00077-streaming_other.list",
+      "business": "streaming_other",
+      "rules": 5,
+      "sha256": "5463db99f78b072e9b388e00e5d08b2f39873c77c20889dfef80fdac72b2c439"
+    },
+    {
+      "path": "rules/ordered/00078-netflix.list",
+      "business": "netflix",
+      "rules": 18,
+      "sha256": "3a7a623e692463ce6badb928ef1204ee6ed74b852de1c7474485fdb13a2cfa2a"
+    },
+    {
+      "path": "rules/ordered/00079-spotify.list",
+      "business": "spotify",
+      "rules": 6,
+      "sha256": "d037a6f94a34065018a5ac871a1bba428b5bae64c21719fcf5767a8448eb8765"
+    },
+    {
+      "path": "rules/ordered/00080-ai_other.list",
+      "business": "ai_other",
+      "rules": 30,
+      "sha256": "79f645b3442815d8077785aab4392d3a239cbc6de36df3b19351ee378b58fb35"
+    },
+    {
+      "path": "rules/ordered/00081-cloud_sync.list",
+      "business": "cloud_sync",
+      "rules": 5,
+      "sha256": "32db6ec70a6ad58a392938892be71b119a4e888e07636aa8aaaa119850f7fae8"
+    },
+    {
+      "path": "rules/ordered/00082-microsoft_services.list",
+      "business": "microsoft_services",
+      "rules": 73,
+      "sha256": "337dfbdf3738daedea8be498850ead13d80b4a047307ba1818e27198ccc2ec1c"
+    },
+    {
+      "path": "rules/ordered/00083-telegram.list",
+      "business": "telegram",
+      "rules": 6,
+      "sha256": "296dd60db3dcc688654d51cda54347f5fd199f9a4156d0117e807a8dcca3ae5a"
+    },
+    {
+      "path": "rules/ordered/00084-crypto.list",
+      "business": "crypto",
+      "rules": 49,
+      "sha256": "580de4b316bf7f3636a91ae4112916a7ee1b2a9079000131bed594550b0923a6"
+    },
+    {
+      "path": "rules/ordered/00085-mining.list",
+      "business": "mining",
+      "rules": 9,
+      "sha256": "ba3b09e3971311f813e19c2969098be6acdd048e09cbc277f490ee634b03fd83"
+    },
+    {
+      "path": "rules/ordered/00086-gaming_services.list",
+      "business": "gaming_services",
+      "rules": 26,
+      "sha256": "c9c99cd386b6770dee79d409de7828a2b8010292afa0e5f3cf3d67226f90a8c5"
+    },
+    {
+      "path": "rules/ordered/00087-shared_services.list",
+      "business": "shared_services",
+      "rules": 11,
+      "sha256": "d141b927c40973f5db062a36ca667e0a51dd75ac23fded865308d6217a49714d"
+    },
+    {
+      "path": "rules/ordered/00088-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 5952,
+      "sha256": "85ee874e952c6e7e62e82e4999cc9e566646e83e029124dce97f9a85c2f577f8"
+    },
+    {
+      "path": "rules/ordered/00089-block.list",
+      "business": "block",
+      "rules": 582,
+      "sha256": "58c7b6e747d71c39a59d3815a89b745d7a3e9da022196ac594804c818fc03bf1"
+    },
+    {
+      "path": "rules/ordered/00090-direct.list",
+      "business": "direct",
+      "rules": 10,
+      "sha256": "b509394585926ffef25fb50cb914966e49f5b2f9a7c1678b73547cfe8d40f2d3"
+    },
+    {
+      "path": "rules/ordered/00091-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 9,
+      "sha256": "1401b03e7242bff049f05ee8290f16d77fd10a87dccd7307a5c1e6748fd6eed9"
+    },
+    {
+      "path": "rules/ordered/00092-block.list",
+      "business": "block",
+      "rules": 1,
+      "sha256": "cb7099adca635daa95db9eb3e140ca69e0ecefafd490ea26ad62f3b2cc6e8ae5"
+    },
+    {
+      "path": "rules/ordered/00093-direct.list",
+      "business": "direct",
+      "rules": 460,
+      "sha256": "9de7d1bcb30da49650763729002253f6e2162733fcb2a06237d6e096e3014ae1"
+    },
+    {
+      "path": "rules/ordered/00094-telegram.list",
+      "business": "telegram",
+      "rules": 3,
+      "sha256": "0961417a8e7eb627d56fe3212c60e13b10c49fe0e922287ebcae9821f615dae5"
+    },
+    {
+      "path": "rules/ordered/00095-direct.list",
+      "business": "direct",
+      "rules": 784,
+      "sha256": "1c33f61bc03a2f684a0592f6120307be8d5d1abf8bcb43f92f547fadcd1af1a9"
+    },
+    {
+      "path": "rules/ordered/00096-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 39,
+      "sha256": "4f1ec53a384a98637d4f1c407d41614fb97470fe7d15ce77006627ab5c36e5bd"
+    },
+    {
+      "path": "rules/ordered/00097-block.list",
+      "business": "block",
+      "rules": 18,
+      "sha256": "95cfa1b13f36a57be93b97b4b8316b16383705d3625550abb971f56d2f7536b6"
+    },
+    {
+      "path": "rules/ordered/00098-direct.list",
+      "business": "direct",
+      "rules": 2443,
+      "sha256": "6be1c68f62f04e9353245cc4779359159ac8d7424f53c88522aaff615190ed09"
+    },
+    {
+      "path": "rules/ordered/00099-netflix.list",
+      "business": "netflix",
+      "rules": 3,
+      "sha256": "1d0d6d2a3fb5e47ae720ab636d00d461c8800fc8d6396d2cb34d04918af83eff"
+    },
+    {
+      "path": "rules/ordered/00100-telegram.list",
+      "business": "telegram",
+      "rules": 1,
+      "sha256": "43b08d98f61b216f3ab41f5ca4ba3c38531cc761deb3526319757c4302ba02c5"
+    },
+    {
+      "path": "rules/ordered/00101-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 6,
+      "sha256": "75727513a6df0634fb096fefcca855a5fa1f037dea91923e1674afaa526fddc3"
+    },
+    {
+      "path": "rules/ordered/00102-block.list",
+      "business": "block",
+      "rules": 1,
+      "sha256": "2e8bdbb4f4e70f67c4c6c6148ba42c1de079f0e8609f032494a8d03505064ed7"
+    },
+    {
+      "path": "rules/ordered/00103-direct.list",
+      "business": "direct",
+      "rules": 2679,
+      "sha256": "7d3b6dc90c22b0fa2766dc65c17467647d718333425d70ab795d35dc737f68b4"
+    },
+    {
+      "path": "rules/ordered/00104-netflix.list",
+      "business": "netflix",
+      "rules": 5,
+      "sha256": "d4d3678f0ed3534254d4d424bcc624fed439f229b6ff0704b1be4b76f84d6b7d"
+    },
+    {
+      "path": "rules/ordered/00105-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 6,
+      "sha256": "5e6d441f482dd32530f74692ac99b65870d74aa6093716bca0119730254b6b73"
+    },
+    {
+      "path": "rules/ordered/00106-direct.list",
+      "business": "direct",
+      "rules": 715,
+      "sha256": "cb11274228d63589ce942276fd78db1ca5e74ef4679ec1913e6463cacdb82d55"
+    },
+    {
+      "path": "rules/ordered/00107-netflix.list",
+      "business": "netflix",
+      "rules": 1,
+      "sha256": "94f99b0306a520a831ee2ae92700856b7f6531295689873dff910f7913d66bc7"
+    },
+    {
+      "path": "rules/ordered/00108-direct.list",
+      "business": "direct",
+      "rules": 479,
+      "sha256": "2ea5b65ce298fca48c24a57bf2d47992d4960952c7589373cc525ad494ea1940"
+    },
+    {
+      "path": "rules/ordered/00109-netflix.list",
+      "business": "netflix",
+      "rules": 2,
+      "sha256": "d10b3a5b442e179cbce79160b6729765664838ef42b349181b739661670cd149"
+    },
+    {
+      "path": "rules/ordered/00110-telegram.list",
+      "business": "telegram",
+      "rules": 2,
+      "sha256": "39e98bfba1ca1c991581e44493bc7013815000d39f66490e3804c02a8e7d3e94"
+    },
+    {
+      "path": "rules/ordered/00111-direct.list",
+      "business": "direct",
+      "rules": 345,
+      "sha256": "05e7f4c72357d6fb4c0f026a727191d4c9cea5afd2ebe0e5721554a4a6c6ab8a"
+    },
+    {
+      "path": "rules/ordered/00112-netflix.list",
+      "business": "netflix",
+      "rules": 2,
+      "sha256": "bca96769325c3c1f959699fd63865f8a81fc93a5ec38857841abdf845fca4aca"
+    },
+    {
+      "path": "rules/ordered/00113-direct.list",
+      "business": "direct",
+      "rules": 226,
+      "sha256": "efe795185c3a8abf9ce0315646f6a8e40102bd5b9d755bf42559449e067edef2"
+    },
+    {
+      "path": "rules/ordered/00114-netflix.list",
+      "business": "netflix",
+      "rules": 2,
+      "sha256": "3fc73ef2714c8e7524355c2f6486ba37d6f57d5219f70740276c8532e245c9fe"
+    },
+    {
+      "path": "rules/ordered/00115-direct.list",
+      "business": "direct",
+      "rules": 161,
+      "sha256": "6b55a1cfae0f0cc63b0cb8dab964774d67e139aad62bc6b049ebd909632fb563"
+    },
+    {
+      "path": "rules/ordered/00116-netflix.list",
+      "business": "netflix",
+      "rules": 3,
+      "sha256": "83433f7e5a7da812a245c26f09be2b09c1743cb6adef78d27be4bf491867802a"
+    },
+    {
+      "path": "rules/ordered/00117-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 1,
+      "sha256": "caa3c52b4a3f8930859cecb886e5ec49f21edf11f4aea4a6019e6d2f9f5ea06a"
+    },
+    {
+      "path": "rules/ordered/00118-direct.list",
+      "business": "direct",
+      "rules": 275,
+      "sha256": "32ae9e7a5bd2e9d51186706520c49025344ff5f254c78bdfff5642e778abb75e"
+    },
+    {
+      "path": "rules/ordered/00119-telegram.list",
+      "business": "telegram",
+      "rules": 1,
+      "sha256": "017701aa93c89d5259de7e202a5f29a9880e68f546ab6437114067412fcc939a"
+    },
+    {
+      "path": "rules/ordered/00120-apple_store.list",
+      "business": "apple_store",
+      "rules": 1,
+      "sha256": "6aad190bbb478a5e00bf5116325bf12d4882127bdd06c162be470eba5b2a5c93"
+    },
+    {
+      "path": "rules/ordered/00121-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 3,
+      "sha256": "60151b77976ad25ded618eeb024c1760081a200fcd28f20efbf9c8bad0cd1bb5"
+    },
+    {
+      "path": "rules/ordered/00122-direct.list",
+      "business": "direct",
+      "rules": 194,
+      "sha256": "8b23ea0ea30662545590c0baaceddc7f4b47a618c5165178f28f246ed932e796"
+    },
+    {
+      "path": "rules/ordered/00123-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 5,
+      "sha256": "314cf9d0b2f5fff658fa3d20bcc7eaf58a8b8db0be511b577b8fb97e68cff318"
+    },
+    {
+      "path": "rules/ordered/00124-direct.list",
+      "business": "direct",
+      "rules": 156,
+      "sha256": "8830c59f2b3baaf25ee63c2d7240f841aa72c532becb2432e11843d7df3a47d5"
+    },
+    {
+      "path": "rules/ordered/00125-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 2,
+      "sha256": "dae24251b1b4d4aa131d7be08fdd59b3241bec47ea7dc1ebfb3f2de615becb6b"
+    },
+    {
+      "path": "rules/ordered/00126-direct.list",
+      "business": "direct",
+      "rules": 102,
+      "sha256": "45a07c9103fd8efff25572058010483f42b479d83cabfa795b6d63df965c6cce"
+    },
+    {
+      "path": "rules/ordered/00127-general_overseas.list",
+      "business": "general_overseas",
+      "rules": 2,
+      "sha256": "544d592842a8a490d30c4fda50abf0d178ddd87202db010b22b3ca47807e29d3"
+    },
+    {
+      "path": "rules/ordered/00128-direct.list",
+      "business": "direct",
+      "rules": 132,
+      "sha256": "eee221340be12c7cbc41926bb48b3ff39a98044fb563649a8bab8aa826653550"
+    }
+  ],
+  "files": [
+    {
+      "path": "business-plan.json",
+      "bytes": 6433,
+      "sha256": "2a97333d6dcb06eda920b50ea324bd6caa01005fc47c68cfd153c6671064f851"
+    },
+    {
+      "path": "ini-validation.json",
+      "bytes": 1658,
+      "sha256": "97d9032a7be2fc4b344877ec7a30396f163e5d20cb9898425e15a8f894dad132"
+    },
+    {
+      "path": "rules/abematv.list",
+      "bytes": 127,
+      "sha256": "9c1dc095a54a0ca1a67fe14768a4e52ca98bad9e4e23a51c63eac3836a50960a"
+    },
+    {
+      "path": "rules/adult_content.list",
+      "bytes": 2390,
+      "sha256": "eb407748f9a30039d45b7ce3fd233624c6fe2c518baf96edd611a3991a79806d"
+    },
+    {
+      "path": "rules/ai_other.list",
+      "bytes": 1921,
+      "sha256": "295d3bfd01f867ebc6b41500a7fc6caad87364d28d5d8cd1c8f8b3549e5d81a0"
+    },
+    {
+      "path": "rules/apple_store.list",
+      "bytes": 381,
+      "sha256": "2276f53d9365005ad013c3f4f272fc56f3c3f88393a9083420206bedaddc817b"
+    },
+    {
+      "path": "rules/block.list",
+      "bytes": 45793,
+      "sha256": "006c78d2eb0ee4b5146023b3d8b67e781caf7d882dc8f319264621c6cee4dc6e"
+    },
+    {
+      "path": "rules/cloud_sync.list",
+      "bytes": 431,
+      "sha256": "bebe23cd74d916d1e2df9c35f728f899a0857ae75874c834c6e5618cc293a9f5"
+    },
+    {
+      "path": "rules/crypto.list",
+      "bytes": 1357,
+      "sha256": "e5956ad42d512349eef94b940d27eda98fdc49336a17d91135c0f334e9fabd2e"
+    },
+    {
+      "path": "rules/direct.list",
+      "bytes": 343164,
+      "sha256": "a4d8fa61d50b2bac207a307036af8f2ef43dd67c42a20f15efdaa6c8f79c284d"
+    },
+    {
+      "path": "rules/dmm.list",
+      "bytes": 403,
+      "sha256": "38cea7e7e7fc832700c1bd20331277d83038b3c25a79ced39c77f21949c85e67"
+    },
+    {
+      "path": "rules/gaming_download.list",
+      "bytes": 41,
+      "sha256": "618a487f2984cd7dc0a8500f65efa35f89c6aea0882f91a7d6be5ca64349a16a"
+    },
+    {
+      "path": "rules/gaming_services.list",
+      "bytes": 1203,
+      "sha256": "7e4eaf7c6493145edcbc704d8e8810ead2e8262dc3b7cba381647e9ba87c2aaf"
+    },
+    {
+      "path": "rules/general_overseas.list",
+      "bytes": 180279,
+      "sha256": "d4dc47207a9442b1512c8af352fb983fc172140c3472cb06a009ee5ebc7a5847"
+    },
+    {
+      "path": "rules/github_bulk.list",
+      "bytes": 299,
+      "sha256": "66630880c674bf581bfda5935301e9be0ced0acbe00c29f36cd61eebfb288b9d"
+    },
+    {
+      "path": "rules/github_web_api.list",
+      "bytes": 256,
+      "sha256": "cbbd7a8c18e883391bb609467fa600c38fbad5c310e19af05fb5ccfd8ab17468"
+    },
+    {
+      "path": "rules/google_play.list",
+      "bytes": 358,
+      "sha256": "f657c38352c93a6cb01d1150a00ab564ba36c3c2b465a5db996cf5c192441c09"
+    },
+    {
+      "path": "rules/hbo_go_hk.list",
+      "bytes": 645,
+      "sha256": "904782f4780a2b6dfb87efd5e605b530d2fed9ceb266c2e03756a1a8f7cb20b3"
+    },
+    {
+      "path": "rules/hulu_japan.list",
+      "bytes": 193,
+      "sha256": "d3d754b186bb60da1ba6d8633f668f55f64b7f8c5ed11cffa8b1fb12b913c8f6"
+    },
+    {
+      "path": "rules/microsoft_services.list",
+      "bytes": 2021,
+      "sha256": "860b8b4233ed33ce1ad8fe681b8c10ed6659eeb538dda6d6ddf679d12e7dee83"
+    },
+    {
+      "path": "rules/mining.list",
+      "bytes": 276,
+      "sha256": "5523fa04388b3b1972f481f249802fc029511674a859057397bffc8665e94bc9"
+    },
+    {
+      "path": "rules/mytvsuper.list",
+      "bytes": 160,
+      "sha256": "d5c708a5b1373d0fd5943a7c9fc4edeca3999830f89635e89391f4f8b8d824b3"
+    },
+    {
+      "path": "rules/netflix.list",
+      "bytes": 1222,
+      "sha256": "333acecc4e2388b2a2bf49fd9893d8dfffa385250c386f1b40668a07998308c1"
+    },
+    {
+      "path": "rules/niconico.list",
+      "bytes": 105,
+      "sha256": "47716c9cb1ea982af545c3db43f14de74ed5341caaacfbf8e0c431f540947848"
+    },
+    {
+      "path": "rules/openai_anthropic.list",
+      "bytes": 1043,
+      "sha256": "9ec517d24ee5714bd7640a9c5ca3fe42eae16727f2ef3e474961f8ef6c688f6f"
+    },
+    {
+      "path": "rules/ordered/00001-openai_anthropic.list",
+      "bytes": 101,
+      "sha256": "6c8f5914fb39ecfa486bb239cf7be35de26b6094acf41cf497ba950793a5b00f"
+    },
+    {
+      "path": "rules/ordered/00002-block.list",
+      "bytes": 170,
+      "sha256": "06c183ccd9278b7151788066d2c001801485580d1dc4b0047c4df5c6d0f14fe9"
+    },
+    {
+      "path": "rules/ordered/00003-openai_anthropic.list",
+      "bytes": 112,
+      "sha256": "b6bf9a3e0f3639116a2bd63ca996327c1d0c493ec72ebcc03cfd3187bdea486a"
+    },
+    {
+      "path": "rules/ordered/00004-hbo_go_hk.list",
+      "bytes": 160,
+      "sha256": "af604c5ccf2543ec78d773d71d5288a80094893580155864becec0958da5948f"
+    },
+    {
+      "path": "rules/ordered/00005-general_overseas.list",
+      "bytes": 363,
+      "sha256": "92f76cd50edeb8bbf25b68fbd46552d4e72e6baca913f7ae6bcfe647eda80056"
+    },
+    {
+      "path": "rules/ordered/00006-block.list",
+      "bytes": 80,
+      "sha256": "b34ca2da91321499e260f724a2f799ee045a333999979e4dacd4f3d30339be2a"
+    },
+    {
+      "path": "rules/ordered/00007-direct.list",
+      "bytes": 84,
+      "sha256": "9b7f187b78f5ee80c4b05d5b1bfddf83793b1de2a38c242b76e3868d08588f0a"
+    },
+    {
+      "path": "rules/ordered/00008-openai_anthropic.list",
+      "bytes": 108,
+      "sha256": "181e197682e3d6c1f7cf3d3417b8786e35c8acd4c9d467d9d4e5d5290f155c95"
+    },
+    {
+      "path": "rules/ordered/00009-general_overseas.list",
+      "bytes": 101,
+      "sha256": "7d7d35f06a63096bfe611c075146027b64d6f5b7c9022a6b1f2e518e25e14b72"
+    },
+    {
+      "path": "rules/ordered/00010-block.list",
+      "bytes": 611,
+      "sha256": "6983bd4c81f91bbfcbb1fecf0697d0559cb298cd24ebe76699e7fff79f5ad133"
+    },
+    {
+      "path": "rules/ordered/00011-direct.list",
+      "bytes": 492,
+      "sha256": "c4602919672ef04110d1b0c21ae88a64b1453f7327a49736e4fca8260560d5e6"
+    },
+    {
+      "path": "rules/ordered/00012-openai_anthropic.list",
+      "bytes": 113,
+      "sha256": "92d2e9ac082973efb8ffc7fa717050c168a40624aab52b91da82c2daf689257b"
+    },
+    {
+      "path": "rules/ordered/00013-google_play.list",
+      "bytes": 123,
+      "sha256": "4f872162bf03ee1a8d227e456b2f6425d0791a8b6bd1369eb780fad81f2a17db"
+    },
+    {
+      "path": "rules/ordered/00014-mytvsuper.list",
+      "bytes": 128,
+      "sha256": "d617b87f74b0e1a3442a6d4cbd9bbecc181c0a51e1699d7a7e951cf87bd5bb8e"
+    },
+    {
+      "path": "rules/ordered/00015-viutv.list",
+      "bytes": 71,
+      "sha256": "582cc80c94bdef2181891a0668db3b0f9565f116a84072b5714a39f30e96eae7"
+    },
+    {
+      "path": "rules/ordered/00016-adult_content.list",
+      "bytes": 106,
+      "sha256": "f862e63bc1461eb83fe372d4a8f37b4ad2a5f3ff3f3b28159403ee5679e73607"
+    },
+    {
+      "path": "rules/ordered/00017-netflix.list",
+      "bytes": 83,
+      "sha256": "6e0ba749e29e01ee16e9e957f21ac0f07fbb6d8becd199b63c85301093ff6f3b"
+    },
+    {
+      "path": "rules/ordered/00018-ai_other.list",
+      "bytes": 190,
+      "sha256": "43ce44fbf6db024a32c9857733d2770ef51cf081c0337d3c4ac0cecacc2a1d24"
+    },
+    {
+      "path": "rules/ordered/00019-apple_store.list",
+      "bytes": 155,
+      "sha256": "1dc138e2184767fd7d6db5bcc57eeae3218f324cab1975ec49cf69a4739691d0"
+    },
+    {
+      "path": "rules/ordered/00020-gaming_services.list",
+      "bytes": 97,
+      "sha256": "10cdd5ddbf335eb317a49e29253e6527a79ce2eb858c4eb94087594f08d23a5f"
+    },
+    {
+      "path": "rules/ordered/00021-general_overseas.list",
+      "bytes": 92,
+      "sha256": "ca404be47c9395818bdaf56e59f6e0832d88d627ae96a96cd414ffafffbe0a66"
+    },
+    {
+      "path": "rules/ordered/00022-block.list",
+      "bytes": 130,
+      "sha256": "d8cbcda8479cc73e276b9af343ef232c59508b2408fbc2416cb4a49bda491d71"
+    },
+    {
+      "path": "rules/ordered/00023-direct.list",
+      "bytes": 385,
+      "sha256": "4ed8b0e387d92d0f24228595b4048f7da0a475571cee6f2d79f90ab20be44a7e"
+    },
+    {
+      "path": "rules/ordered/00024-openai_anthropic.list",
+      "bytes": 93,
+      "sha256": "b0e7219897403de877935096f3e6401430201db6a44014df65f9004ff4b8abfe"
+    },
+    {
+      "path": "rules/ordered/00025-viutv.list",
+      "bytes": 157,
+      "sha256": "f28a69974d86941f047d232675439cc54cf007682e68a43f280c3b4b2e468233"
+    },
+    {
+      "path": "rules/ordered/00026-overseas_download.list",
+      "bytes": 338,
+      "sha256": "c91f1298fc424010ba6a7338c92ef5c4c28487e9aed134a0c56e5e812db57b02"
+    },
+    {
+      "path": "rules/ordered/00027-ai_other.list",
+      "bytes": 89,
+      "sha256": "240cfdbf72fc8a9e1e409916e395af448e3144f206e4a14ec704ad05ca9d1767"
+    },
+    {
+      "path": "rules/ordered/00028-cloud_sync.list",
+      "bytes": 92,
+      "sha256": "90dc487ebc7d4c58f8c59c38f30cdfdcaafc3367e6f1c42c1048482078e2bf8d"
+    },
+    {
+      "path": "rules/ordered/00029-apple_store.list",
+      "bytes": 91,
+      "sha256": "680369b4efc3f948958e31b77b65ffd4800cb82d8bd061ef3bb996bf17053374"
+    },
+    {
+      "path": "rules/ordered/00030-general_overseas.list",
+      "bytes": 461,
+      "sha256": "f267b42b71e8e5e8e96ac82d77397ad8be03f4bbca0f6f5aae249c52b520fde3"
+    },
+    {
+      "path": "rules/ordered/00031-block.list",
+      "bytes": 8911,
+      "sha256": "b29969043b9247ed99094e2bc14b7d2799a98e1ce8babbdff7e003a858a07da2"
+    },
+    {
+      "path": "rules/ordered/00032-direct.list",
+      "bytes": 862,
+      "sha256": "d7f8ab06c19c114270742577bc273a0df9814f7b6ab414c83cada93eeef10b06"
+    },
+    {
+      "path": "rules/ordered/00033-openai_anthropic.list",
+      "bytes": 198,
+      "sha256": "b824c5fd73a44d1a8ae812e345b6c4ee88a947aaff4b4fc449aea3d4b1dcefa0"
+    },
+    {
+      "path": "rules/ordered/00034-google_play.list",
+      "bytes": 241,
+      "sha256": "dda583860893c5a08fbb9fe82961de0285002970260aabf44da9494cbbb37fd7"
+    },
+    {
+      "path": "rules/ordered/00035-viutv.list",
+      "bytes": 158,
+      "sha256": "8298d4fccee8d2b2d9544fb722f172f20a356419fdd5e69f9df482eaf0675aff"
+    },
+    {
+      "path": "rules/ordered/00036-hbo_go_hk.list",
+      "bytes": 474,
+      "sha256": "08670b0cb5fa59724ff41773f49688a8b953474a50f6ca3669ce974bc1d21e17"
+    },
+    {
+      "path": "rules/ordered/00037-adult_content.list",
+      "bytes": 163,
+      "sha256": "c36e1fa2c6c7b905525ce879b613f8e9816d875a471768c910d01086ad4bfb4f"
+    },
+    {
+      "path": "rules/ordered/00038-github_web_api.list",
+      "bytes": 79,
+      "sha256": "b16832fe8f8d4f149e89181a14b10129a9c1155df95180dfe9345674d9d6fe5a"
+    },
+    {
+      "path": "rules/ordered/00039-overseas_download.list",
+      "bytes": 171,
+      "sha256": "daa24fc77c22bccc09d1a27b408e8586cd7222d2f9fd1019575834a6df351bd8"
+    },
+    {
+      "path": "rules/ordered/00040-youtube.list",
+      "bytes": 127,
+      "sha256": "777de0da12c48e9f71bcc095b0c91d38597ccb20362705856c0a47bd1db9fcb3"
+    },
+    {
+      "path": "rules/ordered/00041-ai_other.list",
+      "bytes": 532,
+      "sha256": "0cfc3a674c1bb0b34ee95f58189a97fd7ceb3cc7e3163dcc26ed6276fc6bf4d9"
+    },
+    {
+      "path": "rules/ordered/00042-apple_store.list",
+      "bytes": 201,
+      "sha256": "9fc90c047128a05be62e72f2ef3fcbf278d26df04318dfcb4a107753f984547f"
+    },
+    {
+      "path": "rules/ordered/00043-gaming_services.list",
+      "bytes": 361,
+      "sha256": "58b4087b16f9dc587b067e9ec080d1e7b8917d47bdd42edd398b5200b4a26861"
+    },
+    {
+      "path": "rules/ordered/00044-general_overseas.list",
+      "bytes": 339,
+      "sha256": "a437f3b905017cab47c2291fa206044f023e517ce67925e5bf32abae89bbe40e"
+    },
+    {
+      "path": "rules/ordered/00045-block.list",
+      "bytes": 191,
+      "sha256": "ce609c98a9c12d9fd7ee703b671fcd08f814b9fa8f5299c2fad2aa4b52ca262d"
+    },
+    {
+      "path": "rules/ordered/00046-direct.list",
+      "bytes": 1272,
+      "sha256": "2a20b8286bbc1303cbeae4b91c7f28ecfbd38710b8b4af8386d26d8017cba2fc"
+    },
+    {
+      "path": "rules/ordered/00047-openai_anthropic.list",
+      "bytes": 442,
+      "sha256": "21fe240b65c911b28658ae8c139886b81252787a71187e40b9308aa1e3ddf151"
+    },
+    {
+      "path": "rules/ordered/00048-google_play.list",
+      "bytes": 120,
+      "sha256": "f38bc177dce4df5c9244937474e0a8a9cec163f5927acd922a9985e93f09f310"
+    },
+    {
+      "path": "rules/ordered/00049-viutv.list",
+      "bytes": 205,
+      "sha256": "880b58548027a03555661aec9fb449cdefaad5b73a54c1889a5e0054eb03a585"
+    },
+    {
+      "path": "rules/ordered/00050-dmm.list",
+      "bytes": 70,
+      "sha256": "9a66c6e53cb36083d8c706c2989609b11b678e347d26196196099d7bda750e8c"
+    },
+    {
+      "path": "rules/ordered/00051-hulu_japan.list",
+      "bytes": 111,
+      "sha256": "305f2f1a95b1eb62e81bf17443b3d04110b1b4cd690f5dc437e79573eeecf7e7"
+    },
+    {
+      "path": "rules/ordered/00052-github_bulk.list",
+      "bytes": 317,
+      "sha256": "cf6069a6c53a6dbe451dbc07c1273a263ca3fd0200be910a6b6b824504449bf2"
+    },
+    {
+      "path": "rules/ordered/00053-overseas_download.list",
+      "bytes": 730,
+      "sha256": "23c253b2b40a83395333970c08a875a1542da2d9c01f6db545972768311f057d"
+    },
+    {
+      "path": "rules/ordered/00054-streaming_other.list",
+      "bytes": 97,
+      "sha256": "78e7706bf296193d798af39897726231b48de9d0618003f50871c86081324dc3"
+    },
+    {
+      "path": "rules/ordered/00055-ai_other.list",
+      "bytes": 496,
+      "sha256": "b3d739dd0f8eab7fb49ffb72a78bdc831d29b1b6903f33babd7f0ee5bc63c962"
+    },
+    {
+      "path": "rules/ordered/00056-cloud_sync.list",
+      "bytes": 244,
+      "sha256": "18a2c2f2e55570084e9e0cde96933193b69d6b016e38306bb7377ae8f541a099"
+    },
+    {
+      "path": "rules/ordered/00057-crypto.list",
+      "bytes": 104,
+      "sha256": "f9bd004ad31be77c8163b427d607ee9cc94cf2499e9f7e7a48814b553bb108ce"
+    },
+    {
+      "path": "rules/ordered/00058-apple_store.list",
+      "bytes": 83,
+      "sha256": "4f5bb30b014d3efc84b1e2896c577eb8b4b817e675e4bf9d88381413260af5c5"
+    },
+    {
+      "path": "rules/ordered/00059-gaming_services.list",
+      "bytes": 146,
+      "sha256": "439f7079480791567a5a232f7cd8c0a77ea7e81f56d8282d0d43ba93097a73ee"
+    },
+    {
+      "path": "rules/ordered/00060-shared_services.list",
+      "bytes": 232,
+      "sha256": "e15f4620ac4047ba8889231e9dffbd0586ce9af7add3ab65f2f0de3b5c0f4ee1"
+    },
+    {
+      "path": "rules/ordered/00061-general_overseas.list",
+      "bytes": 15457,
+      "sha256": "a436167128c69d00fd816cbce88779f7cc3b97fbe8be38b61db3a10b5645c94f"
+    },
+    {
+      "path": "rules/ordered/00062-block.list",
+      "bytes": 20057,
+      "sha256": "082c52c10e0c8d6ec05ae3ad6d20a662d81930effeefed17d4d783e8ec6eb2f9"
+    },
+    {
+      "path": "rules/ordered/00063-direct.list",
+      "bytes": 16846,
+      "sha256": "b45eaf88d0efa5381c5a8d39d3464fd2f3990e8e5c082263e9b3328246a3c5b3"
+    },
+    {
+      "path": "rules/ordered/00064-openai_anthropic.list",
+      "bytes": 307,
+      "sha256": "c87442cc6da74d54c8704307184042a1f3ca3159ec8ffd548cf5ce9e520f3c41"
+    },
+    {
+      "path": "rules/ordered/00065-mytvsuper.list",
+      "bytes": 102,
+      "sha256": "60d98ec93c08ce8ecea215c93bcfd7f55ffe6922a49834e7e71f91e1538028a2"
+    },
+    {
+      "path": "rules/ordered/00066-viutv.list",
+      "bytes": 91,
+      "sha256": "123b378582023741e338449600c1dd1a8ab492035315f214e672a1115767f367"
+    },
+    {
+      "path": "rules/ordered/00067-hbo_go_hk.list",
+      "bytes": 133,
+      "sha256": "77ae3f12fedc768cd6d933e648b065687986559dfde664bf1d8651d6a5fb1bcc"
+    },
+    {
+      "path": "rules/ordered/00068-dmm.list",
+      "bytes": 397,
+      "sha256": "c27d952bdad9a9122d59c8f311005ac135ec2deaaf3d158e4eab0965099449d2"
+    },
+    {
+      "path": "rules/ordered/00069-abematv.list",
+      "bytes": 145,
+      "sha256": "940e78eb61d07be1be9a1721f4ee26ca1a95c4a1cdfa4118cc71ab2828c50cba"
+    },
+    {
+      "path": "rules/ordered/00070-hulu_japan.list",
+      "bytes": 153,
+      "sha256": "266f6431eac1e9d3f76b9210c1c8e7f3a6a7cfe37172804fbf52dbfdba7953ed"
+    },
+    {
+      "path": "rules/ordered/00071-niconico.list",
+      "bytes": 123,
+      "sha256": "c0591e133a072a1fc5a8aee09b284f525000906b76287fe9adf685b02cf9bcfd"
+    },
+    {
+      "path": "rules/ordered/00072-pixiv.list",
+      "bytes": 120,
+      "sha256": "0f50e75b7cbbca4df43a86e1037ff4bbdac16e541ab7f9afd9e12e154aed9c68"
+    },
+    {
+      "path": "rules/ordered/00073-adult_content.list",
+      "bytes": 2251,
+      "sha256": "820017ca44cb58fd76d3476831aef5b6bc03b41f3996059219ce201112ab5d73"
+    },
+    {
+      "path": "rules/ordered/00074-github_web_api.list",
+      "bytes": 252,
+      "sha256": "d6974a9814da468731dfb3b4ceb751f66d3fab90736ff04a6e25ee738d2273e5"
+    },
+    {
+      "path": "rules/ordered/00075-overseas_download.list",
+      "bytes": 831,
+      "sha256": "3815c309aad991a08909495c292637c3457a09e1cc8caa335d4d19167f030794"
+    },
+    {
+      "path": "rules/ordered/00076-youtube.list",
+      "bytes": 328,
+      "sha256": "74ed25cb61b26ba4736ade63b0333704f92d986c2c6a9b3320ba38c57956f4f8"
+    },
+    {
+      "path": "rules/ordered/00077-streaming_other.list",
+      "bytes": 186,
+      "sha256": "5463db99f78b072e9b388e00e5d08b2f39873c77c20889dfef80fdac72b2c439"
+    },
+    {
+      "path": "rules/ordered/00078-netflix.list",
+      "bytes": 596,
+      "sha256": "3a7a623e692463ce6badb928ef1204ee6ed74b852de1c7474485fdb13a2cfa2a"
+    },
+    {
+      "path": "rules/ordered/00079-spotify.list",
+      "bytes": 202,
+      "sha256": "d037a6f94a34065018a5ac871a1bba428b5bae64c21719fcf5767a8448eb8765"
+    },
+    {
+      "path": "rules/ordered/00080-ai_other.list",
+      "bytes": 836,
+      "sha256": "79f645b3442815d8077785aab4392d3a239cbc6de36df3b19351ee378b58fb35"
+    },
+    {
+      "path": "rules/ordered/00081-cloud_sync.list",
+      "bytes": 219,
+      "sha256": "32db6ec70a6ad58a392938892be71b119a4e888e07636aa8aaaa119850f7fae8"
+    },
+    {
+      "path": "rules/ordered/00082-microsoft_services.list",
+      "bytes": 2039,
+      "sha256": "337dfbdf3738daedea8be498850ead13d80b4a047307ba1818e27198ccc2ec1c"
+    },
+    {
+      "path": "rules/ordered/00083-telegram.list",
+      "bytes": 200,
+      "sha256": "296dd60db3dcc688654d51cda54347f5fd199f9a4156d0117e807a8dcca3ae5a"
+    },
+    {
+      "path": "rules/ordered/00084-crypto.list",
+      "bytes": 1320,
+      "sha256": "580de4b316bf7f3636a91ae4112916a7ee1b2a9079000131bed594550b0923a6"
+    },
+    {
+      "path": "rules/ordered/00085-mining.list",
+      "bytes": 294,
+      "sha256": "ba3b09e3971311f813e19c2969098be6acdd048e09cbc277f490ee634b03fd83"
+    },
+    {
+      "path": "rules/ordered/00086-gaming_services.list",
+      "bytes": 791,
+      "sha256": "c9c99cd386b6770dee79d409de7828a2b8010292afa0e5f3cf3d67226f90a8c5"
+    },
+    {
+      "path": "rules/ordered/00087-shared_services.list",
+      "bytes": 365,
+      "sha256": "d141b927c40973f5db062a36ca667e0a51dd75ac23fded865308d6217a49714d"
+    },
+    {
+      "path": "rules/ordered/00088-general_overseas.list",
+      "bytes": 161394,
+      "sha256": "85ee874e952c6e7e62e82e4999cc9e566646e83e029124dce97f9a85c2f577f8"
+    },
+    {
+      "path": "rules/ordered/00089-block.list",
+      "bytes": 15276,
+      "sha256": "58c7b6e747d71c39a59d3815a89b745d7a3e9da022196ac594804c818fc03bf1"
+    },
+    {
+      "path": "rules/ordered/00090-direct.list",
+      "bytes": 281,
+      "sha256": "b509394585926ffef25fb50cb914966e49f5b2f9a7c1678b73547cfe8d40f2d3"
+    },
+    {
+      "path": "rules/ordered/00091-general_overseas.list",
+      "bytes": 212,
+      "sha256": "1401b03e7242bff049f05ee8290f16d77fd10a87dccd7307a5c1e6748fd6eed9"
+    },
+    {
+      "path": "rules/ordered/00092-block.list",
+      "bytes": 72,
+      "sha256": "cb7099adca635daa95db9eb3e140ca69e0ecefafd490ea26ad62f3b2cc6e8ae5"
+    },
+    {
+      "path": "rules/ordered/00093-direct.list",
+      "bytes": 17935,
+      "sha256": "9de7d1bcb30da49650763729002253f6e2162733fcb2a06237d6e096e3014ae1"
+    },
+    {
+      "path": "rules/ordered/00094-telegram.list",
+      "bytes": 167,
+      "sha256": "0961417a8e7eb627d56fe3212c60e13b10c49fe0e922287ebcae9821f615dae5"
+    },
+    {
+      "path": "rules/ordered/00095-direct.list",
+      "bytes": 30511,
+      "sha256": "1c33f61bc03a2f684a0592f6120307be8d5d1abf8bcb43f92f547fadcd1af1a9"
+    },
+    {
+      "path": "rules/ordered/00096-general_overseas.list",
+      "bytes": 1513,
+      "sha256": "4f1ec53a384a98637d4f1c407d41614fb97470fe7d15ce77006627ab5c36e5bd"
+    },
+    {
+      "path": "rules/ordered/00097-block.list",
+      "bytes": 709,
+      "sha256": "95cfa1b13f36a57be93b97b4b8316b16383705d3625550abb971f56d2f7536b6"
+    },
+    {
+      "path": "rules/ordered/00098-direct.list",
+      "bytes": 86357,
+      "sha256": "6be1c68f62f04e9353245cc4779359159ac8d7424f53c88522aaff615190ed09"
+    },
+    {
+      "path": "rules/ordered/00099-netflix.list",
+      "bytes": 149,
+      "sha256": "1d0d6d2a3fb5e47ae720ab636d00d461c8800fc8d6396d2cb34d04918af83eff"
+    },
+    {
+      "path": "rules/ordered/00100-telegram.list",
+      "bytes": 87,
+      "sha256": "43b08d98f61b216f3ab41f5ca4ba3c38531cc761deb3526319757c4302ba02c5"
+    },
+    {
+      "path": "rules/ordered/00101-general_overseas.list",
+      "bytes": 266,
+      "sha256": "75727513a6df0634fb096fefcca855a5fa1f037dea91923e1674afaa526fddc3"
+    },
+    {
+      "path": "rules/ordered/00102-block.list",
+      "bytes": 84,
+      "sha256": "2e8bdbb4f4e70f67c4c6c6148ba42c1de079f0e8609f032494a8d03505064ed7"
+    },
+    {
+      "path": "rules/ordered/00103-direct.list",
+      "bytes": 93385,
+      "sha256": "7d3b6dc90c22b0fa2766dc65c17467647d718333425d70ab795d35dc737f68b4"
+    },
+    {
+      "path": "rules/ordered/00104-netflix.list",
+      "bytes": 221,
+      "sha256": "d4d3678f0ed3534254d4d424bcc624fed439f229b6ff0704b1be4b76f84d6b7d"
+    },
+    {
+      "path": "rules/ordered/00105-general_overseas.list",
+      "bytes": 267,
+      "sha256": "5e6d441f482dd32530f74692ac99b65870d74aa6093716bca0119730254b6b73"
+    },
+    {
+      "path": "rules/ordered/00106-direct.list",
+      "bytes": 24864,
+      "sha256": "cb11274228d63589ce942276fd78db1ca5e74ef4679ec1913e6463cacdb82d55"
+    },
+    {
+      "path": "rules/ordered/00107-netflix.list",
+      "bytes": 84,
+      "sha256": "94f99b0306a520a831ee2ae92700856b7f6531295689873dff910f7913d66bc7"
+    },
+    {
+      "path": "rules/ordered/00108-direct.list",
+      "bytes": 16677,
+      "sha256": "2ea5b65ce298fca48c24a57bf2d47992d4960952c7589373cc525ad494ea1940"
+    },
+    {
+      "path": "rules/ordered/00109-netflix.list",
+      "bytes": 119,
+      "sha256": "d10b3a5b442e179cbce79160b6729765664838ef42b349181b739661670cd149"
+    },
+    {
+      "path": "rules/ordered/00110-telegram.list",
+      "bytes": 121,
+      "sha256": "39e98bfba1ca1c991581e44493bc7013815000d39f66490e3804c02a8e7d3e94"
+    },
+    {
+      "path": "rules/ordered/00111-direct.list",
+      "bytes": 12008,
+      "sha256": "05e7f4c72357d6fb4c0f026a727191d4c9cea5afd2ebe0e5721554a4a6c6ab8a"
+    },
+    {
+      "path": "rules/ordered/00112-netflix.list",
+      "bytes": 118,
+      "sha256": "bca96769325c3c1f959699fd63865f8a81fc93a5ec38857841abdf845fca4aca"
+    },
+    {
+      "path": "rules/ordered/00113-direct.list",
+      "bytes": 7812,
+      "sha256": "efe795185c3a8abf9ce0315646f6a8e40102bd5b9d755bf42559449e067edef2"
+    },
+    {
+      "path": "rules/ordered/00114-netflix.list",
+      "bytes": 118,
+      "sha256": "3fc73ef2714c8e7524355c2f6486ba37d6f57d5219f70740276c8532e245c9fe"
+    },
+    {
+      "path": "rules/ordered/00115-direct.list",
+      "bytes": 5591,
+      "sha256": "6b55a1cfae0f0cc63b0cb8dab964774d67e139aad62bc6b049ebd909632fb563"
+    },
+    {
+      "path": "rules/ordered/00116-netflix.list",
+      "bytes": 152,
+      "sha256": "83433f7e5a7da812a245c26f09be2b09c1743cb6adef78d27be4bf491867802a"
+    },
+    {
+      "path": "rules/ordered/00117-general_overseas.list",
+      "bytes": 91,
+      "sha256": "caa3c52b4a3f8930859cecb886e5ec49f21edf11f4aea4a6019e6d2f9f5ea06a"
+    },
+    {
+      "path": "rules/ordered/00118-direct.list",
+      "bytes": 9214,
+      "sha256": "32ae9e7a5bd2e9d51186706520c49025344ff5f254c78bdfff5642e778abb75e"
+    },
+    {
+      "path": "rules/ordered/00119-telegram.list",
+      "bytes": 84,
+      "sha256": "017701aa93c89d5259de7e202a5f29a9880e68f546ab6437114067412fcc939a"
+    },
+    {
+      "path": "rules/ordered/00120-apple_store.list",
+      "bytes": 85,
+      "sha256": "6aad190bbb478a5e00bf5116325bf12d4882127bdd06c162be470eba5b2a5c93"
+    },
+    {
+      "path": "rules/ordered/00121-general_overseas.list",
+      "bytes": 155,
+      "sha256": "60151b77976ad25ded618eeb024c1760081a200fcd28f20efbf9c8bad0cd1bb5"
+    },
+    {
+      "path": "rules/ordered/00122-direct.list",
+      "bytes": 6513,
+      "sha256": "8b23ea0ea30662545590c0baaceddc7f4b47a618c5165178f28f246ed932e796"
+    },
+    {
+      "path": "rules/ordered/00123-general_overseas.list",
+      "bytes": 221,
+      "sha256": "314cf9d0b2f5fff658fa3d20bcc7eaf58a8b8db0be511b577b8fb97e68cff318"
+    },
+    {
+      "path": "rules/ordered/00124-direct.list",
+      "bytes": 5238,
+      "sha256": "8830c59f2b3baaf25ee63c2d7240f841aa72c532becb2432e11843d7df3a47d5"
+    },
+    {
+      "path": "rules/ordered/00125-general_overseas.list",
+      "bytes": 125,
+      "sha256": "dae24251b1b4d4aa131d7be08fdd59b3241bec47ea7dc1ebfb3f2de615becb6b"
+    },
+    {
+      "path": "rules/ordered/00126-direct.list",
+      "bytes": 3436,
+      "sha256": "45a07c9103fd8efff25572058010483f42b479d83cabfa795b6d63df965c6cce"
+    },
+    {
+      "path": "rules/ordered/00127-general_overseas.list",
+      "bytes": 125,
+      "sha256": "544d592842a8a490d30c4fda50abf0d178ddd87202db010b22b3ca47807e29d3"
+    },
+    {
+      "path": "rules/ordered/00128-direct.list",
+      "bytes": 4399,
+      "sha256": "eee221340be12c7cbc41926bb48b3ff39a98044fb563649a8bab8aa826653550"
+    },
+    {
+      "path": "rules/overseas_download.list",
+      "bytes": 1872,
+      "sha256": "622b896dea026b78c26a0624902a7858a6aae36c3062d1f0b67173487a249185"
+    },
+    {
+      "path": "rules/pixiv.list",
+      "bytes": 102,
+      "sha256": "fa2647ad214aff3fb82b32ce3d3b9da440c6ba2618a64f1ca5382bf1b7e377b6"
+    },
+    {
+      "path": "rules/shared_services.list",
+      "bytes": 521,
+      "sha256": "447ca9c41611800060ed28f7ba9ea25fb497b2f0c8814b49d3688bd9d06d613e"
+    },
+    {
+      "path": "rules/spotify.list",
+      "bytes": 184,
+      "sha256": "2987005cdc529e44a3f52b60c91aa2de1d364e72431c523dde1aec3c11b08ebd"
+    },
+    {
+      "path": "rules/streaming_other.list",
+      "bytes": 207,
+      "sha256": "551b093c3865aa7a302c68357eaac09cecfee7416a3f4233483eaf264ee3fe9a"
+    },
+    {
+      "path": "rules/telegram.list",
+      "bytes": 437,
+      "sha256": "dfe47c37c3903f8db99b97e45cb6bee628648590dc892cfcbb5e93eff32153f3"
+    },
+    {
+      "path": "rules/viutv.list",
+      "bytes": 472,
+      "sha256": "2990b9c69926b87f755ae6bc6f81390ea0b6e1953834749e0e05dd04d502275b"
+    },
+    {
+      "path": "rules/youtube.list",
+      "bytes": 387,
+      "sha256": "7603f97ced1a22d7fb2fadbc9f6dc3e1cdb5b89cc60db6f06f485576bf21cf5d"
+    },
+    {
+      "path": "virgil-candidate.ini",
+      "bytes": 31433,
+      "sha256": "768df9a21deafe8fcaf639aaa428342ee4ab62e46bed901424063c6f13bbf9b1"
+    }
+  ]
+}
