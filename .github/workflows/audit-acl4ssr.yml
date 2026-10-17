@@ -7,6 +7,7 @@ on:
       - 'scripts/audit_acl4ssr.py'
       - 'scripts/build_business_rules.py'
       - 'scripts/generate_candidate_ini.py'
+      - 'scripts/publish_candidate_references.py'
       - 'policy/business-draft.json'
       - 'policy/business-layout.json'
       - '.github/workflows/audit-acl4ssr.yml'
@@ -14,7 +15,7 @@ on:
     workflows: ['Sync ACL4SSR Repository']
     types: [completed]
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: acl4ssr-draft-audit
   cancel-in-progress: false
@@ -27,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          persist-credentials: false
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -37,24 +38,48 @@ jobs:
         run: git rev-parse HEAD
       - name: Generate business-oriented candidate rules
         run: python scripts/build_business_rules.py --seed policy/business-draft.json --layout policy/business-layout.json --output business-output
-      - name: Generate self-contained candidate INI
-        run: python scripts/generate_candidate_ini.py --input business-output
+      - name: Generate reference INI and versioned candidate rules
+        id: export
+        run: python scripts/publish_candidate_references.py --input business-output --publish-root candidates
+      - name: Publish candidates only to main
+        id: publish
+        run: |
+          set -euo pipefail
+          git add --all -- candidates/
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            echo 'Candidate publication unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: publish reference-only candidate INI and rules'
+          git push origin HEAD:main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
       - name: Publish report to run summary
         if: always()
+        env:
+          EXPORT_RESULT: ${{ steps.export.outcome }}
+          PUBLISH_RESULT: ${{ steps.publish.outcome }}
+          PUBLISHED_SHA: ${{ steps.publish.outputs.sha }}
         run: |
           if test -f business-output/REPORT.md; then
             cat business-output/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+          printf '\n引用生成状态：%s；仓库发布状态：%s\n' "$EXPORT_RESULT" "$PUBLISH_RESULT" >> "$GITHUB_STEP_SUMMARY"
+          if test "$PUBLISH_RESULT" != 'success'; then
+            echo '未确认候选规则 URL 已发布；请查看错误，不要将本轮当作成功发布。' >> "$GITHUB_STEP_SUMMARY"
+          elif test -n "$PUBLISHED_SHA"; then
+            printf '\n候选发布提交：%s\n' "$PUBLISHED_SHA" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo '解析或业务分类未完成，请查看日志。' >> "$GITHUB_STEP_SUMMARY"
+            echo '候选内容无变化，未创建空提交。' >> "$GITHUB_STEP_SUMMARY"
           fi
-          if ! test -f business-output/ini-validation.json; then
-            echo '候选 INI 未通过生成检查；不能视为已完成。' >> "$GITHUB_STEP_SUMMARY"
-          fi
-      - name: Upload audit, business rules and candidate INI
+      - name: Upload audit and reference INI
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: acl4ssr-business-ini-${{ github.run_id }}-${{ github.run_attempt }}
+          name: acl4ssr-reference-ini-${{ github.run_id }}-${{ github.run_attempt }}
           path: business-output/
           retention-days: 30
           if-no-files-found: error
