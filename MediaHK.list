@@ -208,8 +208,6 @@ DOMAIN-SUFFIX,tvb.com
 
 # Niconico
 DOMAIN-SUFFIX,dmc.nico
-DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,nimg.jp
 
 # NivodTV
 DOMAIN-KEYWORD,nivod
@@ -236,8 +234,6 @@ DOMAIN-SUFFIX,olevod.tv
 DOMAIN-SUFFIX,olevodtv.com
 
 # Pixiv
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,fanbox.cc
 
 # Qobuz

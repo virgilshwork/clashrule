@@ -1,6 +1,6 @@
 # 内容：JPN列表
-# 更新：
-# 数量：
+# 更新：2026-10-17
+# 数量：24
 
 # AbemaTV
 DOMAIN-KEYWORD,abematv.akamaized.net
@@ -17,3 +17,20 @@ DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,yb.uncn.jp
+
+
+# 2026-10-17 变更：补齐日本下载/访问类域名 —— pixiv/niconico 由 MediaHK 迁入，
+#   dmm/dlsite 由 ProxyGFWlist 迁入，新增 bookwalker/melonbooks 与日本学术镜像。
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,dlsite.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,bookwalker.jp
+DOMAIN-SUFFIX,melonbooks.co.jp
+DOMAIN-SUFFIX,jaist.ac.jp
+DOMAIN-SUFFIX,riken.jp
+DOMAIN-SUFFIX,tsukuba.wide.ad.jp
+DOMAIN-SUFFIX,yamagata-u.ac.jp
