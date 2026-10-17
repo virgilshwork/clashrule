@@ -1,0 +1,798 @@
+{
+  "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
+  "commit": "575637df38884575bfa523e95c17d0ee3be1676c",
+  "source_path": "Clash/Ruleset/",
+  "file_count": 158,
+  "files": [
+    {
+      "path": "Clash/Ruleset/360.list",
+      "bytes": 228,
+      "sha256": "0d47e9caa510da78abfcc53a252596245434d99a8eae9751cddcdae824f753e2"
+    },
+    {
+      "path": "Clash/Ruleset/4399.list",
+      "bytes": 131,
+      "sha256": "ede875fe82516ee6786d2687cf78621c5240cfcae0f3448f3744610bd2dccef1"
+    },
+    {
+      "path": "Clash/Ruleset/58.list",
+      "bytes": 50,
+      "sha256": "25949ccfba60e0b7e0e5c36589d675a358411fd423ac2711f2c9b8253edb10ca"
+    },
+    {
+      "path": "Clash/Ruleset/ABC.list",
+      "bytes": 78,
+      "sha256": "f6baa2f1726c8e2f8cffe9e0c39266a8991ad7fbafade42ba4fe706e46530d96"
+    },
+    {
+      "path": "Clash/Ruleset/AI.list",
+      "bytes": 1456,
+      "sha256": "63e70895ac8c04c3b28965dc0b4ba9ceb3a1313a66b49487ed96005debc97e1e"
+    },
+    {
+      "path": "Clash/Ruleset/AbemaTV.list",
+      "bytes": 166,
+      "sha256": "61a28c50b11bf884fc34f7c72c9802b1185c9f5433131185926f6a731168ab3d"
+    },
+    {
+      "path": "Clash/Ruleset/AccelerateDirectSites.list",
+      "bytes": 6320,
+      "sha256": "0bdca104dbc89e3eb953779c9e25a4afa9948e68990fc3be9c21b06961b0ad42"
+    },
+    {
+      "path": "Clash/Ruleset/Adobe.list",
+      "bytes": 1004,
+      "sha256": "a696f2826123c16304f5d64752ec25432590328e83243c5ec284012870439f76"
+    },
+    {
+      "path": "Clash/Ruleset/Alibaba.list",
+      "bytes": 1113,
+      "sha256": "21bbf9777b478977576dd584a56e4e306a4903a00d478a14e4b907ba7c68b43b"
+    },
+    {
+      "path": "Clash/Ruleset/All4.list",
+      "bytes": 85,
+      "sha256": "dfc4382b1befa0d99786d12a5610bfe2ac70a946845b489a78dadd43c427f02f"
+    },
+    {
+      "path": "Clash/Ruleset/Amazon.list",
+      "bytes": 1364,
+      "sha256": "b41ab9351f09f40cc3627e054cf48ec2c2a5fe77d5829a3fe98c5ed1de0f75ed"
+    },
+    {
+      "path": "Clash/Ruleset/AmazonIp.list",
+      "bytes": 55903,
+      "sha256": "f3f96d0fa1bccffd32c22364052a077fe3e0da62abd9a3ec00a21ae06fdf0a8d"
+    },
+    {
+      "path": "Clash/Ruleset/Apple.list",
+      "bytes": 896,
+      "sha256": "64a03502767dfe3dece425c3578b9bd239eeb7dddfef3fb9c3561238c62a289b"
+    },
+    {
+      "path": "Clash/Ruleset/AppleNews.list",
+      "bytes": 66,
+      "sha256": "8638d1c480676c3e76513e7b65db315f67595991d52cede0d216630fdbc3bde8"
+    },
+    {
+      "path": "Clash/Ruleset/AppleTV.list",
+      "bytes": 127,
+      "sha256": "08c0862f35c838a7d8a46200dc114d0581f719f3be0847fbfe2b8bdadd687747"
+    },
+    {
+      "path": "Clash/Ruleset/BBC.list",
+      "bytes": 96,
+      "sha256": "6ff6e590a7c43d8f0e53d58b6600be6ee52b15be66b0d9925f1316022ffeccc4"
+    },
+    {
+      "path": "Clash/Ruleset/BBCiPlayer.list",
+      "bytes": 434,
+      "sha256": "c481556be92fed34a1683032dadb73999ae63dc42df5481bedcf4eec8132b7b4"
+    },
+    {
+      "path": "Clash/Ruleset/Bahamut.list",
+      "bytes": 182,
+      "sha256": "5c2b875abd3cec4d11612af639163a9b9f68c5828ad42793e7f21bc50f75169c"
+    },
+    {
+      "path": "Clash/Ruleset/Baidu.list",
+      "bytes": 351,
+      "sha256": "d61cd83e16df6dad4080cd08318507f33694301eba402a4e9c328da82fd2aa34"
+    },
+    {
+      "path": "Clash/Ruleset/Bilibili.list",
+      "bytes": 574,
+      "sha256": "3d111a3c69cb332cdec9c6283acbc9e0c17a62cc25abf43a3390e1667c6861dc"
+    },
+    {
+      "path": "Clash/Ruleset/BilibiliHMT.list",
+      "bytes": 795,
+      "sha256": "074d94bc66219f7a229a0ddc7150e3befb088b4fbbe3312dc3f95456b2fef96c"
+    },
+    {
+      "path": "Clash/Ruleset/Binance.list",
+      "bytes": 279,
+      "sha256": "079d72d772feb77f94f5520b4e677297ad14bb864021689ea0050620e944ea44"
+    },
+    {
+      "path": "Clash/Ruleset/Bing.list",
+      "bytes": 90,
+      "sha256": "7363e77d2df2147cdbe2a4c744223ee013008d0d789e2fd684f1e938faff5950"
+    },
+    {
+      "path": "Clash/Ruleset/Blizzard.list",
+      "bytes": 115,
+      "sha256": "caafd196e1bde9c9d0d31806d2c49ca8d63cbadb036788e83b2134f64326e182"
+    },
+    {
+      "path": "Clash/Ruleset/ByteDance.list",
+      "bytes": 1248,
+      "sha256": "57b0e4b2e097c75651edea12f365eef711e35276fd4ce3721b04ebe445afa82f"
+    },
+    {
+      "path": "Clash/Ruleset/CCTV.list",
+      "bytes": 108,
+      "sha256": "be750adc4ef71045680f783e11232a506bf3a25427e3f383150e018ffe9cc8c1"
+    },
+    {
+      "path": "Clash/Ruleset/CN.list",
+      "bytes": 134,
+      "sha256": "36e4e63aeedfda3ad3509e0187f986dc1fc30582ea7fe5c9831e9d76d5a2a1a3"
+    },
+    {
+      "path": "Clash/Ruleset/ChinaDNS.list",
+      "bytes": 145,
+      "sha256": "0342026933a93f1d6d2d563edf1a82c400c5032e36f77cb18461bba7d0137bd3"
+    },
+    {
+      "path": "Clash/Ruleset/ChinaNet.list",
+      "bytes": 58,
+      "sha256": "cf0a66fd822fa0afe1852405b841c996b415f3baf34c65b1e5dafc11633dbdaf"
+    },
+    {
+      "path": "Clash/Ruleset/ChinaOneKeyLogin.list",
+      "bytes": 459,
+      "sha256": "0d1597bc73081c7bc7d336a9de702522541a0988dbb4313f3e8c843985873615"
+    },
+    {
+      "path": "Clash/Ruleset/Claude.list",
+      "bytes": 85,
+      "sha256": "3ac0f58fad5d1fe7067e4c0bd598ca84b9497597fc95f6473e5e1c00c31f3948"
+    },
+    {
+      "path": "Clash/Ruleset/ClaudeAI.list",
+      "bytes": 86,
+      "sha256": "b045e6b84e1e22ca28e15ef9358b7305ea9d639eb4be05a1a2f8e8820dd1820f"
+    },
+    {
+      "path": "Clash/Ruleset/Crypto.list",
+      "bytes": 7620,
+      "sha256": "c2d91de7270642af82c416cdd5ba439dc9cbc4d4dd9bff20633ecd6213445741"
+    },
+    {
+      "path": "Clash/Ruleset/DAZN.list",
+      "bytes": 372,
+      "sha256": "b05e82b7683346b14a4aebb0258fce5b33a08c669102fd789ccbeefbae8981d9"
+    },
+    {
+      "path": "Clash/Ruleset/Deezer.list",
+      "bytes": 82,
+      "sha256": "58a9ea6ceb4772c45a75c796c381da850c8d83d4c2efcb51ae04f3a4c2d9ad0c"
+    },
+    {
+      "path": "Clash/Ruleset/Developer.list",
+      "bytes": 594,
+      "sha256": "da78117d6be3e7fc8d67f35b8c74c72ab1e9ffb57c2d693809bf0cd731f40e33"
+    },
+    {
+      "path": "Clash/Ruleset/DiDi.list",
+      "bytes": 113,
+      "sha256": "6a77bffedf881bb526329822ad88bb78275d490da5f0eaacec6e15bd2b948136"
+    },
+    {
+      "path": "Clash/Ruleset/Discord.list",
+      "bytes": 196,
+      "sha256": "28d8fa4fbdfc3142acfd29a0ad8796cf33a399806102bfbc1fc5d50dbe80ad76"
+    },
+    {
+      "path": "Clash/Ruleset/DiscoveryPlus.list",
+      "bytes": 121,
+      "sha256": "0b400b773657672141ed8cdb893793bdaf1c6d1570d71cbabb0dbdf42d9a60d8"
+    },
+    {
+      "path": "Clash/Ruleset/DisneyPlus.list",
+      "bytes": 710,
+      "sha256": "97200f549abb5bbb72909abc58afbffdb1f42f35cbcc35366eaf873905e007c6"
+    },
+    {
+      "path": "Clash/Ruleset/Dmm.list",
+      "bytes": 406,
+      "sha256": "4355bfe0bc7b78928f822922e983f316bf1503fe1c7f245be3d5cb6c084e49ff"
+    },
+    {
+      "path": "Clash/Ruleset/Docker.list",
+      "bytes": 251,
+      "sha256": "be7d981832e3e168a13e23faf25886f17922b1b7ab08d24655ac2092c67d8be5"
+    },
+    {
+      "path": "Clash/Ruleset/Douyu.list",
+      "bytes": 221,
+      "sha256": "9b6ef4143b33f4e3c6460cdade7171c5c6d80b55f8d4f8a6b91f968f26f9cd41"
+    },
+    {
+      "path": "Clash/Ruleset/Download.list",
+      "bytes": 893,
+      "sha256": "7c2c240097658b85667d04160c4c5be10ba46e06a55c6f10a03ffa08d5fbddf9"
+    },
+    {
+      "path": "Clash/Ruleset/Dubox.list",
+      "bytes": 83,
+      "sha256": "de793ad5a6962068b481331a4399a891fb2679c9799453f958c6f97411980789"
+    },
+    {
+      "path": "Clash/Ruleset/EHGallery.list",
+      "bytes": 205,
+      "sha256": "2e295eee488eb4f119d7319ff735001c5804e4b27bde5b876e5f3a3afcbfd643"
+    },
+    {
+      "path": "Clash/Ruleset/EncoreTVB.list",
+      "bytes": 189,
+      "sha256": "aafbf48c651afd6b98c1466321f563eee67fcf5ac8483c1692a3b5e444a40441"
+    },
+    {
+      "path": "Clash/Ruleset/Epic.list",
+      "bytes": 204,
+      "sha256": "b0288addbceed03366cc793b4254168fe9e6e7c9fa54875026fb772adb5ba31d"
+    },
+    {
+      "path": "Clash/Ruleset/F1.list",
+      "bytes": 2103,
+      "sha256": "2feed4a75d25d41afc8ee3994fd578022652fe54f5548d0c57ca32562a5e6348"
+    },
+    {
+      "path": "Clash/Ruleset/Facebook.list",
+      "bytes": 674,
+      "sha256": "963f9a96c042d3308717553a85937f149a70b8f108155e20659ed61fcd580a4b"
+    },
+    {
+      "path": "Clash/Ruleset/FoxNow.list",
+      "bytes": 105,
+      "sha256": "a39e23747e17dab722ef0e1ac1f594c0b15cfa2a3f1280d8fa3d8e7e1a6982d8"
+    },
+    {
+      "path": "Clash/Ruleset/GameDownload.list",
+      "bytes": 699,
+      "sha256": "a60f48cfabe5678c829a9edd619c0e36a1abbc79636718a08abd8ab237beeeb8"
+    },
+    {
+      "path": "Clash/Ruleset/Gemini.list",
+      "bytes": 451,
+      "sha256": "ba743f476d3dc37538f225e2d63b126756a95a1f71ae665de293909e617da451"
+    },
+    {
+      "path": "Clash/Ruleset/Github.list",
+      "bytes": 199,
+      "sha256": "da647aa0833ef543166cf2db88d308ced607e29f8be7ced083a9806fc030809c"
+    },
+    {
+      "path": "Clash/Ruleset/Google.list",
+      "bytes": 671,
+      "sha256": "16b21eebc7a8ab3c08dcdb0f601b5c0b7b4182f46643a6180dfb9bb6fb83bd61"
+    },
+    {
+      "path": "Clash/Ruleset/GoogleCN.list",
+      "bytes": 1655,
+      "sha256": "f6321957b557ea4988eb2584a861fedd0e117866c4ff3892283014415898bb08"
+    },
+    {
+      "path": "Clash/Ruleset/GoogleCNProxyIP.list",
+      "bytes": 749,
+      "sha256": "2404f0bdbcd8f601fff5e3822e14d3726daba3fb8b9ea190ddb24c7d053539d0"
+    },
+    {
+      "path": "Clash/Ruleset/GoogleEarth.list",
+      "bytes": 567,
+      "sha256": "846bda6c3aace0835a2f02fb1b4ddbc54d8b48ea2e621d82c0757456e750b45c"
+    },
+    {
+      "path": "Clash/Ruleset/GoogleFCM.list",
+      "bytes": 1614,
+      "sha256": "f115f84bef66a5aa931fd20f23d6914cdfdfe3d07795d65549d578b91a0f0c48"
+    },
+    {
+      "path": "Clash/Ruleset/HBO.list",
+      "bytes": 154,
+      "sha256": "495d866758a75fce0abeb808690288d2f06ee45fc827be37ca8f3cdf303981ac"
+    },
+    {
+      "path": "Clash/Ruleset/HBO_GO_HKG.list",
+      "bytes": 674,
+      "sha256": "497bb0fe9f82e62448c9ca89757af03259fe7b06c01c83521db49edf9e167536"
+    },
+    {
+      "path": "Clash/Ruleset/HWTV.list",
+      "bytes": 78,
+      "sha256": "7ce67eeb097486a48f6ed25f7dc039d6160554651cb162b29ad23ffbea0bfb25"
+    },
+    {
+      "path": "Clash/Ruleset/Heytap.list",
+      "bytes": 362,
+      "sha256": "1bea1997271be8e48123e446fb6a133b629d8c5d6325a41b75f52ef3d8609a15"
+    },
+    {
+      "path": "Clash/Ruleset/HuaWei.list",
+      "bytes": 298,
+      "sha256": "5d4a327ca8e79c12d1812b93dee614849067513306df794882c40384959dda50"
+    },
+    {
+      "path": "Clash/Ruleset/Hulu.list",
+      "bytes": 234,
+      "sha256": "6d81f662ec3841c3255fd816555ab37995a44bfaaf3eb8f3ef4d9a4b3d069695"
+    },
+    {
+      "path": "Clash/Ruleset/HuluJapan.list",
+      "bytes": 194,
+      "sha256": "1c55a4279da49345bcbbb438f3a01e47df8256eb093c70ed7b4722aaee8ff2f0"
+    },
+    {
+      "path": "Clash/Ruleset/ITV.list",
+      "bytes": 115,
+      "sha256": "0d2172d39e64a7a77da01d8d315cde4f8d2765820634f7e9574969abcdece49b"
+    },
+    {
+      "path": "Clash/Ruleset/Iflytek.list",
+      "bytes": 125,
+      "sha256": "7785ca75a48fabab2c003f231c829434f1fcda8d75081f177848813b05e23e0c"
+    },
+    {
+      "path": "Clash/Ruleset/Instagram.list",
+      "bytes": 145,
+      "sha256": "5795e21123b66df14b234bdfd7ecd450928df0ae89d923f66f53bfb65de839dd"
+    },
+    {
+      "path": "Clash/Ruleset/Iqiyi.list",
+      "bytes": 729,
+      "sha256": "5b71f3e068e217a461f7e83bfb2b2ea0702f96e33466bdedce9e3c05a959a4ef"
+    },
+    {
+      "path": "Clash/Ruleset/IqiyiHMT.list",
+      "bytes": 120,
+      "sha256": "bff53c0e0834c4fb12e8c3be8d74946932321b57514dc3e9bbf858562978ca34"
+    },
+    {
+      "path": "Clash/Ruleset/Iwara.list",
+      "bytes": 55,
+      "sha256": "1ce8b0b0372afce93fa129e7e550a5d9fdeaa2728586eee5682dad6d61f9ef5c"
+    },
+    {
+      "path": "Clash/Ruleset/JD.list",
+      "bytes": 225,
+      "sha256": "1ce12d4d537d8261244f97e83ef3bb6cd2d8347e3aa90316ec31b5d99ca644c0"
+    },
+    {
+      "path": "Clash/Ruleset/JOOX.list",
+      "bytes": 81,
+      "sha256": "59caf943a37a1af26a2aecd662f334ec5d2acb9c891255fa3dc7084d17da9abf"
+    },
+    {
+      "path": "Clash/Ruleset/Japonx.list",
+      "bytes": 281,
+      "sha256": "049cbb4d1e5c01bce17ec5b49d81c29c6b43a9ec3677fbf5a8039e0c5d08e082"
+    },
+    {
+      "path": "Clash/Ruleset/JetBrains.list",
+      "bytes": 447,
+      "sha256": "a2889c046160698eb53c626b580f07a251ed764013a4d679d732c9c07a831324"
+    },
+    {
+      "path": "Clash/Ruleset/KKBOX.list",
+      "bytes": 104,
+      "sha256": "9a3b49d026842a46b4becf2f3f91b5a33fbe8dd614081d2f14ea022745e0c954"
+    },
+    {
+      "path": "Clash/Ruleset/KKTV.list",
+      "bytes": 143,
+      "sha256": "975ed21ea77c19a91c86e4c2c64659ce12864d84df447446dbafe6fae81f970a"
+    },
+    {
+      "path": "Clash/Ruleset/KakaoTalk.list",
+      "bytes": 319,
+      "sha256": "1f244023ed37f9eda2c3047b5dbf1e8bc6f6c83897292de98fe24739a7c6720e"
+    },
+    {
+      "path": "Clash/Ruleset/Kingsoft.list",
+      "bytes": 109,
+      "sha256": "f068fe8587436346c112d756492fd69963e652275efd74ac7efeac644fa9b400"
+    },
+    {
+      "path": "Clash/Ruleset/Kuaishou.list",
+      "bytes": 94,
+      "sha256": "bce75fa194034541b3ecd347ece455237302cab7c973bd37da01a80a4a448e37"
+    },
+    {
+      "path": "Clash/Ruleset/LeTV.list",
+      "bytes": 73,
+      "sha256": "069263a9f0954b2610cb1919900ae230a1756205b1cab12305b125200489f191"
+    },
+    {
+      "path": "Clash/Ruleset/LiTV.list",
+      "bytes": 99,
+      "sha256": "604bd3c7f38b4b223c7f7ffbbb93fb37bda8e4970207cb50bae0fff693dc9f96"
+    },
+    {
+      "path": "Clash/Ruleset/Line.list",
+      "bytes": 492,
+      "sha256": "b4bae03b5e4366b134dba06413782e622b63462ae9c8dbb3aec3cf066e097358"
+    },
+    {
+      "path": "Clash/Ruleset/LineTV.list",
+      "bytes": 174,
+      "sha256": "79c4e361243d2e2aeb564056b5eb19e37b939555f3628cc22c6b3e941430c601"
+    },
+    {
+      "path": "Clash/Ruleset/MGTVTV.list",
+      "bytes": 112,
+      "sha256": "d9e031b964436ced09b9cd7436784e141b8ce0f42c5b670bc9bb9e8bebae5224"
+    },
+    {
+      "path": "Clash/Ruleset/MI.list",
+      "bytes": 200,
+      "sha256": "46725cd07d7ef661dabadff86dce61b6d335ee86d25ec5b0c8a6dd44c90c7284"
+    },
+    {
+      "path": "Clash/Ruleset/MIUIPrivacy.list",
+      "bytes": 1177,
+      "sha256": "f078686471d7a155354f3b81b1abd77dd25998068232b135066d577a091dc8f0"
+    },
+    {
+      "path": "Clash/Ruleset/MOO.list",
+      "bytes": 62,
+      "sha256": "9b621ecdf328de7338c66bf9068d2abd50151f1769f158461510c4ecf23e58ee"
+    },
+    {
+      "path": "Clash/Ruleset/Marketing.list",
+      "bytes": 1694,
+      "sha256": "c19f6868f85392b2e5412b92e5194f5a1e674eead24503ca37df4938399c6411"
+    },
+    {
+      "path": "Clash/Ruleset/Meitu.list",
+      "bytes": 137,
+      "sha256": "1364e120f4f9cd1e15c0e5d41ab339ea017bec0e3da770551b4939140d63e221"
+    },
+    {
+      "path": "Clash/Ruleset/Microsoft.list",
+      "bytes": 2176,
+      "sha256": "8df5719d9e188c950a86138a3799cc3ae8da7574e26264f2fb0fd7d22af91015"
+    },
+    {
+      "path": "Clash/Ruleset/My5.list",
+      "bytes": 115,
+      "sha256": "951827b7d5bab520ad4dc9c8f047c78feac0ee9acf191fbc78b4e589860bad36"
+    },
+    {
+      "path": "Clash/Ruleset/MyTVSuper.list",
+      "bytes": 210,
+      "sha256": "73c8e4cfaa244d2ae92a68c0949405945fb730eed053e9487ea1330f1fe68673"
+    },
+    {
+      "path": "Clash/Ruleset/NaSDDNS.list",
+      "bytes": 1503,
+      "sha256": "49542194fa127d051647d31c9a608d54965f4a2621d608233b00758ff1843b8c"
+    },
+    {
+      "path": "Clash/Ruleset/NetEase.list",
+      "bytes": 250,
+      "sha256": "49991c85c350a47c0e6c20dcbd33636f177a130860d302c5a05befde5531c745"
+    },
+    {
+      "path": "Clash/Ruleset/NetEaseMusic.list",
+      "bytes": 1367,
+      "sha256": "8254e2518082103b7b3f88063562cefc3e04350b74aa411aad0ee4a66e8a9338"
+    },
+    {
+      "path": "Clash/Ruleset/Netflix.list",
+      "bytes": 1331,
+      "sha256": "eb09e16b5aa228230e5770bfc04f2eb25261454a0b2e16f05fd3e9d2ab5202b5"
+    },
+    {
+      "path": "Clash/Ruleset/NetflixIP.list",
+      "bytes": 30233,
+      "sha256": "d87874902d596804caef7a71849acf5864e32b0d0f836fa8f81f34f0d852c158"
+    },
+    {
+      "path": "Clash/Ruleset/Niconico.list",
+      "bytes": 107,
+      "sha256": "7764621a36dbd731dfe8f9857c2920d0c347aa103d1ef7090b55a4945707c0c5"
+    },
+    {
+      "path": "Clash/Ruleset/Nintendo.list",
+      "bytes": 450,
+      "sha256": "9c87d2656c1b1e74494f3f9acc72a0fbb4170d3915f533f78775bd2a20b7e7d4"
+    },
+    {
+      "path": "Clash/Ruleset/NivodTV.list",
+      "bytes": 296,
+      "sha256": "8980cf05392ca74eb5c921f33cf2d107a214e469c188b4c39cd03133a72aa25a"
+    },
+    {
+      "path": "Clash/Ruleset/Olevod.list",
+      "bytes": 255,
+      "sha256": "b08a9868c883eac6a823f952c20aba8dbd4055f2a1eb494968a82443f56fef3a"
+    },
+    {
+      "path": "Clash/Ruleset/OneDrive.list",
+      "bytes": 551,
+      "sha256": "3636efc0957b985dc9ab7a0bdcad7fa2028b873f185fc52a5532b78955acc34a"
+    },
+    {
+      "path": "Clash/Ruleset/OpenAi.list",
+      "bytes": 539,
+      "sha256": "c4f839e4dda6cb96e4373349c72b4e5f848b8ae03564c0d0eae0873955310129"
+    },
+    {
+      "path": "Clash/Ruleset/Origin.list",
+      "bytes": 236,
+      "sha256": "f8629e362757a0437696b8df896f4fee0d24c8bca166a076a2b8fa9c179542ff"
+    },
+    {
+      "path": "Clash/Ruleset/PBS.list",
+      "bytes": 52,
+      "sha256": "154c48ef62ad326359b4d721074d3915f9ae345824eda2bcb1c8a763da0d659d"
+    },
+    {
+      "path": "Clash/Ruleset/PDD.list",
+      "bytes": 96,
+      "sha256": "08fac042332864ac782f25472a9e9aeabe68e403f8a00fb2068a9d230ba0daec"
+    },
+    {
+      "path": "Clash/Ruleset/PPTVPPLive.list",
+      "bytes": 88,
+      "sha256": "686920ac46f7ec4399495c143b7b7776b069aa748fdf7fd3b79f47fc7d66a35b"
+    },
+    {
+      "path": "Clash/Ruleset/Pandora.list",
+      "bytes": 60,
+      "sha256": "88bd46fe862d52c705789505cf4255cbd6e4ecb492c740d4006d5b99d941d6d8"
+    },
+    {
+      "path": "Clash/Ruleset/Pixiv.list",
+      "bytes": 104,
+      "sha256": "0273f87424c938e720dfe2a1baa5ecd1e63d0b2bce48c935871c40d4924e4887"
+    },
+    {
+      "path": "Clash/Ruleset/Porn.list",
+      "bytes": 635,
+      "sha256": "fca014e3dbb207de905b52354b4db177b54548dc82188381169a9f9c98ff0ef5"
+    },
+    {
+      "path": "Clash/Ruleset/Pornhub.list",
+      "bytes": 144,
+      "sha256": "0e996184b501183ff992292c46dc207e044dfeedb3139098e9dd9a29b861dfc5"
+    },
+    {
+      "path": "Clash/Ruleset/PrivateTracker.list",
+      "bytes": 3282,
+      "sha256": "9e8adb3714bb6f8c51d820c0ecd0462dd8f3fc8fac8d99ff8d3c7e1d362f33fa"
+    },
+    {
+      "path": "Clash/Ruleset/ProxyGFWlist.list",
+      "bytes": 119796,
+      "sha256": "b69f874a71fde198c12bce8b6efde3f084aeb7367a71b559ae11e54d02f0d079"
+    },
+    {
+      "path": "Clash/Ruleset/PublicDirectCDN.list",
+      "bytes": 190,
+      "sha256": "684d566988d3794b3fbcf4019d45e3f3d26596799187951d76981be8941c161c"
+    },
+    {
+      "path": "Clash/Ruleset/Qobuz.list",
+      "bytes": 56,
+      "sha256": "f7ce6bd49b382fb0e1c4ab902a62710c6db5490196f75e744b544eb89028bfbf"
+    },
+    {
+      "path": "Clash/Ruleset/Reddit.list",
+      "bytes": 152,
+      "sha256": "8e590b0222aac79a5f3054b91c34297de4af74f003f6958357ef34e51e4c4055"
+    },
+    {
+      "path": "Clash/Ruleset/RemoteDesktop.list",
+      "bytes": 370,
+      "sha256": "3d9be94525dcc0c6b64e03ed1aac8f7582e43358f36eea2cb9707d631af1c410"
+    },
+    {
+      "path": "Clash/Ruleset/Samsung.list",
+      "bytes": 609,
+      "sha256": "d94555d4ceec706c9f4106c1f6ebf85e07d114655d4bb8b8be8f513c3f9396a8"
+    },
+    {
+      "path": "Clash/Ruleset/Scholar.list",
+      "bytes": 2294,
+      "sha256": "17d03cd5162f445be7a5227717ca834aa93edcca7625d4660e85af4db12f2b56"
+    },
+    {
+      "path": "Clash/Ruleset/Sina.list",
+      "bytes": 378,
+      "sha256": "69bdf6a915296f65fbf8342a287f0b589d0b8976614997ca5cde3da202ab07f9"
+    },
+    {
+      "path": "Clash/Ruleset/SohuSogo.list",
+      "bytes": 285,
+      "sha256": "3d2c02e6f54394aef38bb80d437730149dc8992e90f607f4a7abfa9136ec4a6c"
+    },
+    {
+      "path": "Clash/Ruleset/Sony.list",
+      "bytes": 194,
+      "sha256": "26cf715208bc562ba8d8e8d55c880336b5d6662b44b71418978e159148c776cb"
+    },
+    {
+      "path": "Clash/Ruleset/SoundCloud.list",
+      "bytes": 114,
+      "sha256": "4fd4e9b10b8637edf19f76739d5f4f9f8a08059bb34ce4ba954c3e2ff0b376e9"
+    },
+    {
+      "path": "Clash/Ruleset/Spark.list",
+      "bytes": 176,
+      "sha256": "b860d4ef6f4d7042235ba86a90f6517aa6c63cfd12c305cdc84b2de2fc28e5e6"
+    },
+    {
+      "path": "Clash/Ruleset/Spotify.list",
+      "bytes": 238,
+      "sha256": "8d79bbae7ffe9a2b5de8bc2e5dc899a653ecbdf5b1e4ea62b1f09f429f21e5c7"
+    },
+    {
+      "path": "Clash/Ruleset/Steam.list",
+      "bytes": 607,
+      "sha256": "0abad0ae490ec9b7bf0cf880f83c5229949b14cc5df448c00a0516225a16b011"
+    },
+    {
+      "path": "Clash/Ruleset/SteamCN.list",
+      "bytes": 497,
+      "sha256": "bf135f78199fbadcb663a047d70eb59ec81bead3a04cfe050036e2921c2ea607"
+    },
+    {
+      "path": "Clash/Ruleset/SteamRegionCheck.list",
+      "bytes": 755,
+      "sha256": "ceb495af4a737c417caa42d1902f3156996fb24444c49a7a108d8e64a79990fa"
+    },
+    {
+      "path": "Clash/Ruleset/TIDAL.list",
+      "bytes": 125,
+      "sha256": "65b2ad1ec068d72f7fbf53e098fa07b5ccb5769f351bb988c4950e48e3d9a94f"
+    },
+    {
+      "path": "Clash/Ruleset/TaiWanGood.list",
+      "bytes": 102,
+      "sha256": "0364c4e442474ff98bca810d3b4b03efb97de11c742c36eefd497a4739b53117"
+    },
+    {
+      "path": "Clash/Ruleset/TapTap.list",
+      "bytes": 78,
+      "sha256": "98f1eb892ceea122ad5e1014cabbb2de6328df5a90dcd9d0500187a60a9cf68a"
+    },
+    {
+      "path": "Clash/Ruleset/TeamViewer.list",
+      "bytes": 352,
+      "sha256": "51f2a3befdde3c28b1a4257a5594178a7867243b35d2e532d4feff2af91893f1"
+    },
+    {
+      "path": "Clash/Ruleset/Telegram.list",
+      "bytes": 464,
+      "sha256": "73645c86448a39526603584d777a90032c4eedf06327b07a67540d2e8dcdd548"
+    },
+    {
+      "path": "Clash/Ruleset/Tencent.list",
+      "bytes": 521,
+      "sha256": "3f3db4c90388b3c4fbb3fe572471cc0c2191dffc986affa7d8af6ec21dfcdf21"
+    },
+    {
+      "path": "Clash/Ruleset/TencentLolm.list",
+      "bytes": 125,
+      "sha256": "4de9f31d27656881b84a0e1fa154b093cf95077da1ef150cbef948aa9fd8ae07"
+    },
+    {
+      "path": "Clash/Ruleset/TencentVideo.list",
+      "bytes": 110,
+      "sha256": "a264db9b17101f5d39affcf7c7a1c35937ac9ecab8a2975f040f9f5610bd933e"
+    },
+    {
+      "path": "Clash/Ruleset/TeraBox.list",
+      "bytes": 89,
+      "sha256": "1152eb661a24f0edcf169ecd75fb64a288dc794f48b76126795d64299223c17f"
+    },
+    {
+      "path": "Clash/Ruleset/TikTok.list",
+      "bytes": 301,
+      "sha256": "7391bcd7add8a2a02edabdc477b3a7c9e08c9539b3aeea5328bf1250676ce766"
+    },
+    {
+      "path": "Clash/Ruleset/TopBlockedSites.list",
+      "bytes": 2941,
+      "sha256": "c8b1eeadc4c7e248a68f24060bde7779a5eec814b6e6db14340700b8a3d188cb"
+    },
+    {
+      "path": "Clash/Ruleset/Twitch.list",
+      "bytes": 221,
+      "sha256": "037b56ab76cbb6b5cdc050096fc193fa293088a67be9ecf3ba45b2f3a4871c48"
+    },
+    {
+      "path": "Clash/Ruleset/Twitter.list",
+      "bytes": 316,
+      "sha256": "ff968d35bc3edf6c9470cd524d4042488de468bee79ebc6b35491e5029415d27"
+    },
+    {
+      "path": "Clash/Ruleset/UnBan.list",
+      "bytes": 1668,
+      "sha256": "2c6c23118b49120f7a0484749451cea4946d0119a568588a9e2add7dd7343c2a"
+    },
+    {
+      "path": "Clash/Ruleset/VikACG.list",
+      "bytes": 82,
+      "sha256": "a1eafa9355d9a2caa82e9ee2417bbdc08c43f031b739c59b50951780dc9cd563"
+    },
+    {
+      "path": "Clash/Ruleset/Vip.list",
+      "bytes": 145,
+      "sha256": "6b14ad534b6a3aa2c4e8695ece578cfdf29d6f41bb3d6d83c4f9e2947cc482f4"
+    },
+    {
+      "path": "Clash/Ruleset/ViuTV.list",
+      "bytes": 555,
+      "sha256": "20683a06ca8022558badbf9b59f405d4e65a7991350b94286f67bbe3e0ac8a0c"
+    },
+    {
+      "path": "Clash/Ruleset/Wechat.list",
+      "bytes": 694,
+      "sha256": "628de7ef05a04297f3f68897a40655145c5e7f5772064d1671d85ec3e6c858fa"
+    },
+    {
+      "path": "Clash/Ruleset/Whatsapp.list",
+      "bytes": 592,
+      "sha256": "ede0776e06a5b19e0136e09ff1dd54d89880e45fab23bd44a303fc1af8f4f86b"
+    },
+    {
+      "path": "Clash/Ruleset/Wikipedia.list",
+      "bytes": 395,
+      "sha256": "f90b28406d105d2f265ca28bae6eca4f9aa5d4601c83525cc4f94eaf98bcffeb"
+    },
+    {
+      "path": "Clash/Ruleset/Xbox.list",
+      "bytes": 221,
+      "sha256": "6cf2f06ffd54dfdf8de8153d939d58b43bad569687739c773e2059ff21754b8d"
+    },
+    {
+      "path": "Clash/Ruleset/Ximalaya.list",
+      "bytes": 99,
+      "sha256": "25f1b69132591826a1f43aeaf61cfa3a163d2158b8d94b28e00d45593b2481c6"
+    },
+    {
+      "path": "Clash/Ruleset/Xunlei.list",
+      "bytes": 241,
+      "sha256": "6df2bc700cfdc8d134c842bb24c46c02738eccefe5cfc6959f25e1b615b424ff"
+    },
+    {
+      "path": "Clash/Ruleset/YYeTs.list",
+      "bytes": 420,
+      "sha256": "ece0bdeafcaf56c5f91629bca440954fe923cdf0ad4a42ee294a8bfc56b247f0"
+    },
+    {
+      "path": "Clash/Ruleset/YouTube.list",
+      "bytes": 418,
+      "sha256": "5e9d81d4615d993fb899d11f761ff5272465bf11e52233c656c3c3e4ab9cd800"
+    },
+    {
+      "path": "Clash/Ruleset/YouTubeMusic.list",
+      "bytes": 64,
+      "sha256": "cc300204b77cd993ecf3c233e6b0331056a6baca6d9c72e61b9a95c7798434ed"
+    },
+    {
+      "path": "Clash/Ruleset/Youku.list",
+      "bytes": 96,
+      "sha256": "9f8438e755a04de53209fe354a9e4f952c2f6b45b36627a690589835cb92f7a5"
+    },
+    {
+      "path": "Clash/Ruleset/Zoom.list",
+      "bytes": 79,
+      "sha256": "27aef24c29cbff28a21b55a1f7f9e7347d1d507bfaf35d42cd9d8c0531138f23"
+    }
+  ]
+}
