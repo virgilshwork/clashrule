@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit_acl4ssr.py'
+      - 'scripts/build_business_rules.py'
       - 'policy/business-draft.json'
+      - 'policy/business-layout.json'
       - '.github/workflows/audit-acl4ssr.yml'
   workflow_run:
     workflows: ['Sync ACL4SSR Repository']
@@ -32,21 +34,21 @@ jobs:
         run: python -m pip install 'PyYAML==6.0.2'
       - name: Record input revision
         run: git rev-parse HEAD
-      - name: Parse snapshot and generate review-only candidates
-        run: python scripts/audit_acl4ssr.py --policy policy/business-draft.json --output draft-output
+      - name: Generate business-oriented candidate rules
+        run: python scripts/build_business_rules.py --seed policy/business-draft.json --layout policy/business-layout.json --output business-output
       - name: Publish report to run summary
         if: always()
         run: |
-          if test -f draft-output/REPORT.md; then
-            cat draft-output/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+          if test -f business-output/REPORT.md; then
+            cat business-output/REPORT.md >> "$GITHUB_STEP_SUMMARY"
           else
-            echo '正文解析或校验未完成，请查看步骤日志；没有生成可用候选报告。' >> "$GITHUB_STEP_SUMMARY"
+            echo '解析或业务分类未完成，请查看日志；没有生成成功的候选。' >> "$GITHUB_STEP_SUMMARY"
           fi
-      - name: Upload audit and candidate rules
+      - name: Upload audit and business rule candidates
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: acl4ssr-business-draft-${{ github.run_id }}-${{ github.run_attempt }}
-          path: draft-output/
+          name: acl4ssr-business-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          path: business-output/
           retention-days: 30
           if-no-files-found: error
