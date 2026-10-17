@@ -6,7 +6,8 @@
     "core_exit": {"node": "OSAKA_Premium", "region": "JP"},
     "general_exit": {"node": "KR_Evoxt", "region": "KR"},
     "hk_exit": {"node": "HK_Evoxt", "region": "HK"},
-    "capacity_exit": {"node": "TOKYO_Standby", "region": "JP"}
+    "capacity_exit": {"node": "TOKYO_Standby", "region": "JP"},
+    "jp_exit": {"node": "TOKYO_Standby", "region": "JP"}
   },
   "businesses": {
     "direct": {"priority": 10, "role": "direct"},
@@ -16,10 +17,10 @@
     "mytvsuper": {"priority": 50, "role": "hk_exit"},
     "viutv": {"priority": 60, "role": "hk_exit"},
     "hbo_go_hk": {"priority": 70, "role": "hk_exit"},
-    "dmm": {"priority": 80, "role": "capacity_exit"},
-    "abematv": {"priority": 90, "role": "capacity_exit"},
-    "hulu_japan": {"priority": 100, "role": "capacity_exit"},
-    "niconico": {"priority": 110, "role": "capacity_exit"},
+    "dmm": {"priority": 80, "role": "jp_exit"},
+    "abematv": {"priority": 90, "role": "jp_exit"},
+    "hulu_japan": {"priority": 100, "role": "jp_exit"},
+    "niconico": {"priority": 110, "role": "jp_exit"},
     "adult_content": {"priority": 120, "role": "capacity_exit"},
     "github_web_api": {"priority": 130, "role": "general_exit"},
     "github_bulk": {"priority": 140, "role": "capacity_exit"},
