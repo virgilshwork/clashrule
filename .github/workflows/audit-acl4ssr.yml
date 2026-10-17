@@ -1,0 +1,52 @@
+name: Audit ACL4SSR and Build Draft Rules
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_acl4ssr.py'
+      - 'policy/business-draft.json'
+      - '.github/workflows/audit-acl4ssr.yml'
+  workflow_run:
+    workflows: ['Sync ACL4SSR Repository']
+    types: [completed]
+permissions:
+  contents: read
+concurrency:
+  group: acl4ssr-draft-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser
+        run: python -m pip install 'PyYAML==6.0.2'
+      - name: Record input revision
+        run: git rev-parse HEAD
+      - name: Parse snapshot and generate review-only candidates
+        run: python scripts/audit_acl4ssr.py --policy policy/business-draft.json --output draft-output
+      - name: Publish report to run summary
+        if: always()
+        run: |
+          if test -f draft-output/REPORT.md; then
+            cat draft-output/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo '正文解析或校验未完成，请查看步骤日志；没有生成可用候选报告。' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload audit and candidate rules
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: acl4ssr-business-draft-${{ github.run_id }}-${{ github.run_attempt }}
+          path: draft-output/
+          retention-days: 30
+          if-no-files-found: error
