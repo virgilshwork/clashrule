@@ -159,15 +159,33 @@ def main():
         expected_fragments = len(fragments)
         if expect_rules is None:
             expect_rules = sum(int(f.get("rules") or 0) for f in fragments)
-    if args.ini and expect_rules is not None:
-        expect_rules += len(ini_tail)
-        notes.append("expected rule count = manifest fragments + %d inline rules" % len(ini_tail))
+    if expect_rules is not None and args.ini:
+        # inline rules are already part of the manifest-derived count; never add them twice
+        derived = expect_rules + len(ini_tail)
+        if args.expect_rules is not None and args.expect_rules != derived:
+            errors.append("explicit --expect-rules %d disagrees with derived %d (manifest fragments + %d inline rules)"
+                          % (args.expect_rules, derived, len(ini_tail)))
+        else:
+            expect_rules = derived
+            notes.append("expected rule count = manifest fragments + %d inline rules" % len(ini_tail))
     if expect_rules is not None and len(rules) != expect_rules:
         errors.append("rule count %d != expected %d for this round" % (len(rules), expect_rules))
 
+    # snapshot identity: the INI must reference the snapshot the manifest describes
+    snapshot_report = None
+    if args.ini and args.manifest:
+        manifest_id = json.load(open(args.manifest, encoding="utf-8")).get("publication_id")
+        referenced = set(re.findall(r"snapshots/([0-9a-f]{16,})/", open(args.ini, encoding="utf-8").read()))
+        snapshot_report = {"manifest_publication_id": manifest_id, "ini_referenced_ids": sorted(referenced)}
+        if not referenced:
+            errors.append("candidate INI does not reference a snapshot id")
+        elif manifest_id not in referenced:
+            errors.append("INI references %s but manifest publication_id is %s" % (sorted(referenced), manifest_id))
+
     # 3) groups / nodes derived from the INI
-    expect_groups = args.expect_groups
-    if expect_groups is None and declared_groups and len(declared_groups) != len(groups):
+    if args.expect_groups is not None and len(groups) != args.expect_groups:
+        errors.append("group count %d != expected %d (--expect-groups)" % (len(groups), args.expect_groups))
+    if declared_groups and len(declared_groups) != len(groups):
         errors.append("group count %d != %d declared by the INI" % (len(groups), len(declared_groups)))
     missing_groups = sorted(set(declared_groups) - set(group_map))
     if missing_groups:
@@ -262,6 +280,7 @@ def main():
         "missing_declared_groups": missing_groups,
         "missing_required_nodes": missing_nodes,
         "conversion_log": log_report,
+        "snapshot_identity": snapshot_report,
         "rule_tail": tail_report,
         "cases": case_results,
         "mihomo_config_check": mihomo_report,
