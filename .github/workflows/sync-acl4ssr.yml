@@ -1,7 +1,7 @@
-name: Sync ACL4SSR Ruleset
+name: Sync ACL4SSR Repository
 on:
   schedule:
-    # Daily 06:00 Asia/Shanghai (UTC+8), equivalent to 22:00 UTC.
+    # Daily 06:00 Beijing time = 22:00 UTC on the previous day.
     - cron: '0 22 * * *'
   workflow_dispatch:
     inputs:
@@ -19,6 +19,7 @@ jobs:
   sync:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -28,16 +29,16 @@ jobs:
       - name: Record baseline
         id: baseline
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-      - name: Fetch and verify upstream snapshot
+      - name: Fetch and verify complete upstream tree
         id: fetch
         env:
           UPSTREAM_REF: ${{ inputs.upstream_ref || 'master' }}
         run: python3 scripts/sync_acl4ssr.py --ref "$UPSTREAM_REF"
-      - name: Commit snapshot only
+      - name: Commit source snapshot only
         id: publish
         run: |
           set -euo pipefail
-          git add -- sources/acl4ssr/
+          git add --all -- sources/acl4ssr/
           if git diff --cached --quiet; then
             echo 'No snapshot changes.'
             echo 'changed=false' >> "$GITHUB_OUTPUT"
@@ -46,10 +47,10 @@ jobs:
           echo 'changed=true' >> "$GITHUB_OUTPUT"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: sync ACL4SSR Ruleset snapshot'
+          git commit -m 'chore: sync full ACL4SSR source snapshot'
           git push origin HEAD:main
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-      - name: Chinese sync summary
+      - name: Chinese full repository summary
         if: always()
         env:
           BASE_SHA: ${{ steps.baseline.outputs.sha }}
@@ -58,89 +59,4 @@ jobs:
           SNAPSHOT_CHANGED: ${{ steps.publish.outputs.changed }}
           PUBLISHED_SHA: ${{ steps.publish.outputs.sha }}
           UPSTREAM_REF: ${{ inputs.upstream_ref || 'master' }}
-        shell: python
-        run: |
-          import html
-          import json
-          import os
-          from pathlib import Path
-          import subprocess
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-
-          def esc(value):
-              return html.escape(str(value)).replace('|', '&#124;').replace('\n', ' ')
-
-          def code(value):
-              return '<code>' + esc(value) + '</code>'
-
-          env = os.environ
-          fetch = env.get('FETCH_RESULT', '')
-          publish = env.get('PUBLISH_RESULT', '')
-          changed = env.get('SNAPSHOT_CHANGED', '')
-          status = '失败或未完成'
-          if fetch == 'success' and publish == 'success':
-              status = '成功：已推送更新' if changed == 'true' else '成功：无变化'
-          lines = ['## ACL4SSR 同步摘要', '', '| 项目 | 结果 |', '|---|---|']
-          rows = [
-              ('摘要生成时间（北京时间）', datetime.now(ZoneInfo('Asia/Shanghai')).isoformat(timespec='seconds')),
-              ('触发方式', env.get('GITHUB_EVENT_NAME', '')),
-              ('请求上游版本', env.get('UPSTREAM_REF', '')),
-              ('同步结果', status),
-              ('抓取步骤', fetch or '未运行'),
-              ('发布步骤', publish or '未运行'),
-          ]
-          lines += ['| ' + esc(k) + ' | ' + esc(v) + ' |' for k, v in rows]
-          lockpath = 'sources/acl4ssr/source-lock.json'
-          base = env.get('BASE_SHA', '')
-          try:
-              old = {}
-              if base:
-                  result = subprocess.run(['git', 'show', base + ':' + lockpath], capture_output=True, text=True)
-                  if result.returncode == 0:
-                      old = json.loads(result.stdout)
-                  else:
-                      check = subprocess.run(['git', 'ls-tree', '--name-only', base, '--', lockpath], capture_output=True, text=True, check=True)
-                      if check.stdout.strip():
-                          raise RuntimeError('无法读取已有基线清单')
-              if fetch != 'success' or not base:
-                  lines += ['', '本轮未获得可确认的新快照；不输出文件差异结论。请检查步骤日志。']
-              else:
-                  new = json.loads(Path(lockpath).read_text(encoding='utf-8'))
-                  before = {f['path']: f['sha256'] for f in old.get('files', [])}
-                  after = {f['path']: f['sha256'] for f in new['files']}
-                  added = sorted(after.keys() - before.keys())
-                  deleted = sorted(before.keys() - after.keys())
-                  modified = sorted(p for p in before.keys() & after.keys() if before[p] != after[p])
-                  content_changed = bool(added or deleted or modified)
-                  version_changed = old.get('commit') != new.get('commit')
-                  lines += [
-                      '', '### 版本与文件变化', '',
-                      '- 旧上游提交：' + code(old.get('commit', '无（首次同步）')),
-                      '- 新上游提交：' + code(new['commit']),
-                      '- 当前文件数：' + str(len(after)),
-                      '- 新增 / 修改 / 删除：' + str(len(added)) + ' / ' + str(len(modified)) + ' / ' + str(len(deleted)),
-                      '- 来源文件字节内容变化：' + ('有' if content_changed else '无'),
-                      '- 仅上游版本变化：' + ('是' if version_changed and not content_changed else '否'),
-                      '', '注：统计不含 source-lock.json；修改表示 SHA-256 改变，不等于有效规则条数改变。',
-                  ]
-                  entries = [('新增', p) for p in added] + [('修改', p) for p in modified] + [('删除', p) for p in deleted]
-                  if entries:
-                      lines += ['', '### 变更文件', '', '| 类型 | 路径 |', '|---|---|']
-                      lines += ['| ' + kind + ' | ' + code(path) + ' |' for kind, path in entries[:300]]
-                      if len(entries) > 300:
-                          lines += ['', '仅展示前 300 项，完整变化请查看提交差异。']
-                  sha = env.get('PUBLISHED_SHA', '')
-                  if sha:
-                      url = env['GITHUB_SERVER_URL'] + '/' + env['GITHUB_REPOSITORY'] + '/commit/' + sha
-                      lines += ['', '快照提交：[' + sha + '](' + url + ')']
-                  elif publish != 'success':
-                      lines += ['', '新快照未确认推送成功；以上差异仅代表本轮工作区，不代表 main 已更新。']
-          except Exception as error:
-              lines += ['', '摘要统计失败：' + code(error) + '。请检查原始日志，不应将本摘要视为同步成功证明。']
-              with open(env['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
-                  out.write('\n'.join(lines) + '\n')
-              raise
-          lines += ['', '本流程仅同步来源快照，不修改业务规则或 INI。失败详情见步骤日志。']
-          with open(env['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
-              out.write('\n'.join(lines) + '\n')
+        run: python3 scripts/acl4ssr_summary.py
