@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/audit_acl4ssr.py'
       - 'scripts/build_business_rules.py'
+      - 'scripts/generate_candidate_ini.py'
       - 'policy/business-draft.json'
       - 'policy/business-layout.json'
       - '.github/workflows/audit-acl4ssr.yml'
@@ -36,19 +37,24 @@ jobs:
         run: git rev-parse HEAD
       - name: Generate business-oriented candidate rules
         run: python scripts/build_business_rules.py --seed policy/business-draft.json --layout policy/business-layout.json --output business-output
+      - name: Generate self-contained candidate INI
+        run: python scripts/generate_candidate_ini.py --input business-output
       - name: Publish report to run summary
         if: always()
         run: |
           if test -f business-output/REPORT.md; then
             cat business-output/REPORT.md >> "$GITHUB_STEP_SUMMARY"
           else
-            echo '解析或业务分类未完成，请查看日志；没有生成成功的候选。' >> "$GITHUB_STEP_SUMMARY"
+            echo '解析或业务分类未完成，请查看日志。' >> "$GITHUB_STEP_SUMMARY"
           fi
-      - name: Upload audit and business rule candidates
+          if ! test -f business-output/ini-validation.json; then
+            echo '候选 INI 未通过生成检查；不能视为已完成。' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload audit, business rules and candidate INI
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: acl4ssr-business-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          name: acl4ssr-business-ini-${{ github.run_id }}-${{ github.run_attempt }}
           path: business-output/
           retention-days: 30
           if-no-files-found: error
