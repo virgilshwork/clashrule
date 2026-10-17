@@ -1,0 +1,132 @@
+name: Publish candidate RC1 release
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/release-rc1.yml']
+permissions:
+  contents: write
+concurrency:
+  group: release-v2026.10.17-rc.1
+  cancel-in-progress: false
+env:
+  RELEASE_TAG: v2026.10.17-rc.1
+  TARGET_SHA: de7c645def18d954c50f8d67bfad1adea31ad5a6
+  EXPECTED_PUBLICATION_ID: 5c4aa30f9c3cfc95425daf64eb679c1bb8428b7c6e12472b51dc57a28a094673
+jobs:
+  release:
+    if: github.repository == 'virgilshwork/clashrule' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_SHA }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refuse existing tag or release
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const repo = context.repo;
+            const tag = process.env.RELEASE_TAG;
+            async function mustBeAbsent(read, label) {
+              try { await read(); }
+              catch (error) { if (error.status === 404) return; throw error; }
+              throw new Error(`${label} already exists; refusing to overwrite it`);
+            }
+            await mustBeAbsent(() => github.rest.git.getRef({...repo, ref: `tags/${tag}`}), 'Tag');
+            await mustBeAbsent(() => github.rest.repos.getReleaseByTag({...repo, tag}), 'Release');
+      - name: Verify pinned source and candidate identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$TARGET_SHA"
+          python3 - <<'PY'
+          import json, os, pathlib
+          root = json.loads(pathlib.Path('candidates/manifest.json').read_text(encoding='utf-8'))
+          expected = os.environ['EXPECTED_PUBLICATION_ID']
+          if root.get('publication_id') != expected or root.get('ready_for_production') is not False:
+              raise SystemExit('Unexpected candidate identity or production readiness flag')
+          snapshot = pathlib.Path('candidates/snapshots') / expected / 'manifest.json'
+          if json.loads(snapshot.read_text(encoding='utf-8')).get('publication_id') != expected:
+              raise SystemExit('Snapshot manifest identity mismatch')
+          PY
+      - name: Re-run full conversion and kernel-load acceptance
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install 'PyYAML==6.0.2'
+          bash scripts/run_conversion_acceptance.sh --candidates-dir candidates --work "$RUNNER_TEMP/release-acceptance"
+      - name: Package pinned candidate and acceptance evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/release-assets"
+          git archive --format=tar.gz --prefix="clashrule-$RELEASE_TAG/" --output="$RUNNER_TEMP/release-assets/clashrule-$RELEASE_TAG.tar.gz" "$TARGET_SHA" candidates policy scripts
+          cp candidates/manifest.json "$RUNNER_TEMP/release-assets/manifest.json"
+          cp "$RUNNER_TEMP/release-acceptance/verify-report.json" "$RUNNER_TEMP/release-assets/verify-report.json"
+          python3 - <<'PY'
+          import json, os, pathlib
+          out = pathlib.Path(os.environ['RUNNER_TEMP']) / 'release-assets'
+          report = json.loads((out / 'verify-report.json').read_text(encoding='utf-8'))
+          if report.get('pass') is not True or report.get('mihomo_config_check', {}).get('exit_code') != 0:
+              raise SystemExit('Acceptance report did not pass')
+          identity = report.get('snapshot_identity') or {}
+          expected = os.environ['EXPECTED_PUBLICATION_ID']
+          if identity.get('manifest_publication_id') != expected or identity.get('ini_referenced_ids') != [expected]:
+              raise SystemExit('Acceptance report snapshot identity mismatch')
+          notes = [
+              '# 2026.10.17 RC1 — 候选规则与转换验收修复',
+              '',
+              '本版本为候选预发布版，不自动切换生产配置，不修改旧的 rule 标签。',
+              'ready_for_production 保持 false。',
+              '',
+              '## 修复与验收',
+              '- 修复 SubConverter 首次运行前缺少 pref.toml 的初始化问题。',
+              '- 在隔离工作副本中设置并校验 api_mode=false、max_allowed_rulesets=512。',
+              '- 本次发布重新通过转换、规则/策略组/节点断言、业务归属与默认链检查、Mihomo 配置加载检查。',
+              '- 验收结果：%s 条规则、%s 个策略组、%s 个桩节点。' % (report['rules'], report['groups'], report['node_count']),
+              '',
+              '## 版本定位',
+              '- 源码提交：' + os.environ['TARGET_SHA'],
+              '- 候选快照：' + expected,
+              '- 发布验收运行：https://github.com/' + os.environ['GITHUB_REPOSITORY'] + '/actions/runs/' + os.environ['GITHUB_RUN_ID'],
+              '',
+              '## 验证边界',
+              '未验证真实节点连接、实时订阅节点归属、运行时选择器缓存或各业务实际可用性。附件验收报告为离线桩订阅结果，不是可直接使用的真实节点配置。',
+              '',
+              '## 附件',
+              '归档包含固定提交的 candidates/、policy/、scripts/；另附候选清单、验收报告及 SHA256SUMS。',
+          ]
+          (out / 'RELEASE_NOTES.md').write_text('\n'.join(notes) + '\n', encoding='utf-8')
+          PY
+          cd "$RUNNER_TEMP/release-assets"
+          sha256sum "clashrule-$RELEASE_TAG.tar.gz" manifest.json verify-report.json RELEASE_NOTES.md > SHA256SUMS
+      - name: Create draft, upload assets, then publish prerelease
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/release-assets"
+          gh release create "$RELEASE_TAG" "clashrule-$RELEASE_TAG.tar.gz" manifest.json verify-report.json RELEASE_NOTES.md SHA256SUMS --repo "$GITHUB_REPOSITORY" --target "$TARGET_SHA" --title '2026.10.17 RC1 — 候选规则与转换验收修复' --notes-file RELEASE_NOTES.md --prerelease --draft --latest=false
+          gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease --latest=false
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json url,isDraft,isPrerelease,tagName > "$RUNNER_TEMP/release-result.json"
+          python3 - <<'PY'
+          import json, os, pathlib
+          result = json.loads((pathlib.Path(os.environ['RUNNER_TEMP']) / 'release-result.json').read_text())
+          if result['isDraft'] or not result['isPrerelease'] or result['tagName'] != os.environ['RELEASE_TAG']:
+              raise SystemExit('Release publication state did not match the approved prerelease')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as handle:
+              handle.write('Published prerelease: ' + result['url'] + '\n')
+          PY
+      - name: Preserve acceptance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rc1-acceptance-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/release-acceptance/verify-report.json
+          if-no-files-found: warn
