@@ -124,18 +124,7 @@ else
 fi
 
 # --- preferences, on the copy only -------------------------------------------
-python3 - "$SUB_DIR" <<'PY'
-import pathlib, re, sys
-sub_dir = pathlib.Path(sys.argv[1])
-pref = sub_dir / 'pref.toml'
-if not pref.exists():
-    raise SystemExit('FAIL: no pref.toml in the SubConverter copy; cannot raise max_allowed_rulesets safely')
-text = pref.read_text(encoding='utf-8')
-text = re.sub(r'^api_mode\s*=.*$', 'api_mode = false', text, count=1, flags=re.M)
-text = re.sub(r'^max_allowed_rulesets\s*=.*$', 'max_allowed_rulesets = 512', text, count=1, flags=re.M)
-pref.write_text(text, encoding='utf-8')
-print('pref.toml (work copy): api_mode=false, max_allowed_rulesets=512')
-PY
+python3 scripts/prepare_acceptance_pref.py "$SUB_DIR"
 
 # --- profiles (SubConverter reads them relative to its own directory) ---------
 PROF_DIR="$SUB_DIR/profiles"
