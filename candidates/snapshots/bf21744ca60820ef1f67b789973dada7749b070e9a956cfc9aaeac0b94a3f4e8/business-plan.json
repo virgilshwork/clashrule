@@ -1,0 +1,249 @@
+{
+  "ready_for_production": false,
+  "roles": {
+    "direct": {
+      "node": "DIRECT"
+    },
+    "reject": {
+      "node": "REJECT"
+    },
+    "core_exit": {
+      "node": "OSAKA_Premium",
+      "region": "JP"
+    },
+    "general_exit": {
+      "node": "KR_Evoxt",
+      "region": "KR"
+    },
+    "hk_exit": {
+      "node": "HK_Evoxt",
+      "region": "HK"
+    },
+    "capacity_exit": {
+      "node": "TOKYO_Standby",
+      "region": "JP"
+    },
+    "jp_exit": {
+      "node": "TOKYO_Standby",
+      "region": "JP"
+    }
+  },
+  "standby_only": [
+    "GGC_HK_A",
+    "GGC_HK_B"
+  ],
+  "businesses": {
+    "direct": {
+      "file": "rules/direct.list",
+      "default_role": "direct",
+      "proposed_constraints": {},
+      "candidate_count": 9905
+    },
+    "openai_anthropic": {
+      "file": "rules/openai_anthropic.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 39
+    },
+    "google_play": {
+      "file": "rules/google_play.list",
+      "default_role": "hk_exit",
+      "proposed_constraints": {
+        "required_region": "HK",
+        "basis": "operator account-region preference"
+      },
+      "candidate_count": 10
+    },
+    "mytvsuper": {
+      "file": "rules/mytvsuper.list",
+      "default_role": "hk_exit",
+      "proposed_constraints": {
+        "required_region": "HK",
+        "basis": "proposed; verify service"
+      },
+      "candidate_count": 4
+    },
+    "viutv": {
+      "file": "rules/viutv.list",
+      "default_role": "hk_exit",
+      "proposed_constraints": {
+        "required_region": "HK",
+        "basis": "proposed; verify service"
+      },
+      "candidate_count": 12
+    },
+    "hbo_go_hk": {
+      "file": "rules/hbo_go_hk.list",
+      "default_role": "hk_exit",
+      "proposed_constraints": {
+        "required_region": "HK",
+        "basis": "proposed; verify service"
+      },
+      "candidate_count": 18
+    },
+    "dmm": {
+      "file": "rules/dmm.list",
+      "default_role": "jp_exit",
+      "proposed_constraints": {
+        "required_region": "JP",
+        "basis": "proposed; verify service"
+      },
+      "candidate_count": 14
+    },
+    "abematv": {
+      "file": "rules/abematv.list",
+      "default_role": "jp_exit",
+      "proposed_constraints": {
+        "required_region": "JP",
+        "basis": "proposed; verify service"
+      },
+      "candidate_count": 4
+    },
+    "hulu_japan": {
+      "file": "rules/hulu_japan.list",
+      "default_role": "jp_exit",
+      "proposed_constraints": {
+        "required_region": "JP",
+        "basis": "proposed; verify service"
+      },
+      "candidate_count": 6
+    },
+    "niconico": {
+      "file": "rules/niconico.list",
+      "default_role": "jp_exit",
+      "proposed_constraints": {},
+      "candidate_count": 3
+    },
+    "pixiv": {
+      "file": "rules/pixiv.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 3
+    },
+    "adult_content": {
+      "file": "rules/adult_content.list",
+      "default_role": "capacity_exit",
+      "proposed_constraints": {
+        "avoid_regions": [
+          "KR"
+        ],
+        "basis": "operator-policy; not a claim that every site is blocked"
+      },
+      "candidate_count": 91
+    },
+    "github_web_api": {
+      "file": "rules/github_web_api.list",
+      "default_role": "core_exit",
+      "proposed_constraints": {},
+      "candidate_count": 8
+    },
+    "github_bulk": {
+      "file": "rules/github_bulk.list",
+      "default_role": "capacity_exit",
+      "proposed_constraints": {},
+      "candidate_count": 6
+    },
+    "overseas_download": {
+      "file": "rules/overseas_download.list",
+      "default_role": "capacity_exit",
+      "proposed_constraints": {},
+      "candidate_count": 57
+    },
+    "youtube": {
+      "file": "rules/youtube.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 14
+    },
+    "streaming_other": {
+      "file": "rules/streaming_other.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 6
+    },
+    "netflix": {
+      "file": "rules/netflix.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 37
+    },
+    "spotify": {
+      "file": "rules/spotify.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 6
+    },
+    "ai_other": {
+      "file": "rules/ai_other.list",
+      "default_role": "core_exit",
+      "proposed_constraints": {},
+      "candidate_count": 62
+    },
+    "cloud_sync": {
+      "file": "rules/cloud_sync.list",
+      "default_role": "capacity_exit",
+      "proposed_constraints": {},
+      "candidate_count": 12
+    },
+    "microsoft_services": {
+      "file": "rules/microsoft_services.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 73
+    },
+    "telegram": {
+      "file": "rules/telegram.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 13
+    },
+    "crypto": {
+      "file": "rules/crypto.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 51
+    },
+    "mining": {
+      "file": "rules/mining.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 9
+    },
+    "apple_store": {
+      "file": "rules/apple_store.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 12
+    },
+    "gaming_download": {
+      "file": "rules/gaming_download.list",
+      "default_role": "capacity_exit",
+      "proposed_constraints": {},
+      "candidate_count": 0
+    },
+    "gaming_services": {
+      "file": "rules/gaming_services.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 39
+    },
+    "shared_services": {
+      "file": "rules/shared_services.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 6
+    },
+    "general_overseas": {
+      "file": "rules/general_overseas.list",
+      "default_role": "general_exit",
+      "proposed_constraints": {},
+      "candidate_count": 6592
+    },
+    "block": {
+      "file": "rules/block.list",
+      "default_role": "reject",
+      "proposed_constraints": {},
+      "candidate_count": 1560
+    }
+  }
+}

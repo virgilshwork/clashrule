@@ -1,0 +1,5 @@
+# Ordered fragment; review only; business=shared_services
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,stripe.network

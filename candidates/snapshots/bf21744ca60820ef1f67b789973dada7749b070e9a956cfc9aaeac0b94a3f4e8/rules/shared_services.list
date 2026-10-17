@@ -1,0 +1,7 @@
+# REVIEW ONLY; business=shared_services
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,cdn.auth0.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,stripe.network
