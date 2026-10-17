@@ -83,6 +83,24 @@
     "DOMAIN,copilot-proxy.githubusercontent.com": "ai_other",
     "DOMAIN-SUFFIX,perplexity.ai": "ai_other"
   },
+  "ownership_overrides": {
+    "DOMAIN-SUFFIX,withyoutube.com": "general_overseas",
+    "DOMAIN-SUFFIX,aiplatform.googleapis.com": "ai_other",
+    "DOMAIN,ml.googleapis.com": "ai_other"
+  },
+  "observed_region_hosts": {
+    "ai_other": []
+  },
+  "injected_rules": {
+    "DOMAIN-SUFFIX,aiplatform.googleapis.com": "ai_other",
+    "DOMAIN,ml.googleapis.com": "ai_other"
+  },
+  "notes_ownership": {
+    "ownership_overrides": "Source-agnostic host ownership; wins over the source/category mapping. 'auth0.openai.com' is intentionally absent: it is not covered by 'auth0.com' and keeps openai_anthropic.",
+    "injected_rules": "Rules added even when no source list carries them (Vertex AI endpoints). Keep to verified endpoints only; record the evidence in the PR.",
+    "observed_region_hosts": "Region endpoints go here only after being verified from real configuration or connection records (for example us-central1-aiplatform.googleapis.com). DOMAIN-SUFFIX,aiplatform.googleapis.com does NOT cover <region>-aiplatform.googleapis.com; never write <region> as a literal host.",
+    "shared_hosts": "Applied to every source list, not only custom/AI_other.list."
+  },
   "shared_hosts": ["auth0.com", "cdn.auth0.com", "challenges.cloudflare.com", "client-api.arkoselabs.com", "events.statsigapi.net", "featuregates.org", "hcaptcha.com", "identrust.com", "intercom.io", "intercomcdn.com", "microsoftonline.com", "sentry.io", "statsigapi.net", "stripe.com", "stripe.network", "apis.google.com"],
   "constraints": {
     "adult_content": {"avoid_regions": ["KR"], "basis": "operator-policy; not a claim that every site is blocked"},
