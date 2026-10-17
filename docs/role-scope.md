@@ -1,15 +1,22 @@
 # 节点角色与核心 AI 口径
 
+## 业务与出口独立
+
+取消 core_interactive 分类，不再生成额外的 core_interactive.list。核心出口 core_exit 仍保留；业务归属不等于必须使用不同节点。
+
+- github_web_api：GitHub 网页、登录与 API，包含 api.github.com，默认 core_exit -> OSAKA_Premium。
+- ai_other：OpenAI / Anthropic 之外的其他 AI 交互，包含 Copilot 与 Perplexity，默认 core_exit -> OSAKA_Premium。
+- openai_anthropic：独立默认 general_exit -> KR_Evoxt，本次不改。
+- github_bulk：已确认的独立下载端点，默认 capacity_exit -> TOKYO_Standby。
+
+Copilot 的 api.githubcopilot.com、githubcopilot.com 后缀及 copilot-proxy.githubusercontent.com 明确归 AI，不因为 githubusercontent.com 的宽泛分类而认定是下载。当前生成器的 rule_overrides 只对实际解析到的对应规则生效，不凭空新增缺失主机；实际覆盖和精确例外优先级须在后续验收。
+
+同一 github.com HTTPS 主机上的登录、网页、Git 传输等不能仅靠当前域名规则按 URL 路径拆分；通过该主机的部分传输可能仍消耗大阪。下载分流仅承诺已明确分类的独立下载主机，不声称按所有下载行为准确识别。
+
 ## 日本与容量角色分离
 
-jp_exit 默认 TOKYO_Standby，供 DMM、AbemaTV、Hulu Japan、Niconico 业务使用；capacity_exit 默认仍为同一节点，供下载、云同步等使用。两者为独立逻辑角色，调整容量节点不会通过角色映射连带改变日本业务。业务是否必须日本仍由独立约束说明；Niconico 仅为当前日本出口偏好，不新增必须日本的断言。
+jp_exit 默认 TOKYO_Standby，供 DMM、AbemaTV、Hulu Japan、Niconico 使用；capacity_exit 默认同一节点但逻辑独立，服务于下载和同步。业务是否必须日本由独立约束表达；Niconico 仅为当前出口偏好。
 
-## 核心不等于三个域名
+## 审核边界
 
-用户定义的核心 AI 范围是 OpenAI / Anthropic 之外的其他 AI 交互。OpenAI / Anthropic 单列，默认韩国；其余核心 AI 默认大阪。
-
-现生成策略将这一范围分为 core_interactive 与 ai_other 两个业务文件，两者都映射 core_exit -> OSAKA_Premium。core_interactive 中 api.github.com、api.githubcopilot.com、perplexity.ai 是上一轮人工挑选的显式拆分种子，不是经过完整业务评估后证明只有这三个重要，也不是核心业务的完整定义。该命名拆分待后续统一，本次不合并或缩减列表。
-
-ai_other 的来源是当前 AI_other.list，因此不代表已经覆盖所有已知 AI 产品。共享 Auth0/Stripe/Sentry 等被拆分，以及关键词等暂缓生成，意味着新候选不是旧列表的完整等价复制；不能声称所有原 AI 请求均已保持原路由。应在完整匹配与依赖审核后再上线。
-
-本次仅新增日本角色、调整四个业务的角色引用及补充说明；不改核心来源、rule_overrides、共享依赖策略、生产 INI 或运行时选择。候选仍须审核，结果以新的 Actions 运行附件为准。
+ai_other 以现有 AI_other.list 为来源，不代表穷尽全部 AI。共享依赖拆分与关键词暂缓未变，候选不等价于旧列表全部行为。旧附件不会删除，应验收最新运行。此次仅修改候选生成策略与说明，不改生产 INI、运行时选择或每日同步计划。

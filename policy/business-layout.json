@@ -11,7 +11,6 @@
   },
   "businesses": {
     "direct": {"priority": 10, "role": "direct"},
-    "core_interactive": {"priority": 20, "role": "core_exit"},
     "openai_anthropic": {"priority": 30, "role": "general_exit"},
     "google_play": {"priority": 40, "role": "hk_exit"},
     "mytvsuper": {"priority": 50, "role": "hk_exit"},
@@ -22,7 +21,7 @@
     "hulu_japan": {"priority": 100, "role": "jp_exit"},
     "niconico": {"priority": 110, "role": "jp_exit"},
     "adult_content": {"priority": 120, "role": "capacity_exit"},
-    "github_web_api": {"priority": 130, "role": "general_exit"},
+    "github_web_api": {"priority": 130, "role": "core_exit"},
     "github_bulk": {"priority": 140, "role": "capacity_exit"},
     "overseas_download": {"priority": 150, "role": "capacity_exit"},
     "youtube": {"priority": 160, "role": "general_exit"},
@@ -78,9 +77,11 @@
     "Clash/Ruleset/Pixiv.list": "pixiv"
   },
   "rule_overrides": {
-    "DOMAIN,api.github.com": "core_interactive",
-    "DOMAIN,api.githubcopilot.com": "core_interactive",
-    "DOMAIN-SUFFIX,perplexity.ai": "core_interactive"
+    "DOMAIN,api.github.com": "github_web_api",
+    "DOMAIN,api.githubcopilot.com": "ai_other",
+    "DOMAIN-SUFFIX,githubcopilot.com": "ai_other",
+    "DOMAIN,copilot-proxy.githubusercontent.com": "ai_other",
+    "DOMAIN-SUFFIX,perplexity.ai": "ai_other"
   },
   "shared_hosts": ["auth0.com", "cdn.auth0.com", "challenges.cloudflare.com", "client-api.arkoselabs.com", "events.statsigapi.net", "featuregates.org", "hcaptcha.com", "identrust.com", "intercom.io", "intercomcdn.com", "microsoftonline.com", "sentry.io", "statsigapi.net", "stripe.com", "stripe.network", "apis.google.com"],
   "constraints": {
