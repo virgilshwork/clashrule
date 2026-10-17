@@ -1,0 +1,12 @@
+; Stub node source for candidate conversion acceptance.
+; Carries ONLY the six node NAMES the candidate INI's selector groups expect.
+; Every credential below is a literal placeholder ("stub"); the endpoints are
+; documentation addresses (TEST-NET / loopback) that cannot carry traffic.
+; Do not replace this with a real subscription: the acceptance run must never
+; need real credentials, and the converted YAML then contains no real material.
+ss://YWVzLTEyOC1nY206c3R1Yg@192.0.2.10:1#OSAKA_Premium
+ss://YWVzLTEyOC1nY206c3R1Yg@192.0.2.11:1#KR_Evoxt
+ss://YWVzLTEyOC1nY206c3R1Yg@192.0.2.12:1#HK_Evoxt
+ss://YWVzLTEyOC1nY206c3R1Yg@192.0.2.13:1#TOKYO_Standby
+ss://YWVzLTEyOC1nY206c3R1Yg@192.0.2.14:1#GGC_HK_A
+ss://YWVzLTEyOC1nY206c3R1Yg@192.0.2.15:1#GGC_HK_B

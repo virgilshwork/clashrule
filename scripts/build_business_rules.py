@@ -9,6 +9,57 @@ import shutil
 import tempfile
 from audit_acl4ssr import build, parse_rule
 
+
+def rule_host(rule):
+    """Return the value part of a rule: 'DOMAIN-SUFFIX,auth0.com,g' -> 'auth0.com'."""
+    parts = rule.split(',')
+    return parts[1].strip() if len(parts) > 1 else ''
+
+
+def host_matches(pattern, host):
+    """Match a host against an ownership pattern using Clash semantics."""
+    kind, _, value = pattern.partition(',')
+    kind = kind.strip().upper()
+    value = value.strip()
+    if not value:
+        return False
+    if kind == 'DOMAIN':
+        return host == value
+    if kind == 'DOMAIN-SUFFIX':
+        return host == value or host.endswith('.' + value)
+    return False
+
+
+def resolve_business(rule, source, sources, forced, layout):
+    """Source-agnostic business ownership for one parsed rule.
+
+    Precedence:
+      1. exact rule override (layout['rule_overrides'])
+      2. explicit host ownership (layout['ownership_overrides']) - wins over source mapping
+      3. shared login/payment/telemetry hosts (layout['shared_hosts']) - applied to EVERY source,
+         not only custom/AI_other.list
+      4. region endpoints verified from real traffic/config (layout['observed_region_hosts'])
+      5. the source's category mapping
+
+    Source records are preserved by the caller (row['source'], provenance entries).
+    Note: 'auth0.openai.com' is not covered by 'auth0.com' (different parent), so it keeps
+    the ownership of its own source list.
+    """
+    if rule in forced:
+        return forced[rule]
+    host = rule_host(rule)
+    if host:
+        for pattern, business in layout.get('ownership_overrides', {}).items():
+            if host_matches(pattern, host):
+                return business
+        if host in layout['shared_hosts']:
+            return 'shared_services'
+        for business, hosts in layout.get('observed_region_hosts', {}).items():
+            if host in hosts:
+                return business
+    return sources.get(source, '')
+
+
 def generate(root, seed_path, layout_path, output):
     seed = json.loads(seed_path.read_text(encoding='utf-8'))
     layout = json.loads(layout_path.read_text(encoding='utf-8'))
@@ -40,15 +91,18 @@ def generate(root, seed_path, layout_path, output):
         held = defaultdict(list)
         for row in records:
             rule = row['rule']
-            business = forced.get(rule, sources.get(row['source'], ''))
-            if row['source'] == 'custom/AI_other.list' and rule.split(',', 1)[-1] in layout['shared_hosts']:
-                business = 'shared_services'
+            business = resolve_business(rule, row['source'], sources, forced, layout)
             row['category'] = business
             safe = row['safe_syntax'] == 'True'
             if safe and row['source'] in layout['review_sources']:
                 held[rule].append(row['source'])
             if safe and business and row['source'].endswith('.list'):
                 owners[rule].append({'source': row['source'], 'position': row['position'], 'business': business})
+        injected = layout.get('injected_rules', {})
+        for rule, business in sorted(injected.items()):
+            if rule in forced:
+                continue
+            owners.setdefault(rule, []).append({'source': 'layout:injected', 'position': '0', 'business': business})
         chosen = {name: [] for name in businesses}
         conflicts, pending, provenance = [], [], {}
         for rule, candidates in sorted(owners.items()):
