@@ -150,26 +150,29 @@ def main():
     if args.ini:
         declared_groups, ini_nodes, ini_tail = ini_groups(args.ini)
 
-    # 1) rule count, dynamic per round
+    # 1) rule count: explicit --expect-rules is the FINAL TOTAL and is never augmented;
+    #    without it, the total is derived per round from the manifest (+ inline rules when an INI is given)
     expected_fragments = None
-    expect_rules = args.expect_rules
+    derived_total = None
     if args.manifest:
         manifest = json.load(open(args.manifest, encoding="utf-8"))
         fragments = manifest.get("ordered_fragments") or []
         expected_fragments = len(fragments)
-        if expect_rules is None:
-            expect_rules = sum(int(f.get("rules") or 0) for f in fragments)
-    if expect_rules is not None and args.ini:
-        # inline rules are already part of the manifest-derived count; never add them twice
-        derived = expect_rules + len(ini_tail)
-        if args.expect_rules is not None and args.expect_rules != derived:
-            errors.append("explicit --expect-rules %d disagrees with derived %d (manifest fragments + %d inline rules)"
-                          % (args.expect_rules, derived, len(ini_tail)))
-        else:
-            expect_rules = derived
-            notes.append("expected rule count = manifest fragments + %d inline rules" % len(ini_tail))
+        derived_total = sum(int(f.get("rules") or 0) for f in fragments)
+        if args.ini and ini_tail:
+            derived_total += len(ini_tail)
+            notes.append("derived total = manifest fragments + %d inline rules" % len(ini_tail))
+    expect_rules = args.expect_rules
+    if expect_rules is None:
+        expect_rules = derived_total
+    elif derived_total is not None and expect_rules != derived_total:
+        notes.append(
+            "explicit --expect-rules %d differs from the derived total %d for this round "
+            "(the explicit value is used as the final total; verify the manifest is the matching round)"
+            % (expect_rules, derived_total)
+        )
     if expect_rules is not None and len(rules) != expect_rules:
-        errors.append("rule count %d != expected %d for this round" % (len(rules), expect_rules))
+        errors.append("rule count %d != expected total %d" % (len(rules), expect_rules))
 
     # snapshot identity: the INI must reference the snapshot the manifest describes
     snapshot_report = None
@@ -275,7 +278,8 @@ def main():
         "rules": len(rules),
         "groups": len(groups),
         "node_count": len(node_names),
-        "expected_rules": expect_rules,
+        "expected_rules_total": expect_rules,
+        "derived_rules_total": derived_total,
         "expected_fragments": expected_fragments,
         "missing_declared_groups": missing_groups,
         "missing_required_nodes": missing_nodes,

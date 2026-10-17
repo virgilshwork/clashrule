@@ -95,6 +95,26 @@ JSON
   echo $?
 )
 
+RESULT[G_explicit_total]=$(
+  set +e
+  # positive: the explicit total must equal the final rule count (manifest fragments + inline GEOIP/FINAL)
+  TOTAL="$("$PY" - "$WORK/candidates/snapshots/$NEW_ID/manifest.json" "$WORK/candidates/virgil-candidate.ini" <<'PY'
+import json, pathlib, re, sys
+man = json.load(open(sys.argv[1], encoding='utf-8'))
+ini = pathlib.Path(sys.argv[2]).read_text(encoding='utf-8')
+total = sum(int(f.get('rules') or 0) for f in man.get('ordered_fragments') or [])
+total += len(re.findall(r'^ruleset=[^,]+,\[\](?:GEOIP|FINAL)', ini, re.M))
+print(total)
+PY
+)"
+  "$PY" scripts/verify_candidate_conversion.py "$WORK/run-a/candidate.yaml" \
+     --manifest "$WORK/candidates/snapshots/$NEW_ID/manifest.json" \
+     --ini "$WORK/candidates/virgil-candidate.ini" \
+     --expect-rules "$TOTAL" --cases "$REPO_ROOT/policy/acceptance-cases.json" \
+     > "$WORK/logs/G_explicit_total.log" 2>&1
+  echo $?
+)
+
 RESULT[F_workdir_guards]=$(
   set +e
   local_ok=0
@@ -112,6 +132,7 @@ printf '   C snapshot identity mismatch            exit=%s (expect non-zero)\n' 
 printf '   D manifest points at missing snapshot   exit=%s (expect non-zero)\n' "${RESULT[D_missing_snapshot]}"
 printf '   E tampered expectations (verifier)      exit=%s (expect non-zero)\n' "${RESULT[E_tampered_assertions]}"
 printf '   F work-dir guards (repo/relative/used)  exit=%s (expect 0 = all refused)\n' "${RESULT[F_workdir_guards]}"
+printf '   G explicit total + manifest + INI       exit=%s (expect 0)\n' "${RESULT[G_explicit_total]}"
 echo
 echo "== key log lines =="
 grep -h "snapshot identity" "$WORK/logs/A_positive.log" | sed 's/^/   A: /' || true
@@ -126,4 +147,5 @@ STATUS=0
 [ "${RESULT[D_missing_snapshot]}" != "0" ] || STATUS=1
 [ "${RESULT[E_tampered_assertions]}" != "0" ] || STATUS=1
 [ "${RESULT[F_workdir_guards]}" = "0" ] || STATUS=1
+[ "${RESULT[G_explicit_total]}" = "0" ] || STATUS=1
 exit $STATUS
