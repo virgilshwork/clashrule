@@ -1,0 +1,40 @@
+name: Sync ACL4SSR Ruleset
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_ref:
+        description: 'master or full upstream commit SHA'
+        required: true
+        default: 'master'
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: acl4ssr-sync-main
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Fetch and verify upstream snapshot
+        env:
+          UPSTREAM_REF: ${{ inputs.upstream_ref }}
+        run: python3 scripts/sync_acl4ssr.py --ref "$UPSTREAM_REF"
+      - name: Commit snapshot only
+        run: |
+          set -euo pipefail
+          git add -- sources/acl4ssr/
+          if git diff --cached --quiet; then
+            echo 'No snapshot changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: sync ACL4SSR Ruleset snapshot'
+          git push origin HEAD:main
