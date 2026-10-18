@@ -98,14 +98,15 @@ jobs:
         if: always()
         continue-on-error: true
         env:
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Accept both naming conventions so a differently-named repo secret still works.
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || secrets.CHAT_ID || secrets.TG_CHAT_ID }}
           JOB_STATUS: ${{ job.status }}
           CHANGED: ${{ steps.publish.outputs.changed }}
         run: |
           set -uo pipefail
           if [ -z "${BOT_TOKEN:-}" ] || [ -z "${CHAT_ID:-}" ]; then
-            echo "TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not configured; skipping notification"
+            echo "no bot token / chat id visible to this workflow; expected secrets: TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID (repository scope, this repo)"
             exit 0
           fi
           PUB=$(python3 -c 'import json;print(json.load(open("candidates/manifest.json"))["publication_id"][:16])' 2>/dev/null || echo n/a)
