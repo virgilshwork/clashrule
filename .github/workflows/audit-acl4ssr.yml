@@ -122,6 +122,12 @@ jobs:
             *:*) ;;
             *) echo "bot token secret looks wrong: len=${#BOT_TOKEN} (no colon). Expected <digits>:<secret>, about 46 chars."; exit 0 ;;
           esac
+          # Guard: sending to the bot's own id yields 403 "the bot can't send messages to the bot".
+          BOT_ID="${BOT_TOKEN%%:*}"
+          if [ "$CHAT_ID" = "$BOT_ID" ]; then
+            echo "chat id equals the bot's own id (${#BOT_ID} digits); it must be the human user id, not the bot id."
+            exit 0
+          fi
           # Guard: the chat id is a short numeric id; a token-shaped value here means the
           # wrong secret was pasted and Telegram would answer 403.
           if ! printf '%s' "$CHAT_ID" | grep -qE '^-?[0-9]{5,15}$'; then
