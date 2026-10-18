@@ -144,7 +144,8 @@ jobs:
           # Diagnostics: lengths only; a full "KEY=value" paste shows up as an unexpected length.
           echo "diag: token_len=${#BOT_TOKEN} chat_len=${#CHAT_ID} chat_digits=$(printf '%s' "$CHAT_ID" | tr -cd '0-9' | wc -c)"
           RESP_FILE=$(mktemp)
-          if curl -sS -f --retry 2 --max-time 20 -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+          # --fail-with-body keeps Telegram's JSON error body, which -f would discard.
+          if curl -sS --fail-with-body --retry 2 --max-time 20 -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${CHAT_ID}" \
             --data-urlencode "text=${TEXT}" \
             -d disable_web_page_preview=true > "$RESP_FILE"; then
