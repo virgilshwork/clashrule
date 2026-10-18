@@ -27,6 +27,7 @@ BUSINESS_NAMES = {
     'adult_content': '🔞 成人内容', 'google_play': '🌍 Google Play', 'mytvsuper': '📺 MyTVSuper',
     'viutv': '📺 ViuTV', 'hbo_go_hk': '📺 HBO香港', 'dmm': '📺 DMM', 'abematv': '📺 AbemaTV',
     'hulu_japan': '📺 Hulu Japan', 'niconico': '📺 Niconico', 'pixiv': '🎨 Pixiv',
+    'japan_download': '📥 日本下载',
 }
 
 def sort_key(item, priorities):
