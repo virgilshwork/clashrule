@@ -115,6 +115,12 @@ jobs:
             echo "no token/chat id visible: checked secrets+variables TELEGRAM_BOT_TOKEN/BOT_TOKEN/TELEGRAM_TOKEN and TELEGRAM_CHAT_ID/CHAT_ID/TG_CHAT_ID (repository scope)"
             exit 0
           fi
+          # Guard: the chat id is a short numeric id; a token-shaped value here means the
+          # wrong secret was pasted and Telegram would answer 403.
+          if ! printf '%s' "$CHAT_ID" | grep -qE '^-?[0-9]{5,15}$'; then
+            echo "chat id secret looks wrong: len=${#CHAT_ID} digits=$(printf '%s' "$CHAT_ID" | tr -cd '0-9' | wc -c). Expected a numeric chat id (e.g. 10 digits), not a bot token."
+            exit 0
+          fi
           PUB=$(python3 -c 'import json;print(json.load(open("candidates/manifest.json"))["publication_id"][:16])' 2>/dev/null || echo n/a)
           RULES=$(python3 -c 'import json;m=json.load(open("candidates/manifest.json"));print(sum(f["rules"] for f in m["ordered_fragments"]))' 2>/dev/null || echo '?')
           GROUPS=$(awk '/^custom_proxy_group=/{n++} END{print n+0}' virgil-v3.ini 2>/dev/null || echo '?')
