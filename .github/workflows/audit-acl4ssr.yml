@@ -100,8 +100,8 @@ jobs:
         env:
           # Accept both naming conventions so a differently-named repo secret still works.
           # Accept secrets or repository variables, and a few common naming variants.
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM_TOKEN || vars.TELEGRAM_BOT_TOKEN || vars.BOT_TOKEN || vars.TELEGRAM_TOKEN }}
-          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || secrets.CHAT_ID || secrets.TG_CHAT_ID || vars.TELEGRAM_CHAT_ID || vars.CHAT_ID || vars.TG_CHAT_ID }}
+          BOT_TOKEN: ${{ secrets.TX7891_BOT || secrets.TELEGRAM_BOT_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM_TOKEN || vars.TX7891_BOT || vars.TELEGRAM_BOT_TOKEN || vars.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TX7891_CHAT || secrets.TX7891_CHAT_ID || secrets.TELEGRAM_CHAT_ID || secrets.CHAT_ID || secrets.TG_CHAT_ID || vars.TX7891_CHAT || vars.TELEGRAM_CHAT_ID || vars.CHAT_ID }}
           JOB_STATUS: ${{ job.status }}
           CHANGED: ${{ steps.publish.outputs.changed }}
         run: |
