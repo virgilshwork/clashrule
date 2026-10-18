@@ -115,6 +115,12 @@ jobs:
             echo "no token/chat id visible: checked secrets+variables TELEGRAM_BOT_TOKEN/BOT_TOKEN/TELEGRAM_TOKEN and TELEGRAM_CHAT_ID/CHAT_ID/TG_CHAT_ID (repository scope)"
             exit 0
           fi
+          # Guard: a bot token is <digits>:<secret> (~46 chars). A bare number here means the
+          # two secrets were swapped and Telegram would answer 404.
+          case "$BOT_TOKEN" in
+            *:*) ;;
+            *) echo "bot token secret looks wrong: len=${#BOT_TOKEN} (no colon). Expected <digits>:<secret>, about 46 chars."; exit 0 ;;
+          esac
           # Guard: the chat id is a short numeric id; a token-shaped value here means the
           # wrong secret was pasted and Telegram would answer 403.
           if ! printf '%s' "$CHAT_ID" | grep -qE '^-?[0-9]{5,15}$'; then
