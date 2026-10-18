@@ -34,6 +34,10 @@
     {"host": "microsoftonline.com", "business": "🔗 共享依赖", "node": "KR_Evoxt"},
     {"host": "withyoutube.com", "business": "🌐 普通海外业务", "node": "KR_Evoxt"},
     {"host": "aiplatform.googleapis.com", "business": "🧠 其他AI", "node": "OSAKA_Premium"},
-    {"host": "ml.googleapis.com", "business": "🧠 其他AI", "node": "OSAKA_Premium"}
+    {"host": "ml.googleapis.com", "business": "🧠 其他AI", "node": "OSAKA_Premium"},
+    {"host": "www.dlsite.com", "business": "📥 日本下载", "node": "TOKYO_Standby"},
+    {"host": "bookwalker.jp", "business": "📥 日本下载", "node": "TOKYO_Standby"},
+    {"host": "www.melonbooks.co.jp", "business": "📥 日本下载", "node": "TOKYO_Standby"},
+    {"host": "www.dmm.co.jp", "business": "📺 DMM", "node": "TOKYO_Standby"}
   ]
 }

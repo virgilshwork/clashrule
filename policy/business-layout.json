@@ -20,6 +20,7 @@
     "abematv": {"priority": 90, "role": "jp_exit"},
     "hulu_japan": {"priority": 100, "role": "jp_exit"},
     "niconico": {"priority": 110, "role": "jp_exit"},
+    "japan_download": {"priority": 118, "role": "jp_exit"},
     "adult_content": {"priority": 120, "role": "capacity_exit"},
     "github_web_api": {"priority": 130, "role": "core_exit"},
     "github_bulk": {"priority": 140, "role": "capacity_exit"},
@@ -93,11 +94,20 @@
   },
   "injected_rules": {
     "DOMAIN-SUFFIX,aiplatform.googleapis.com": "ai_other",
-    "DOMAIN,ml.googleapis.com": "ai_other"
+    "DOMAIN,ml.googleapis.com": "ai_other",
+    "DOMAIN-SUFFIX,dlsite.com": "japan_download",
+    "DOMAIN-SUFFIX,bookwalker.jp": "japan_download",
+    "DOMAIN-SUFFIX,melonbooks.co.jp": "japan_download",
+    "DOMAIN-SUFFIX,jaist.ac.jp": "japan_download",
+    "DOMAIN-SUFFIX,riken.jp": "japan_download",
+    "DOMAIN-SUFFIX,tsukuba.ac.jp": "japan_download",
+    "DOMAIN,tsukuba.wide.ad.jp": "japan_download",
+    "DOMAIN-SUFFIX,yamagata-u.ac.jp": "japan_download"
   },
   "notes_ownership": {
     "ownership_overrides": "Source-agnostic host ownership; wins over the source/category mapping. 'auth0.openai.com' is intentionally absent: it is not covered by 'auth0.com' and keeps openai_anthropic.",
-    "injected_rules": "Rules added even when no source list carries them (Vertex AI endpoints). Keep to verified endpoints only; record the evidence in the PR.",
+    "injected_rules": "Rules added even when no source list carries them (Vertex AI endpoints, Japan-region download hosts). Keep to verified endpoints only; record the evidence in the PR.",
+    "japan_download": "Japan-region download/e-book hosts verified in production on 2026-10-18: dlsite/bookwalker/melonbooks resolved to general_exit (KR) and melonbooks failed outright (HTTP 000) while the broad DOMAIN-SUFFIX,jp rule sent every uncovered .jp host to KR. Injected rules are more specific than that broad rule and carry priority 118 so they are ordered before general_overseas.",
     "observed_region_hosts": "Region endpoints go here only after being verified from real configuration or connection records (for example us-central1-aiplatform.googleapis.com). DOMAIN-SUFFIX,aiplatform.googleapis.com does NOT cover <region>-aiplatform.googleapis.com; never write <region> as a literal host.",
     "shared_hosts": "Applied to every source list, not only custom/AI_other.list."
   },
