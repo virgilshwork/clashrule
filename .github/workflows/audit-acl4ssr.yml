@@ -120,7 +120,17 @@ jobs:
             printf -v DETAIL "门禁未通过时不发布，线上继续使用旧快照（main: %s）\n请查看运行日志定位失败步骤" "$PUB"
           fi
           TEXT=$(printf "%s %s\n%s\n%s" "$ICON" "$TITLE" "$DETAIL" "$RUN_URL")
-          curl -sS --max-time 20 -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+          # Diagnostics: lengths only; a full "KEY=value" paste shows up as an unexpected length.
+          echo "diag: token_len=${#BOT_TOKEN} chat_len=${#CHAT_ID} chat_digits=$(printf '%s' "$CHAT_ID" | tr -cd '0-9' | wc -c)"
+          RESP_FILE=$(mktemp)
+          if curl -sS -f --retry 2 --max-time 20 -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${CHAT_ID}" \
             --data-urlencode "text=${TEXT}" \
-            -d disable_web_page_preview=true > /dev/null && echo "telegram notification sent"
+            -d disable_web_page_preview=true > "$RESP_FILE"; then
+            echo "telegram notification sent"
+          else
+            echo "telegram notification FAILED"
+            # Telegram error bodies carry a description, never the token.
+            head -c 400 "$RESP_FILE" | sed 's/[0-9]\{6,\}/<digits>/g'
+            exit 1
+          fi
