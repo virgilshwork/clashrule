@@ -99,14 +99,15 @@ jobs:
         continue-on-error: true
         env:
           # Accept both naming conventions so a differently-named repo secret still works.
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM_TOKEN }}
-          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || secrets.CHAT_ID || secrets.TG_CHAT_ID }}
+          # Accept secrets or repository variables, and a few common naming variants.
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM_TOKEN || vars.TELEGRAM_BOT_TOKEN || vars.BOT_TOKEN || vars.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || secrets.CHAT_ID || secrets.TG_CHAT_ID || vars.TELEGRAM_CHAT_ID || vars.CHAT_ID || vars.TG_CHAT_ID }}
           JOB_STATUS: ${{ job.status }}
           CHANGED: ${{ steps.publish.outputs.changed }}
         run: |
           set -uo pipefail
           if [ -z "${BOT_TOKEN:-}" ] || [ -z "${CHAT_ID:-}" ]; then
-            echo "no bot token / chat id visible to this workflow; expected secrets: TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID (repository scope, this repo)"
+            echo "no token/chat id visible: checked secrets+variables TELEGRAM_BOT_TOKEN/BOT_TOKEN/TELEGRAM_TOKEN and TELEGRAM_CHAT_ID/CHAT_ID/TG_CHAT_ID (repository scope)"
             exit 0
           fi
           PUB=$(python3 -c 'import json;print(json.load(open("candidates/manifest.json"))["publication_id"][:16])' 2>/dev/null || echo n/a)
