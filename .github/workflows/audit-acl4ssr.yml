@@ -92,6 +92,7 @@ jobs:
           retention-days: 30
           if-no-files-found: error
 
+      # Notify step v2: guards (token shape, chat id shape), curl -f --retry 2, set +e.
       # Manual end-to-end check of the notification path: touch this workflow file and push to main.
       - name: Notify Telegram
         # Success/failure summary. Repo secrets in use: TX7891_BOT (bot token), TX7891_CHAT (chat id).
