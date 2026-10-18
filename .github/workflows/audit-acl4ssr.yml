@@ -107,6 +107,9 @@ jobs:
           JOB_STATUS: ${{ job.status }}
           CHANGED: ${{ steps.publish.outputs.changed }}
         run: |
+          # The runner invokes this with `bash -e`; disable it so a failing diagnostic
+          # command cannot kill the step before the notification is attempted.
+          set +e
           set -uo pipefail
           if [ -z "${BOT_TOKEN:-}" ] || [ -z "${CHAT_ID:-}" ]; then
             echo "no token/chat id visible: checked secrets+variables TELEGRAM_BOT_TOKEN/BOT_TOKEN/TELEGRAM_TOKEN and TELEGRAM_CHAT_ID/CHAT_ID/TG_CHAT_ID (repository scope)"
