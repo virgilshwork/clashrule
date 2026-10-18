@@ -40,7 +40,7 @@ jobs:
         run: python scripts/build_business_rules.py --seed policy/business-draft.json --layout policy/business-layout.json --output business-output
       - name: Generate reference INI and versioned candidate rules
         id: export
-        run: python scripts/publish_candidate_references.py --input business-output --publish-root candidates
+        run: python scripts/publish_candidate_references.py --input business-output --publish-root candidates --v3-path virgil-v3.ini
       - name: Verify converted candidate (conversion + kernel load) before publishing
         # NOTE: this workflow only runs on the default branch (checkout ref: main, no pull_request
         # trigger), so the gate protects main-to-main publications. Branch code must be verified
@@ -53,7 +53,7 @@ jobs:
         id: publish
         run: |
           set -euo pipefail
-          git add --all -- candidates/
+          git add --all -- candidates/ virgil-v3.ini
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             echo 'Candidate publication unchanged.'

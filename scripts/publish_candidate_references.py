@@ -10,7 +10,7 @@ from generate_candidate_ini import emit, BUSINESS_NAMES
 
 RAW = 'https://raw.githubusercontent.com/virgilshwork/clashrule/main/candidates/snapshots/'
 
-def publish(folder, destination):
+def publish(folder, destination, v3_path=None):
     emit(folder)
     inline = (folder / 'virgil-candidate.ini').read_text(encoding='utf-8')
     plan = json.loads((folder / 'business-plan.json').read_text(encoding='utf-8'))
@@ -60,6 +60,9 @@ def publish(folder, destination):
     lines = ['[custom]', '; Reference-only candidate configuration; NOT production-approved.', '; Business identity, role selection and regional constraints remain separate.', '; Snapshot: ' + version, '; Rules are remote list references; only GEOIP/CN and FINAL are inline.', '; Ordered fragments preserve the exact sequence validated by the existing generator.', '; GGC choices are manual standby only; no automatic failover.', '; Verify node names, selector cache, actual conversion and business behavior before use.', '']
     lines += references + retained + ['', '; Node, role and business group definitions.'] + groups_and_switches + ['']
     content = '\n'.join(lines).encode('utf-8')
+    v3_lines = ['[custom]', '; virgil-v3 production template; stable top-level path (same INI->GitHub-list pattern as virgil-v2.ini).', '; Business identity, role selection and regional constraints remain separate.', '; Snapshot: ' + version, '; Rules are remote list references frozen at this snapshot; only GEOIP/CN and FINAL are inline.', '; Ordered fragments preserve the exact sequence validated by the existing generator.', '; GGC choices are manual standby only; no automatic failover.', '; ready_for_production=false until real-node acceptance completes; do not switch production before that.', '']
+    v3_lines += references + retained + ['', '; Node, role and business group definitions.'] + groups_and_switches + ['']
+    v3_content = '\n'.join(v3_lines).encode('utf-8')
     if any(line.startswith('ruleset=') and ',[]' in line and line not in retained for line in content.decode().splitlines()):
         raise RuntimeError('Business rules still inline')
     payload['virgil-candidate.ini'] = content
@@ -96,6 +99,11 @@ def publish(folder, destination):
     (folder / 'virgil-candidate.ini').write_bytes(content)
     (folder / 'ini-validation.json').write_bytes(payload['ini-validation.json'])
     (folder / 'reference-manifest.json').write_bytes(manifest_bytes)
+    if v3_path is not None:
+        if v3_path.is_symlink():
+            raise RuntimeError('Refusing symlink virgil-v3.ini path')
+        v3_path.write_bytes(v3_content)
+        print('wrote virgil-v3.ini -> ' + str(v3_path))
     fragments = folder / 'reference-rule-parts'
     if fragments.exists():
         shutil.rmtree(fragments)
@@ -110,5 +118,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', type=Path, required=True)
     parser.add_argument('--publish-root', type=Path, required=True)
+    parser.add_argument('--v3-path', type=Path, default=None,
+                        help='Optional path for the stable virgil-v3.ini (repo root). Each publish refreshes it to reference the new frozen snapshot.')
     args = parser.parse_args()
-    publish(args.input.resolve(), args.publish_root.absolute())
+    publish(args.input.resolve(), args.publish_root.absolute(),
+            args.v3_path.absolute() if args.v3_path else None)
