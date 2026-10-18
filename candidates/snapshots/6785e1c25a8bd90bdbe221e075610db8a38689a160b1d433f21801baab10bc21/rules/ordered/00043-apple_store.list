@@ -1,0 +1,7 @@
+# Ordered fragment; review only; business=apple_store
+DOMAIN,account.apple.com
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,gs-loc.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,idmsa.apple.com

@@ -1,0 +1,58 @@
+{
+  "ready_for_production": false,
+  "inline_rule_count": 18684,
+  "strategy_groups": 43,
+  "ini_sha256": "5ecb9a5571f256474e4415ec7571602cfecfdddee130543b76c3d91da1514f2c",
+  "domain_order_cases": [
+    {
+      "host": "github.com",
+      "expected": "github_web_api",
+      "actual": "github_web_api"
+    },
+    {
+      "host": "api.github.com",
+      "expected": "github_web_api",
+      "actual": "github_web_api"
+    },
+    {
+      "host": "api.githubcopilot.com",
+      "expected": "ai_other",
+      "actual": "ai_other"
+    },
+    {
+      "host": "copilot-proxy.githubusercontent.com",
+      "expected": "ai_other",
+      "actual": "ai_other"
+    },
+    {
+      "host": "perplexity.ai",
+      "expected": "ai_other",
+      "actual": "ai_other"
+    },
+    {
+      "host": "codeload.github.com",
+      "expected": "github_bulk",
+      "actual": "github_bulk"
+    },
+    {
+      "host": "release-assets.githubusercontent.com",
+      "expected": "github_bulk",
+      "actual": "github_bulk"
+    }
+  ],
+  "validation": "Offline syntax/reference/domain-order checks only; no SubConverter or mihomo execution",
+  "review_required": [
+    "pending-business-review.json",
+    "conflicts.json",
+    "parse-issues.json",
+    "domain versus IP ordering",
+    "selector cache and actual node availability",
+    "SubConverter inline-rule limits and generated YAML validation",
+    "business and authentication tests"
+  ],
+  "ini_mode": "remote-references",
+  "publication_id": "6785e1c25a8bd90bdbe221e075610db8a38689a160b1d433f21801baab10bc21",
+  "ordered_fragments": 131,
+  "order_preserved": true,
+  "remote_files_published": "not-confirmed-until-workflow-push"
+}
