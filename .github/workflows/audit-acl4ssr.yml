@@ -124,10 +124,11 @@ jobs:
           PUB=$(python3 -c 'import json;print(json.load(open("candidates/manifest.json"))["publication_id"][:16])' 2>/dev/null || echo n/a)
           RULES=$(python3 -c 'import json;m=json.load(open("candidates/manifest.json"));print(sum(f["rules"] for f in m["ordered_fragments"]))' 2>/dev/null || echo '?')
           GROUPS=$(awk '/^custom_proxy_group=/{n++} END{print n+0}' virgil-v3.ini 2>/dev/null || echo '?')
+          FRAGS=$(python3 -c 'import json;print(len(json.load(open("candidates/manifest.json"))["ordered_fragments"]))' 2>/dev/null || echo '?')
           RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           if [ "$JOB_STATUS" = "success" ]; then
             ICON="✅"; TITLE="clashrule 发布成功"
-            printf -v DETAIL "publication_id: %s\n规则数（片段合计）: %s  策略组: %s\n本次是否变更: %s" "$PUB" "$RULES" "$GROUPS" "${CHANGED:-n/a}"
+            printf -v DETAIL "publication_id: %s\n规则数（片段合计）: %s  有序片段: %s  策略组: %s\n本次是否变更: %s" "$PUB" "$RULES" "$FRAGS" "$GROUPS" "${CHANGED:-n/a}"
           else
             ICON="❌"; TITLE="clashrule 发布失败（门禁或构建未通过）"
             printf -v DETAIL "门禁未通过时不发布，线上继续使用旧快照（main: %s）\n请查看运行日志定位失败步骤" "$PUB"
