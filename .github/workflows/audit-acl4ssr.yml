@@ -92,6 +92,7 @@ jobs:
           retention-days: 30
           if-no-files-found: error
 
+      # Manual end-to-end check of the notification path: touch this workflow file and push to main.
       - name: Notify Telegram
         # Success/failure summary. Repo secrets in use: TX7891_BOT (bot token), TX7891_CHAT (chat id).
         # Legacy aliases accepted: TELEGRAM_BOT_TOKEN / BOT_TOKEN / TELEGRAM_TOKEN and TELEGRAM_CHAT_ID / CHAT_ID / TG_CHAT_ID.
