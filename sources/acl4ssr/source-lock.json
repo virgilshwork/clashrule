@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "575637df38884575bfa523e95c17d0ee3be1676c",
+  "commit": "ce7ef8f3bd7f372a756584722101c3e94e20eedd",
   "source_path": "/",
   "snapshot_subdir": "upstream",
-  "file_count": 580,
-  "total_bytes": 15204932,
+  "file_count": 581,
+  "total_bytes": 15207575,
   "files": [
     {
       "path": ".github/workflows/update.yml",
@@ -4643,9 +4643,17 @@
       "path": "scripts/gfwlist_parser.py",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a4108838135803f400f9fd9147166e332d8db0ff",
-      "bytes": 15934,
-      "sha256": "57cca2bd593c896057bddcf5726d3add729c360d7b3ec93e281fc4cb734f3347"
+      "git_oid": "ab89e4b7e26b4e418b7268f027e2a27cf5e27b9b",
+      "bytes": 16392,
+      "sha256": "c7647896f8fee9688d85ff532a57ebc4120ff5d7be87da5f18794e1168149371"
+    },
+    {
+      "path": "scripts/tests/test_mrs_domain_patterns.py",
+      "mode": "100644",
+      "type": "blob",
+      "git_oid": "e201cbd84a94fc17ede765f45ad044901af0cdd1",
+      "bytes": 2185,
+      "sha256": "0b221509c9ce8af528222e09691e30b9d93c9c9043f0855de9eaa0a10caaeff0"
     }
   ]
 }
