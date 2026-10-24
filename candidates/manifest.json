@@ -1,6 +1,6 @@
 {
   "managed_by": "clashrule-reference-publisher-v1",
-  "publication_id": "6785e1c25a8bd90bdbe221e075610db8a38689a160b1d433f21801baab10bc21",
+  "publication_id": "e78389643a4df6db83e6ed149963ca5013e30a83446995316842210b6c274407",
   "ready_for_production": false,
   "ordered_fragments": [
     {
@@ -799,7 +799,7 @@
     {
       "path": "ini-validation.json",
       "bytes": 1658,
-      "sha256": "4136910d4f42adb59de7f977751cd56d6da555fa950f51cfd0c4a967a3c9eedf"
+      "sha256": "a46225c1754abae23f4cbc20b571d8d6fa5e5b33ae46103e5ab823d8d5349222"
     },
     {
       "path": "rules/abematv.list",
@@ -1619,7 +1619,7 @@
     {
       "path": "virgil-candidate.ini",
       "bytes": 32184,
-      "sha256": "5ecb9a5571f256474e4415ec7571602cfecfdddee130543b76c3d91da1514f2c"
+      "sha256": "5cba84e45473f9bf78c1839c0c1ef7cfdd6d22dbb8e934ec5fd2954d5333d7ee"
     }
   ]
 }

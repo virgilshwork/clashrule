@@ -1,0 +1,7 @@
+# Ordered fragment; review only; business=github_bulk
+DOMAIN-SUFFIX,codeload.github.com
+DOMAIN-SUFFIX,github-releases.githubusercontent.com
+DOMAIN-SUFFIX,media.githubusercontent.com
+DOMAIN-SUFFIX,objects.githubusercontent.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,release-assets.githubusercontent.com

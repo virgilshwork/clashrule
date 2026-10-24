@@ -1,0 +1,6 @@
+# Ordered fragment; review only; business=shared_services
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,cdn.auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
