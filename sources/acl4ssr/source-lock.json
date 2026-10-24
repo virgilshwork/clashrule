@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "ce7ef8f3bd7f372a756584722101c3e94e20eedd",
+  "commit": "3024bf8b2c9db5bf8807c4595674be8bbc22bd86",
   "source_path": "/",
   "snapshot_subdir": "upstream",
   "file_count": 581,
-  "total_bytes": 15207575,
+  "total_bytes": 14765877,
   "files": [
     {
       "path": ".github/workflows/update.yml",
@@ -51,9 +51,9 @@
       "path": "Acl/fullgfwlist.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "bf078c1ea0242e48aa151c3a7b728c983a3f4b82",
-      "bytes": 89731,
-      "sha256": "0e22221b4bda60eb6f388c120a9266c743c0b6c8893a8fd79cf1fc09f021ae8f"
+      "git_oid": "43450aba6ed067f2de7d1c972c7f9166d19171a4",
+      "bytes": 89776,
+      "sha256": "11984476ed6d2c07c63dab82a4a03c3d08f73d76f96319634fcc974e903a651a"
     },
     {
       "path": "Acl/gfwlist-banAD.acl",
@@ -355,9 +355,9 @@
       "path": "Clash/Providers/ProxyGFWlist.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5fc5a73a6a5e41977176eea77a95dfa40f4933f7",
-      "bytes": 137225,
-      "sha256": "62e9fa644dc8c3833c352870e9d862021599c8a3e25ffbabb3e9e6586c334d20"
+      "git_oid": "2ef7124421b50ab14e6d083708e09dd9b4564e15",
+      "bytes": 137292,
+      "sha256": "aa8f3bd2311d1b318049556aab88147811612d56f08d6c5fd8ff00c71c5b8a7c"
     },
     {
       "path": "Clash/Providers/ProxyLite.yaml",
@@ -2355,9 +2355,9 @@
       "path": "Clash/Ruleset/ProxyGFWlist.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fd40420b5d55a77c4cd266f5c268fda78386d23e",
-      "bytes": 119796,
-      "sha256": "b69f874a71fde198c12bce8b6efde3f084aeb7367a71b559ae11e54d02f0d079"
+      "git_oid": "bfe5b085304542dc2f57a318b308ec6bbb152316",
+      "bytes": 119855,
+      "sha256": "4c02421fc81821f2208661f43b04b43fc9f2b0a9b353c4674800d4fd82e9eee4"
     },
     {
       "path": "Clash/Ruleset/PublicDirectCDN.list",
@@ -2995,81 +2995,81 @@
       "path": "Clash/mrs/360_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "577458c705895916a30aaa51b033b839b4a324c4",
-      "bytes": 197,
-      "sha256": "afed67db6ccc6952e78c962720aabd8c63d8c0df6e7a354823ba020242e06f42"
+      "git_oid": "dce592a39b66969c591da50d64dd14031f798f6f",
+      "bytes": 134,
+      "sha256": "1efe22fea27b65e1715405a5775789712eed0908929517f78753bbb3bb186ce1"
     },
     {
       "path": "Clash/mrs/4399_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6d2dee3b1ad92c5f81653d7482295448bfb3d064",
-      "bytes": 133,
-      "sha256": "d720043e0ec33ea27b82f6c4ca91db74ba226643c70efa12fbba07fe1ea1c4e4"
+      "git_oid": "558f5b6cb50af74a1874c6dd777bf54310fef5bb",
+      "bytes": 81,
+      "sha256": "abe71c20328642b0c9588410831c16871643d3c24799f01d9381c3111691765b"
     },
     {
       "path": "Clash/mrs/58_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "aa6e6cc87a1090b8f977ac62c57a40a2dc956c6b",
-      "bytes": 69,
-      "sha256": "286000ce9df7ba315945f784c55fdab9a864936f19b27f55029f52e831edb2aa"
+      "git_oid": "8f8c5304bc8cae2cc898a3c4d8b3e4bf69fdfac4",
+      "bytes": 50,
+      "sha256": "c0bff9de0ec2c8f9e84eb9bd5104d0459fc1897f7ed88242e475126ae6074ab6"
     },
     {
       "path": "Clash/mrs/ABC_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "536014732aeb10b90e6d67c519c523fe169d3d96",
-      "bytes": 97,
-      "sha256": "592ba70768dcc7ea9d8a74f036594fcfb0bad5d1b19125f4a088343518f0d845"
+      "git_oid": "ea85fbe47020a59895aa90eb0927c6b9ed962536",
+      "bytes": 65,
+      "sha256": "1c78ee02bebb6b5c45fd1fdb0cb6c37807786ba803c1ac65f543e3f2463af32a"
     },
     {
       "path": "Clash/mrs/AI_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c4654d61a5d85bd322ba8325ed08757dbe178ae5",
-      "bytes": 933,
-      "sha256": "1f5d24b610050705ddd4fb05a75502ef006b46d106d58b16a66852bccd7334eb"
+      "git_oid": "e5faa5e10b7ef3759489e633afad2cad06dbf094",
+      "bytes": 623,
+      "sha256": "dc41087aea346af4e9cf70ce148049b7b2613185dcf5cb5a4c0f5f29e5002e99"
     },
     {
       "path": "Clash/mrs/AbemaTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6003e6cf01043dacae9d794fd03029950f5dbf05",
-      "bytes": 167,
-      "sha256": "264e6ccfa9223233705fd119841836351c79414ce7ecccae669f5570d4130e8d"
+      "git_oid": "2340f64bcac8649acf0ac8cde44e8660d992acd0",
+      "bytes": 135,
+      "sha256": "9fb342d2900383137f0bc745aeaeb29819c57bb3fed09986089ba1d5d4dee7d5"
     },
     {
       "path": "Clash/mrs/AccelerateDirectSites_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1005b29262174938f073cb8fb848a3ede376d83e",
-      "bytes": 3284,
-      "sha256": "79fcee12872e1970f0c866541f7afe660583b477e9c380f30d8402233cf09394"
+      "git_oid": "8da12a8d0cac25efdf6733620dd5ada77b440e5d",
+      "bytes": 1793,
+      "sha256": "5a0ae50fdc61425ea0cd88f2e57d9548a2ed722b2e9e37dd1c02ed835497f200"
     },
     {
       "path": "Clash/mrs/Adobe_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9ee8c3b911cb4348b30af4acd57c539979b19935",
-      "bytes": 653,
-      "sha256": "25698fee82224459737a963b95b4a13da7f553a7bcd6cef74414a9912e5f183b"
+      "git_oid": "c77bf96e003e32a86c20a4a1bb7f792db5f85746",
+      "bytes": 442,
+      "sha256": "ce25f9098a677a2866ea9427d31557505317f395d2f7c0e6b2c3efc9486f86f1"
     },
     {
       "path": "Clash/mrs/Alibaba_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "0d33957ab81cc7fa32c8cb182d4e4f89f9f6be2d",
-      "bytes": 693,
-      "sha256": "d6cd2ede5737979c5f9f3cba101244c2ab630c406919b51c7cec71fbeeb15686"
+      "git_oid": "b7978bae1bd0e8246eeeadbb39a322975e0218f4",
+      "bytes": 424,
+      "sha256": "51af75257e157e6e2d7b09ddef6a74aaa416e31d0fdeb5847e48ad6bfbd62b37"
     },
     {
       "path": "Clash/mrs/All4_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c9d8cef05aa5aafe8916d1b7585ea91a89284664",
-      "bytes": 105,
-      "sha256": "fc144cd9060769b188df8cdf2b89bf2f522c79efa68cc3568ae1c8b987b3f8f9"
+      "git_oid": "6506039e758b8e7b45906f1be7bce62be1893d2c",
+      "bytes": 74,
+      "sha256": "c32bd63f7d8c32628be5c3dbb94b15a8f1947d370bbba9549ebb6655fde10011"
     },
     {
       "path": "Clash/mrs/AmazonIp_ip.mrs",
@@ -3083,9 +3083,9 @@
       "path": "Clash/mrs/Amazon_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d66c72622bbbf0dec48d296ba3298dbb9405771b",
-      "bytes": 540,
-      "sha256": "31f581ed1a79ef33ca08eed58a7dcbfe4657db3c51e8376d44b14a31b23c1c3a"
+      "git_oid": "81eb050c5c668982b1f6782051be745ba6dcea74",
+      "bytes": 405,
+      "sha256": "81ea8b69a20e8584ca33ecfd80a2e0f00710fc5cd7d6a858b15a9f012f183b77"
     },
     {
       "path": "Clash/mrs/Amazon_ip.mrs",
@@ -3099,25 +3099,25 @@
       "path": "Clash/mrs/AppleNews_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a5d270042c146641449f0b7c31dd33c1c7f9bd77",
-      "bytes": 73,
-      "sha256": "27a58391b4947593e7911ddc311711d78dcfc113e68af27b13d85ea3be1d2306"
+      "git_oid": "ea211193d94415846a0faec2da9aa06a327c1043",
+      "bytes": 71,
+      "sha256": "806f232f047e3f7d1ac5d2ef0f8709a0876a97e2c793d8346fdbfe9e2c8aecd5"
     },
     {
       "path": "Clash/mrs/AppleTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "23ff833948cc5a20647975d2bf46589aaf7aaf3c",
-      "bytes": 118,
-      "sha256": "b31daaa4b9f87239c525c8cc1c4721ebc3ab2a6603c86058b5ee1cc658ebbdc2"
+      "git_oid": "cd706a8fc670986a995151dd0c5d7a5746c39e63",
+      "bytes": 87,
+      "sha256": "b20d4e734b4e39af4787a244b3e4bff5552e16cd94e4637e8cf0e03072764c04"
     },
     {
       "path": "Clash/mrs/Apple_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "65aa287f63f897e47176233e816aadcfb7f2d14b",
-      "bytes": 399,
-      "sha256": "3be64599bc3ce8d86af252178ae09ceb45e22dc78bbb6d8e5c9a8f1ab67a7b23"
+      "git_oid": "beab34be6c76b8b0f80ca20c95838274035e36da",
+      "bytes": 266,
+      "sha256": "ddaf5a35f072204a8e66cddc0619d1159a5f8167fc26796cf51ffe96c38814c8"
     },
     {
       "path": "Clash/mrs/Apple_ip.mrs",
@@ -3131,49 +3131,49 @@
       "path": "Clash/mrs/BBC_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "089b3284cc7a1ec5649b836bbc290979db8d3c01",
-      "bytes": 113,
-      "sha256": "a74b48d062476aef998a6736e5652c8cc2131833108d749e30948862795f6f25"
+      "git_oid": "f943506f46edac8eb4d3736f056205a924b94afd",
+      "bytes": 97,
+      "sha256": "880eb2c0fe566f1d763f8ccd7c494891d98c79b1a0b7d38fc33bf52de39eaaad"
     },
     {
       "path": "Clash/mrs/BBCiPlayer_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5695e641f4ac30f6ef79972a407b9b976191dd29",
-      "bytes": 299,
-      "sha256": "c3c5be90734eca3d7c1ddbc3353a49d53c902393d144865518608957ea8ff794"
+      "git_oid": "11f0fb3b8d0b6bdeaa137ff8f077f701b6e736a4",
+      "bytes": 225,
+      "sha256": "be5c9a96ebb5083a8c23619e48cb768d22551518ad2db6251c4948fe04c643b1"
     },
     {
       "path": "Clash/mrs/Bahamut_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "aacc54731a56e0b8fc3ce44e73ca88cf843e14c4",
-      "bytes": 165,
-      "sha256": "84e9b0560a107be985826ba0bb907f6a64eb9fe699e9eeb9b5b6ff25af07c6d6"
+      "git_oid": "25bb0bdbc4fb2520f35ad2dd23ef0efc5ede592c",
+      "bytes": 139,
+      "sha256": "341f0f76e84450ebed333ee9016e1e25f3fe27add74a0181f79604a2aaea36f0"
     },
     {
       "path": "Clash/mrs/Baidu_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "50f3d7293b7f487791ef5c8240fe3f1715db6860",
-      "bytes": 261,
-      "sha256": "a90c33e8bdca38cfc7e7d9f9cc295bf24ffdd5d54e9b8b690bcaecf80e3b2eab"
+      "git_oid": "f08755244413a56ac85773ee356316fa7ca0394c",
+      "bytes": 173,
+      "sha256": "b8a5af3fa22d4df91cff7464db4ab9fc335ed07db3e671f80cc901779321d75e"
     },
     {
       "path": "Clash/mrs/BanAD_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "08386b4315c185020f483d6566c3a55488fd3ff1",
-      "bytes": 7943,
-      "sha256": "3b434bf883b6d9891ca7da74d7b563f3873a06fe044c423011acee28cfc321d3"
+      "git_oid": "873d0035450a448a9a3a14afbf67bf83ecc0b916",
+      "bytes": 4675,
+      "sha256": "a0dae24e11c22082c4d88768d87a99585ac5c76557c6d7a5bdd304c6bba24548"
     },
     {
       "path": "Clash/mrs/BanEasyListChina_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "25927b0b29ec077d98e0c1b05c504e1163192470",
-      "bytes": 60417,
-      "sha256": "2aa95f477fa2feae8999f89e6061050fee6a91caf5cb467b5c30a7c63fb270b0"
+      "git_oid": "ef7e971694f20bb7e6e5f28ee30ebce0e6aa5b17",
+      "bytes": 35846,
+      "sha256": "61c3ba26e86e3e5af7ac23fb11423317a863495694f81579a783857a70440b77"
     },
     {
       "path": "Clash/mrs/BanEasyListChina_ip.mrs",
@@ -3187,9 +3187,9 @@
       "path": "Clash/mrs/BanEasyList_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f05eeb44976a3037999e4095ead717d1dafabd7b",
-      "bytes": 532742,
-      "sha256": "50bfe0d1f04fa2f0305053bcd6dbdfcb46acd5ff5ca9ba55154a5e275e458443"
+      "git_oid": "385accbf6b7322e8979c2a29ab265d4cd3d52990",
+      "bytes": 405845,
+      "sha256": "9acfa980cc2710589a32534694bcd109acff3428f18c1c6bfca9a182cdf3e867"
     },
     {
       "path": "Clash/mrs/BanEasyList_ip.mrs",
@@ -3203,9 +3203,9 @@
       "path": "Clash/mrs/BanEasyPrivacy_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "af2d47dd475d4e82e80fb22427984a376f262ac4",
-      "bytes": 622586,
-      "sha256": "f717dd7dbc32a4fa835e301589e8c41c44c34522210f6249d15710e90f2b3e21"
+      "git_oid": "5c3f3c043c3eaadefeb20e2946df7c3e4e3558be",
+      "bytes": 392867,
+      "sha256": "65c8cb0a484cf3de1078ec79e0426025a3e88abf14f701852f7fc56225523557"
     },
     {
       "path": "Clash/mrs/BanEasyPrivacy_ip.mrs",
@@ -3219,9 +3219,9 @@
       "path": "Clash/mrs/BanProgramAD_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5d57b6fa9e16dbb92b33483e945587d5629bd90a",
-      "bytes": 14623,
-      "sha256": "7e0e8ddb886ea8fbc9cc71a789442ca8ed2825dc237bf75a1f40aff416cf675f"
+      "git_oid": "d37347a294890c10ba4dd7066c70f35b39a5665f",
+      "bytes": 7949,
+      "sha256": "aef55b03e6142810781eff441a11c22debb0426d1134b793ead452a4a359c127"
     },
     {
       "path": "Clash/mrs/BanProgramAD_ip.mrs",
@@ -3235,9 +3235,9 @@
       "path": "Clash/mrs/BilibiliHMT_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3d50055c2ec5ec01f65fc3bbfcc801a475a76190",
-      "bytes": 219,
-      "sha256": "9de8995ed2b44c3f3d98a65ed2b8585cad323a46f2b84f00d549a17d45e117e6"
+      "git_oid": "8385e31ad0c21c7600842a568caf82a239864e9f",
+      "bytes": 178,
+      "sha256": "15d7205d836cd5a2296bd0aece4b849e51259b6e9102bb84176cb3b3c233e5ed"
     },
     {
       "path": "Clash/mrs/BilibiliHMT_ip.mrs",
@@ -3251,65 +3251,65 @@
       "path": "Clash/mrs/Bilibili_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ddac0a0d33defa27ce73faf1d6d408f48d743822",
-      "bytes": 396,
-      "sha256": "bda54327e77895fcd1775d3f4ac97d2c5cf6d12663f7d93c0dc3a7a0a882ed72"
+      "git_oid": "c67b78c983e5e2c83456218611019e8d0deca3f3",
+      "bytes": 257,
+      "sha256": "c3e6157efa6c379028d884a59699965650baa7ac10448edc1d5acb86e995d426"
     },
     {
       "path": "Clash/mrs/Binance_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1126a5736bb52b7fc924d364380fb1e9aeb5d011",
-      "bytes": 235,
-      "sha256": "d9c85e16e2eb93546584fd3524e97199b0d38432d1e8774eebb6f5d5a2c98b02"
+      "git_oid": "66b9bb7a71a63541b35d1fa25a815907a1b18405",
+      "bytes": 161,
+      "sha256": "8304b97975f61aca62421bc2b9527e026927d8ccc8149546dde62b0873e5eac3"
     },
     {
       "path": "Clash/mrs/Bing_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "abb696efe87ee350f16e655bd5e78aae401bd36a",
-      "bytes": 111,
-      "sha256": "44fdaf824c4e85ec8a31d373d0efb28905b4cf9ebd67fb8b375d592f1b23e924"
+      "git_oid": "63d669a64deb751e59ce79195f42bffc38631b53",
+      "bytes": 82,
+      "sha256": "ec6715b82b2e86671bb0a7d4bbcff46cbe7080fd603142083328aecffebe3ee9"
     },
     {
       "path": "Clash/mrs/Blizzard_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a293b3fe0d68c96e2ac1214b6062ac414b9d23da",
-      "bytes": 126,
-      "sha256": "57d083e55cea54e973846c39e0ed2f31a8f9d534cd92fb36b9f9b81ed3a0199c"
+      "git_oid": "5a92621d430999da24862570afa94f83452f07ee",
+      "bytes": 93,
+      "sha256": "da9c21051e6d9f0281804b539b77c6aad58393490742879758f319fa58be0c2b"
     },
     {
       "path": "Clash/mrs/ByteDance_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "12accae3a194ee7d04b85e38f1c847edabc67f7b",
-      "bytes": 744,
-      "sha256": "008029c5db1e12e0796f702b2eca53a0453c7ac1441f69c7424ffbb4709299ca"
+      "git_oid": "6fa660025da32705c037fa78627abc6278a622c2",
+      "bytes": 461,
+      "sha256": "cc2caa1ee66b3d614f497b5ffa490e44a557963490ce1ea2dc462e02e0868468"
     },
     {
       "path": "Clash/mrs/CCTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d24c6226a0f1679fdb1b9a70408dd4eef6cfb0d8",
-      "bytes": 124,
-      "sha256": "cc3325e73b03cd5f24f26d5910a59c967727d8a9faaaa9bb6c777925a34024b0"
+      "git_oid": "2e02c276b0ad03ae99a8903f5527f46ef633aaea",
+      "bytes": 80,
+      "sha256": "53c45a60f0f30c224e6cdfcef24ca35cb17f15e24842fc6308518d4e818ba93f"
     },
     {
       "path": "Clash/mrs/CN_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4f510bb3af7180aa74b77c9eedf61bf6b09ebbd3",
-      "bytes": 135,
-      "sha256": "8925eb8dd2a98c05331b49aff4fff630a16fd2a2edfc83a4e96f74a00b987186"
+      "git_oid": "ef67fe630b7c95f49923a11ad6f951db153de5de",
+      "bytes": 99,
+      "sha256": "dc51f69816f77d270802cc119d230905ac781847c456bf1ca76627a38c80a155"
     },
     {
       "path": "Clash/mrs/ChinaDNS_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e37bec6348655a3a01c9bd7fb1365b8d8286599e",
-      "bytes": 125,
-      "sha256": "080ce7dd40b72ad11f653923fed96bfaeb87b1fb2ac1a921ffd2104a32106cb5"
+      "git_oid": "20121c9a967d6e61ec745c158dfed0082f64eae9",
+      "bytes": 95,
+      "sha256": "c3d193927ed71d327dcae3f2dcaa61edc39c9273bf55db53913b1d4331d00586"
     },
     {
       "path": "Clash/mrs/ChinaDNS_ip.mrs",
@@ -3323,9 +3323,9 @@
       "path": "Clash/mrs/ChinaDomain_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "8ce01074db02cb53dea971e3e8e9e8aa459ee5ae",
-      "bytes": 8185,
-      "sha256": "7056d9fa9ec008fe5a22460811d4e04b25dc973ab56fd6ed403b7e901df6e7ce"
+      "git_oid": "2c028f8ea210b7adc6a15552fa3a4e2a525e7108",
+      "bytes": 4587,
+      "sha256": "59505bccee3ed50ee20976c0949494a603da66652024eda5710e00ecfec33cde"
     },
     {
       "path": "Clash/mrs/ChinaDomain_ip.mrs",
@@ -3347,9 +3347,9 @@
       "path": "Clash/mrs/ChinaMedia_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7e55d1a1fdac9484c4dc55156613d4fa5fb828ba",
-      "bytes": 569,
-      "sha256": "e57968e35de267e6e519a86405214537cfdbb5912d28c8f5904b4b4dd677c707"
+      "git_oid": "617a6e3538d84722797041a804fd831816494bbf",
+      "bytes": 386,
+      "sha256": "fd8f67fe86c78b258c4431b9ff3aa1a90fba39587199bc87349ad95b4b8cba3b"
     },
     {
       "path": "Clash/mrs/ChinaMedia_ip.mrs",
@@ -3363,177 +3363,177 @@
       "path": "Clash/mrs/ChinaNet_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5170614ead2347d670cf74a446ba75698d2ecdb3",
-      "bytes": 71,
-      "sha256": "b60ef07bae2547f45af6ca693135edc3340d290dc5c5f02341d9ba1e5a7f8544"
+      "git_oid": "b3d9d4669009bd7a34a5007df1a492b37db2cc48",
+      "bytes": 50,
+      "sha256": "f5acff70602efe91e9df8868f2a57b9598cf4241be38de9f6b516403afdc0a5c"
     },
     {
       "path": "Clash/mrs/ChinaOneKeyLogin_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e01a53be56af4bfaf2715af5bcd6240909ba50dc",
-      "bytes": 318,
-      "sha256": "351d5e28dc1feb692567744463f8a50e12cb9c92668534babd22341414aecae0"
+      "git_oid": "2cccaaec692726480d773159da17c0907c2ee3c3",
+      "bytes": 220,
+      "sha256": "62bc9a38445bd14d0dc4df3b38be1d8bc735a74db418da98df57fec2d9f36894"
     },
     {
       "path": "Clash/mrs/ClaudeAI_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fe88df1c5713a9ffd985c49d741a6a2ee3d189e7",
-      "bytes": 106,
-      "sha256": "ec9cfa0c185f1562cd1ee35b20fa76688c16a0d660c28811135bddc1e61447b1"
+      "git_oid": "daac4d937fe98d98d572cc1eaafe672d720bcc6f",
+      "bytes": 76,
+      "sha256": "6a491a4cb59846a5968238ba1a9c4728fd3add5508b1cdc470bc011d70ad0549"
     },
     {
       "path": "Clash/mrs/Claude_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fe88df1c5713a9ffd985c49d741a6a2ee3d189e7",
-      "bytes": 106,
-      "sha256": "ec9cfa0c185f1562cd1ee35b20fa76688c16a0d660c28811135bddc1e61447b1"
+      "git_oid": "daac4d937fe98d98d572cc1eaafe672d720bcc6f",
+      "bytes": 76,
+      "sha256": "6a491a4cb59846a5968238ba1a9c4728fd3add5508b1cdc470bc011d70ad0549"
     },
     {
       "path": "Clash/mrs/Crypto_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1ca88f7eca70a1aef957a6c20a1e3f8d5b248298",
-      "bytes": 3854,
-      "sha256": "0b6eaafd52cc10795438b0e662c52f2194c035bda4dafdd75d033ef3dc8acfea"
+      "git_oid": "f701a263090d9956f96ea4d249fddce224ff8f3e",
+      "bytes": 2313,
+      "sha256": "48817b7a7e41b2a0eb9daa640e3ad9aec442fca9d238d9b1f9f36e3eb215d200"
     },
     {
       "path": "Clash/mrs/DAZN_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3db80023a5842d99e9ff788001d844026c5eb3ad",
-      "bytes": 300,
-      "sha256": "307580e50944605f0cacdc5367a9e44089ea17cfb9246b9c9167c9362802dd7d"
+      "git_oid": "1e37c1c1f216f8fb78994b6787179a2c774ed48e",
+      "bytes": 216,
+      "sha256": "455e8e4bc7deb8082749fa4779d1e168fbe550d1c3fb755f249ffcbb3d6563b3"
     },
     {
       "path": "Clash/mrs/Deezer_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "80fe9fb113909e2b85029f96e32be51387755e96",
-      "bytes": 103,
-      "sha256": "b353956654a10db8c39bb69a6ccd0c049ebe9080ce53ce024fceb1c6dd5912cd"
+      "git_oid": "d8a4b6e68b7db92b7f156b4b9c0a9eb91c716672",
+      "bytes": 75,
+      "sha256": "4b441ca6ff892b99cd21b606b01024565e76c0af111d0fb6a8e51717b6d63764"
     },
     {
       "path": "Clash/mrs/Developer_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2f58c60f1bfa55e58f79d91f918b9e58329361d6",
-      "bytes": 393,
-      "sha256": "01512243fe7c7c179493ae37b6c1cdc25b6a26af2f7edefd820e9d84cfbbfbe5"
+      "git_oid": "64675053eea0d63aba3b533c6c34008ba89cca3f",
+      "bytes": 248,
+      "sha256": "247104d0c5453f5d3708f9d504446647f4b9edbea71e34fd9a00c82e9ecc9e82"
     },
     {
       "path": "Clash/mrs/DiDi_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7ed3821ac41ef95434913c3da28973114222ff29",
-      "bytes": 122,
-      "sha256": "8b71310ba07330ccbb7578a647f88a12c7b395f31de6b3369479514a99d82c80"
+      "git_oid": "53f799baca374c3dbced5d714d825f0e1753a589",
+      "bytes": 93,
+      "sha256": "2d58353c57d34fd0e899ec5aef0000007eee892e575e14ceee3edace704d6a72"
     },
     {
       "path": "Clash/mrs/Discord_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1b9c787b1def08f19560a544534463826882290b",
-      "bytes": 179,
-      "sha256": "ec4ff90b7ec5d7b32e27f2ea503da87725831e9a278a40f51d52edc8f0859369"
+      "git_oid": "f6faf5bb0f6ee326b18bfa3b7c729a0d1e75a561",
+      "bytes": 131,
+      "sha256": "b3e36cab36ff45ba2d4a14e6e2498ee1eaa95cd1b2310773975cc0a2cc7dc5f2"
     },
     {
       "path": "Clash/mrs/DiscoveryPlus_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "104a59ea5224ef46797858d0d15859c9219da117",
-      "bytes": 120,
-      "sha256": "8414d98d3db98ab40df53b4f8a9389976d3cc6dc19bc0a0e25bde8aeab9ea453"
+      "git_oid": "45726e4489ab8b6dd79a0a47974dcda1774ac6d7",
+      "bytes": 92,
+      "sha256": "34ccad5476756409e572d043a1e366d5e99d368e86d8596768ddb5bbe60deda5"
     },
     {
       "path": "Clash/mrs/DisneyPlus_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2f79cde3a0ad1f62ee234794e61fb6b37a9495cf",
-      "bytes": 496,
-      "sha256": "5a1912e314dbf730b95b10ec27d8930000297674ffabffccdc19db0b69cee17b"
+      "git_oid": "5493b64ae4373a15b8e58db419ee70df57637adb",
+      "bytes": 369,
+      "sha256": "0f0b8e3df12f285e750e9366cbb20e5e9ef9c8ee4596cffe9af2734b20291339"
     },
     {
       "path": "Clash/mrs/Dmm_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d438da9a4c51bc9f402ab44b3eaec266b2e5269d",
-      "bytes": 317,
-      "sha256": "b965084c2326ea0af60737e4b9e51de9f3ebab2664eb32d1fa4b21eb22ca906e"
+      "git_oid": "bbfee4e60ae271199f3bf15eb70a712aa31d6269",
+      "bytes": 218,
+      "sha256": "8562df0a091dad97151813805cd777298b659ae4d4194737b1c8803951a7fb37"
     },
     {
       "path": "Clash/mrs/Docker_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3723680a649c4e22881b65fa169dda2d3585336f",
-      "bytes": 221,
-      "sha256": "90940012158f8fda346a947c63bc1536135c3b7354a91afb1606d9c680a5dd07"
+      "git_oid": "f3bb6b30528098aa71cc168c2e0896988a8dbaee",
+      "bytes": 179,
+      "sha256": "a4607bb91569dfe155678e48f4868ba5be319a846910352ada371ef03e4c595e"
     },
     {
       "path": "Clash/mrs/Douyu_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c56baa2aeedfaa2ee6d7f13a16ea91607f4bb5d8",
-      "bytes": 183,
-      "sha256": "36222fac9921c4c730b55826cbbfa087a2e21357f43fcc15d1db50c56f8f7889"
+      "git_oid": "ed54c437c1e5cb879eba386bd2142f718ca0b022",
+      "bytes": 133,
+      "sha256": "38b46d827298515723ae4f71830a6f3c28a67bd26d268aed56aef5301ff4ecee"
     },
     {
       "path": "Clash/mrs/Download_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "29a94e36faffe938baaa187e29d4dd9c80680b13",
-      "bytes": 91,
-      "sha256": "14c59408e40314e808f68105b8b306ed44c552b693bbae9aab5ea6d8aa261ee5"
+      "git_oid": "2f90ac17806b98362fe5b268bb5baa8c9b92638e",
+      "bytes": 79,
+      "sha256": "434b3f6024ce3681d287d01ffeef8b9e54de23d849f0361f1db47f27fd5a4075"
     },
     {
       "path": "Clash/mrs/Dubox_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fba3c031d41bbf7276be110cad200afc041961f2",
-      "bytes": 102,
-      "sha256": "37a00575f79aab790634c105fd20649fe1eca083d3256439699c6db72e288c97"
+      "git_oid": "f4e7d9486f36f343e0d863bf3658a71fe0b9ad4a",
+      "bytes": 73,
+      "sha256": "92c01bec7925c9c40c8f2352db98fbd3c2d30fcaa3f1d52da04aa4dc6a1c059b"
     },
     {
       "path": "Clash/mrs/EHGallery_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "29720bfacdd259737b6e0d1349150e64479cade3",
-      "bytes": 178,
-      "sha256": "3e81d33d5e3bf27668e31e76f06fd63d39fdf6202b7f646ec1ded5d51fd6e3c7"
+      "git_oid": "2d07ef216d091dfd918b51cc63d346cde9570768",
+      "bytes": 120,
+      "sha256": "a5eb4f3a4b9ea51ad7926ad2f7b14bcd908a10a01305842ce38af3864e60a08c"
     },
     {
       "path": "Clash/mrs/EncoreTVB_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1fcb5c29ec4cc6245186b66e25c1dc72874cee10",
-      "bytes": 185,
-      "sha256": "3c21016dc1ae3139987f4e721a8bc45274a40c6fc34ad51eaa08655201215670"
+      "git_oid": "354455d009d8e37f9a18b17a793033b2f208cb23",
+      "bytes": 165,
+      "sha256": "a37205dc55e0d0ae3167de822a00d29a93f6e8601c1f99ee0128335e1ac71eb1"
     },
     {
       "path": "Clash/mrs/Epic_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1eca7fec9023e567223e3dfbbe0b20ca037a3e85",
-      "bytes": 187,
-      "sha256": "6c4eda5585384c8a50142d5cb03509e137591dfa4faa2f8aa554bf07e2aae2d0"
+      "git_oid": "58a49c526f05ce9908bc24b9c12b4aed9979a46d",
+      "bytes": 135,
+      "sha256": "04981335ea734e9aa55f779aa11195b14bea19897a298013e53898c2108ae126"
     },
     {
       "path": "Clash/mrs/F1_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "891445b4993aaf85ee7b8a1e8c3b96b842920eb4",
-      "bytes": 809,
-      "sha256": "8f8a84636508cee40e54ee9c75e0f855eae65f44c374a998e8586db918719a59"
+      "git_oid": "d898cecaf8446e52574e1b507775f19981636ff7",
+      "bytes": 553,
+      "sha256": "db6743b47fb0e4b7a6fe8ee63b1c303a86b1d90efea3a3295be3a4ab89db27ac"
     },
     {
       "path": "Clash/mrs/Facebook_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "8707b8a2248b46b7b22ac824af085ab7b2471ccd",
-      "bytes": 188,
-      "sha256": "00a851aafb2ac287b24ce3e1773780576060361f7e8800d1597b3d6321a21b67"
+      "git_oid": "87130521a09a343048495c4b9f83b0aa0aadccd9",
+      "bytes": 152,
+      "sha256": "fa30e840bd9a2f84ba4f2f042fe4b29354186e5125f2f1026acd138a41e3cf01"
     },
     {
       "path": "Clash/mrs/Facebook_ip.mrs",
@@ -3547,33 +3547,33 @@
       "path": "Clash/mrs/FoxNow_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4185b4f8baf3acfff41718dfc7e0779f00db2954",
-      "bytes": 114,
-      "sha256": "7c667d5164bf4a546dc10ce73fbcdfd9733f270a8c95c0b45d0793cc631ca057"
+      "git_oid": "0a4b8bec4479681f195e5b71626f119253eb6406",
+      "bytes": 78,
+      "sha256": "5c56429faa77bcdbea2f43a0a7bd1291f7a2f01034b0599fe7a40addc4d064ab"
     },
     {
       "path": "Clash/mrs/GameDownload_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c3217d9c9e5948f32a72bfe2d6ca3cee95fb3b8a",
-      "bytes": 455,
-      "sha256": "0ee96177e4aa630f985520a8896e472f42bd3c7a2fe7064d921e90fe662be26e"
+      "git_oid": "9aaaa15d478ff1468de33f9eb2d186a9098f9a1b",
+      "bytes": 378,
+      "sha256": "c64b1ac648f312c11b85a5533d3437fbd562e57e01d452fb0038f6f356676b01"
     },
     {
       "path": "Clash/mrs/Gemini_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "246cc7fe4804969b93a2d57fcedb9f78304c6253",
-      "bytes": 345,
-      "sha256": "021dde7bac5cae783cf5061a5913a05b076f20885024051a85d7fb0c851eba97"
+      "git_oid": "7fa422fe2addc919c9a2f8422d1515d4108e153b",
+      "bytes": 282,
+      "sha256": "fa7c8ed780a1b2751acaabb9f7a0a4ff44d696c3449e5a668f169c6b5e0b5d7b"
     },
     {
       "path": "Clash/mrs/Github_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f69c2b495b8a5e83369bbda6da3a4fd70fbd4afb",
-      "bytes": 196,
-      "sha256": "86db08f96d2eeff8f62cd3188849cfd998ad6075c30f8f6ef3ce16842d380928"
+      "git_oid": "25bc52371145e264ed2834430c702118a289ae23",
+      "bytes": 150,
+      "sha256": "fc24bd2de49fb2bc3d152d4eb537530638ee6ae48b26b83ace356b0cf43bfbe5"
     },
     {
       "path": "Clash/mrs/GoogleCNProxyIP_ip.mrs",
@@ -3587,25 +3587,25 @@
       "path": "Clash/mrs/GoogleCN_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "77e0d87f04b1c6aeded24dc991d6b19b7af879fb",
-      "bytes": 899,
-      "sha256": "a7ab5e5b8640d77ec6e04c79a5238a88fde69ad5dd15400d7359e8e94a153efe"
+      "git_oid": "36cf802b34daabb3d019d33820142cd404d1fefd",
+      "bytes": 550,
+      "sha256": "62fa4e6f9472ca54d988a225f5dba967276f4341ed1d1546261e9655663d6456"
     },
     {
       "path": "Clash/mrs/GoogleEarth_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fa842cc70e63c12cbf84b91783ebd2a59452e737",
-      "bytes": 325,
-      "sha256": "6afee20160fe07374fe90fffe8b1ac49f05399ff22ccf7a8ff3717cdedb769cb"
+      "git_oid": "633d114d4c65f9a5f893b4ab751f18a8f3052f4f",
+      "bytes": 191,
+      "sha256": "028b3ea8271adb847c56c88a1b6ad449f49bbe38169a2b6359c7c82e57607c22"
     },
     {
       "path": "Clash/mrs/GoogleFCM_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ba48d44c80ca03d7a954ee219ee18fd23d5cdc80",
-      "bytes": 200,
-      "sha256": "bc149851f145edb9becab2b102aaf37b25a6a7418ed334e7412070df4f69e969"
+      "git_oid": "94adfec2c279a3c3a3c5325251ce695d1d97cfc5",
+      "bytes": 137,
+      "sha256": "6625787f79f93a01bed2e803a276be1b5d962a383a395c4c9fff567c6ceca057"
     },
     {
       "path": "Clash/mrs/GoogleFCM_ip.mrs",
@@ -3619,9 +3619,9 @@
       "path": "Clash/mrs/Google_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e89a0015d45d2029650aa7a653059afc38122732",
-      "bytes": 451,
-      "sha256": "885225bc0c165508573eacfc11633ef5bce9a55ef7640aec6b782ae515e1f547"
+      "git_oid": "174b1106389524a7bb74488af837ffdc3cca5565",
+      "bytes": 307,
+      "sha256": "6dfd54943bdc095ab03c51e0fc52afebba18ecd8312476d2e6c53cd4cc5ade2a"
     },
     {
       "path": "Clash/mrs/Google_ip.mrs",
@@ -3635,97 +3635,97 @@
       "path": "Clash/mrs/HBO_GO_HKG_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "22c2d633271483acd16a48707aeffa5747751481",
-      "bytes": 447,
-      "sha256": "b74c7c0db17ef1a497637aa0d08007ae87c25d2643881dbaee2ccd4684126b30"
+      "git_oid": "8209afd6c39034b288257953829d6178da192405",
+      "bytes": 358,
+      "sha256": "5f75a7a1293d655b3a1f36417c62b704cbce6589fea2108912c43f0921090e59"
     },
     {
       "path": "Clash/mrs/HBO_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "cbc6e321e427588a36c4debe07a89529c5a5efac",
-      "bytes": 147,
-      "sha256": "f81318d5258be26e5c9b1ff1153c191f80fa7c12640a79081978535bf77d516b"
+      "git_oid": "766e39354b9b138e0f75e82efc70a505fa078357",
+      "bytes": 102,
+      "sha256": "50d726b8d110e2e707a649f16bb4ceebde4041847f6f5f9e6423e07b4b30d223"
     },
     {
       "path": "Clash/mrs/HWTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "91beed83faf60edb6935d16b63b9865b6ab30769",
-      "bytes": 101,
-      "sha256": "d5dfa7c43ac58691f0ed9746d2a7744879da834a4744e0734e2e8056a5803b19"
+      "git_oid": "44ed685dda90390743947698eebdc40bc8996e95",
+      "bytes": 73,
+      "sha256": "a6ef61e0120f8e09f4b92c31d74b754e48876e1f478695dd03d6ecf0ba36ac8a"
     },
     {
       "path": "Clash/mrs/Heytap_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1b19c845c5b16dd95c0271f81ebe28cfe83cfd49",
-      "bytes": 279,
-      "sha256": "d702bd6a220668ab10900d7601fa7c013bdc3dc42de2a608529f5f61a9e43ff1"
+      "git_oid": "601185c2494ed264326abbbfd5eb6569fbba5f70",
+      "bytes": 181,
+      "sha256": "ab4e161e3f84ce1f131f56be64aba6049e22a78241a3a6ed8ab6b6c1a397e309"
     },
     {
       "path": "Clash/mrs/HuaWei_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1364cc2f44866eaf165a0fd22098f280a3fe9b53",
-      "bytes": 238,
-      "sha256": "44ea7f83ec175a01a7ecad41ecb5b3b5b64dd1db8ad122c06775a09adf6a0390"
+      "git_oid": "2806e0aeeb234a7293526176f28a47f20f404992",
+      "bytes": 157,
+      "sha256": "84355dc59dfd95acd3a2713c73f235b48722722aab5cdb4859ca2f9b80be4b06"
     },
     {
       "path": "Clash/mrs/HuluJapan_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "138421831d204e40a0a08d8768b3bd8f9098640a",
-      "bytes": 187,
-      "sha256": "e2dedec4e62297b69bd8dc3173d6af543b3bfb50d3591a8c8a0225e50ef5fa5e"
+      "git_oid": "9ddfd9bdd6ae82c281c9773c529f225a085b1394",
+      "bytes": 139,
+      "sha256": "a9ae8e81cd6fbe8f52b159873dbc7d5ed01461fb1fff543ae37104a40a451204"
     },
     {
       "path": "Clash/mrs/Hulu_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "042e3244c6e2852a5b4204c7914ef367a6916743",
-      "bytes": 207,
-      "sha256": "5f626dbe65d2c689a29a3efa304a0e74aa48a90985988b4c54f9714ea2c9ebb9"
+      "git_oid": "55e74cdc8ac4e8360fc15a246c0a9231db12509c",
+      "bytes": 146,
+      "sha256": "23de9b423c023d6d97961f15d21a515f1ffafa04c1f3297b84bcb74a564ac781"
     },
     {
       "path": "Clash/mrs/ITV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ab5ff4eb78f2c0e1fe9d32f0ff2a053d9a1165ee",
-      "bytes": 133,
-      "sha256": "53e738722b1dbc54cfcaebad74ed93aa2e7c8c1056611413462beac0ffa25a20"
+      "git_oid": "989c9a27bca485ac86c6d7706094e317f33b6984",
+      "bytes": 109,
+      "sha256": "438560dc3fbe7fdf26a534e0005be44cd8c080fd7f53133a9cd5d8dc6691efeb"
     },
     {
       "path": "Clash/mrs/Iflytek_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c560755bfab67e0e5a705e0e01761a760c624e37",
-      "bytes": 118,
-      "sha256": "4423668485dbcf2624232a8f8339b2848ee83f2afbe3eff0ddcbd29a5a8a70ea"
+      "git_oid": "066806fffd2eede1b881a83b210898dde7eece94",
+      "bytes": 80,
+      "sha256": "11ccf01718f0c48d8ac93d9ecc95ec725987db08acf698a7d27c3d9b2324073b"
     },
     {
       "path": "Clash/mrs/Instagram_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ea3995cf0676d746bd869f02fb59733bf4e6a1c4",
-      "bytes": 137,
-      "sha256": "ce7fcb39577071b363b7f7e43b0dcff38eb4c1f4b00076baa3aca3e72b2fb64e"
+      "git_oid": "7d3feda0a4570c9d1663702f954d25e045ae6c3a",
+      "bytes": 111,
+      "sha256": "b3ac218e0433244d6fae5771a5cbc8bc5c4ebb38ad4e99fa0a608ab79ca04515"
     },
     {
       "path": "Clash/mrs/IqiyiHMT_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "205cfdec9fabd4bf2c59f5021093a01d0ee7c30e",
-      "bytes": 102,
-      "sha256": "a25c8c4670a09e82fbf773e1ebb434bb78325e86e56863a93ae2d63fac49dd3e"
+      "git_oid": "423e4ec32a5dfb10e6ecec528f35f605cf0a2b35",
+      "bytes": 78,
+      "sha256": "9c816dc5d9760b3b0229095e47defe93a73fdc41e9dc80ecdcb3d10f53d8d227"
     },
     {
       "path": "Clash/mrs/Iqiyi_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "65c644a5d5513fd774f06147ef77e3f8fefb61d2",
-      "bytes": 339,
-      "sha256": "5685082b75903d1810a02305d71e4c797f21869bb9d8203bbe551549c548ecb4"
+      "git_oid": "f803d6997671388c4c91ccb70ad861ca92257d0b",
+      "bytes": 222,
+      "sha256": "88403d9a45a16d6bbb962b80d87b687bb5afcc60d8af35c66abca0630ebe01ee"
     },
     {
       "path": "Clash/mrs/Iqiyi_ip.mrs",
@@ -3739,65 +3739,65 @@
       "path": "Clash/mrs/Iwara_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "51b4f2c8d0c3dcbb4f4bd7aecdb1380764a151b4",
-      "bytes": 71,
-      "sha256": "aa215bf3417088a965874a276eef54016d1612e7b70752e7084f4b348cfc8f3c"
+      "git_oid": "5acad98ea9d67ff71b5f8806d81ef83e7f4f9c4c",
+      "bytes": 50,
+      "sha256": "be74bdfb1acb95712eeda4aaf3953ad197d18760ef54463cf907acec244505d7"
     },
     {
       "path": "Clash/mrs/JD_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ca1ddd1b7cddb610d5e248f20768b6ef9180e058",
-      "bytes": 203,
-      "sha256": "d866034d9ee93c52b11e46d7d2c48d2df30a576d9b48b9dd6de22254174bade1"
+      "git_oid": "547d17f15bebbec7f8f5e14fadbcf9fc7028673f",
+      "bytes": 134,
+      "sha256": "b40e880d269d94a7ac16527a4d95a8ee329ed8a2f0858d5c6eb2dc5432428694"
     },
     {
       "path": "Clash/mrs/JOOX_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "109da5348145ddd8900d752a76c7dec943fb7a1d",
-      "bytes": 104,
-      "sha256": "b5f12b6f91c04bef064fb5134c8274e82a59e39786f1ec10594643afb0ecbc11"
+      "git_oid": "3cc43df58eecce6431891e6982b2a57523258e18",
+      "bytes": 94,
+      "sha256": "e8061c955a6e00f625264b1f30c03a38215000f01034fd33e061f010bfb6de3d"
     },
     {
       "path": "Clash/mrs/Japonx_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5ec98fb32da406f544832fbb0b3f95a0fbb617a7",
-      "bytes": 220,
-      "sha256": "d91e568437a60289c02e74ca4452eb3ad18b9d42d5ed412b1d4ef4ecb2781fa9"
+      "git_oid": "7862a4e744a85f90158f9412c0ec433f8ee39173",
+      "bytes": 163,
+      "sha256": "aedfe2c93a65fc81c9ef93c8a7a0a2769ec0a9b6deb7707a87d39b13d7217994"
     },
     {
       "path": "Clash/mrs/JetBrains_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d9651e8dd623739e9e34001f51d812955a8d288b",
-      "bytes": 333,
-      "sha256": "63539ac8ee31523ca1b949fca3f68c89f060a7640cc8e6d65b4136c019701ec5"
+      "git_oid": "1a98dd91ac476743b42f83deaf7b6fda5422a634",
+      "bytes": 227,
+      "sha256": "775b7c3ab7e46b7300ff2109178cd7ed2aebc330b1de30b6ec5aa17ffaf5687c"
     },
     {
       "path": "Clash/mrs/KKBOX_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ae203ac85634fff1e82eff5a7a312f53a0c00fcc",
-      "bytes": 121,
-      "sha256": "30fb438c0a85ea932269b2c042f1abc9626d263dff62b40349905552698806db"
+      "git_oid": "c5e7eb57c8b6b4b6272309f085743f43adb53433",
+      "bytes": 91,
+      "sha256": "6222e441abde8e4c406cc2740a5106de18f00c33009188dd77bca69e5629252d"
     },
     {
       "path": "Clash/mrs/KKTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2bcf7912c52da40a94ff8caa2401d2a9adb8bfb2",
-      "bytes": 154,
-      "sha256": "60145b8bf7c0009aae93bd1e2d5c0f3bdb48f30006d09cb07fce9c5a0246decd"
+      "git_oid": "60041614caae233655e80d9259a183662965101b",
+      "bytes": 126,
+      "sha256": "d3173306902119f0409200ae494b233df7c93dd6c4bd4c280bde86402eeca41b"
     },
     {
       "path": "Clash/mrs/KakaoTalk_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "836a9f4c931615d012fcca219bf363c8700dde12",
-      "bytes": 121,
-      "sha256": "9fbcd9c2329c2fa567c0b4dcfea7b61d8562b2da5b3c16a65891cff64278388f"
+      "git_oid": "ba23111d3a09e0d0ca44168f2a004016b36032aa",
+      "bytes": 89,
+      "sha256": "eac5318687e02d27cc00bdeb1929ff81971be62906b8d7ee3fdcb69cbf2181a2"
     },
     {
       "path": "Clash/mrs/KakaoTalk_ip.mrs",
@@ -3811,49 +3811,49 @@
       "path": "Clash/mrs/Kingsoft_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "39888453387007eb387e34caf374478f00003243",
-      "bytes": 108,
-      "sha256": "ad5b7c50be595ddb77f09a0349d9e32b86d17a73a92e61d91e11c184067d336d"
+      "git_oid": "5450a1f28da9dd8c82699326ceeda47b9887205d",
+      "bytes": 77,
+      "sha256": "66b9379cf49713278d01701519c63fb7e8d995dfba6b5b80b9dad5d07cae8b20"
     },
     {
       "path": "Clash/mrs/Kuaishou_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d537ee869abf5ecbb5a75b1b211c6fcaeb2a1c84",
-      "bytes": 103,
-      "sha256": "2bd3e21d74b156e4a7056e19b7a70f0808e603ebc8d97639a510e3e8047f13f2"
+      "git_oid": "7ff4392eb1530f24f5ef55112444394505af13cd",
+      "bytes": 74,
+      "sha256": "89e43d4be26ec2c4f61460cd9fc18bda24d8672ce00a1a4543eb28b7c16eb1a8"
     },
     {
       "path": "Clash/mrs/LeTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "86aa836b38d6dd479f62d8209580acf8f52284fc",
-      "bytes": 83,
-      "sha256": "faba09a553429e4250251b70b85db297e89a5f93fe862a10dccfd00fa6142c69"
+      "git_oid": "cb2aa0eabf016d1195e397346735793148c6014b",
+      "bytes": 71,
+      "sha256": "fd1921a4cdddebc24709c31b1ba5ff4a891b820218645ac825d396a2b70baec7"
     },
     {
       "path": "Clash/mrs/LiTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e152ac6be11e0fe62ffeae4dd2d2cb7ed4f68d30",
-      "bytes": 126,
-      "sha256": "565131b3cd8ff155e9b99d25802f9839d9191249a5e5fe12219f50a5d9f03051"
+      "git_oid": "f132f8ec96f112dd92962869db6ac77243c8ca42",
+      "bytes": 108,
+      "sha256": "dc8be48dc835a39c103cf205308cf90776d119c4e8511a7f6262f93628b07fe8"
     },
     {
       "path": "Clash/mrs/LineTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "8ae49d3fa048e2c92bb15c6005a568dd22ea19dc",
-      "bytes": 156,
-      "sha256": "f44bc3c59d99398c74e8493a29db628802d71dfbceef8f8add138662275dcac1"
+      "git_oid": "b6924f2283bd70d7783887c746fcffeba70ecce2",
+      "bytes": 123,
+      "sha256": "24bed0266f6ec909aecb81288945314aa8e98ae11a0d44155ccd6a81de3c9231"
     },
     {
       "path": "Clash/mrs/Line_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b8663761c4fb787e8dd8890abe34fcc6ac0ebcad",
-      "bytes": 200,
-      "sha256": "c8b30b774c001a0eb766e4157838a2a6943b8ef77e33ec000c14512682adbeb1"
+      "git_oid": "f318734a03510269e272ffafdc333ca523d90b45",
+      "bytes": 140,
+      "sha256": "1527de29c55aadcb541c443330662dfeb8fc891f3de553096f8e9c7c34d9a72a"
     },
     {
       "path": "Clash/mrs/Line_ip.mrs",
@@ -3867,9 +3867,9 @@
       "path": "Clash/mrs/LocalAreaNetwork_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "af9c1670bd73eb86dbbcf4e8c33483d7e345eb2b",
-      "bytes": 469,
-      "sha256": "1a81f090b527ad5e52c01376d919ad7d175b81897c605547089334acdbaae580"
+      "git_oid": "be1b72ae72f7ff5f7518fe63c68adc0ea715d567",
+      "bytes": 308,
+      "sha256": "ab75bad006a94b6dc72d6a325bd2481a9d33f5d787a026980947ff964afe75bf"
     },
     {
       "path": "Clash/mrs/LocalAreaNetwork_ip.mrs",
@@ -3883,81 +3883,81 @@
       "path": "Clash/mrs/MGTVTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2342eb4ef89d45467553d9a5ef859da89fefb4c0",
-      "bytes": 106,
-      "sha256": "f10b427f83c8dc0148d387dfb29d05a2c08c775636d5aa84ec5835372791ed8f"
+      "git_oid": "cfe68ea3291b6a709f8295fc820c49f085b4029b",
+      "bytes": 73,
+      "sha256": "54a2343036610e68436f9e8b707ec98d516e5c5862ec4e6cc0dae2686fd2537f"
     },
     {
       "path": "Clash/mrs/MIUIPrivacy_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1b4aaaeeb7a3b71c3e42467b5a3a742278648ec0",
-      "bytes": 510,
-      "sha256": "64b9fbb742aefd0a7a1f37587b3148ab148a6b3c793e6eaa6199f9c48c3ecebc"
+      "git_oid": "f34ed12923d9ef45891101f3261e5b71f7af8cda",
+      "bytes": 368,
+      "sha256": "2a879064eca7a6815996cb4942749ee81aa9ac13556ab887965203daa419bcb1"
     },
     {
       "path": "Clash/mrs/MI_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c21c28dc8973202330f72f8639379f593019f8e3",
-      "bytes": 176,
-      "sha256": "1e70e83c6dc9386f9ddf7fd7217eb67078d8706050ef3bf2b9e647de36286adb"
+      "git_oid": "0de3a768c7ae713bfa48d744fc4bbf3b9fb4f1ec",
+      "bytes": 118,
+      "sha256": "9cbdcd001f7166ed93fd5ba327a42ce9535a6bfa19cd756a2f4d9c5a95ef4fde"
     },
     {
       "path": "Clash/mrs/MJJ_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ff299ed637afb74bfeee8a1416b72e46e6918601",
-      "bytes": 138,
-      "sha256": "4e887dd43121da04f7476057729e510c68c3929b63e8bf37c0e1b9aa89eb9769"
+      "git_oid": "dc577c7b56f1c0b6f3120698d9ee1410cbbee800",
+      "bytes": 105,
+      "sha256": "87b6778714caac17b2144b69deb73445a353633005af6053c59598c0afacd2c6"
     },
     {
       "path": "Clash/mrs/Marketing_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7d456737567838a591bb2e94bb751c8f4df60d27",
-      "bytes": 1028,
-      "sha256": "d8d2c47a970a944c546a70c2e55c706e2daecfff9be3b92bd7df6274028a475c"
+      "git_oid": "dd8bfef49a543625a2a0214d1968d41ea43a1449",
+      "bytes": 660,
+      "sha256": "995a0c9ba62f781f56cf13e8935834a54f3f145fbd834217ebabf153ed6737da"
     },
     {
       "path": "Clash/mrs/Meitu_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "534eda2c4c0bc704daed2ad28fffb5f2d69d3a99",
-      "bytes": 129,
-      "sha256": "ec8196042afdcad5a9cddb76afed92324d43bcd4f212deadfb2baeb7df1127db"
+      "git_oid": "46163f016d886459b27f2f24118634043e886997",
+      "bytes": 97,
+      "sha256": "3ce7653c90e5d7f53b6d70874380217ecc99a0a8f4e3ef507e9ee22074834951"
     },
     {
       "path": "Clash/mrs/Microsoft_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "65401cefedb881f51a7185db2ec9a7c7677f19c2",
-      "bytes": 1290,
-      "sha256": "3f723f60036976ee8cad69d5419ac329c5374018ac725ed0060b4ceb0af5599c"
+      "git_oid": "f84a69904140f34f24893308140e1466ac03f71e",
+      "bytes": 790,
+      "sha256": "c17526e76b2a5910252d8834389324bbe029fd87a51fd9f7a5df355ad8a8d675"
     },
     {
       "path": "Clash/mrs/My5_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "445c9dee977c08f2082c850f0180b4827b410ff4",
-      "bytes": 145,
-      "sha256": "c2c3cd09f15141c72a68c2b41a0e790d4bbede43c6d5a57f1a74d6be8b820b4c"
+      "git_oid": "f99477e691ce21705eee5260360e2b75c60cc5f2",
+      "bytes": 113,
+      "sha256": "2395dbd932c1751d6bb45786221dd7c1bda391e97bc7c3e4ae2dfa39856eec1f"
     },
     {
       "path": "Clash/mrs/MyTVSuper_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "51f11a277852ccd91a8c60020bd86976a0cbf18b",
-      "bytes": 206,
-      "sha256": "c682bd246cb560ed9a1e525db51e5c91b62a76cdaeb3665b89ca153ec9d69da9"
+      "git_oid": "4fed624280c2ffb5bf60ab6d3be75cefcfd3d34b",
+      "bytes": 175,
+      "sha256": "5a2145d166c2cbe066cfc8042481603244d9bc0258d4e430d2129e0ae42f1329"
     },
     {
       "path": "Clash/mrs/NaSDDNS_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1c39c293d8d85347b3efe53a34d9eae12c639669",
-      "bytes": 679,
-      "sha256": "29916adbc15b8a0d2f2e16df1e88cc2de962570914959828454d5f30e2e24c93"
+      "git_oid": "d7c5e6d416940f64e83de0384709758f4464ab83",
+      "bytes": 453,
+      "sha256": "375559f0c0a8c97e17a3276613e5adf8847e5f3f3f63520b6c42102269a6efe5"
     },
     {
       "path": "Clash/mrs/NaSDDNS_ip.mrs",
@@ -3971,9 +3971,9 @@
       "path": "Clash/mrs/NetEaseMusic_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "721297d68e507d25567a9a61cad89195e24f0bdf",
-      "bytes": 202,
-      "sha256": "dc0b98470f2a05f0473a39211d568f7adc5daa3f79fe4ee4f981174d902029ec"
+      "git_oid": "7ee6689d50ada6b1ac07d27c01a34f5610736d2c",
+      "bytes": 150,
+      "sha256": "03a4db2b96e5b00d048aa565675bdfc4fe629071e1962a49e5716cc14059a227"
     },
     {
       "path": "Clash/mrs/NetEaseMusic_ip.mrs",
@@ -3987,9 +3987,9 @@
       "path": "Clash/mrs/NetEase_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "0ad0bbb97277635b5bdc6265369b7913f0865036",
-      "bytes": 203,
-      "sha256": "6a734e4995fa97dc7f774910782d6b2a309a00fbe2a5fa626fbf42e159c46293"
+      "git_oid": "02a0bcdb13aec90805aa12cbcb2742f56f2fea2f",
+      "bytes": 142,
+      "sha256": "c806eb68396c75ef91fac6e9302991beb4f4b4d8a07be7f18b1dfb3ba2ce1b7d"
     },
     {
       "path": "Clash/mrs/NetflixIP_ip.mrs",
@@ -4003,9 +4003,9 @@
       "path": "Clash/mrs/Netflix_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d2ad06439afd87d2d088ee859d2949eb1cbb4da2",
-      "bytes": 398,
-      "sha256": "7ab3766797a75d4591469ae952cf953d18f24f16ee7e8b88e1aea2c5f135efe0"
+      "git_oid": "317e858b471f1a0f12512a5a985389cbb7682994",
+      "bytes": 334,
+      "sha256": "185b5a5c93da5da3060bfce8e908a41fc3dee290afd612e472ce2d416c288ab1"
     },
     {
       "path": "Clash/mrs/Netflix_ip.mrs",
@@ -4019,145 +4019,145 @@
       "path": "Clash/mrs/Niconico_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "cc1d86ad2a5aef49eb883b64bcd2180b933f85fc",
-      "bytes": 123,
-      "sha256": "f5af93c0891959a7f1cd5d776eb591fb60e4bc359d103fc84eeceb8c6126318d"
+      "git_oid": "93f3243218c3541052dc700a8ab9ee92db217368",
+      "bytes": 80,
+      "sha256": "9d61c75bcd7171ddb9283eaf13682a5d9ddc0dc39834c8709a38eb564f4c8c4c"
     },
     {
       "path": "Clash/mrs/Nintendo_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ad2fa497f6eed86ce495e09f746b0844ec13e0fe",
-      "bytes": 326,
-      "sha256": "fe8180216a80fe21b81587444114309fc3f0ae2d269091c7916107356d2bbbad"
+      "git_oid": "50081d6e49da48efc7b054780f22ea86ea12f6ae",
+      "bytes": 222,
+      "sha256": "dd50c973209608232842947a58c99fad5b9714de275fbe57e3e571825e6469bb"
     },
     {
       "path": "Clash/mrs/NivodTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "903d01455b7f496fbae17573bfd3d864023c1a01",
-      "bytes": 252,
-      "sha256": "0f036cb92f24cd8e1a1f20ac0fcd155a396a2f5d563af015d6e062d867eebf70"
+      "git_oid": "c25937e93f0c40a930de2ebe1b770e54f2891eef",
+      "bytes": 171,
+      "sha256": "2909f920777649ad4a3d23338259552604a8c0cd60bd04ea883459a233674953"
     },
     {
       "path": "Clash/mrs/Olevod_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7a1f8bd5c85d625a970ee5162bea049ad42a6ea4",
-      "bytes": 214,
-      "sha256": "f2e5059f4eaccc9592fc075e4f62cce9cd86ecf97ece060e12eb0242b2dbcee7"
+      "git_oid": "7d58494ca047431a9e7008cc1beca54e400033f3",
+      "bytes": 156,
+      "sha256": "12b8ba9d2db23cbf27278992c00ba38a74a5b3183be1709f421b8bd2457cafe7"
     },
     {
       "path": "Clash/mrs/OneDrive_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e7d384e715a027a5f2217157c8f8223969f62e09",
-      "bytes": 388,
-      "sha256": "a4d79e1b2f881b3bb2f7aa76f568ba40722fae6b6fd515805b553c0f66c1b2a8"
+      "git_oid": "7872bb503cc00d10f893a2458a65b26e177146a9",
+      "bytes": 291,
+      "sha256": "9fab8026fa5655914ab254db84f94d5794f95b8d2d816a6eff5af0322faa7a1a"
     },
     {
       "path": "Clash/mrs/OpenAi_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "94b082979bbc6723bb7b74fd30c8437b560de673",
-      "bytes": 406,
-      "sha256": "0bab338ec5ceb6d65ada62c1af972f892455a6d871221d2c7a7e9abe9644321d"
+      "git_oid": "cf96c3f7a8d1ea5d37cf4bbd8fcaf4e79290bb2b",
+      "bytes": 300,
+      "sha256": "1ee80530fcb20f5cfc3992cdcdccd3551ad808c437e4bc2563bb19a6ff45d318"
     },
     {
       "path": "Clash/mrs/Origin_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c07a1110e3062ec800a2223d13d5c4a3bbeca7ba",
-      "bytes": 214,
-      "sha256": "9af0ff167ef161d4a5feeebc20024b35aaa8c9b31954faaf4be541c8c1b9e3bb"
+      "git_oid": "c0f8edd285e5b23449ae36b5d3cb44bcd717b7a3",
+      "bytes": 167,
+      "sha256": "3420039bdfb08f5dcca034d7c69450422a6a5b5e5d525b9310018a2885bfcb11"
     },
     {
       "path": "Clash/mrs/PBS_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "444f3224f0aad3e3059f58ef0c5073a8ea99cd5d",
-      "bytes": 70,
-      "sha256": "c6abbf92300673675160f15c6378a396ae49e46b71092865c585ae3376822345"
+      "git_oid": "c441834b420bf7c55ed3cb44628d9da97f474613",
+      "bytes": 51,
+      "sha256": "9b9777af522ba1aac912fab644ff8d61e0d0db5b2425dcb6675f11cb9087be41"
     },
     {
       "path": "Clash/mrs/PDD_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "60342decf7790275ecb396aa47fcb96e9161579d",
-      "bytes": 104,
-      "sha256": "49a8e2f064ef6fab5726f353be9379e9ab934888e991774bec91d9dd978f639f"
+      "git_oid": "dc5e92a58b25b7361cac70083ce4d40f385d0b6c",
+      "bytes": 75,
+      "sha256": "1b1e415fdfba03b95e872e76272fcafd774fcf1a2db466821b742b0d27377d5b"
     },
     {
       "path": "Clash/mrs/PPTVPPLive_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "58505790c076103801628891385ef51936b06fe3",
-      "bytes": 96,
-      "sha256": "085ec604a41d4f5c2a4d0b1368d4378d2d67da0582c356f4c8c15a7446ac0a7c"
+      "git_oid": "9534062c676ceadf07adfee111b4dd9c1aeb81e7",
+      "bytes": 65,
+      "sha256": "5f455d1b73f249905810311dab9629bfe4e67237bd0fb010cefcad820c38969d"
     },
     {
       "path": "Clash/mrs/Pandora_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "be1118bf0dd33b9ca10f269040d59cfcadbd5b1b",
-      "bytes": 69,
-      "sha256": "631cf5661fb4ee4d1f71d4d4ed3d76306c440063045cd8dad3f18f102ed2f341"
+      "git_oid": "4d6d842e65585f3f031f96e28bbff8f1bd90a03f",
+      "bytes": 54,
+      "sha256": "391731e4ef4d8f4e047fc1054614e0bb64a4f80616a412835217a003292001e6"
     },
     {
       "path": "Clash/mrs/Pixiv_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3f0c9e910b032d86bf037baeffaca163e6317760",
-      "bytes": 120,
-      "sha256": "656e8b91a80091327b200c5cc732350f77228ca8722d404540e69502603dae33"
+      "git_oid": "6e9143e3fe3f3ad59eb7281f531b22a9b21dd905",
+      "bytes": 79,
+      "sha256": "d6ffb28afa914620e160c6bc5e6c95f5f648b2b0c8824f1b2e9d72e39dad0f47"
     },
     {
       "path": "Clash/mrs/PornAsia_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "8825a715a08efdd2ac9936c48ecdcf6b77b6f187",
-      "bytes": 136,
-      "sha256": "a8fd84fd2a7c36cf3f02337fa93339fe9b2812cd6261059e796e5ccb29f4909e"
+      "git_oid": "2800a8a696bf8f1d3e2ebbe24f100711f536525c",
+      "bytes": 94,
+      "sha256": "2eca6837ef2d6050fed766b105c2e0451010f7ebf10fed94a68c83eaf45023fe"
     },
     {
       "path": "Clash/mrs/Porn_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "08fbc3220447becd54321a65343444ebf5348551",
-      "bytes": 419,
-      "sha256": "58b61350811367ddcf921b367c05e406303c848298811bc1f592dd9ca1b77561"
+      "git_oid": "8cde74373f7b0291090679c271268a948e8d0f75",
+      "bytes": 272,
+      "sha256": "20fc477bf7740ea40c6a28e52dc6d53fbaf028438f409784fdd951277ea81dc4"
     },
     {
       "path": "Clash/mrs/Pornhub_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2eefa3639538a207c43ce1eab57d58b24a9e7bcd",
-      "bytes": 137,
-      "sha256": "56fcea8fd9e6779d18ecaea3e58f7e0f19882982931c21e9d486c37493e297ee"
+      "git_oid": "4d13a4e26b84d469b6b2fb4429dee72d876d4db5",
+      "bytes": 102,
+      "sha256": "a46e23f80325ca73cc08632e41c72d7ae27c54a091216b7312de5e660acb7117"
     },
     {
       "path": "Clash/mrs/PrivateTracker_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ef0b856d419b3b4d7886b657e923e20480e9ddf5",
-      "bytes": 1981,
-      "sha256": "1fc5fa9fd8f7ffa9949467269fd96c9f72f2b1ffe99aeb091a1976cf75c53987"
+      "git_oid": "13b5c78e95894f0891d3efe11111b64254b2c623",
+      "bytes": 1221,
+      "sha256": "2074c69949762f48f6e56cc1b856a5b40aea579363a4fe68891a14e41069fc0a"
     },
     {
       "path": "Clash/mrs/ProxyGFWlist_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ee50e91fb5ad5a6ee9e7f34740808479b5d8bb9b",
-      "bytes": 61379,
-      "sha256": "5c6ea68bfcaad0425deee255089ac9b66b1784c347ef19a0aad5573ebb4ab80c"
+      "git_oid": "f0c197eacfe822181e0178b54947ee609cdbd166",
+      "bytes": 34048,
+      "sha256": "8ad8e9c4dc34e639757c9d48f55c400813ab74544ebf84623661b84bc8da73a5"
     },
     {
       "path": "Clash/mrs/ProxyLite_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b81e9d1a97929111ecebe907d1b70236484fe620",
-      "bytes": 5073,
-      "sha256": "5a8f6b4448457f54d0d7cbdde286c170df4f4359f17f782ea7b5a60b448981f5"
+      "git_oid": "06fd8a94aafe9c77e9520fb9b7177aeaaee6f42b",
+      "bytes": 3113,
+      "sha256": "277b110c3c82e640689b10d3596362cafeaa00803482e3ef436ad7b5bbb1eada"
     },
     {
       "path": "Clash/mrs/ProxyLite_ip.mrs",
@@ -4171,9 +4171,9 @@
       "path": "Clash/mrs/ProxyMedia_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "630b6c9616fdfc630d10aed1104b44c63712735a",
-      "bytes": 5390,
-      "sha256": "0bbd4956e4e7ae2d7981d6aa68ae1582fb6cdfc38ec4901a23a6b294070300e4"
+      "git_oid": "6cd43a8dfe1edeeea84af8a52a0aed511cbdb700",
+      "bytes": 3554,
+      "sha256": "9b01293d8c54439db9962d48b38c2185870edecd2e930e8288cfbcf1f9eea619"
     },
     {
       "path": "Clash/mrs/ProxyMedia_ip.mrs",
@@ -4187,145 +4187,145 @@
       "path": "Clash/mrs/PublicDirectCDN_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b04e9626a0e09b7aa88e6af43f6806398b64b1c4",
-      "bytes": 155,
-      "sha256": "660c93be1858aed640cb64a6859a2542fd79fdc4a44c40feefc4106cc037c075"
+      "git_oid": "8c9b031786f154ea7edaf819f151865b7cdd0da9",
+      "bytes": 113,
+      "sha256": "96bf6854723bb42a472233c3111629d316b9a95b71fc4eb10844c7ddfcccae68"
     },
     {
       "path": "Clash/mrs/Qobuz_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f353935f5de1e52e11a846a39773acd34f306c49",
-      "bytes": 72,
-      "sha256": "e90ff6c1d6b05893c75d336e63e31f015e747f12f705086d31e39a68b2fa95e1"
+      "git_oid": "7675d55ff11ce4bc207caa8bf6068a3548f37868",
+      "bytes": 51,
+      "sha256": "372ececdd1bc0efc4180f69d0aaf5de654e47c515eaa53f6c125aab1d17f11f3"
     },
     {
       "path": "Clash/mrs/Reddit_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5309fa489d1da36cfb38eb2c0ea61df5b554bd85",
-      "bytes": 141,
-      "sha256": "706eddd7bc984a816d5474da94d973576154c0a473556fbdcee0c7eb217d07f9"
+      "git_oid": "e2b69be295582e1d13a0729152fd6e55a5732874",
+      "bytes": 102,
+      "sha256": "ebdff335376be3babead356cb3faeb34f6036f43b87fcdb99d964d34e2444da5"
     },
     {
       "path": "Clash/mrs/Samsung_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f13d5d50d6f2fb8e6fe51618cebea96c072ab05c",
-      "bytes": 437,
-      "sha256": "4e3cbb106129f3332349d115d68c3452904c53704d8a2b0d3139562df8702dc8"
+      "git_oid": "e9d965874ec5eee165b834a0c0c069f2df05c20d",
+      "bytes": 291,
+      "sha256": "b715d63dfb3d1b8984af1e1c3619941a0ad00de201f48f0d88227c196b32cafa"
     },
     {
       "path": "Clash/mrs/Scholar_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "75fe127560ffde72320b10501bf684d9ebb6e57e",
-      "bytes": 1349,
-      "sha256": "90eeae7c4cfddb2d969088ed55ae75d13cf122de482972b7a986420d9c971fd7"
+      "git_oid": "abebe177c493fabbfe7188d57d892635a6d7aa59",
+      "bytes": 818,
+      "sha256": "558a54c4a247ea4848bf9bd07095334bc9f61365532c740634c3335fda500d07"
     },
     {
       "path": "Clash/mrs/Sina_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6500376df0f1d7bf9b5bf47772af7382bdf089d6",
-      "bytes": 279,
-      "sha256": "154afa6da93c2851d3d07dfb288ddca596a2ec799af5abe0d7efc4675a3c7320"
+      "git_oid": "d16952bff259df058ee332e4cbb8505dbbccdd9c",
+      "bytes": 178,
+      "sha256": "f2835cc3e1943d63b8fb2e11eef649c856f0f24506306881e7c9f206a17aebd4"
     },
     {
       "path": "Clash/mrs/SohuSogo_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "875fab0362908f93f3f22507c3d3abb832fd866d",
-      "bytes": 213,
-      "sha256": "4dcd3f227bcc6b7aec7126e34a65524baffe4b0ff0c8b8df3709184e036b0686"
+      "git_oid": "b05afacdab9fcd4908a2293aa02f69c78cc86216",
+      "bytes": 140,
+      "sha256": "2f97e529b3c8723e90a97633f79d5c48117ddf76157d62d7425cff62df3cf469"
     },
     {
       "path": "Clash/mrs/Sony_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6ac767042d9a695cd1294dbdfe3bbfefc48a2589",
-      "bytes": 182,
-      "sha256": "f17b7481939a1ee0c3db1df61be4c45f8a7e77232a059da7d16e3cbebe3b0a0d"
+      "git_oid": "9e6aa0a120c680b318a053547d6873ec4a8910a7",
+      "bytes": 135,
+      "sha256": "bd704f67e696e99cc6d5fd9e6ab7e83af9e811c8509a45b98d46f34aff8c58fb"
     },
     {
       "path": "Clash/mrs/SoundCloud_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "924b6afd2fdfaa861df36cc2b60d7834aed7cf87",
-      "bytes": 120,
-      "sha256": "65aa2cb61682b3d1e3a251cf6070bfc0bdb346f43e33c2083ef138183caa515f"
+      "git_oid": "92ac8fb48a03b8edbcc3c34a85c649e09e3596f9",
+      "bytes": 92,
+      "sha256": "450670baab4c61cc995744d4f43009b6fdf108be924af7304a5708741e208dcb"
     },
     {
       "path": "Clash/mrs/Spark_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "94f1b446a8904c5954906f39c494cad597d6bace",
-      "bytes": 164,
-      "sha256": "404a7bd2e5e74260493c73b5310ae47d2ccab8a57855a9f1939d2de66fb658e3"
+      "git_oid": "1d0873335b4ca655af8bc08fe3593475b41d1e6c",
+      "bytes": 128,
+      "sha256": "1738a243e8c7fd560a561300f03c88be9fd490d42bf98af2ef819df53512aae4"
     },
     {
       "path": "Clash/mrs/Spotify_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6d8bc86bba601702c411104dbc36578202ad9c36",
-      "bytes": 208,
-      "sha256": "6ac469686f79b225ef6b987a1bbaa407b58105119d5ea58a61cf2fb7a6349479"
+      "git_oid": "278bac8b0188296ae2d480d0dff949b0e595f5fe",
+      "bytes": 165,
+      "sha256": "c93d2932b661a1c225281bd2731a7909bc558178009b86930333eb44519b00c0"
     },
     {
       "path": "Clash/mrs/SteamCN_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "382bb2ed0b98679a4895300c75542a843c2a2a8a",
-      "bytes": 372,
-      "sha256": "61c8eb2eca62be6a48a920b20c83b174bd15d4479c0b6ff2e0199878e95ab896"
+      "git_oid": "2d698c9a49c3b0cb10cee94ed6fab3dd4c041e6d",
+      "bytes": 279,
+      "sha256": "5ec9f91ee32dbd1e3a47489763a678f1ae7b0c58699a10c728f95d6f0da85854"
     },
     {
       "path": "Clash/mrs/SteamRegionCheck_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "df8e81ae906da43da286f3a75eb2a28ac8bfb516",
-      "bytes": 144,
-      "sha256": "50b0762ea024f5d8ec71656323bb7908ebd5015132eb0859ea33077efc45554f"
+      "git_oid": "95301067dbab2d83ffec02a1cf409b2df2c55089",
+      "bytes": 125,
+      "sha256": "62fda8501d12a461a9bf7bad074fccd35f51217c6acdc14f79b019ad9cceb99a"
     },
     {
       "path": "Clash/mrs/Steam_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b13909b3bd1f9da761cbdbfda70ac5c2feec8a1e",
-      "bytes": 409,
-      "sha256": "6b7345699014c420ab4f0dd733f16e614affb3726c954eff1499ac2de24361fb"
+      "git_oid": "1ec676a92b8c482c8ef7881bab32902273234167",
+      "bytes": 302,
+      "sha256": "4686c0182500b376f7905510792c2d5bf9e40c5e8f5f9a4ab48cd534933485cd"
     },
     {
       "path": "Clash/mrs/TIDAL_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ac322937bb50b03b134a6bb970eaca9e62a792ab",
-      "bytes": 130,
-      "sha256": "ea5d1ad9d3e6303f4101058d86d018aa1c84ad1122c0d90d0c7c28fd6f7e9e27"
+      "git_oid": "bac3a18d780cdaf15bd59a596824b5d60ca04872",
+      "bytes": 108,
+      "sha256": "7d160ee2277a70d914bba5e69c310ccf5257656c8266f26a7b6a6d0479be85ca"
     },
     {
       "path": "Clash/mrs/TaiWanGood_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b0de5c1219a24b21fbac71bdc5bd113863295c81",
-      "bytes": 108,
-      "sha256": "cef8bc8df28b9c4316de2e99d5aac1558798b3a59c7499aed219809477389a22"
+      "git_oid": "1e8ee0b2bd6b68b6570fe40448efa797143ea5eb",
+      "bytes": 88,
+      "sha256": "4f907e0c0d75d736d989294e39e2b0d142c4d07ac341e069cb63ac9cd1bf6b37"
     },
     {
       "path": "Clash/mrs/TapTap_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3de5d3dfd0dd85f610813ba75cf19454deb7533e",
-      "bytes": 97,
-      "sha256": "22740c83c15f5d2ad300908d0dd1cc20203b9d59385f0e154d76c9c4964ace73"
+      "git_oid": "1fe0042101517e408cb6f0e820255319b464f0c2",
+      "bytes": 66,
+      "sha256": "1c64d655b1aab04eb92a07d53fcec257be695ab64aa2217a910e982c0394b234"
     },
     {
       "path": "Clash/mrs/TeamViewer_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a67117d372eea6259440f2d01f6df78031a51fba",
-      "bytes": 72,
-      "sha256": "c35f6ee514b67ecad23955e3d42fc254189d524536a335b7627511b2f87ceccd"
+      "git_oid": "ecd6210545a6208bcbed98c6e6692097d69f484b",
+      "bytes": 60,
+      "sha256": "d5366b188309f08670f38d62d5a5a5ed0f71d3641a68e21d66d097dfe65ddb2b"
     },
     {
       "path": "Clash/mrs/TeamViewer_ip.mrs",
@@ -4339,9 +4339,9 @@
       "path": "Clash/mrs/Telegram_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4613c7d9fc7e67a5fa979cd489ca59cd5a5fe4b3",
-      "bytes": 198,
-      "sha256": "1a2769ffa59a851c95d6fe24160cc0660bd530defdc18ec0c080817c7860a8a7"
+      "git_oid": "e0daadd59e7411aabb0668599b21515df512d916",
+      "bytes": 148,
+      "sha256": "d57adffb918f9888f8abaca17c8f43b579d3a0c4819ad2c6a9e075bfb0016789"
     },
     {
       "path": "Clash/mrs/Telegram_ip.mrs",
@@ -4355,105 +4355,105 @@
       "path": "Clash/mrs/TencentLolm_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "70a6bbd0b1565f7a296e01c33460b200ffa40489",
-      "bytes": 128,
-      "sha256": "744151ef6aad498c4a4853f9326d9dcbf532168678101aa1301ef793cbbb8ca5"
+      "git_oid": "c9e0b811d152043274c261f5bfa1a6dfa4f9282f",
+      "bytes": 94,
+      "sha256": "caf722712b498d31162b9f01d158822d1d0e098ad70b27a25e6bed9645998dab"
     },
     {
       "path": "Clash/mrs/TencentVideo_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4bbbfc7da5869c1b8a0d0ff8b80876dce91d13b4",
-      "bytes": 108,
-      "sha256": "ba371c7da594b951aeeb340472b7bd2c8a08a476438e6f4511edab309d12177a"
+      "git_oid": "6cd351840dbadef1ef83cb99a33c98a1fcc5c86c",
+      "bytes": 78,
+      "sha256": "0e167bcf6e445d42194a8ef64a0187c8a0581c1608071fbb351788bf2a81bf3d"
     },
     {
       "path": "Clash/mrs/Tencent_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2dcf9ec93b155b4dc1321658f6cf383781424ca1",
-      "bytes": 363,
-      "sha256": "4ba5b53d23d116e4ae6f985a9ad85d50518fe8be5b6e71757eec73a1dc2555c6"
+      "git_oid": "2b255d2bd5be775fb188816fa2c75c9fae07a99f",
+      "bytes": 222,
+      "sha256": "23254c06f5649be2bdc72624223b104f68e2b93671fba1a355d0a84b920e1174"
     },
     {
       "path": "Clash/mrs/TeraBox_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "82435cd7cc2ba0d0f99819706f955627d2d833ba",
-      "bytes": 106,
-      "sha256": "7dce60286b4308124bbbf22c689b611c0d462db375b9e69b17501a5bbeac0f71"
+      "git_oid": "2eff0966177490b48d85ed3a4cac8191217ec3d5",
+      "bytes": 75,
+      "sha256": "40de600a0da3ccaf362682df1a74f2500d3eb66d2d4b3e1e65cca18cd6996f49"
     },
     {
       "path": "Clash/mrs/TikTok_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "129176063552263e3fdfa2539357b7268f3ff88e",
-      "bytes": 241,
-      "sha256": "d0b2162cd24f6e80bd171e425c505954c583ffa2927c91812df621d92dbedebf"
+      "git_oid": "288fe1ed7ba8ec089592d125ea5568fd04a8883a",
+      "bytes": 178,
+      "sha256": "1363b2bde7040dd0f2dbe815ba9e8b629fdbdeaac6bc43d080a82b8714ad7327"
     },
     {
       "path": "Clash/mrs/TopBlockedSites_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9c5ab9126f823d643aab31815202ab113d4759bf",
-      "bytes": 1709,
-      "sha256": "2a5826dfa9760afa080966268c064bb772595b2556a1a43e1165537933ddfa9c"
+      "git_oid": "8e78973db55adebd8426bcd0479b831f8e88f93c",
+      "bytes": 1013,
+      "sha256": "545dc615cd92848242f07b071127be1a4a64e26e82a59555fc8984e4cb19fdf8"
     },
     {
       "path": "Clash/mrs/Twitch_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7fe68a979ee44aa2d45123ff9f247a13a23247ec",
-      "bytes": 200,
-      "sha256": "1807b44180bac4212cb96d26aa9a15c69069747dda2dd7133454aa4403c633ff"
+      "git_oid": "82108db7b93395c61a0efc11fc91991249bfa974",
+      "bytes": 151,
+      "sha256": "35a9b21db07a1823db0fe56fa14cf5598c1ea1de64ba0eb2447f2eb7d1761e4f"
     },
     {
       "path": "Clash/mrs/Twitter_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "628b9957dec07bb49db3d7e9c737bb79a515c6a5",
-      "bytes": 258,
-      "sha256": "0844bb9bfea655f487dda839c0257fa7b3599ede9529067f4e0112ea98ae0bde"
+      "git_oid": "e7250439dfc8c173bff2f554e2630be8ce456d2a",
+      "bytes": 181,
+      "sha256": "b386bbfb2f5369a1a14b9a755daf745e71812fca3a18927048ff087bb709b450"
     },
     {
       "path": "Clash/mrs/UnBan_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "bfce441e0abe6dcd29c327c95a160cbaaf60277a",
-      "bytes": 980,
-      "sha256": "da5828032ee27d6fb9079871195753c6ab042cb8673a6d018c76e3c34c04889f"
+      "git_oid": "6ba28a8757f9d3f7797d13d95e53aa72847e4d27",
+      "bytes": 631,
+      "sha256": "c9fac38447e581d386e8d93b758efd26b199baa3b2627586390fd2bcd21e8b3c"
     },
     {
       "path": "Clash/mrs/VikACG_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "cd453e9a27c903e326c2aa9d056270c6b0bdb826",
-      "bytes": 103,
-      "sha256": "a325f10c8a5283755d720d25264c4659ec3c56b0c1c2ad404e09b156a7e6fa27"
+      "git_oid": "74c9a8e8d44d9871b1ff93451c026b31ce8e0666",
+      "bytes": 75,
+      "sha256": "5bf0d5865d3e8e1d8468f3f22bd65e63305cb576ce83459927c2a35366e2de69"
     },
     {
       "path": "Clash/mrs/Vip_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d4f0779fec8cf910172ce6c3b6f53a44633fc0dd",
-      "bytes": 141,
-      "sha256": "bea32e97b58ad25151e28c388e4ab6c9c31d32585fe357068ba9732e13b2e343"
+      "git_oid": "5ae15897d05884d64a45444c74119476394d9162",
+      "bytes": 100,
+      "sha256": "a7904101e55574ce021cb6ebb982056b98bcc858f8cd57a43cb6c1245c6b220b"
     },
     {
       "path": "Clash/mrs/ViuTV_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1fa606355c5bf3b4a5de79221d06f4f2b1dc6984",
-      "bytes": 313,
-      "sha256": "a959dcd11db6c1adae1019602bf4887c904f5cc96fa553ebb8a6cc1e1bd53e60"
+      "git_oid": "8398b73f5549043920b839af2320bd96aeb18402",
+      "bytes": 218,
+      "sha256": "398ec2eef560371d4be37e94be85d263ac13a101580ecfa3a7c83e3151557ea2"
     },
     {
       "path": "Clash/mrs/Wechat_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "cae5af975b416c0cb4bbda7318a47aa3c1769d7c",
-      "bytes": 289,
-      "sha256": "eb0aa6100fe4ebeb91c5a4f915f6d3744806e23416ff4afbf63669418c2b5486"
+      "git_oid": "d50cfb4409c4a848f253fa1e9f5f7ebaf60b17a9",
+      "bytes": 183,
+      "sha256": "acf83f74f748e9bd9db53b497a4debe9c27e2a5e17697ead3847088cba3c2968"
     },
     {
       "path": "Clash/mrs/Wechat_ip.mrs",
@@ -4483,65 +4483,65 @@
       "path": "Clash/mrs/Wikipedia_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9e948d5091065c5c637eb72e7a6a9b04e8a8618f",
-      "bytes": 255,
-      "sha256": "6484b20a5ae507f41e3d8e2e8a0bc1d5f56dd4d6d3e81528dbe180008dfa1020"
+      "git_oid": "1a5472f8ef3f4c2cf8352f8800a236a8fc411aec",
+      "bytes": 175,
+      "sha256": "37ecdd90875e3c8ab41fb73223fe25e666f026a2ff62223c314de78e72736585"
     },
     {
       "path": "Clash/mrs/Xbox_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4991f1771b56f297cc04cfcc4a0e92a4ac93979f",
-      "bytes": 189,
-      "sha256": "0460c993c4cd0c0c8c96229438b07f32e15e80e8cc18577cb32798268fa0d061"
+      "git_oid": "fee7020bcc3e6fb3996a4a10dfa4be6f89f0df8a",
+      "bytes": 139,
+      "sha256": "3f794e887b5ad975fe9b4285d801a57d754be875ad2dac37dbca26fb8f478583"
     },
     {
       "path": "Clash/mrs/Ximalaya_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e25f1f867e00ff65175585de83948c3fa404a24b",
-      "bytes": 102,
-      "sha256": "bc0707d01c2fb56a468263e63ca9303c7862e3d11eea955435c071a66b31c407"
+      "git_oid": "cc6bf1f4c05859b12bc9b65e1ff2593d11d56bf2",
+      "bytes": 73,
+      "sha256": "7b57a263520c5a4cf0499b05bd31ecc114891b77754ddc55c157b6b8af357786"
     },
     {
       "path": "Clash/mrs/Xunlei_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "33f1eb8e48adcd423203cda117ca62ea3de6207b",
-      "bytes": 188,
-      "sha256": "2a1cf5e3ef7ce037e77e3bde66ca4e3161ee912b90486fff939e8b41a3a9dce6"
+      "git_oid": "a9ab36a8145a64d2eef6acfcc71688ba4b9c1e0c",
+      "bytes": 124,
+      "sha256": "7a5a7c9b63ea20c292a6d87c497e0d51c60d23f8143fb5b69a9a43549e8a0bb9"
     },
     {
       "path": "Clash/mrs/YYeTs_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "8cfea099db66dba5a191194aeaf57afc9c1cd4fb",
-      "bytes": 284,
-      "sha256": "c59150fc104606dc7625eea907f3c9a1b75e6723b98415f49bd44a189999ade7"
+      "git_oid": "12c5050cf582273509b25899289b010d2a1d7199",
+      "bytes": 194,
+      "sha256": "ffb446866bc17f258d717c26dc5d0cfdf53264b388907242d13ebe66f94464d8"
     },
     {
       "path": "Clash/mrs/YouTubeMusic_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "69461c16b6a82bb55be88e4228e7f9eaa2080777",
-      "bytes": 67,
-      "sha256": "d69392b6ff3e7daf43b5d5f80aee7565eec6e3ffffa6b3906e4dec608e08a6ed"
+      "git_oid": "43194b14095b81b2de8532a2b7b76a24c42caabf",
+      "bytes": 60,
+      "sha256": "088c4eaaea4edc93f43c0087e859c16d6de73ccc10d55393d28e62a5bea2484c"
     },
     {
       "path": "Clash/mrs/YouTube_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1f6e9cca2226b841dd84520a6fa3dacd70f3f609",
-      "bytes": 330,
-      "sha256": "c6675f46506f0b8fae41074a2f7dba594dfd30385804bf7f60620faed49038f3"
+      "git_oid": "cd1f23254da0a9f23f119418426d3bc4d0f3fa9a",
+      "bytes": 226,
+      "sha256": "8746017685f3483d78171519661b0e1bfa198d56c6a22a0caba73ced9f30afaa"
     },
     {
       "path": "Clash/mrs/Youku_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4b82e2b1e1132d7497b5ec3359a6bbd9e8f5934c",
-      "bytes": 72,
-      "sha256": "975a593bc62f9aa9ffc0b72393ef5cee24c97876ba40cfc634fa4fdcade684e7"
+      "git_oid": "18b0d80fd3f9367a6296d75021ff311ae56718d9",
+      "bytes": 51,
+      "sha256": "872bcd0b05698457f7de26a83d81286f29a359a5f34bf8083b552c18ba8c710d"
     },
     {
       "path": "Clash/mrs/Youku_ip.mrs",
@@ -4555,9 +4555,9 @@
       "path": "Clash/mrs/Zoom_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fddf35407ab1a00c4cd3ef8fdcdd4b63e6c8b13c",
-      "bytes": 98,
-      "sha256": "baeeb38b121b7418964d914fc9654875021cd1cb4c496eb814b293e65333d9f4"
+      "git_oid": "9fdb221ddb3593db8b4ec03dbf52df503c39ee9f",
+      "bytes": 74,
+      "sha256": "73376bcf16142af8f87eb6eff51bdff2b7bad9934230255aa984635ca58ba9a7"
     },
     {
       "path": "Clash/pref.ini",
