@@ -1,0 +1,4 @@
+# Ordered fragment; review only; business=netflix
+IP-CIDR,45.57.0.0/17,no-resolve
+IP-CIDR,64.120.128.0/17,no-resolve
+IP-CIDR,66.197.128.0/17,no-resolve
