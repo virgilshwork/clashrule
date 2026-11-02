@@ -1,0 +1,4 @@
+# Ordered fragment; review only; business=apple_store
+DOMAIN,buy.itunes.apple.com
+DOMAIN,gsp-ssl.ls.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
