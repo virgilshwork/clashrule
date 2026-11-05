@@ -1,0 +1,6 @@
+# Ordered fragment; review only; business=overseas_download
+DOMAIN-SUFFIX,download.visualstudio.microsoft.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,github-production-release-asset-2e65be.s3.amazonaws.com
+DOMAIN-SUFFIX,github-production-user-asset-6210df.s3.amazonaws.com
+DOMAIN-SUFFIX,production.cloudflare.docker.com
