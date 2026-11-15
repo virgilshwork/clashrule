@@ -1,0 +1,18 @@
+# Ordered fragment; review only; business=ai_other
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,api.githubcopilot.com
+DOMAIN,api.groq.com
+DOMAIN,api.together.xyz
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,bard.google.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,console.groq.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,ml.googleapis.com
+DOMAIN,notebooklm.google.com
+DOMAIN,sydney.bing.com
