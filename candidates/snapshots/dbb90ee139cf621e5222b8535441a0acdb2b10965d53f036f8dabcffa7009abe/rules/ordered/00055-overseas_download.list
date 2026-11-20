@@ -1,0 +1,21 @@
+# Ordered fragment; review only; business=overseas_download
+DOMAIN-SUFFIX,auth.docker.io
+DOMAIN-SUFFIX,caspian-dl.hf.co
+DOMAIN-SUFFIX,cdn-lfs.huggingface.co
+DOMAIN-SUFFIX,cran.r-project.org
+DOMAIN-SUFFIX,download.docker.com
+DOMAIN-SUFFIX,download.jetbrains.com
+DOMAIN-SUFFIX,download.pytorch.org
+DOMAIN-SUFFIX,download.tensorflow.org
+DOMAIN-SUFFIX,files.pythonhosted.org
+DOMAIN-SUFFIX,k8s.gcr.io
+DOMAIN-SUFFIX,mega.co.nz
+DOMAIN-SUFFIX,packagemanager.posit.co
+DOMAIN-SUFFIX,packages.microsoft.com
+DOMAIN-SUFFIX,registry-1.docker.io
+DOMAIN-SUFFIX,registry.k8s.io
+DOMAIN-SUFFIX,registry.npmjs.org
+DOMAIN-SUFFIX,registry.yarnpkg.com
+DOMAIN-SUFFIX,repo.anaconda.com
+DOMAIN-SUFFIX,repo.continuum.io
+DOMAIN-SUFFIX,storage.googleapis.com

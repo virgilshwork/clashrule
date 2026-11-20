@@ -1,0 +1,11 @@
+# Ordered fragment; review only; business=direct
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,internal
+DOMAIN-SUFFIX,ip6-localhost
+DOMAIN-SUFFIX,ip6-loopback
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,localhost
+DOMAIN-SUFFIX,xn--55qx5d
+DOMAIN-SUFFIX,xn--fiqs8s
+DOMAIN-SUFFIX,xn--io0a7i
