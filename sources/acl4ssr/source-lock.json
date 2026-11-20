@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "e2f257307bf0ee31921ac948036e942a29a35b35",
+  "commit": "818b587aa7df167b177a209dfa7d7fe6fba3764f",
   "source_path": "/",
   "snapshot_subdir": "upstream",
   "file_count": 581,
-  "total_bytes": 14767817,
+  "total_bytes": 14767716,
   "files": [
     {
       "path": ".github/workflows/update.yml",
@@ -2851,9 +2851,9 @@
       "path": "Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "de2af1be6f39103fc0bcca9a1c5602c60b46c185",
-      "bytes": 9900,
-      "sha256": "7ce2b39f5f844df8d06e6267907ae00a3a9e042283712236890f7ec87338b027"
+      "git_oid": "4c5375997e124945d626f72cbe3761d14dc50deb",
+      "bytes": 9799,
+      "sha256": "cf2ea8013f9bedf62c9ca4503e39b485e11aa3738e2a536c92c72f8b60d71992"
     },
     {
       "path": "Clash/config/ACL4SSR_Online_Full_Google.ini",
