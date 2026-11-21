@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "818b587aa7df167b177a209dfa7d7fe6fba3764f",
+  "commit": "a77a123f5df30a7503605c24a78d63a5be35eae3",
   "source_path": "/",
   "snapshot_subdir": "upstream",
   "file_count": 581,
-  "total_bytes": 14767716,
+  "total_bytes": 14767683,
   "files": [
     {
       "path": ".github/workflows/update.yml",
@@ -51,9 +51,9 @@
       "path": "Acl/fullgfwlist.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9e1a4f0e9b1001278db9eceda4bfdbd3a965db8e",
-      "bytes": 90178,
-      "sha256": "793eb6e0279f9e9d177ab6bc4bb87f1edbbde1f3669b6d54a6c5dffe9424466e"
+      "git_oid": "a30319db7166fc8be5408e8acf13dfe12438729a",
+      "bytes": 90211,
+      "sha256": "357f4182a7a832e3de47bb592d401c838a0359b69579bd76d884f660784b373a"
     },
     {
       "path": "Acl/gfwlist-banAD.acl",
@@ -355,9 +355,9 @@
       "path": "Clash/Providers/ProxyGFWlist.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "0424d9de8530fc665dae97db49dbf6ce1a2fdf8f",
-      "bytes": 137903,
-      "sha256": "eb59212fd473bb26fc10b8fafa919f6951592012e5a166dc7bb832fc90662cda"
+      "git_oid": "1485c2cfe66c3df24f2188985453debc35e15417",
+      "bytes": 137958,
+      "sha256": "ecdea31c4ba56f9a0c59fdfa813bba73be5d85c948bb7cc6d33f8d9ca5ee7057"
     },
     {
       "path": "Clash/Providers/ProxyLite.yaml",
@@ -2355,9 +2355,9 @@
       "path": "Clash/Ruleset/ProxyGFWlist.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4880e13cda9f2cad47012ba5ee2b3c1f51d6bd4b",
-      "bytes": 120390,
-      "sha256": "3f751697b3df371810cdefcda9efe00917feefaa4f87ddb084a5291cbf94d12a"
+      "git_oid": "68da0830c720a46ef23e0819e593ff042f4b6dfe",
+      "bytes": 120437,
+      "sha256": "77f0fb032927e873348b85403af9c0cf403112eb8e0eae4f811de2083d242e9f"
     },
     {
       "path": "Clash/Ruleset/PublicDirectCDN.list",
@@ -4147,9 +4147,9 @@
       "path": "Clash/mrs/ProxyGFWlist_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9403ad9927dbdc6ff805428398054957a0fb1326",
-      "bytes": 34440,
-      "sha256": "0b5f9b452387c528242db3aaf76db28fe0e3f632f697273fa971d944e70d76c6"
+      "git_oid": "97c40317a05a8ba547d06fcfab5c55aea0c69c6d",
+      "bytes": 34272,
+      "sha256": "b14382b3259b9a941dbc07a1f60930c2e68407b4ac87af6a0422556853efa7f7"
     },
     {
       "path": "Clash/mrs/ProxyLite_domain.mrs",
