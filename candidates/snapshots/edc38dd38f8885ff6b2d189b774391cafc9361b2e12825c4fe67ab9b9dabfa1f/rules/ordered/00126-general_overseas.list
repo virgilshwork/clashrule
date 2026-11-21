@@ -1,0 +1,6 @@
+# Ordered fragment; review only; business=general_overseas
+IP-CIDR,13.32.0.0/15,no-resolve
+IP-CIDR,18.184.0.0/15,no-resolve
+IP-CIDR,52.58.0.0/15,no-resolve
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,54.226.0.0/15,no-resolve
