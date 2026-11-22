@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "a77a123f5df30a7503605c24a78d63a5be35eae3",
+  "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
   "source_path": "/",
   "snapshot_subdir": "upstream",
-  "file_count": 581,
-  "total_bytes": 14767683,
+  "file_count": 583,
+  "total_bytes": 15214234,
   "files": [
     {
       "path": ".github/workflows/update.yml",
@@ -19,17 +19,17 @@
       "path": "Acl/backcn-banAD.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f7bf57caf745e67ad0dc9aa3cabc2fdec1e25450",
-      "bytes": 276701,
-      "sha256": "c00148639e3d745deb3824777f5fbccf9a82e9bdb91b51fbdfd95d872c79e0b2"
+      "git_oid": "6df399b654742d04df51dbe26f0fd76de06cb343",
+      "bytes": 276677,
+      "sha256": "eab762b74d6893d4975708f9fedb178419f3bbf2d4adb127b1155e934df5539e"
     },
     {
       "path": "Acl/banAD.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5d35e710e0c533a3106bb4175d1275444b19f735",
-      "bytes": 181605,
-      "sha256": "69093c380957e45fb996e5d8f87b34d32e381b0990baab3f3f9ecd6806436cb9"
+      "git_oid": "2a2008f5583b7bf82bbb42d76137af050c8307b0",
+      "bytes": 181581,
+      "sha256": "d222a4be2783693118f2a1c162b24238e20e953c0500351b8074686a2b786956"
     },
     {
       "path": "Acl/china_ip_list.txt",
@@ -43,25 +43,25 @@
       "path": "Acl/easylist-banAD.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "bf8ae95cebbd6c95bc991c72f728b9d16886283b",
-      "bytes": 2625895,
-      "sha256": "a19c3a878a235bfcb00fd0c4c57658cec9b8909584a162b149732203a003cac5"
+      "git_oid": "8cd88a59e2609ccff93d9863170d9a7ff744f6c8",
+      "bytes": 2743034,
+      "sha256": "70f5e065b2699cfac60310ff277b6bceb283d7ff4754ac504aee9109389c1987"
     },
     {
       "path": "Acl/fullgfwlist.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a30319db7166fc8be5408e8acf13dfe12438729a",
-      "bytes": 90211,
-      "sha256": "357f4182a7a832e3de47bb592d401c838a0359b69579bd76d884f660784b373a"
+      "git_oid": "85f1134eb42711c38518688de69bcbbec56dbd39",
+      "bytes": 90774,
+      "sha256": "34818d2a0aa2716aba2daca3118a3e1ea15d9d50d046d5f93a3c4f141439a86b"
     },
     {
       "path": "Acl/gfwlist-banAD.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e2548862dc96ab8667f9b58e049bc5f0e6ea2cb8",
-      "bytes": 162937,
-      "sha256": "a49cdc9109ce7c1e3897eac861650b0ddd80ae3a8c0c2a4d2bc0be0555d03ef0"
+      "git_oid": "6c3c73c0901ac2e1a259c7718a32aa3ca70ced46",
+      "bytes": 162913,
+      "sha256": "bdd60011c837a7007cf4ef2e07b9125f50ef1cbf74fd2fbc2f8721a2f9aca57e"
     },
     {
       "path": "Acl/gfwlist-user.rule",
@@ -83,9 +83,9 @@
       "path": "Acl/onlybanAD.acl",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "efbae153044558d11e18a9d1c998b13a0b23d522",
-      "bytes": 45871,
-      "sha256": "f68f836e181e1ba2e9be8b8742e3b45497c1992abcce4d7a9b5d18a10d31526b"
+      "git_oid": "1385b2625542524245727a3767c8a6fa1fb388eb",
+      "bytes": 45847,
+      "sha256": "decadb04284f1d6d3706ef30b8b428f95102b8e2e426c05ef492bb8c7af7c638"
     },
     {
       "path": "Clash/Apple.list",
@@ -99,33 +99,33 @@
       "path": "Clash/BanAD.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "772ca4c451d39e31637cad209a2a65b606bf42f2",
-      "bytes": 15550,
-      "sha256": "27a5f6d018d428409d8da5d9f390a46298d505ae4941bb8172f052055abe7262"
+      "git_oid": "18cd66c69e470cc3c6e4a2f4d47d04a55e5ff278",
+      "bytes": 15618,
+      "sha256": "110117815a28fba39adcd32da1c6cf2c8b61b4a8e910ef5afdf965647bdc72a9"
     },
     {
       "path": "Clash/BanEasyList.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "808ee34928b5b46b1514bd1611dc65b1125e6879",
-      "bytes": 1330607,
-      "sha256": "084aa963439be3b9718d809d11e4b0fa687136ec7b94ed5276c9829c41efe56f"
+      "git_oid": "9c5305e789c7e67736e6181223d2dd091b8e5077",
+      "bytes": 1432705,
+      "sha256": "4e4f703187c7b1e5492cb52f2062891d245f2d92a64ea8c7e3bb69f1623ab27f"
     },
     {
       "path": "Clash/BanEasyListChina.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "413abaf5cb043deb73c6d2c80e8ce4451d552132",
-      "bytes": 138693,
-      "sha256": "dcbc1a18b9723747fc26a3a922c04917b0c15378725035171a502fcf2c2653cf"
+      "git_oid": "34ca64319f724a36c9fa24645527e695bcbd09ee",
+      "bytes": 158060,
+      "sha256": "7c9845bdf4f52f86056ae4519505f7c2a5567fea64655ba29db702766f545d18"
     },
     {
       "path": "Clash/BanEasyPrivacy.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e048bf82db35f490b66cb18ada8719d8cbafc521",
-      "bytes": 1443096,
-      "sha256": "e8422e996453ad7797461db4a597d4c9e16cc7b4824349d30da85dd8b6e1656c"
+      "git_oid": "4548f449c6a23ac3e6447ad33285b4062a3dedfe",
+      "bytes": 1459452,
+      "sha256": "0115beccadc4fd26280d675ebbc62ab727f85f6fd4b402928a5e74a46a58e896"
     },
     {
       "path": "Clash/BanProgramAD.list",
@@ -171,17 +171,17 @@
       "path": "Clash/ChinaIpV6.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "af68cef67cad33cffaa7dc67e4c5b3b83b89c52e",
-      "bytes": 57319,
-      "sha256": "0eac53e2b8846f7d56c879b20c55dec630c1755a7b2f2d1581923c26a0799a9f"
+      "git_oid": "e63d42b734a85f413b479114183e459f12952ad6",
+      "bytes": 65894,
+      "sha256": "4722ae09b4bd0617553890a3cc95872e718e90ae56b004e075971a3c998955ef"
     },
     {
       "path": "Clash/ChinaMedia.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b9b7d043932f6dd3ebb7ea5388286cf5af9a2685",
-      "bytes": 1306,
-      "sha256": "69c437c641bbbea0001f33ecf6e8a6333a72f53d537b19ac9fd564d6927a2b21"
+      "git_oid": "198518ea1244300a8a4b085545224ea4b9e79c54",
+      "bytes": 1325,
+      "sha256": "a18ec9b9755fecb29ad2cb3ba73ad87b3d5db855d3947ef3811fd490f0904b0a"
     },
     {
       "path": "Clash/Download.list",
@@ -251,33 +251,33 @@
       "path": "Clash/Providers/BanAD.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e3e1b758a6fe0bc77acc670a016e13dc0d8acc7f",
-      "bytes": 17922,
-      "sha256": "3ac697e5d522dd0313edae29aead9417359cc69381b7a999de525237d0251b0e"
+      "git_oid": "be94851716bc1e59d969a881446dd0f02ec84457",
+      "bytes": 17999,
+      "sha256": "e3c2e3520a5f715b872bf6d381e771e1cb092c64f90bc5caba7d1938998f432d"
     },
     {
       "path": "Clash/Providers/BanEasyList.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "0f74a3be16ae68cac095c61e7fd7a357f8be1a6a",
-      "bytes": 1494534,
-      "sha256": "2878469fbffeab85673053636db8c1b6530bbf6262f6ac88bdbee3ebd1d84f07"
+      "git_oid": "c6cae9cc009f19169fbd392dfadeb2f9a3e1eaea",
+      "bytes": 1606888,
+      "sha256": "254476c509d454fe64fdf44d23b782cd054a06762ee48e203f6a25ba0ce54752"
     },
     {
       "path": "Clash/Providers/BanEasyListChina.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "bf4c965569731a37fa5d400e52bb476d1a2be8bc",
-      "bytes": 158912,
-      "sha256": "a312d74d13e05b4d6f82890122f7ab79760cb11d552703310a435dd62f979309"
+      "git_oid": "1688b00bd3d31180fed01e0d385bf2f6f0ab2af9",
+      "bytes": 180115,
+      "sha256": "35d5f30b3fa2c7e8e4874cce50828f07522d17a984f7097b417a989f9381ada5"
     },
     {
       "path": "Clash/Providers/BanEasyPrivacy.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "da57732e6345c10f79cd4b1a8bcc33bb849d2cee",
-      "bytes": 1602523,
-      "sha256": "f8c48fddb731699d9b7f8482b27e5a35235d8e4b7450e035276b3d6791dd2df4"
+      "git_oid": "f18f2ff6f737c9de72dc641d7b2bfe9d84f85a5b",
+      "bytes": 1620799,
+      "sha256": "77cfdcb74658aae7c2a7d70b91dd8793a83b9d3a94f3644e0dcdcd9d7129ab3b"
     },
     {
       "path": "Clash/Providers/BanProgramAD.yaml",
@@ -315,17 +315,17 @@
       "path": "Clash/Providers/ChinaIpV6.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "557c74a5ab9d892fc7622614014178d44820ca31",
-      "bytes": 63344,
-      "sha256": "1c73ddb97d476a0077f228ca5e2caa11b6a0f974d9aa2249afe187ee4e7ec023"
+      "git_oid": "8103652934dfe51db42428cc4a238dfc4c502ef8",
+      "bytes": 72823,
+      "sha256": "1932266bad1edb75b5be7180e2e1abc30c9265a346b1a3d02f91c40b65158918"
     },
     {
       "path": "Clash/Providers/ChinaMedia.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f579dd08b61e429cc02cb791a89cc62d4416ceb4",
-      "bytes": 1519,
-      "sha256": "12aec0ef5ec4975d93365822d4218f7fee85b6879d312cdd78fd07266e6c4bfd"
+      "git_oid": "1299446322b6b78a3dcb6c847d39e9a551975aef",
+      "bytes": 1506,
+      "sha256": "387ca32bdbc072b812e4df4d245834abeaa8546e3d31c369bd0162e6f9a4f15f"
     },
     {
       "path": "Clash/Providers/Download.yaml",
@@ -355,41 +355,41 @@
       "path": "Clash/Providers/ProxyGFWlist.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1485c2cfe66c3df24f2188985453debc35e15417",
-      "bytes": 137958,
-      "sha256": "ecdea31c4ba56f9a0c59fdfa813bba73be5d85c948bb7cc6d33f8d9ca5ee7057"
+      "git_oid": "ba0bfe9248261e270512b6e43be1dbe6ca58f880",
+      "bytes": 138796,
+      "sha256": "2e2943b0f17c68ebaca20b7388e7d1deb2f4c31cf3cac4c2622010aab4c15df6"
     },
     {
       "path": "Clash/Providers/ProxyLite.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "cc841934cb0cfe8d255886be087e1d9ec350ad7b",
-      "bytes": 14418,
-      "sha256": "b5d4cdc6d8f61039e8afe53dc256eb649e48f385f6f5af6826fb7834f9869fb7"
+      "git_oid": "329c27f8ce9d3b904c8b87d868f54ce457a3da7c",
+      "bytes": 16735,
+      "sha256": "64dcc06818d3fdae4cbb1660a28c2a4d23b8a46ee57cb90e51eca4f88a60d040"
     },
     {
       "path": "Clash/Providers/ProxyMedia.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "23e29cf41459d9178f3888557ba893884dd6811c",
-      "bytes": 13362,
-      "sha256": "43ab04fb8a8e9eb1a15216a4a8337946bf2d328904a2d6734c78b144c5c9b9b9"
+      "git_oid": "09e6df9c1ea7a0256ec28304d1c89dc1848b9dfb",
+      "bytes": 11013,
+      "sha256": "c87a51eb05151e250864730fb3c9cd7cfbf04def9e8a04e9107afdc1fc9d57ae"
     },
     {
       "path": "Clash/Providers/Ruleset/AI.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b9a1877745cf01c8086460e85a4a29de620285ff",
-      "bytes": 1588,
-      "sha256": "9bef1b2613d18215fdc0d5f73b95bd1798bb32272a4baa63ecfd6fc3b5c6d335"
+      "git_oid": "8d7afec13272bc4fa5db1ca96dac7cb85259150f",
+      "bytes": 1875,
+      "sha256": "203cae01caee9c4e0c518317f2a1714bedb13e409b7705eb2c37ca9e7fa63209"
     },
     {
       "path": "Clash/Providers/Ruleset/AbemaTV.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "275f92c455bbb3590f63cad8eb17f91afad010db",
-      "bytes": 206,
-      "sha256": "0daf52af9386d45e060b91368a25cd4eee8331cd84a83ee1ec04021598b2aa40"
+      "git_oid": "32f963fdc9162058a0faac20904716a70e1b4747",
+      "bytes": 199,
+      "sha256": "1095f1b91836f3a47dd83a787ba9e7491f1406a0092502af00c2ab6e155ab7f2"
     },
     {
       "path": "Clash/Providers/Ruleset/AccelerateDirectSites.yaml",
@@ -427,9 +427,9 @@
       "path": "Clash/Providers/Ruleset/AmazonIp.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fd99be99d8252a61c2c966271de84fd086310ca1",
-      "bytes": 34687,
-      "sha256": "b92dd8a81e95a9c4bfa9efe0626a256578d3bc12e621b584a1f18b59e2fa6b2b"
+      "git_oid": "4c328d58ce77700e7767c24d26c569b8e0fd0450",
+      "bytes": 37207,
+      "sha256": "ed8178b4dd2e31e6a876dd5323d77b0216af42bc58875afa7c20652c051b8a4f"
     },
     {
       "path": "Clash/Providers/Ruleset/Apple.yaml",
@@ -443,9 +443,9 @@
       "path": "Clash/Providers/Ruleset/AppleNews.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4c01d5f2183119e98cfec5a8c6aab5945b8bbae9",
-      "bytes": 94,
-      "sha256": "5f8d4533c118787e1882b4b30cbd848ab17ba558ec4cb00e472f284e451f9a2b"
+      "git_oid": "47b0353fc89f57d7d54ee1485c6fef2005556693",
+      "bytes": 83,
+      "sha256": "c76c6e733c38c06a78490866eaf2a4c1ee75ac0d939277c58a168839ec5a3a11"
     },
     {
       "path": "Clash/Providers/Ruleset/AppleTV.yaml",
@@ -459,17 +459,17 @@
       "path": "Clash/Providers/Ruleset/BBCiPlayer.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6646a8fb50ac75f822df3b22757419e8abbc2bc0",
-      "bytes": 510,
-      "sha256": "dba6996ef28a78f63919370ede2249397786ef6cb68ee490196cf458d742fa32"
+      "git_oid": "1b0bca4e0fd2858708de0d11bd642b13d1f3f3c5",
+      "bytes": 503,
+      "sha256": "d48a9ec81230495cb3e4dc8d7933ceb91d15166710f7b07c412dae29717e9f59"
     },
     {
       "path": "Clash/Providers/Ruleset/Bahamut.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "df7fc02dfa682d1cda3aa529572e3a52d945134a",
-      "bytes": 222,
-      "sha256": "11eef69d4698f44869092149d822a6e753436acd125017114c93b17371d4f473"
+      "git_oid": "d1f91fe9cd88e28c1333ff5c844c5b0b0d368327",
+      "bytes": 215,
+      "sha256": "22077daafb2e41d49fd20ed0392138aa926927fd1f9b49f68140d015336440b1"
     },
     {
       "path": "Clash/Providers/Ruleset/Baidu.yaml",
@@ -483,9 +483,9 @@
       "path": "Clash/Providers/Ruleset/Bilibili.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b1617fa5553091edc470b6c08f3ef99e366763f5",
-      "bytes": 682,
-      "sha256": "fa610259a336ccd53468bfb990700454fb9c64a4989d7a6a182c614f066f0a9b"
+      "git_oid": "5675046cd041dc54cc4d018435a3e19ef9318b60",
+      "bytes": 697,
+      "sha256": "edddaa5cf0497509407e1d1158469ad1d48df4499d17bb96a07cc695ca6e4c1d"
     },
     {
       "path": "Clash/Providers/Ruleset/BilibiliHMT.yaml",
@@ -579,17 +579,17 @@
       "path": "Clash/Providers/Ruleset/Deezer.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "81de4929ea23ef5a5bc3d1a6fc9f10c966e8b422",
-      "bytes": 110,
-      "sha256": "a695e18aafe4d79c15e3ea777475e338d03adea9bad63f53b18cb1db7f5e2291"
+      "git_oid": "cb48ee57e33fa51436aa0e533d2d6235c8880149",
+      "bytes": 103,
+      "sha256": "19d3e5c86145704b19ce060c4d46971eae9598117c02b706cd3104e9bcab596d"
     },
     {
       "path": "Clash/Providers/Ruleset/Developer.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "4e9c289c4ab6442ec111e8b760ce98880d473c1d",
-      "bytes": 687,
-      "sha256": "1aea0724929c2301c4708ea1da367691d619c986093d05168e332799737f0089"
+      "git_oid": "2859b6261c632ed6bbf636e9d24f28ddb75b3358",
+      "bytes": 828,
+      "sha256": "87e74901a5c9d33d4c66f786b1ccd976c3a6704aa186e74c1a4b3a67da6967d5"
     },
     {
       "path": "Clash/Providers/Ruleset/Discord.yaml",
@@ -611,9 +611,9 @@
       "path": "Clash/Providers/Ruleset/DisneyPlus.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "22ff798aacc655fb8127b2ee4ee21289dbf528ec",
-      "bytes": 814,
-      "sha256": "ed068982b541343fef34b61e02a8c0fc8a2ee4e84f212a347668e3ce77eab110"
+      "git_oid": "eaa921a948cbbbcb997c7a932a95a4cf8a3b8815",
+      "bytes": 803,
+      "sha256": "db1e3133202581c864490e43a8a984cad32ae07c1737bc0837f5383d2fb41fff"
     },
     {
       "path": "Clash/Providers/Ruleset/Docker.yaml",
@@ -659,17 +659,17 @@
       "path": "Clash/Providers/Ruleset/EncoreTVB.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d7392c37874392e113403d5df12fe9ca1d90e92e",
-      "bytes": 229,
-      "sha256": "2b73fe2c1ae2c35186af7f58dc8086a865292cd623a7cf9c9e6eb25f9eb4978f"
+      "git_oid": "165101d57ce76ae48c64a9ea29d8ab53608b194a",
+      "bytes": 222,
+      "sha256": "53a3c701334bb799f4b7abd153ec15d85dfd3a0069b029d5198ff7e209043fe3"
     },
     {
       "path": "Clash/Providers/Ruleset/Epic.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "0aefeddf2e95521d1a47724320833cb3d0182645",
+      "git_oid": "65ab9fce02d66a95e7dc9fffa8f66e24d443e069",
       "bytes": 240,
-      "sha256": "ca39c4dcefb84eb2332f6637659c393070ca059df8dc73d13470bf52a59dc8f8"
+      "sha256": "b532a82b0d87dcff7d385de8eed06563cbe9dbdb5fdb91a50b43b7686624f5f6"
     },
     {
       "path": "Clash/Providers/Ruleset/Facebook.yaml",
@@ -683,9 +683,9 @@
       "path": "Clash/Providers/Ruleset/FoxNow.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9e2032edd66e250d68143e1663f8d91677b707db",
-      "bytes": 137,
-      "sha256": "874edded5e14333896c4ac8591b586c756f42efb7cc5a8763ce90e938561c372"
+      "git_oid": "604a0698f33dc0f11d1899d9bbee8b695fd9ae3f",
+      "bytes": 130,
+      "sha256": "a3b30c34f162fd9c62e6f0bd3de1c9fc341d309f870e72bfc4d807fc46ffb2da"
     },
     {
       "path": "Clash/Providers/Ruleset/GameDownload.yaml",
@@ -723,9 +723,9 @@
       "path": "Clash/Providers/Ruleset/GoogleCN.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5ab4e86202fa13f15438a709e4b8532a71c500b4",
+      "git_oid": "2a148d2720d8931db565361e33df33b8069e4db7",
       "bytes": 1860,
-      "sha256": "131781f1f036062eb2531c490c1cb810ead87e7c38d601ab9ad4d0bdaadb0f82"
+      "sha256": "47a5f036c30125fa7c542d1758e696723caa926c2f7b72fab85ce571d0221b40"
     },
     {
       "path": "Clash/Providers/Ruleset/GoogleCNProxyIP.yaml",
@@ -747,25 +747,25 @@
       "path": "Clash/Providers/Ruleset/GoogleFCM.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "227979c1eed59e510bbefa1ad5f25fd70be238ba",
+      "git_oid": "77eb3eb085d731a2cc65152443f73f674806925a",
       "bytes": 1803,
-      "sha256": "88f05d1b0e49ebc713a94d691e8ecc89770bfa07f77ba2fc6cf81131d18efb4c"
+      "sha256": "5972fdecbce85a2339108d25bee6a387a39872a5bb7277d992b010fb156015fe"
     },
     {
       "path": "Clash/Providers/Ruleset/HBO.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ecc068822143482b074d470f936cd7148df76ad6",
-      "bytes": 198,
-      "sha256": "207430b990a9d5a5683a434d3cf84174b9be63d0087ab09fe9a1e0349e6d9fa0"
+      "git_oid": "cc22792e0ed3e820841885ca100f0f25a6bf38d9",
+      "bytes": 187,
+      "sha256": "8c69fd13d6913d0c4f0b1189805eaefecdca9d8a763fc86433b7ae262eb05413"
     },
     {
       "path": "Clash/Providers/Ruleset/HBO_GO_HKG.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "878d8ab27437072f4ccc5db2d68a7ad1d7fabead",
-      "bytes": 770,
-      "sha256": "2edd603adb9687535ec352cd5d50b3e2a9ad0a1e6f12e18717c9882cf813d156"
+      "git_oid": "39ec5ba6b71fb4e7cb9fb02849e4c853aa85dfb0",
+      "bytes": 763,
+      "sha256": "13039418f42713172824efc8cafaf061c9d0bc54c6156163d3cb3219994a8a10"
     },
     {
       "path": "Clash/Providers/Ruleset/Heytap.yaml",
@@ -811,9 +811,9 @@
       "path": "Clash/Providers/Ruleset/Iqiyi.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "68610bca23efe14384822f6fc03dee5ee40c1336",
-      "bytes": 845,
-      "sha256": "93b177ea4fa376015fa289241fb36b07bce3baf6875c3427e07afa4d6e90800c"
+      "git_oid": "4ab7d4d8eb75e57c0676caa9bd3c4a319797d366",
+      "bytes": 834,
+      "sha256": "bfff0aa6fd785a0e20b158374e6797cf66233ada6e31832a5427df57a96e255c"
     },
     {
       "path": "Clash/Providers/Ruleset/IqiyiHMT.yaml",
@@ -883,9 +883,9 @@
       "path": "Clash/Providers/Ruleset/LineTV.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "31dc4f618f8a1541c4ebb80ff46009f1d147fd7c",
-      "bytes": 214,
-      "sha256": "93f6c1e2a5a40ee6c994d371b6d909fd13c61252841e48eba36207345635b04a"
+      "git_oid": "80a89c4dd60a13ea523bf4cbe1a36a4c897c5d16",
+      "bytes": 203,
+      "sha256": "fa68cf8b3383aa71cfad815e3dba4584b5a6386ddeff2ff89c771b3f071e8c22"
     },
     {
       "path": "Clash/Providers/Ruleset/MGTVTV.yaml",
@@ -931,9 +931,9 @@
       "path": "Clash/Providers/Ruleset/MyTVSuper.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a30ad828ea1f689044195ff327b104b4b0c88389",
-      "bytes": 254,
-      "sha256": "78131bd3649f1fab899d11cfe945d022ae7500a6b8c18bd28e95ce0d461d3be4"
+      "git_oid": "38e14bd4ea99ff5b8ae1c69bd8ee390f7eacda10",
+      "bytes": 247,
+      "sha256": "2ce1c2068ac07dea444ec18db21476a0c2b75020428548e7da5253b18b61a91a"
     },
     {
       "path": "Clash/Providers/Ruleset/NaSDDNS.yaml",
@@ -963,9 +963,9 @@
       "path": "Clash/Providers/Ruleset/Netflix.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e9f82baf5b3aa01b3691306f9f48410af2c04ef4",
-      "bytes": 1511,
-      "sha256": "d3186268b8f262f34c2225a8055ccab8b0f188e64f0f36b9ab839453510da040"
+      "git_oid": "dd508178639ff2094cc317f422fa115fb94c8c92",
+      "bytes": 1504,
+      "sha256": "18414a30f5dba90bfe8547a514db330725532637dd28ca6df9a1b8ca8cb62dec"
     },
     {
       "path": "Clash/Providers/Ruleset/NetflixIP.yaml",
@@ -979,9 +979,9 @@
       "path": "Clash/Providers/Ruleset/Niconico.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9850655aa1be89f1f31a71d4839db4fc19738a84",
-      "bytes": 139,
-      "sha256": "60df3729e68214a0e852dda0ce78563bf2da4c969228e05e47d51a4cdc861e45"
+      "git_oid": "ce14917931b51470ffe73a69008ee8203875e2c1",
+      "bytes": 132,
+      "sha256": "db32dd2c6ca7883f24ba5f7910f107c0212477c782eb9cd13c592a50b473c211"
     },
     {
       "path": "Clash/Providers/Ruleset/Nintendo.yaml",
@@ -1011,17 +1011,17 @@
       "path": "Clash/Providers/Ruleset/OneDrive.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "df61900188ecf23ded7c8bf7c83c66776e9eb2c0",
-      "bytes": 643,
-      "sha256": "18ad7dc7dbf3015a3a342cd17115177cb124218c0996a7bbbe4c586ed4786a21"
+      "git_oid": "63541cdb49c980dad794b0db25e45beb8ac4829d",
+      "bytes": 632,
+      "sha256": "99540efe267289cab8c262f32dacacb0666a6b94d6706701464889525e3be749"
     },
     {
       "path": "Clash/Providers/Ruleset/OpenAi.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "940cdf6e4cee524a3446159df7edc91f59251b48",
+      "git_oid": "191e4ca9f0f1d2be8396ecfcd3edd71f350d24ff",
       "bytes": 619,
-      "sha256": "f4d714a49e6e05a06292f3dab94201d09270c9af2f28e5d7f4751564c070076e"
+      "sha256": "f2c46797a1e333d74bde9c05dd5219c8d31de1d392dc1405a093ef6db85676a1"
     },
     {
       "path": "Clash/Providers/Ruleset/Origin.yaml",
@@ -1043,9 +1043,9 @@
       "path": "Clash/Providers/Ruleset/Pandora.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e51aee633bbf50a3cb5c071db6b1279d13299117",
-      "bytes": 84,
-      "sha256": "0941f3566cbc1b79933fe2936ddfd2372dbf741423efc0234193aea0c6a8c1b1"
+      "git_oid": "d9573fd3c3dad655e58f6ea9d590dec67298e955",
+      "bytes": 77,
+      "sha256": "ffb1ec5eaebae39c3abbc9c3535b10c149115da5cce77dc0230d5ca599929efe"
     },
     {
       "path": "Clash/Providers/Ruleset/Pixiv.yaml",
@@ -1131,9 +1131,9 @@
       "path": "Clash/Providers/Ruleset/Scholar.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "045bfe82b7918af469cfe429fb2ea540ed8d74f4",
-      "bytes": 2639,
-      "sha256": "20063998dcf14447bae38331962734f0097bb280fcbc7313807b75b207b2f24e"
+      "git_oid": "c86e37e9858b528f713f27ac27a764a4fb9ff83c",
+      "bytes": 2638,
+      "sha256": "4f4cad5e96840f434e9ed9b056e5ebd960705652a33e8cd89ed4801a482ebf9d"
     },
     {
       "path": "Clash/Providers/Ruleset/SohuSogo.yaml",
@@ -1155,9 +1155,9 @@
       "path": "Clash/Providers/Ruleset/SoundCloud.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "981bd3a60c6101e2a21a96d8e4e6ac86a6a88609",
-      "bytes": 146,
-      "sha256": "682a7acdf98761513a302c75c362d4c69c0940544a30cffae576198b81233879"
+      "git_oid": "29d4ec513d960496338b8fa2cea77b0323e726ae",
+      "bytes": 139,
+      "sha256": "e632357a0e15eef514d89fdcd6a5d9ec95f2fe8e6316335024999dbc30502118"
     },
     {
       "path": "Clash/Providers/Ruleset/Spark.yaml",
@@ -1171,9 +1171,9 @@
       "path": "Clash/Providers/Ruleset/Spotify.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "354bf9c61df5f0597f00985c35558fddc4e76feb",
-      "bytes": 290,
-      "sha256": "f9de68dfe600bc86b0667c414552e878097151ca3b3b3c6ae82b4d6d8d8221c7"
+      "git_oid": "e7acab2d238eeabfa2ba948217fa08abb5942c16",
+      "bytes": 283,
+      "sha256": "8b9632885a3c358433b39a7391c61be3c5dddbd62dcee20b299acd5d9fb2004a"
     },
     {
       "path": "Clash/Providers/Ruleset/Steam.yaml",
@@ -1200,20 +1200,28 @@
       "sha256": "0d010231742ceeb8e9b0d8268bba251dc297cee27532b33cade2dd691aafb70c"
     },
     {
+      "path": "Clash/Providers/Ruleset/Stripe.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "git_oid": "a3477973a505992d7010981fcb461927380d9538",
+      "bytes": 346,
+      "sha256": "38d5ec8307fea71ee0ac460b2c959a2baedf88bf6df7d3e9eb439171fa6fc704"
+    },
+    {
       "path": "Clash/Providers/Ruleset/TIDAL.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6c6606ecb5353de8e12ccb64d2d6e4e24b25d90a",
-      "bytes": 157,
-      "sha256": "21b24f666cfa8ab2673b70cc984e503d40cfae667fa0c43f86fe60fd5a28f378"
+      "git_oid": "5e9127773d771f3bbf7eb098a01424ffc311ed48",
+      "bytes": 150,
+      "sha256": "0fb1e152736237bde1a37ce3d6869e48941d771dcd01ad453af4795c35e48658"
     },
     {
       "path": "Clash/Providers/Ruleset/TaiWanGood.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d05076f2f3ad3b476c84d63f56953aa9c9e680e6",
-      "bytes": 130,
-      "sha256": "8cd5309c8773dffb3b8db12b266b2e9fb48aaef23781052c7ca040b0388b0692"
+      "git_oid": "35e206d9dd1c40ae11697662d6629f15e9dfc3cc",
+      "bytes": 123,
+      "sha256": "c12bc78a8c2960c480a2bc6ea9416717a1b65216ee61af5136b93a6bd6a7af43"
     },
     {
       "path": "Clash/Providers/Ruleset/TapTap.yaml",
@@ -1275,9 +1283,9 @@
       "path": "Clash/Providers/Ruleset/TikTok.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2cc982caa990be7a507a2a645f3debd208823749",
-      "bytes": 361,
-      "sha256": "868fd9687e0834cfb2607e136abc1f9787efa7c983e9872d01c0b5f51e3c5bd2"
+      "git_oid": "d44ac81863c3d88af4d4197764a96ccb73ee06d5",
+      "bytes": 354,
+      "sha256": "78919114a955042367afc30c7fabde5179e2214fa5aab694b2e420ba4de7267a"
     },
     {
       "path": "Clash/Providers/Ruleset/TopBlockedSites.yaml",
@@ -1315,17 +1323,17 @@
       "path": "Clash/Providers/Ruleset/ViuTV.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "749d515a8ef21c2ea884364f0999fdfa01524221",
-      "bytes": 635,
-      "sha256": "7b4cb93222a98227e682d4a119bfa7058435c4deaa2b7b6f3e7e0d87858851a9"
+      "git_oid": "a7080e01d48219d4f31e0d65d30cd78c90f0164d",
+      "bytes": 628,
+      "sha256": "0deca18ca4e89800b52e4fa7e0e28758c985200fc48b0cd73683fc73213fc6e6"
     },
     {
       "path": "Clash/Providers/Ruleset/Wechat.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6bf006a23171fc0de92a5401f90f3dd2c7608e4a",
-      "bytes": 801,
-      "sha256": "cfe6f836fa7d503f7ad6c98ad31ab69bfe59627411b17f908b58b05bf5683575"
+      "git_oid": "fbd33fe1a52441d3308c15e388b890140df169c8",
+      "bytes": 790,
+      "sha256": "a79f923cfd1604327918fb04c7547e8eafed18795ecbb28b744eccf548980173"
     },
     {
       "path": "Clash/Providers/Ruleset/Whatsapp.yaml",
@@ -1379,17 +1387,17 @@
       "path": "Clash/Providers/Ruleset/YouTube.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "49d251e4171342a743ee5c1be7b5f1a95758c02a",
-      "bytes": 502,
-      "sha256": "b49ed9cc3f457935e92963cfb1639d040e50d23261560076f6318d752277555c"
+      "git_oid": "3038d280550364ce0f4b480fae2d55f5d4a2b42a",
+      "bytes": 487,
+      "sha256": "0e383ce594781de493a1bfa0cf0f7511d1310fbeb128b948d221f209f27442af"
     },
     {
       "path": "Clash/Providers/Ruleset/YouTubeMusic.yaml",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "66c49f1aedabaa9cdaf8bb2dcc7ef2a723abaa15",
-      "bytes": 100,
-      "sha256": "f35d31f36d9d8bd7f6c64a884514e35b9a8202b20a0e1613658935fad34dbc43"
+      "git_oid": "c1667908aa3b9789b10ae09730aca01c265ff616",
+      "bytes": 81,
+      "sha256": "fd8c2e6393a6e62384dfbf20aba2c04a63e5f24a513a5cf5fe404367cd17df60"
     },
     {
       "path": "Clash/Providers/Ruleset/Youku.yaml",
@@ -1419,25 +1427,25 @@
       "path": "Clash/ProxyGFWlist.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "0662bdd4dad51b1760a31aa06e6a14f5c1ebd2e0",
-      "bytes": 191112,
-      "sha256": "72d5f97cb3adedd7ef632962effda4aa3b9953da20427cd6050d55d1184de5ea"
+      "git_oid": "2e7e03878fe0b3a3089326b51dc33ba219ea6600",
+      "bytes": 202212,
+      "sha256": "537c8625e970894c5ac7420db820633817b17f493851c32af08274a7b247d5c4"
     },
     {
       "path": "Clash/ProxyLite.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ee2dd47c6713e9cf4c9ab8c0a8fd9d649fa307d5",
-      "bytes": 12615,
-      "sha256": "3792437f9641479c671ed57e4d3aa81505c5f7dc5d9087fdeabe76551ecda671"
+      "git_oid": "4aef8a38c6138cc5332df70e4996f1f932afafc4",
+      "bytes": 14650,
+      "sha256": "f3e956ddaefaa9a69d0ab7e165bc29453c5537772406326e87aa61c8cbdbc4d2"
     },
     {
       "path": "Clash/ProxyMedia.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d70848f334d0bc4cb870f39eec85129198e3f1e3",
-      "bytes": 11502,
-      "sha256": "fe886c6f537c0214446018f3f64291db8d500c58877d180d2a21a78c19c499e1"
+      "git_oid": "cf7548de91e291f9736f674800a1cd24c177b9b4",
+      "bytes": 9670,
+      "sha256": "5b6c7a07457e8a9cffd7a7a9865abfef72920b70a9ca987009710a44ccc98781"
     },
     {
       "path": "Clash/Ruleset/360.list",
@@ -1475,17 +1483,17 @@
       "path": "Clash/Ruleset/AI.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ab90b89bd00928140f5c98bc6fdbcb1e737fec53",
-      "bytes": 1456,
-      "sha256": "63e70895ac8c04c3b28965dc0b4ba9ceb3a1313a66b49487ed96005debc97e1e"
+      "git_oid": "dbd3390f5b9c8637db2a69b445e90e033b3baf7d",
+      "bytes": 1642,
+      "sha256": "82a8806f260c92b605f7a6abd2a0f20b79239cba4b578773b2f93151ac3e971b"
     },
     {
       "path": "Clash/Ruleset/AbemaTV.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "2cf39998cf71241623deff3f2eb5252932e365f2",
+      "git_oid": "b67c885df8e71219167aab88d10864f99f1b81ca",
       "bytes": 166,
-      "sha256": "61a28c50b11bf884fc34f7c72c9802b1185c9f5433131185926f6a731168ab3d"
+      "sha256": "2f34f0543876fb31980958b86d12a1b2311475017cf8875e15eb29915aa604f1"
     },
     {
       "path": "Clash/Ruleset/AccelerateDirectSites.list",
@@ -1515,9 +1523,9 @@
       "path": "Clash/Ruleset/All4.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "85ccf0ec069bd47c5b2fd2877de1ec712d26b411",
+      "git_oid": "0778533d930bce058203fca94108d63a219b2bf3",
       "bytes": 85,
-      "sha256": "dfc4382b1befa0d99786d12a5610bfe2ac70a946845b489a78dadd43c427f02f"
+      "sha256": "4247f89f328da2f66ddc70050d23163798dbed9818adb710002d8c4db4855ff6"
     },
     {
       "path": "Clash/Ruleset/Amazon.list",
@@ -1531,9 +1539,9 @@
       "path": "Clash/Ruleset/AmazonIp.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7821b9a95473d9a98560b4e76870dc5a0909472e",
-      "bytes": 55903,
-      "sha256": "f3f96d0fa1bccffd32c22364052a077fe3e0da62abd9a3ec00a21ae06fdf0a8d"
+      "git_oid": "25d14b3962c5480b269ec821a42551083e970536",
+      "bytes": 59996,
+      "sha256": "481310a382ccfdde7a46443a6162be5f94c6d8fcfb0be3d65c35933811a9fc1a"
     },
     {
       "path": "Clash/Ruleset/Apple.list",
@@ -1547,9 +1555,9 @@
       "path": "Clash/Ruleset/AppleNews.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b51a6e879dfbd2eee3be74af73369be748600e5d",
+      "git_oid": "76962e0e3a733fdbff0d14ec51348fe18494de9e",
       "bytes": 66,
-      "sha256": "8638d1c480676c3e76513e7b65db315f67595991d52cede0d216630fdbc3bde8"
+      "sha256": "e03a33944dfbfc4c7733abea78b2b422d9c8ac798661fb276778d2886f7d750e"
     },
     {
       "path": "Clash/Ruleset/AppleTV.list",
@@ -1571,17 +1579,17 @@
       "path": "Clash/Ruleset/BBCiPlayer.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "06cf57a98f5e80520f67eb086a3c89eec273faaa",
+      "git_oid": "59cf0fe55aace7386c7523907b6a8e79b21d1d7b",
       "bytes": 434,
-      "sha256": "c481556be92fed34a1683032dadb73999ae63dc42df5481bedcf4eec8132b7b4"
+      "sha256": "ed16653f73d656adfb3ff9bdf80dfb903d46cf10db1e6fe795c37fa345ecff2f"
     },
     {
       "path": "Clash/Ruleset/Bahamut.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "de520eeaf12cdd2e538ab3ec9b8c801e6d89ee1e",
+      "git_oid": "654205be126ad5dacc0fea036a1815e96f3d9cab",
       "bytes": 182,
-      "sha256": "5c2b875abd3cec4d11612af639163a9b9f68c5828ad42793e7f21bc50f75169c"
+      "sha256": "b308f53b6ccdb5a1dd092fe08c7f6e1197c7168b2d1e20f1f73d5a7499540a2f"
     },
     {
       "path": "Clash/Ruleset/Baidu.list",
@@ -1595,9 +1603,9 @@
       "path": "Clash/Ruleset/Bilibili.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "1d9365bf80a9c73ea22f98323ffe61fde9d6301b",
-      "bytes": 574,
-      "sha256": "3d111a3c69cb332cdec9c6283acbc9e0c17a62cc25abf43a3390e1667c6861dc"
+      "git_oid": "6f2ba091df073d09369f7f99ef6c275fbd6abfa0",
+      "bytes": 600,
+      "sha256": "9986f6a9365805d18d28d447d79ca2abddfb77ee5177490af979ed4bf7ce26a2"
     },
     {
       "path": "Clash/Ruleset/BilibiliHMT.list",
@@ -1707,25 +1715,25 @@
       "path": "Clash/Ruleset/DAZN.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "50850c9d3dc64721f01d4f5fb2b3264e7d9f9c86",
+      "git_oid": "6110c5b97214f50805c3a47dba30fb88e0e394ad",
       "bytes": 372,
-      "sha256": "b05e82b7683346b14a4aebb0258fce5b33a08c669102fd789ccbeefbae8981d9"
+      "sha256": "d0bec8583f72a9d961173502a61d01b31f48bdeed53785e8c6a639ae9997b20f"
     },
     {
       "path": "Clash/Ruleset/Deezer.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "bf882bc4e28b8190a14e035cbb283375b9d98a3b",
+      "git_oid": "9eaa5a8dc0ee80c12303fe71327cae38497ea98c",
       "bytes": 82,
-      "sha256": "58a9ea6ceb4772c45a75c796c381da850c8d83d4c2efcb51ae04f3a4c2d9ad0c"
+      "sha256": "d09acc0c07692f0557cecbaff9e4a3e949dac384d5a162942ba983dc40cb3ffe"
     },
     {
       "path": "Clash/Ruleset/Developer.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c68d8d3415001e1173983058699bd6845bf70284",
-      "bytes": 594,
-      "sha256": "da78117d6be3e7fc8d67f35b8c74c72ab1e9ffb57c2d693809bf0cd731f40e33"
+      "git_oid": "9b5376b283b67d301f689b7f0eb8d524b35f5f93",
+      "bytes": 715,
+      "sha256": "2ae9b5e90acb76e949ffe83ba481df7b6279843645c86216f9e3a7456e7ca5e7"
     },
     {
       "path": "Clash/Ruleset/DiDi.list",
@@ -1755,9 +1763,9 @@
       "path": "Clash/Ruleset/DisneyPlus.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "fd25d7f6d5e666d776a1a01d989fdb34afa27a4b",
+      "git_oid": "946b7c7c58697f56cc2711f55816ccda7693b4b3",
       "bytes": 710,
-      "sha256": "97200f549abb5bbb72909abc58afbffdb1f42f35cbcc35366eaf873905e007c6"
+      "sha256": "1c6c36f73a3add2244d0d16720d579913799e25b2a3db8720b5709d978156164"
     },
     {
       "path": "Clash/Ruleset/Dmm.list",
@@ -1811,17 +1819,17 @@
       "path": "Clash/Ruleset/EncoreTVB.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "a0219d3a2a5183020e37d67858ccfa8df3a1596a",
+      "git_oid": "39f475b2f9b4ae96e3ded74b8080778e6da959c8",
       "bytes": 189,
-      "sha256": "aafbf48c651afd6b98c1466321f563eee67fcf5ac8483c1692a3b5e444a40441"
+      "sha256": "f08b9ae8ad3ce7d8f7890118edfafcf80eea52471542f35299b42f8674151181"
     },
     {
       "path": "Clash/Ruleset/Epic.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "485f51ddcdc7522d07754a7f5893d92a626fea2e",
-      "bytes": 204,
-      "sha256": "b0288addbceed03366cc793b4254168fe9e6e7c9fa54875026fb772adb5ba31d"
+      "git_oid": "1da03be284fc77dff65a62a15343b7134ab4e42d",
+      "bytes": 203,
+      "sha256": "b0118e7d13c1e4327b8208c1c932254bce9b3781079f555a65f116d6d5d9beea"
     },
     {
       "path": "Clash/Ruleset/F1.list",
@@ -1843,9 +1851,9 @@
       "path": "Clash/Ruleset/FoxNow.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "164f76172aceca8fda6b4711f5ad9f16158aae01",
+      "git_oid": "27bf0c79f9fb109ac1a8082fbd318837edaa02e4",
       "bytes": 105,
-      "sha256": "a39e23747e17dab722ef0e1ac1f594c0b15cfa2a3f1280d8fa3d8e7e1a6982d8"
+      "sha256": "cbe443b9384261bf39a86393cf7bcdad67ae18248e1f4ca64ff4395f8084bdd5"
     },
     {
       "path": "Clash/Ruleset/GameDownload.list",
@@ -1883,9 +1891,9 @@
       "path": "Clash/Ruleset/GoogleCN.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "74ab107535ba92af43262455512430fbbebdc703",
+      "git_oid": "7f3e5a982f3aa6f332f8cfbd4bfb968bdbbef2a8",
       "bytes": 1655,
-      "sha256": "f6321957b557ea4988eb2584a861fedd0e117866c4ff3892283014415898bb08"
+      "sha256": "cf868facb28475c4afd8c9bb5b9c7209b14a029593667e64f30c6387bfed8e86"
     },
     {
       "path": "Clash/Ruleset/GoogleCNProxyIP.list",
@@ -1907,33 +1915,33 @@
       "path": "Clash/Ruleset/GoogleFCM.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ec771d7ceb4303fbed8d414b51bcfa0ec07932aa",
+      "git_oid": "3dd51731eaf6097cee5a06674fde75ea46febfa8",
       "bytes": 1614,
-      "sha256": "f115f84bef66a5aa931fd20f23d6914cdfdfe3d07795d65549d578b91a0f0c48"
+      "sha256": "f8dfe46062778746deba764cff47661a98ece8176a58d3e4898bdfdf87c529d9"
     },
     {
       "path": "Clash/Ruleset/HBO.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ed97b3ace54a57e2d363625b2d4a55034460e482",
+      "git_oid": "b889e2d2de5d3fcbe260fc2d468a3242ac0b597a",
       "bytes": 154,
-      "sha256": "495d866758a75fce0abeb808690288d2f06ee45fc827be37ca8f3cdf303981ac"
+      "sha256": "59204ad961239a0ed3e6a4228528f3dc542f76a93864c456d6ccd260aec69380"
     },
     {
       "path": "Clash/Ruleset/HBO_GO_HKG.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "763d5eef7979de3dcdbe334607240ce522e7416c",
+      "git_oid": "79e4eee733064d36cdab608d7190b2b025f78188",
       "bytes": 674,
-      "sha256": "497bb0fe9f82e62448c9ca89757af03259fe7b06c01c83521db49edf9e167536"
+      "sha256": "983ba93090027b7a886de4a84427672e8ec550a1103f4fe117f43d2d48846d80"
     },
     {
       "path": "Clash/Ruleset/HWTV.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f57d91042589a2bb868f90f74336a5bbcc2e25ec",
+      "git_oid": "df907bd133664e0eb19fdee39368e9b658bdeda9",
       "bytes": 78,
-      "sha256": "7ce67eeb097486a48f6ed25f7dc039d6160554651cb162b29ad23ffbea0bfb25"
+      "sha256": "0900840586640b7a0b2d36a6af16e6d4b29c602b88e950fc190a30b8d0582c5b"
     },
     {
       "path": "Clash/Ruleset/Heytap.list",
@@ -1971,9 +1979,9 @@
       "path": "Clash/Ruleset/ITV.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5d1af95eedcb07a8e1d614e8c4ebf9caff51d927",
+      "git_oid": "70927d09c027a6e72a4df6c97ef061a6589b37b5",
       "bytes": 115,
-      "sha256": "0d2172d39e64a7a77da01d8d315cde4f8d2765820634f7e9574969abcdece49b"
+      "sha256": "c20eefb6dafd53e800b522593312e087674af2d75a4bb4294997edc0434e4a49"
     },
     {
       "path": "Clash/Ruleset/Iflytek.list",
@@ -1995,9 +2003,9 @@
       "path": "Clash/Ruleset/Iqiyi.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9fff7d61a964b827fa721285245fd30ea9852f41",
+      "git_oid": "2690b251492cf7061073824ab63c7ec413b33fc3",
       "bytes": 729,
-      "sha256": "5b71f3e068e217a461f7e83bfb2b2ea0702f96e33466bdedce9e3c05a959a4ef"
+      "sha256": "69aa9cacdd24037f94df74fc23ec73d59be5d4e4ed4bd74e57612bfe006051e7"
     },
     {
       "path": "Clash/Ruleset/IqiyiHMT.list",
@@ -2027,9 +2035,9 @@
       "path": "Clash/Ruleset/JOOX.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "eff7beeee107ba3fde0a2a882c6d6dc100f33f24",
+      "git_oid": "bee03caf005c1c0c3112e7b43658a7706d67fc80",
       "bytes": 81,
-      "sha256": "59caf943a37a1af26a2aecd662f334ec5d2acb9c891255fa3dc7084d17da9abf"
+      "sha256": "848515c6cb0244c9a9b43a0b44eeea8c11a30fb7068b14c4cf84667c7b1485e6"
     },
     {
       "path": "Clash/Ruleset/Japonx.list",
@@ -2059,9 +2067,9 @@
       "path": "Clash/Ruleset/KKTV.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c8999d6d5510cb4da79bcccb0659bbcc73cf642f",
+      "git_oid": "1b91597ec3ae5d7c505e9fdbf9721e81b0976d7b",
       "bytes": 143,
-      "sha256": "975ed21ea77c19a91c86e4c2c64659ce12864d84df447446dbafe6fae81f970a"
+      "sha256": "69992fb1b276562744cb476c1c87fb4f3d1e31d59e055f0d8addd249f7844d16"
     },
     {
       "path": "Clash/Ruleset/KakaoTalk.list",
@@ -2115,9 +2123,9 @@
       "path": "Clash/Ruleset/LineTV.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "bfd83b1fd50c5583f65c8c79d8bc868a5bcbf277",
+      "git_oid": "927eb6a81bb7ada917ecce5204665dc2f76b9fad",
       "bytes": 174,
-      "sha256": "79c4e361243d2e2aeb564056b5eb19e37b939555f3628cc22c6b3e941430c601"
+      "sha256": "0845afecaad77ce4aa0ba5deb234f5bf651ea008a57b102563a11a44fd383c5d"
     },
     {
       "path": "Clash/Ruleset/MGTVTV.list",
@@ -2147,9 +2155,9 @@
       "path": "Clash/Ruleset/MOO.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3d9b38ba1c16857c083dc12b853f90a59acc358c",
-      "bytes": 62,
-      "sha256": "9b621ecdf328de7338c66bf9068d2abd50151f1769f158461510c4ecf23e58ee"
+      "git_oid": "1d61dce35f5d0404f4afbe122e52d53f3196251e",
+      "bytes": 30,
+      "sha256": "13dedffb796ecd4eab4bc50766598bc4de032c29395704fd2990e1d20b804d6d"
     },
     {
       "path": "Clash/Ruleset/Marketing.list",
@@ -2179,17 +2187,17 @@
       "path": "Clash/Ruleset/My5.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "b0b0d73443559518b7f9d8a8e472ee0c9b468a74",
+      "git_oid": "f02543c7435118e18bcadf9f91ff4498ded5a8c7",
       "bytes": 115,
-      "sha256": "951827b7d5bab520ad4dc9c8f047c78feac0ee9acf191fbc78b4e589860bad36"
+      "sha256": "2a9bc2818edebc50128080f6c85b658f4a305ba1cad60f2248f82deb22bbcfdd"
     },
     {
       "path": "Clash/Ruleset/MyTVSuper.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d9009ac0b7fff3a4ae56be149d7c1d190ec749a4",
+      "git_oid": "a34fb1869d6390744209cb2a704b90ef81232eac",
       "bytes": 210,
-      "sha256": "73c8e4cfaa244d2ae92a68c0949405945fb730eed053e9487ea1330f1fe68673"
+      "sha256": "50f3ff087ac34bb201a1292e5b0abdcce2d5afe4983584f8536c32217849b35e"
     },
     {
       "path": "Clash/Ruleset/NaSDDNS.list",
@@ -2219,9 +2227,9 @@
       "path": "Clash/Ruleset/Netflix.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "7a38a3c719b209394a5ed522bfd24d313ff8d0b5",
+      "git_oid": "129cb872dff6a7dac3a83d3b3e000811c0029594",
       "bytes": 1331,
-      "sha256": "eb09e16b5aa228230e5770bfc04f2eb25261454a0b2e16f05fd3e9d2ab5202b5"
+      "sha256": "f1395e46cefae2e4a57ea7ca2dd442dc98bc9204886310e401215dc70bea387c"
     },
     {
       "path": "Clash/Ruleset/NetflixIP.list",
@@ -2235,9 +2243,9 @@
       "path": "Clash/Ruleset/Niconico.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "3ed8f43a265ba88e53c941f40e3c9a5e6d5b8d2b",
+      "git_oid": "a7416041a2d1e6dab70e492c2c4cc8f242fbf7fe",
       "bytes": 107,
-      "sha256": "7764621a36dbd731dfe8f9857c2920d0c347aa103d1ef7090b55a4945707c0c5"
+      "sha256": "8d95950cba28c194e269036d3ec2ad3a2b90187a6d5c11c9035df6b7ea331949"
     },
     {
       "path": "Clash/Ruleset/Nintendo.list",
@@ -2267,17 +2275,17 @@
       "path": "Clash/Ruleset/OneDrive.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e59f2375b46a4306c6e481297d8b6b658afedab7",
+      "git_oid": "38e0dc8052bf7b65dd8038ae6c25452680c1aa79",
       "bytes": 551,
-      "sha256": "3636efc0957b985dc9ab7a0bdcad7fa2028b873f185fc52a5532b78955acc34a"
+      "sha256": "bd28e98419ce8801200558bc98fbfc52ae408ac9afdfb050a0265aae4e3bfc99"
     },
     {
       "path": "Clash/Ruleset/OpenAi.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ea3b4cdf7fd95949db72e6dcc6c30c5c25cfcd73",
-      "bytes": 539,
-      "sha256": "c4f839e4dda6cb96e4373349c72b4e5f848b8ae03564c0d0eae0873955310129"
+      "git_oid": "d22d5187ca6aedb5e372090f36e786c11b865c2f",
+      "bytes": 538,
+      "sha256": "3fde01190c82d9911cb247d99e941cb3b8e53c410e574240bc7d2a9227b153ab"
     },
     {
       "path": "Clash/Ruleset/Origin.list",
@@ -2291,9 +2299,9 @@
       "path": "Clash/Ruleset/PBS.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "066cbb4df64041f0a61ef36653dcac0719d5db31",
+      "git_oid": "2d70a7031a3e0c6dcca65a06d84f025d75113269",
       "bytes": 52,
-      "sha256": "154c48ef62ad326359b4d721074d3915f9ae345824eda2bcb1c8a763da0d659d"
+      "sha256": "bc702e7b630f6f94cf214af66a98c34f77ba96bf1180ec476a20692d435bc952"
     },
     {
       "path": "Clash/Ruleset/PDD.list",
@@ -2315,9 +2323,9 @@
       "path": "Clash/Ruleset/Pandora.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "da2356be62d7ad1e2bbda21752267e2f8f2e61a0",
+      "git_oid": "6f10f65d8a701782ccc59dbad3fb30645eb20c48",
       "bytes": 60,
-      "sha256": "88bd46fe862d52c705789505cf4255cbd6e4ecb492c740d4006d5b99d941d6d8"
+      "sha256": "69ef2fd20e0eb00aa4dfed8bd7e154e894b7db2720529c3be89db8f09ceb9016"
     },
     {
       "path": "Clash/Ruleset/Pixiv.list",
@@ -2355,9 +2363,9 @@
       "path": "Clash/Ruleset/ProxyGFWlist.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "68da0830c720a46ef23e0819e593ff042f4b6dfe",
-      "bytes": 120437,
-      "sha256": "77f0fb032927e873348b85403af9c0cf403112eb8e0eae4f811de2083d242e9f"
+      "git_oid": "610a5f3733a04f4fd5e59cd2ee4fcc498e200144",
+      "bytes": 121175,
+      "sha256": "b642ad56bf417dd51b559baa9c17111a15b081197f350f94dbf535b95c7e7aef"
     },
     {
       "path": "Clash/Ruleset/PublicDirectCDN.list",
@@ -2403,9 +2411,9 @@
       "path": "Clash/Ruleset/Scholar.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d20b8b0eddf5c45136ac86886c8ed465596772a8",
-      "bytes": 2294,
-      "sha256": "17d03cd5162f445be7a5227717ca834aa93edcca7625d4660e85af4db12f2b56"
+      "git_oid": "5b7a4191c3193fc8255f36a752fb7388732896a3",
+      "bytes": 2293,
+      "sha256": "1ee96046159a69af4526e920dc7fca82409bc83e085f24bea79e01e0f63d69f6"
     },
     {
       "path": "Clash/Ruleset/Sina.list",
@@ -2435,9 +2443,9 @@
       "path": "Clash/Ruleset/SoundCloud.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "9aed41cbd50e354f0e8855cdd4ab166cc2275ac3",
+      "git_oid": "3a94abaae92e779975fdb20cd11409522a9dfb1d",
       "bytes": 114,
-      "sha256": "4fd4e9b10b8637edf19f76739d5f4f9f8a08059bb34ce4ba954c3e2ff0b376e9"
+      "sha256": "04663a96ec4d4dc5a195dc97f2704b50e18bfe8c4468a35253c9b319c77df201"
     },
     {
       "path": "Clash/Ruleset/Spark.list",
@@ -2451,9 +2459,9 @@
       "path": "Clash/Ruleset/Spotify.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c007685d65157029a6cf57a74050fd9efea3e523",
+      "git_oid": "995d0f39521dd1a04998c8217a8efdc826a044c1",
       "bytes": 238,
-      "sha256": "8d79bbae7ffe9a2b5de8bc2e5dc899a653ecbdf5b1e4ea62b1f09f429f21e5c7"
+      "sha256": "6eefde424304ede80adf84eee9cb7dea0ba0430ece7406475a00f9f0785ae5c7"
     },
     {
       "path": "Clash/Ruleset/Steam.list",
@@ -2480,20 +2488,28 @@
       "sha256": "ceb495af4a737c417caa42d1902f3156996fb24444c49a7a108d8e64a79990fa"
     },
     {
+      "path": "Clash/Ruleset/Stripe.list",
+      "mode": "100644",
+      "type": "blob",
+      "git_oid": "a9d28457d45a29d37a5a143d24377258e5dd4d70",
+      "bytes": 297,
+      "sha256": "25e2f0df553ee1bfd827c45b3310287d3d7ecd7cffa58a2cac6bd91378812484"
+    },
+    {
       "path": "Clash/Ruleset/TIDAL.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d7c24d46cb4212fa52ef3b7b2ac11d75c47d9059",
+      "git_oid": "4eaad89922a481e0a5b40ac5b15085a9a516ab37",
       "bytes": 125,
-      "sha256": "65b2ad1ec068d72f7fbf53e098fa07b5ccb5769f351bb988c4950e48e3d9a94f"
+      "sha256": "809dfd8d37f9d6be6c07d60b812565fce83337abc6b0325cdf958bcd80173756"
     },
     {
       "path": "Clash/Ruleset/TaiWanGood.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c723f5b302f615e409d068e3341dd03b23d88d0f",
+      "git_oid": "aa464fc2633746638e24d1bcff40974bb331e1b4",
       "bytes": 102,
-      "sha256": "0364c4e442474ff98bca810d3b4b03efb97de11c742c36eefd497a4739b53117"
+      "sha256": "bf7bdbd79875e3331bc47b4ff4a612f8f779855f9d55694626c5534a963f6f31"
     },
     {
       "path": "Clash/Ruleset/TapTap.list",
@@ -2555,9 +2571,9 @@
       "path": "Clash/Ruleset/TikTok.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ebc726cde4c9cfdbdf07c66fcade18664b0f5c8c",
+      "git_oid": "ebff688d80316ef35d1baaea1e0153d9ed45d2c2",
       "bytes": 301,
-      "sha256": "7391bcd7add8a2a02edabdc477b3a7c9e08c9539b3aeea5328bf1250676ce766"
+      "sha256": "98f7527965015ca22b464d2ffb37109708e21466a4a6bc361ed2c7fe059ddfd9"
     },
     {
       "path": "Clash/Ruleset/TopBlockedSites.list",
@@ -2611,9 +2627,9 @@
       "path": "Clash/Ruleset/ViuTV.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e3c9a6bb13bb2c7c1fdd2d9972ae52c29a498628",
+      "git_oid": "3b5055a74f20784ecee9265943f88c1eb4dc8996",
       "bytes": 555,
-      "sha256": "20683a06ca8022558badbf9b59f405d4e65a7991350b94286f67bbe3e0ac8a0c"
+      "sha256": "4192f5dfb0ac6fa8c30651e09ad26c9d87620c3e7c1232dc4226a53a7e0ca17f"
     },
     {
       "path": "Clash/Ruleset/Wechat.list",
@@ -2675,17 +2691,17 @@
       "path": "Clash/Ruleset/YouTube.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "d81f8b6fbc367c0ec8d8f5a11c4b0be932df057f",
+      "git_oid": "797631f1c5ae6cc5a82f0a99e79c3d4e4d38e087",
       "bytes": 418,
-      "sha256": "5e9d81d4615d993fb899d11f761ff5272465bf11e52233c656c3c3e4ab9cd800"
+      "sha256": "698d3112095ac6301b1f8c531da539498a2466d0f5d53f7ab8ded55ef14295bf"
     },
     {
       "path": "Clash/Ruleset/YouTubeMusic.list",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "abbe7cb5e3f77560b8d055206ca5c1a8bace3089",
+      "git_oid": "4f06015a56cd4c3acf05df410d3cf273544001e2",
       "bytes": 64,
-      "sha256": "cc300204b77cd993ecf3c233e6b0331056a6baca6d9c72e61b9a95c7798434ed"
+      "sha256": "91d438da8c527fb0f9e52fb482c3eaaee4c6ca680e378aae56ece1d60594da41"
     },
     {
       "path": "Clash/Ruleset/Youku.list",
@@ -4147,9 +4163,9 @@
       "path": "Clash/mrs/ProxyGFWlist_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "97c40317a05a8ba547d06fcfab5c55aea0c69c6d",
-      "bytes": 34272,
-      "sha256": "b14382b3259b9a941dbc07a1f60930c2e68407b4ac87af6a0422556853efa7f7"
+      "git_oid": "f179fa6795d54d2254911c5a41c099f2ebfa9989",
+      "bytes": 34574,
+      "sha256": "849c6596633aa745898280418c5639836b7a861bcc5a3a9d7665f17e93a4ea8f"
     },
     {
       "path": "Clash/mrs/ProxyLite_domain.mrs",
@@ -4643,9 +4659,9 @@
       "path": "scripts/gfwlist_parser.py",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ab89e4b7e26b4e418b7268f027e2a27cf5e27b9b",
-      "bytes": 16392,
-      "sha256": "c7647896f8fee9688d85ff532a57ebc4120ff5d7be87da5f18794e1168149371"
+      "git_oid": "1ec902c3878841f72894631fd099a3ede01ad616",
+      "bytes": 16563,
+      "sha256": "23b3938e0d81824621a6a7706df08aabca02b7a3c8e587e108bb1f48b9f0e7bf"
     },
     {
       "path": "scripts/tests/test_mrs_domain_patterns.py",
