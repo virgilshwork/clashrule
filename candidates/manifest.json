@@ -1,6 +1,6 @@
 {
   "managed_by": "clashrule-reference-publisher-v1",
-  "publication_id": "edc38dd38f8885ff6b2d189b774391cafc9361b2e12825c4fe67ab9b9dabfa1f",
+  "publication_id": "f5ea1f2e73d0c7fa3b9b0489083cdf4145897a3a3a1dbc584bea53ce3193e4ba",
   "ready_for_production": false,
   "ordered_fragments": [
     {
@@ -132,8 +132,8 @@
     {
       "path": "rules/ordered/00022-general_overseas.list",
       "business": "general_overseas",
-      "rules": 1,
-      "sha256": "ca404be47c9395818bdaf56e59f6e0832d88d627ae96a96cd414ffafffbe0a66"
+      "rules": 3,
+      "sha256": "0e568b8235131971584180d97c27f6a15c0e87a500ad5e606adb3726fd7428ed"
     },
     {
       "path": "rules/ordered/00023-block.list",
@@ -186,8 +186,8 @@
     {
       "path": "rules/ordered/00031-general_overseas.list",
       "business": "general_overseas",
-      "rules": 12,
-      "sha256": "f267b42b71e8e5e8e96ac82d77397ad8be03f4bbca0f6f5aae249c52b520fde3"
+      "rules": 26,
+      "sha256": "5094e0bb124f25433210e387b80d1354e7dc62df1877ca9dae761f2eaac5a943"
     },
     {
       "path": "rules/ordered/00032-block.list",
@@ -270,8 +270,8 @@
     {
       "path": "rules/ordered/00045-general_overseas.list",
       "business": "general_overseas",
-      "rules": 10,
-      "sha256": "a437f3b905017cab47c2291fa206044f023e517ce67925e5bf32abae89bbe40e"
+      "rules": 11,
+      "sha256": "485f2f526615d99d75c128266b2e2191776ab8e653676b1e4b7a36dbaf90fa8a"
     },
     {
       "path": "rules/ordered/00046-block.list",
@@ -378,8 +378,8 @@
     {
       "path": "rules/ordered/00063-general_overseas.list",
       "business": "general_overseas",
-      "rules": 536,
-      "sha256": "a436167128c69d00fd816cbce88779f7cc3b97fbe8be38b61db3a10b5645c94f"
+      "rules": 624,
+      "sha256": "c8d3667bcfe4c28603a1167cfb09677222e24e5b23aa5f1e893ad7ebc4d7757f"
     },
     {
       "path": "rules/ordered/00064-block.list",
@@ -390,8 +390,8 @@
     {
       "path": "rules/ordered/00065-direct.list",
       "business": "direct",
-      "rules": 648,
-      "sha256": "b45eaf88d0efa5381c5a8d39d3464fd2f3990e8e5c082263e9b3328246a3c5b3"
+      "rules": 649,
+      "sha256": "d71aa266bfce6eb7e3238743f176222b3adaf7e429c6f045f2211978dc6c658b"
     },
     {
       "path": "rules/ordered/00066-openai_anthropic.list",
@@ -546,14 +546,14 @@
     {
       "path": "rules/ordered/00091-general_overseas.list",
       "business": "general_overseas",
-      "rules": 5952,
-      "sha256": "85ee874e952c6e7e62e82e4999cc9e566646e83e029124dce97f9a85c2f577f8"
+      "rules": 6288,
+      "sha256": "ed9fa0b14a3f1002de19560f88ae5a94168f40d9f60173b1cfcbc1bca14e024c"
     },
     {
       "path": "rules/ordered/00092-block.list",
       "business": "block",
-      "rules": 582,
-      "sha256": "58c7b6e747d71c39a59d3815a89b745d7a3e9da022196ac594804c818fc03bf1"
+      "rules": 584,
+      "sha256": "a8a62149f82558bb043777db06d96fbccbeae0d0f50164209405fda70fed67e3"
     },
     {
       "path": "rules/ordered/00093-direct.list",
@@ -564,8 +564,8 @@
     {
       "path": "rules/ordered/00094-general_overseas.list",
       "business": "general_overseas",
-      "rules": 9,
-      "sha256": "1401b03e7242bff049f05ee8290f16d77fd10a87dccd7307a5c1e6748fd6eed9"
+      "rules": 12,
+      "sha256": "c5ec36d9ddfa05d5500664e7ee5d2d658a156ab3d91397ffbeab3b898bb6af82"
     },
     {
       "path": "rules/ordered/00095-block.list",
@@ -576,8 +576,8 @@
     {
       "path": "rules/ordered/00096-direct.list",
       "business": "direct",
-      "rules": 460,
-      "sha256": "9de7d1bcb30da49650763729002253f6e2162733fcb2a06237d6e096e3014ae1"
+      "rules": 548,
+      "sha256": "94b547c97e2cf0386d4e133a3dbff761faa1a751f34e360d6ac26c907e86b8fc"
     },
     {
       "path": "rules/ordered/00097-telegram.list",
@@ -588,8 +588,8 @@
     {
       "path": "rules/ordered/00098-direct.list",
       "business": "direct",
-      "rules": 784,
-      "sha256": "1c33f61bc03a2f684a0592f6120307be8d5d1abf8bcb43f92f547fadcd1af1a9"
+      "rules": 876,
+      "sha256": "217fcbca2d124deda4f2d8c105629313b528551c288f2023bf4cec6f5ce6b8e3"
     },
     {
       "path": "rules/ordered/00099-general_overseas.list",
@@ -606,8 +606,8 @@
     {
       "path": "rules/ordered/00101-direct.list",
       "business": "direct",
-      "rules": 2443,
-      "sha256": "6be1c68f62f04e9353245cc4779359159ac8d7424f53c88522aaff615190ed09"
+      "rules": 2485,
+      "sha256": "0b2011fc9a54a2b1f439feacf26c02d0de1211c4095659543715f9512eead5cf"
     },
     {
       "path": "rules/ordered/00102-netflix.list",
@@ -636,8 +636,8 @@
     {
       "path": "rules/ordered/00106-direct.list",
       "business": "direct",
-      "rules": 2679,
-      "sha256": "7d3b6dc90c22b0fa2766dc65c17467647d718333425d70ab795d35dc737f68b4"
+      "rules": 2682,
+      "sha256": "702a0bca5771e2868f1178903529bc3612820c66749d77b19071935ea3cf8efd"
     },
     {
       "path": "rules/ordered/00107-netflix.list",
@@ -654,8 +654,8 @@
     {
       "path": "rules/ordered/00109-direct.list",
       "business": "direct",
-      "rules": 715,
-      "sha256": "cb11274228d63589ce942276fd78db1ca5e74ef4679ec1913e6463cacdb82d55"
+      "rules": 716,
+      "sha256": "2613c1bc596396463f48f54cc5b84f8cfcf19d855c114f6c90ccbd180f2fc7ff"
     },
     {
       "path": "rules/ordered/00110-netflix.list",
@@ -666,8 +666,8 @@
     {
       "path": "rules/ordered/00111-direct.list",
       "business": "direct",
-      "rules": 479,
-      "sha256": "2ea5b65ce298fca48c24a57bf2d47992d4960952c7589373cc525ad494ea1940"
+      "rules": 480,
+      "sha256": "5387cfe5c22838a28c19ad1ee863fb41d4df767592584d62bb2b6511a83ab35c"
     },
     {
       "path": "rules/ordered/00112-netflix.list",
@@ -684,8 +684,8 @@
     {
       "path": "rules/ordered/00114-direct.list",
       "business": "direct",
-      "rules": 345,
-      "sha256": "05e7f4c72357d6fb4c0f026a727191d4c9cea5afd2ebe0e5721554a4a6c6ab8a"
+      "rules": 344,
+      "sha256": "fba3834fcd45bbcca2ee7a153235c4f058d045bb2d0e470461772ad9a0dab642"
     },
     {
       "path": "rules/ordered/00115-netflix.list",
@@ -793,13 +793,13 @@
   "files": [
     {
       "path": "business-plan.json",
-      "bytes": 6601,
-      "sha256": "f213c229dce057f1c1daf7aafeec0d31f4342ea863aba3a136bc75481daebf22"
+      "bytes": 6602,
+      "sha256": "84d6f1ac109b3b5604b6c4f938f9af296c99df3e5afdc89ce56412e4ab03aba5"
     },
     {
       "path": "ini-validation.json",
       "bytes": 1658,
-      "sha256": "8f5ddbb55e8efe9c6d2220d2e7f53a00cdc4a504174bdd0d8e4fd41415e4f690"
+      "sha256": "2e3e26aa8b14855d726831e75fda24a1a40eb3b6e6740a9557e375cfe4c0b6d0"
     },
     {
       "path": "rules/abematv.list",
@@ -823,8 +823,8 @@
     },
     {
       "path": "rules/block.list",
-      "bytes": 45793,
-      "sha256": "006c78d2eb0ee4b5146023b3d8b67e781caf7d882dc8f319264621c6cee4dc6e"
+      "bytes": 45854,
+      "sha256": "411ab0bb7625318edbfd6c8a59803f854b638e2c63911c7eefa28a18db1b2afe"
     },
     {
       "path": "rules/cloud_sync.list",
@@ -838,8 +838,8 @@
     },
     {
       "path": "rules/direct.list",
-      "bytes": 343164,
-      "sha256": "a4d8fa61d50b2bac207a307036af8f2ef43dd67c42a20f15efdaa6c8f79c284d"
+      "bytes": 351765,
+      "sha256": "0a4efa2dda0227230e4133eb0b9631f1355b4ce43306d3146a6314a56e901db2"
     },
     {
       "path": "rules/dmm.list",
@@ -858,8 +858,8 @@
     },
     {
       "path": "rules/general_overseas.list",
-      "bytes": 180279,
-      "sha256": "d4dc47207a9442b1512c8af352fb983fc172140c3472cb06a009ee5ebc7a5847"
+      "bytes": 192609,
+      "sha256": "5cf9bfc4245c24ce46192ffb17706752878e92f78a2c615cf7579bc688ccd476"
     },
     {
       "path": "rules/github_bulk.list",
@@ -1028,8 +1028,8 @@
     },
     {
       "path": "rules/ordered/00022-general_overseas.list",
-      "bytes": 92,
-      "sha256": "ca404be47c9395818bdaf56e59f6e0832d88d627ae96a96cd414ffafffbe0a66"
+      "bytes": 171,
+      "sha256": "0e568b8235131971584180d97c27f6a15c0e87a500ad5e606adb3726fd7428ed"
     },
     {
       "path": "rules/ordered/00023-block.list",
@@ -1073,8 +1073,8 @@
     },
     {
       "path": "rules/ordered/00031-general_overseas.list",
-      "bytes": 461,
-      "sha256": "f267b42b71e8e5e8e96ac82d77397ad8be03f4bbca0f6f5aae249c52b520fde3"
+      "bytes": 971,
+      "sha256": "5094e0bb124f25433210e387b80d1354e7dc62df1877ca9dae761f2eaac5a943"
     },
     {
       "path": "rules/ordered/00032-block.list",
@@ -1143,8 +1143,8 @@
     },
     {
       "path": "rules/ordered/00045-general_overseas.list",
-      "bytes": 339,
-      "sha256": "a437f3b905017cab47c2291fa206044f023e517ce67925e5bf32abae89bbe40e"
+      "bytes": 375,
+      "sha256": "485f2f526615d99d75c128266b2e2191776ab8e653676b1e4b7a36dbaf90fa8a"
     },
     {
       "path": "rules/ordered/00046-block.list",
@@ -1233,8 +1233,8 @@
     },
     {
       "path": "rules/ordered/00063-general_overseas.list",
-      "bytes": 15457,
-      "sha256": "a436167128c69d00fd816cbce88779f7cc3b97fbe8be38b61db3a10b5645c94f"
+      "bytes": 18134,
+      "sha256": "c8d3667bcfe4c28603a1167cfb09677222e24e5b23aa5f1e893ad7ebc4d7757f"
     },
     {
       "path": "rules/ordered/00064-block.list",
@@ -1243,8 +1243,8 @@
     },
     {
       "path": "rules/ordered/00065-direct.list",
-      "bytes": 16846,
-      "sha256": "b45eaf88d0efa5381c5a8d39d3464fd2f3990e8e5c082263e9b3328246a3c5b3"
+      "bytes": 16872,
+      "sha256": "d71aa266bfce6eb7e3238743f176222b3adaf7e429c6f045f2211978dc6c658b"
     },
     {
       "path": "rules/ordered/00066-openai_anthropic.list",
@@ -1373,13 +1373,13 @@
     },
     {
       "path": "rules/ordered/00091-general_overseas.list",
-      "bytes": 161394,
-      "sha256": "85ee874e952c6e7e62e82e4999cc9e566646e83e029124dce97f9a85c2f577f8"
+      "bytes": 170364,
+      "sha256": "ed9fa0b14a3f1002de19560f88ae5a94168f40d9f60173b1cfcbc1bca14e024c"
     },
     {
       "path": "rules/ordered/00092-block.list",
-      "bytes": 15276,
-      "sha256": "58c7b6e747d71c39a59d3815a89b745d7a3e9da022196ac594804c818fc03bf1"
+      "bytes": 15337,
+      "sha256": "a8a62149f82558bb043777db06d96fbccbeae0d0f50164209405fda70fed67e3"
     },
     {
       "path": "rules/ordered/00093-direct.list",
@@ -1388,8 +1388,8 @@
     },
     {
       "path": "rules/ordered/00094-general_overseas.list",
-      "bytes": 212,
-      "sha256": "1401b03e7242bff049f05ee8290f16d77fd10a87dccd7307a5c1e6748fd6eed9"
+      "bytes": 270,
+      "sha256": "c5ec36d9ddfa05d5500664e7ee5d2d658a156ab3d91397ffbeab3b898bb6af82"
     },
     {
       "path": "rules/ordered/00095-block.list",
@@ -1398,8 +1398,8 @@
     },
     {
       "path": "rules/ordered/00096-direct.list",
-      "bytes": 17935,
-      "sha256": "9de7d1bcb30da49650763729002253f6e2162733fcb2a06237d6e096e3014ae1"
+      "bytes": 21298,
+      "sha256": "94b547c97e2cf0386d4e133a3dbff761faa1a751f34e360d6ac26c907e86b8fc"
     },
     {
       "path": "rules/ordered/00097-telegram.list",
@@ -1408,8 +1408,8 @@
     },
     {
       "path": "rules/ordered/00098-direct.list",
-      "bytes": 30511,
-      "sha256": "1c33f61bc03a2f684a0592f6120307be8d5d1abf8bcb43f92f547fadcd1af1a9"
+      "bytes": 34113,
+      "sha256": "217fcbca2d124deda4f2d8c105629313b528551c288f2023bf4cec6f5ce6b8e3"
     },
     {
       "path": "rules/ordered/00099-general_overseas.list",
@@ -1423,8 +1423,8 @@
     },
     {
       "path": "rules/ordered/00101-direct.list",
-      "bytes": 86357,
-      "sha256": "6be1c68f62f04e9353245cc4779359159ac8d7424f53c88522aaff615190ed09"
+      "bytes": 87827,
+      "sha256": "0b2011fc9a54a2b1f439feacf26c02d0de1211c4095659543715f9512eead5cf"
     },
     {
       "path": "rules/ordered/00102-netflix.list",
@@ -1448,8 +1448,8 @@
     },
     {
       "path": "rules/ordered/00106-direct.list",
-      "bytes": 93385,
-      "sha256": "7d3b6dc90c22b0fa2766dc65c17467647d718333425d70ab795d35dc737f68b4"
+      "bytes": 93490,
+      "sha256": "702a0bca5771e2868f1178903529bc3612820c66749d77b19071935ea3cf8efd"
     },
     {
       "path": "rules/ordered/00107-netflix.list",
@@ -1463,8 +1463,8 @@
     },
     {
       "path": "rules/ordered/00109-direct.list",
-      "bytes": 24864,
-      "sha256": "cb11274228d63589ce942276fd78db1ca5e74ef4679ec1913e6463cacdb82d55"
+      "bytes": 24899,
+      "sha256": "2613c1bc596396463f48f54cc5b84f8cfcf19d855c114f6c90ccbd180f2fc7ff"
     },
     {
       "path": "rules/ordered/00110-netflix.list",
@@ -1473,8 +1473,8 @@
     },
     {
       "path": "rules/ordered/00111-direct.list",
-      "bytes": 16677,
-      "sha256": "2ea5b65ce298fca48c24a57bf2d47992d4960952c7589373cc525ad494ea1940"
+      "bytes": 16712,
+      "sha256": "5387cfe5c22838a28c19ad1ee863fb41d4df767592584d62bb2b6511a83ab35c"
     },
     {
       "path": "rules/ordered/00112-netflix.list",
@@ -1488,8 +1488,8 @@
     },
     {
       "path": "rules/ordered/00114-direct.list",
-      "bytes": 12008,
-      "sha256": "05e7f4c72357d6fb4c0f026a727191d4c9cea5afd2ebe0e5721554a4a6c6ab8a"
+      "bytes": 11973,
+      "sha256": "fba3834fcd45bbcca2ee7a153235c4f058d045bb2d0e470461772ad9a0dab642"
     },
     {
       "path": "rules/ordered/00115-netflix.list",
@@ -1619,7 +1619,7 @@
     {
       "path": "virgil-candidate.ini",
       "bytes": 32184,
-      "sha256": "a603b88af3e2f0846a24223a11899e96777823d609fd877da4f031ab7bfda144"
+      "sha256": "022a193a30edf7cec41c4fed155098c18dda871efb8363333210e8c559927a21"
     }
   ]
 }

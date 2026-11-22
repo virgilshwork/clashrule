@@ -1,0 +1,13 @@
+# REVIEW ONLY; business=apple_store
+DOMAIN,account.apple.com
+DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,buy.itunes.apple.com
+DOMAIN,gs-loc.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,gsp-ssl.ls.apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
+DOMAIN-SUFFIX,amp-api.apps.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+IP-CIDR,17.8.0.0/16,no-resolve
