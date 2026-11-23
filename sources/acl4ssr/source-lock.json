@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "repository": "https://github.com/ACL4SSR/ACL4SSR.git",
-  "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+  "commit": "a7bdd9c97c3c4a1d01a7259bba7c23c275794cc7",
   "source_path": "/",
   "snapshot_subdir": "upstream",
-  "file_count": 583,
-  "total_bytes": 15214234,
+  "file_count": 584,
+  "total_bytes": 15187208,
   "files": [
     {
       "path": ".github/workflows/update.yml",
@@ -3043,9 +3043,9 @@
       "path": "Clash/mrs/AI_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "e5faa5e10b7ef3759489e633afad2cad06dbf094",
-      "bytes": 623,
-      "sha256": "dc41087aea346af4e9cf70ce148049b7b2613185dcf5cb5a4c0f5f29e5002e99"
+      "git_oid": "05bc221d2ea9305edcfb32ed4ba310246a9f2629",
+      "bytes": 719,
+      "sha256": "85df0346649246b37f834d9eaf0672d5f581649b84a68eb318553d6a9fb7028e"
     },
     {
       "path": "Clash/mrs/AbemaTV_domain.mrs",
@@ -3091,9 +3091,9 @@
       "path": "Clash/mrs/AmazonIp_ip.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "42e95adc59c2a416d837212a320df180005cb87b",
-      "bytes": 5349,
-      "sha256": "07fc56f8827060b52eba655e5ccdf3a1ad24f8ce6bda1432bacde10fb8097559"
+      "git_oid": "5129c08560fa437f9d4359cad5838625b5cdffd7",
+      "bytes": 5880,
+      "sha256": "1f9bd3a7d9c85a2525ef39c4cb2dd0c57c021d651f638f26ca5d14996a56745a"
     },
     {
       "path": "Clash/mrs/Amazon_domain.mrs",
@@ -3179,17 +3179,17 @@
       "path": "Clash/mrs/BanAD_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "873d0035450a448a9a3a14afbf67bf83ecc0b916",
-      "bytes": 4675,
-      "sha256": "a0dae24e11c22082c4d88768d87a99585ac5c76557c6d7a5bdd304c6bba24548"
+      "git_oid": "4700b77a1757650507438c091c373a2c3d59ef39",
+      "bytes": 4695,
+      "sha256": "e437ad4a371dc0a87d38bc30a4e939f8cfe6deb5c3e3269fff0011fdcdda8003"
     },
     {
       "path": "Clash/mrs/BanEasyListChina_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "ef7e971694f20bb7e6e5f28ee30ebce0e6aa5b17",
-      "bytes": 35846,
-      "sha256": "61c3ba26e86e3e5af7ac23fb11423317a863495694f81579a783857a70440b77"
+      "git_oid": "21d221d397ad6b0903ed0c2d686376d668684a08",
+      "bytes": 43515,
+      "sha256": "654b70413eb6df3ac432397449043b25a1ed83e5bcd554b1ab374e64a44e86cc"
     },
     {
       "path": "Clash/mrs/BanEasyListChina_ip.mrs",
@@ -3203,9 +3203,9 @@
       "path": "Clash/mrs/BanEasyList_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "385accbf6b7322e8979c2a29ab265d4cd3d52990",
-      "bytes": 405845,
-      "sha256": "9acfa980cc2710589a32534694bcd109acff3428f18c1c6bfca9a182cdf3e867"
+      "git_oid": "cf49e25baa801b0d5c8cce76e1e6e8d204689bab",
+      "bytes": 364717,
+      "sha256": "973b67e882bbef6570aa8a20a584239bd2cbbe795fe1a7f1d75784fbb5610dbc"
     },
     {
       "path": "Clash/mrs/BanEasyList_ip.mrs",
@@ -3219,9 +3219,9 @@
       "path": "Clash/mrs/BanEasyPrivacy_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "5c3f3c043c3eaadefeb20e2946df7c3e4e3558be",
-      "bytes": 392867,
-      "sha256": "65c8cb0a484cf3de1078ec79e0426025a3e88abf14f701852f7fc56225523557"
+      "git_oid": "0ddf30e6de9572fa39747068d6b1514190d6104b",
+      "bytes": 397795,
+      "sha256": "9237049b9a11bdb5aeb8cc08fc689a97ac50a9506eedb9ba4508430ba113b907"
     },
     {
       "path": "Clash/mrs/BanEasyPrivacy_ip.mrs",
@@ -3267,9 +3267,9 @@
       "path": "Clash/mrs/Bilibili_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "c67b78c983e5e2c83456218611019e8d0deca3f3",
-      "bytes": 257,
-      "sha256": "c3e6157efa6c379028d884a59699965650baa7ac10448edc1d5acb86e995d426"
+      "git_oid": "94774743e3160690a0e88ec938895dfa1be3fb06",
+      "bytes": 268,
+      "sha256": "13312b88c2067dfb2d901e5b666b83684378b91f639249445d72ace1a9e0f92d"
     },
     {
       "path": "Clash/mrs/Binance_domain.mrs",
@@ -3355,17 +3355,17 @@
       "path": "Clash/mrs/ChinaIpV6_ip.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "8dcd273f97e598bef2d2ea4b6947c02c7f519918",
-      "bytes": 7427,
-      "sha256": "ca74f10e41ef8a1baa59d9d184a13c479cde4ab5d79309225dbbc1b2fa95b85d"
+      "git_oid": "e387b8eba9a15791a283a584ae4a8e10b475e07f",
+      "bytes": 7907,
+      "sha256": "7049609161ba55079d28d091b5dc2f25e8a0a5aedabc283dae322555c97f0eb1"
     },
     {
       "path": "Clash/mrs/ChinaMedia_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "617a6e3538d84722797041a804fd831816494bbf",
-      "bytes": 386,
-      "sha256": "fd8f67fe86c78b258c4431b9ff3aa1a90fba39587199bc87349ad95b4b8cba3b"
+      "git_oid": "77916a8096667f75a16f7dfe69a794fed545f1cf",
+      "bytes": 393,
+      "sha256": "d84860c6fcf977e5733434143a2034c1c3b60cce0b1484f7aef351021b7ffc7e"
     },
     {
       "path": "Clash/mrs/ChinaMedia_ip.mrs",
@@ -3435,9 +3435,9 @@
       "path": "Clash/mrs/Developer_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "64675053eea0d63aba3b533c6c34008ba89cca3f",
-      "bytes": 248,
-      "sha256": "247104d0c5453f5d3708f9d504446647f4b9edbea71e34fd9a00c82e9ecc9e82"
+      "git_oid": "60a598db82731b2e74cc9a13536483b0705fb1f8",
+      "bytes": 294,
+      "sha256": "c92e76b4758579c898d8ad42a60c3b4a1301b3af489ddeface2669f10d8db955"
     },
     {
       "path": "Clash/mrs/DiDi_domain.mrs",
@@ -4163,17 +4163,17 @@
       "path": "Clash/mrs/ProxyGFWlist_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "f179fa6795d54d2254911c5a41c099f2ebfa9989",
-      "bytes": 34574,
-      "sha256": "849c6596633aa745898280418c5639836b7a861bcc5a3a9d7665f17e93a4ea8f"
+      "git_oid": "c6753598f41deb3d296aa7982c3dc3dd2aad8cb1",
+      "bytes": 34703,
+      "sha256": "27e4338a699e965dc7dd8e7e353e3cf13d3533e9febb9a08666df88672bd22ab"
     },
     {
       "path": "Clash/mrs/ProxyLite_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "06fd8a94aafe9c77e9520fb9b7177aeaaee6f42b",
-      "bytes": 3113,
-      "sha256": "277b110c3c82e640689b10d3596362cafeaa00803482e3ef436ad7b5bbb1eada"
+      "git_oid": "1e6e5c1bf5354801dad2055adcd01297aa9cfad7",
+      "bytes": 3626,
+      "sha256": "7e2ed2b3a097e62efe09dd7392a301da40dfb6e24af9013efef766191f254c52"
     },
     {
       "path": "Clash/mrs/ProxyLite_ip.mrs",
@@ -4187,9 +4187,9 @@
       "path": "Clash/mrs/ProxyMedia_domain.mrs",
       "mode": "100644",
       "type": "blob",
-      "git_oid": "6cd43a8dfe1edeeea84af8a52a0aed511cbdb700",
-      "bytes": 3554,
-      "sha256": "9b01293d8c54439db9962d48b38c2185870edecd2e930e8288cfbcf1f9eea619"
+      "git_oid": "138b1344b6f1f1d59ac371adf18282aa877168b1",
+      "bytes": 3044,
+      "sha256": "bd3be24810e8f2e4466f97e7828c480d73d830825dbde3e0ed0c4c8fd744f523"
     },
     {
       "path": "Clash/mrs/ProxyMedia_ip.mrs",
@@ -4310,6 +4310,14 @@
       "git_oid": "1ec676a92b8c482c8ef7881bab32902273234167",
       "bytes": 302,
       "sha256": "4686c0182500b376f7905510792c2d5bf9e40c5e8f5f9a4ab48cd534933485cd"
+    },
+    {
+      "path": "Clash/mrs/Stripe_domain.mrs",
+      "mode": "100644",
+      "type": "blob",
+      "git_oid": "203b39308ff7a5a236aa05ce95eff53780f1261c",
+      "bytes": 182,
+      "sha256": "4133333e104f5106a0a3ae3612a846eb7ee754443224778af5533087859a77dd"
     },
     {
       "path": "Clash/mrs/TIDAL_domain.mrs",
